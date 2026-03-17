@@ -119,10 +119,13 @@ def render_sheet(sheet, module_key):
 
         rows = sec['rows']
         if rows:
+            # ── 헤더 먼저 스캔해서 col_count 선결정 ──────────────────────
+            # 설명 행이 헤더보다 앞에 오는 경우에도 올바른 colspan 적용 가능
+            col_count = next((len(cells) for rtype, cells in rows if rtype == 'h'), 0)
+
             out.append('<table class="ops-table">')
             in_head = False
             in_body = False
-            col_count = 0  # 현재 테이블 헤더 컬럼 수 추적
 
             for rtype, cells in rows:
                 if rtype == 'h':
@@ -132,11 +135,11 @@ def render_sheet(sheet, module_key):
                     if not in_head:
                         out.append('<thead>')
                         in_head = True
-                    col_count = len(cells)  # 헤더 컬럼 수 기록
                     out.append('<tr>')
                     for c in cells:
                         out.append(f'<th style="{cell_style(c, include_bg=False)}">{esc(c.get("value",""))}</th>')
                     out.append('</tr>')
+
                 else:  # 'd'
                     if in_head:
                         out.append('</thead>')
@@ -146,33 +149,21 @@ def render_sheet(sheet, module_key):
                         in_body = True
 
                     n = len(cells)
-                    rb = cells[0].get('bg', '')
-                    row_style = f' style="--row-bg:{rb}"' if rb else ''
 
-                    # ── 셀 병합 처리 ──────────────────────────────────────────
-                    # ① 셀 1개짜리 행 → colspan 전체 병합 (엑셀 병합 셀 복원)
-                    if n == 1:
-                        val   = esc(cells[0].get('value', ''))
-                        bold  = 'font-weight:700;' if cells[0].get('bold') else ''
-                        span  = col_count if col_count > 1 else 1
-                        out.append(f'<tr{row_style}>')
-                        out.append(f'<td colspan="{span}" style="{bold}" class="cell-wrap merged-cell">{val}</td>')
+                    # ── 병합 행 판별: 실제 셀 수 < 헤더 컬럼 수의 절반 ──────
+                    # (헤더가 없는 섹션은 col_count=0 → 병합 없이 그대로)
+                    if col_count > 0 and n < col_count / 2:
+                        val = '<br>'.join(
+                            esc(c.get('value', '')) for c in cells if c.get('value')
+                        )
+                        out.append('<tr>')
+                        out.append(f'<td colspan="{col_count}" class="cell-wrap merged-desc">{val}</td>')
                         out.append('</tr>')
 
-                    # ② 셀 수가 헤더 컬럼의 절반 미만 → 마지막 td에 나머지 colspan
-                    elif col_count > 0 and n < col_count // 2 + 1:
-                        out.append(f'<tr{row_style}>')
-                        for j, c in enumerate(cells):
-                            td_style = cell_style(c, include_bg=False, include_color=False)
-                            if j == n - 1:  # 마지막 셀에 남은 컬럼 흡수
-                                remaining = col_count - n + 1
-                                out.append(f'<td colspan="{remaining}" style="{td_style}" class="cell-wrap">{esc(c.get("value",""))}</td>')
-                            else:
-                                out.append(f'<td style="{td_style}" class="cell-wrap">{esc(c.get("value",""))}</td>')
-                        out.append('</tr>')
-
-                    # ③ 정상 행 → 그대로 렌더링
+                    # ── 정상 행 ──────────────────────────────────────────────
                     else:
+                        rb = cells[0].get('bg', '')
+                        row_style = f' style="--row-bg:{rb}"' if rb else ''
                         out.append(f'<tr{row_style}>')
                         for c in cells:
                             out.append(f'<td style="{cell_style(c, include_bg=False, include_color=False)}" class="cell-wrap">{esc(c.get("value",""))}</td>')
@@ -568,16 +559,19 @@ body {
 .ops-table tbody tr:hover td { border-bottom-color: #D8E8F8; }
 .cell-wrap { white-space: pre-line; }
 
-/* 병합 셀 (엑셀 merged cell 복원) */
-.ops-table tbody td.merged-cell {
-  font-size: 12px;
+/* 병합 설명 행 (엑셀 merged cell 복원) */
+.ops-table tbody td.merged-desc {
+  padding: 14px 20px;
+  font-size: 13px;
+  line-height: 1.7;
   color: var(--text-secondary);
-  font-style: italic;
-  padding: 9px 16px;
-  border-bottom: 1px dashed var(--border-table);
+  background: #F9FAFB;
+  border-bottom: 1px solid #EEF2F7;
 }
-body.dark .ops-table tbody td.merged-cell {
-  color: #9090B0 !important;
+body.dark .ops-table tbody td.merged-desc {
+  background: #1a1a2e !important;
+  color: #8888AA !important;
+  border-bottom-color: #2A2A40;
 }
 
 /* ── 다크모드 테이블 ── */

@@ -248,16 +248,19 @@ body {
 .ops-table tbody tr:hover td { border-bottom-color: #D8E8F8; }
 .cell-wrap { white-space: pre-line; }
 
-/* 병합 셀 (엑셀 merged cell 복원) */
-.ops-table tbody td.merged-cell {
-  font-size: 12px;
+/* 병합 설명 행 (엑셀 merged cell 복원) */
+.ops-table tbody td.merged-desc {
+  padding: 14px 20px;
+  font-size: 13px;
+  line-height: 1.7;
   color: var(--text-secondary);
-  font-style: italic;
-  padding: 9px 16px;
-  border-bottom: 1px dashed var(--border-table);
+  background: #F9FAFB;
+  border-bottom: 1px solid #EEF2F7;
 }
-body.dark .ops-table tbody td.merged-cell {
-  color: #9090B0 !important;
+body.dark .ops-table tbody td.merged-desc {
+  background: #1a1a2e !important;
+  color: #8888AA !important;
+  border-bottom-color: #2A2A40;
 }
 
 /* ── 다크모드 테이블 ── */
@@ -1025,7 +1028,7 @@ body.dark .ops-table tbody tr:hover td { border-bottom-color: #303058; }
 <tr style="--row-bg:#FFFFFF">
 <td style="" class="cell-wrap">22:00</td>
 <td style="" class="cell-wrap">출항</td>
-<td colspan="4" style="" class="cell-wrap">하코다테 출항</td>
+<td style="" class="cell-wrap">하코다테 출항</td>
 </tr>
 <tr style="--row-bg:#FFFFFF">
 <td style="" class="cell-wrap">22:00</td>
@@ -1168,7 +1171,7 @@ body.dark .ops-table tbody tr:hover td { border-bottom-color: #303058; }
 <tr style="--row-bg:#FFFFFF">
 <td style="" class="cell-wrap">17:00</td>
 <td style="" class="cell-wrap">출항</td>
-<td colspan="4" style="" class="cell-wrap">오타루 출항</td>
+<td style="" class="cell-wrap">오타루 출항</td>
 </tr>
 <tr style="--row-bg:#FFFFFF">
 <td style="" class="cell-wrap">18:00~20:00</td>
@@ -1424,7 +1427,7 @@ body.dark .ops-table tbody tr:hover td { border-bottom-color: #303058; }
 <tr style="--row-bg:#FEF9E7">
 <td style="font-weight:700" class="cell-wrap">총 인원(예상)</td>
 <td style="font-weight:700" class="cell-wrap">약 134명</td>
-<td colspan="4" style="font-weight:700" class="cell-wrap">본부장1 + 부서장1 + 팀장4 + 팀원10 + 알바30 + 가이드70 + 협력사18</td>
+<td style="font-weight:700" class="cell-wrap">본부장1 + 부서장1 + 팀장4 + 팀원10 + 알바30 + 가이드70 + 협력사18</td>
 </tr>
 </tbody>
 </table>
@@ -1844,7 +1847,7 @@ body.dark .ops-table tbody tr:hover td { border-bottom-color: #303058; }
 <table class="ops-table">
 <tbody>
 <tr>
-<td colspan="1" style="" class="cell-wrap merged-cell">원본 파일의 인력운영안/인력구성표/비용 시트를 기반으로 사전준비 마스터플랜, 선상운영 타임스케줄, 업무분장표, 준비물 체크리스트, 특수업무·VIP의전 시트를 구성하였습니다.</td>
+<td style="" class="cell-wrap">원본 파일의 인력운영안/인력구성표/비용 시트를 기반으로 사전준비 마스터플랜, 선상운영 타임스케줄, 업무분장표, 준비물 체크리스트, 특수업무·VIP의전 시트를 구성하였습니다.</td>
 </tr>
 </tbody>
 </table>
@@ -1895,8 +1898,8 @@ body.dark .ops-table tbody tr:hover td { border-bottom-color: #303058; }
 <div class="section-title" style="background:#2B6CB0">▣ 2단계: HQ — 선내운영팀 (현장 컨트롤타워 / 전체 인력 배치·통제)</div>
 <table class="ops-table">
 <tbody>
-<tr style="--row-bg:#EAF2F8">
-<td colspan="1" style="" class="cell-wrap merged-cell">HQ(선내운영팀)는 전체 현장운영의 중추로서, 3층 안내데스크·여행사데스크를 직접 지휘하며 모든 고객 접점과 현장 이슈의 최종 관리자 역할을 수행합니다.<br>전 팀의 인력 배치·이동·교대를 HQ에서 총괄 컨트롤하며, 특히 승선 당일 객실 컴플레인·짐 이슈·듀플리케이트 등 고강도 대응이 집중됩니다.<br>HQ 산하에 ① 고객응대파트 ② 안내·방송파트 ③ 식음료파트를 두어 전문화된 대응 체계를 구축합니다.</td>
+<tr>
+<td colspan="7" class="cell-wrap merged-desc">HQ(선내운영팀)는 전체 현장운영의 중추로서, 3층 안내데스크·여행사데스크를 직접 지휘하며 모든 고객 접점과 현장 이슈의 최종 관리자 역할을 수행합니다.<br>전 팀의 인력 배치·이동·교대를 HQ에서 총괄 컨트롤하며, 특히 승선 당일 객실 컴플레인·짐 이슈·듀플리케이트 등 고강도 대응이 집중됩니다.<br>HQ 산하에 ① 고객응대파트 ② 안내·방송파트 ③ 식음료파트를 두어 전문화된 대응 체계를 구축합니다.</td>
 </tr>
 </tbody>
 <thead>
@@ -2092,7 +2095,7 @@ body.dark .ops-table tbody tr:hover td { border-bottom-color: #303058; }
 </tr>
 <tr style="--row-bg:#FEF9E7">
 <td style="font-weight:700" class="cell-wrap">총 인원</td>
-<td colspan="3" style="font-weight:700" class="cell-wrap">약 134명</td>
+<td style="font-weight:700" class="cell-wrap">약 134명</td>
 </tr>
 </tbody>
 </table>
@@ -2330,7 +2333,7 @@ body.dark .ops-table tbody tr:hover td { border-bottom-color: #303058; }
 <table class="ops-table">
 <tbody>
 <tr style="--row-bg:#FDEDEC">
-<td colspan="1" style="" class="cell-wrap merged-cell">※ 본 매뉴얼은 2025년 1월 항차 경험 및 전세선 일반 운영 사례를 바탕으로 작성된 예상 시나리오입니다.<br>※ 고객응대파트(황지애 대리, 양은희 매니저, 정은혜 매니저)는 판매 단계부터의 예약 히스토리를 숙지하여 즉각 대응합니다.<br>※ 대응 레벨: 🟢 Level 1(현장 즉시 처리) / 🟡 Level 2(HQ팀장 승인) / 🔴 Level 3(본부장 최종 결정)</td>
+<td style="" class="cell-wrap">※ 본 매뉴얼은 2025년 1월 항차 경험 및 전세선 일반 운영 사례를 바탕으로 작성된 예상 시나리오입니다.<br>※ 고객응대파트(황지애 대리, 양은희 매니저, 정은혜 매니저)는 판매 단계부터의 예약 히스토리를 숙지하여 즉각 대응합니다.<br>※ 대응 레벨: 🟢 Level 1(현장 즉시 처리) / 🟡 Level 2(HQ팀장 승인) / 🔴 Level 3(본부장 최종 결정)</td>
 </tr>
 </tbody>
 </table>
@@ -2795,7 +2798,7 @@ body.dark .ops-table tbody tr:hover td { border-bottom-color: #303058; }
 <table class="ops-table">
 <tbody>
 <tr style="--row-bg:#E8F8F5">
-<td colspan="1" style="font-weight:700;" class="cell-wrap merged-cell">★ 핵심 원칙: 기항지 투어 중에는 프로그램이 운영되지 않으므로, 기항지팀 인력이 해상일 및 기항지 귀선 후 프로그램팀에 즉시 합류하여 탄력적으로 운영합니다.<br>★ HQ(선내운영팀)가 전체 인력 배치를 컨트롤하며, 일자별·시간대별 배치표를 매일 갱신합니다.</td>
+<td style="font-weight:700" class="cell-wrap">★ 핵심 원칙: 기항지 투어 중에는 프로그램이 운영되지 않으므로, 기항지팀 인력이 해상일 및 기항지 귀선 후 프로그램팀에 즉시 합류하여 탄력적으로 운영합니다.<br>★ HQ(선내운영팀)가 전체 인력 배치를 컨트롤하며, 일자별·시간대별 배치표를 매일 갱신합니다.</td>
 </tr>
 </tbody>
 </table>
@@ -3384,7 +3387,7 @@ body.dark .ops-table tbody tr:hover td { border-bottom-color: #303058; }
 <td style="font-weight:700" class="cell-wrap">13:00~22:00</td>
 <td style="" class="cell-wrap">하코다테 기항 (프로그램 없음)</td>
 <td style="" class="cell-wrap">소수만 저녁 준비</td>
-<td colspan="5" style="" class="cell-wrap">⚠️기항</td>
+<td style="" class="cell-wrap">⚠️기항</td>
 </tr>
 <tr style="--row-bg:#E8F8F5">
 <td style="font-weight:700" class="cell-wrap">18:00~22:00</td>
@@ -3490,10 +3493,8 @@ body.dark .ops-table tbody tr:hover td { border-bottom-color: #303058; }
 <td style="" class="cell-wrap">극장스태프</td>
 <td style="" class="cell-wrap">⚠️연속</td>
 </tr>
-<tr style="--row-bg:#FDF2E9">
-<td style="font-weight:700" class="cell-wrap">14:00~</td>
-<td style="" class="cell-wrap">오타루 기항 (프로그램 축소)</td>
-<td colspan="6" style="" class="cell-wrap">⚠️기항</td>
+<tr>
+<td colspan="8" class="cell-wrap merged-desc">14:00~<br>오타루 기항 (프로그램 축소)<br>⚠️기항</td>
 </tr>
 <tr style="--row-bg:#F4ECF7">
 <td style="font-weight:700" class="cell-wrap">18:00~19:30</td>
@@ -3547,9 +3548,8 @@ body.dark .ops-table tbody tr:hover td { border-bottom-color: #303058; }
 </tr>
 </thead>
 <tbody>
-<tr style="--row-bg:#FFFFFF">
-<td style="font-weight:700" class="cell-wrap">09:00~16:00</td>
-<td colspan="7" style="" class="cell-wrap">오타루 잔류 관광 (프로그램 없음)</td>
+<tr>
+<td colspan="8" class="cell-wrap merged-desc">09:00~16:00<br>오타루 잔류 관광 (프로그램 없음)</td>
 </tr>
 <tr style="--row-bg:#F4ECF7">
 <td style="font-weight:700" class="cell-wrap">18:00~19:30</td>
@@ -4109,8 +4109,8 @@ body.dark .ops-table tbody tr:hover td { border-bottom-color: #303058; }
 <div class="table-wrap">
 <table class="ops-table">
 <tbody>
-<tr style="--row-bg:#FDEDEC">
-<td colspan="1" style="" class="cell-wrap merged-cell">※ 프로그램·행사팀은 하루 최대 15건 이상의 프로그램을 8개 장소에서 동시 다발적으로 운영합니다.<br>※ 음향·조명 장비 의존도가 높고, 아티스트·관객·선사 테크니션 3자간 조율이 핵심이므로 아래 시나리오에 대한 사전 대비가 필수적입니다.<br>※ 대응 레벨: 🟢 현장 즉시 처리 / 🟡 팀장 판단 / 🔴 본부장 최종 결정</td>
+<tr>
+<td colspan="8" class="cell-wrap merged-desc">※ 프로그램·행사팀은 하루 최대 15건 이상의 프로그램을 8개 장소에서 동시 다발적으로 운영합니다.<br>※ 음향·조명 장비 의존도가 높고, 아티스트·관객·선사 테크니션 3자간 조율이 핵심이므로 아래 시나리오에 대한 사전 대비가 필수적입니다.<br>※ 대응 레벨: 🟢 현장 즉시 처리 / 🟡 팀장 판단 / 🔴 본부장 최종 결정</td>
 </tr>
 </tbody>
 <thead>
@@ -4239,7 +4239,7 @@ body.dark .ops-table tbody tr:hover td { border-bottom-color: #303058; }
 <table class="ops-table">
 <tbody>
 <tr style="--row-bg:#E8F8F5">
-<td colspan="1" style="font-weight:700;" class="cell-wrap merged-cell">지원·데이터팀은 전세선 운영의 "인프라 백본"으로서, IT·총무·홍보 기능을 통합 수행합니다.<br>모든 팀이 원활하게 소통하고, 기록하고, 보고할 수 있는 환경을 구축·유지하며,<br>현장에서 발생하는 하드웨어·소프트웨어·물류·미디어 관련 이슈에 즉시 대응할 수 있는 전문성을 갖춘 팀입니다.</td>
+<td style="font-weight:700" class="cell-wrap">지원·데이터팀은 전세선 운영의 "인프라 백본"으로서, IT·총무·홍보 기능을 통합 수행합니다.<br>모든 팀이 원활하게 소통하고, 기록하고, 보고할 수 있는 환경을 구축·유지하며,<br>현장에서 발생하는 하드웨어·소프트웨어·물류·미디어 관련 이슈에 즉시 대응할 수 있는 전문성을 갖춘 팀입니다.</td>
 </tr>
 </tbody>
 </table>
@@ -5386,8 +5386,8 @@ body.dark .ops-table tbody tr:hover td { border-bottom-color: #303058; }
 <div class="table-wrap">
 <table class="ops-table">
 <tbody>
-<tr style="--row-bg:#FDEDEC">
-<td colspan="1" style="" class="cell-wrap merged-cell">※ 지원·데이터팀은 IT 인프라, 물류, 홍보를 총괄하므로 기술적 장애부터 물품 사고까지 광범위한 시나리오에 대비해야 합니다.<br>※ 대응 레벨: 🟢 현장 즉시 처리 / 🟡 팀장 판단 / 🔴 본부장 최종 결정</td>
+<tr>
+<td colspan="8" class="cell-wrap merged-desc">※ 지원·데이터팀은 IT 인프라, 물류, 홍보를 총괄하므로 기술적 장애부터 물품 사고까지 광범위한 시나리오에 대비해야 합니다.<br>※ 대응 레벨: 🟢 현장 즉시 처리 / 🟡 팀장 판단 / 🔴 본부장 최종 결정</td>
 </tr>
 </tbody>
 <thead>
@@ -5514,7 +5514,7 @@ body.dark .ops-table tbody tr:hover td { border-bottom-color: #303058; }
 <table class="ops-table">
 <tbody>
 <tr style="--row-bg:#EAF2F8">
-<td colspan="1" style="font-weight:700;" class="cell-wrap merged-cell">승선일 운영은 크게 ①터미널조 (부산국제크루즈터미널 내 업무) ②선적조 (물품 선적·운반) ③선탑조 (얼리보딩 4명, 선내 세팅) ④인솔자팀 (타이요플랜 70명, 고객관리)으로 구분합니다.<br>2,400명의 승객이 부산국제크루즈터미널 3층·4층에 조별·시간대별로 집결하며, 16:30 승선 개시를 기준으로 모든 준비가 사전에 완료되어야 합니다.<br>타이요플랜 인솔자 70명은 5월 8일부터 이전 항차에 탑승하여 노하우가 축적되어 있으나, 모두투어/CI 스태프는 전원 첫 경험이므로 사전답사·롯데JTB 항차 모델링·모의테스트를 통한 실전감각 확보가 필수입니다.</td>
+<td style="font-weight:700" class="cell-wrap">승선일 운영은 크게 ①터미널조 (부산국제크루즈터미널 내 업무) ②선적조 (물품 선적·운반) ③선탑조 (얼리보딩 4명, 선내 세팅) ④인솔자팀 (타이요플랜 70명, 고객관리)으로 구분합니다.<br>2,400명의 승객이 부산국제크루즈터미널 3층·4층에 조별·시간대별로 집결하며, 16:30 승선 개시를 기준으로 모든 준비가 사전에 완료되어야 합니다.<br>타이요플랜 인솔자 70명은 5월 8일부터 이전 항차에 탑승하여 노하우가 축적되어 있으나, 모두투어/CI 스태프는 전원 첫 경험이므로 사전답사·롯데JTB 항차 모델링·모의테스트를 통한 실전감각 확보가 필수입니다.</td>
 </tr>
 </tbody>
 </table>
@@ -5980,9 +5980,8 @@ body.dark .ops-table tbody tr:hover td { border-bottom-color: #303058; }
 <td style="" class="cell-wrap">전원</td>
 <td style="" class="cell-wrap">출항 전 필수</td>
 </tr>
-<tr style="--row-bg:#EAF2F8">
-<td style="font-weight:700" class="cell-wrap">21:00</td>
-<td colspan="6" style="" class="cell-wrap">★ 부산항 출항</td>
+<tr>
+<td colspan="7" class="cell-wrap merged-desc">21:00<br>★ 부산항 출항</td>
 </tr>
 <tr style="--row-bg:#FFFFFF">
 <td style="font-weight:700" class="cell-wrap">21:00~22:00</td>
@@ -6018,7 +6017,7 @@ body.dark .ops-table tbody tr:hover td { border-bottom-color: #303058; }
 <table class="ops-table">
 <tbody>
 <tr style="--row-bg:#FDEDEC">
-<td colspan="1" style="" class="cell-wrap merged-cell">※ 승선일은 2,400명이 한 번에 몰리는 가장 혼잡하고 위험한 날입니다. 아래 시나리오를 사전에 숙지하고 예행연습(롯데JTB 모델링+리허설)을 통해 실전 감각을 확보하십시오.<br>※ 듀플리케이트(Duplicate) 이슈가 가장 민감하며, 문형식 매니저가 전담합니다. 탑승 거절까지 이어지는 최악의 케이스에 대비하십시오.<br>※ 대응 레벨: 🟢 현장 즉시 / 🟡 HQ팀장 판단 / 🔴 본부장 최종 결정</td>
+<td style="" class="cell-wrap">※ 승선일은 2,400명이 한 번에 몰리는 가장 혼잡하고 위험한 날입니다. 아래 시나리오를 사전에 숙지하고 예행연습(롯데JTB 모델링+리허설)을 통해 실전 감각을 확보하십시오.<br>※ 듀플리케이트(Duplicate) 이슈가 가장 민감하며, 문형식 매니저가 전담합니다. 탑승 거절까지 이어지는 최악의 케이스에 대비하십시오.<br>※ 대응 레벨: 🟢 현장 즉시 / 🟡 HQ팀장 판단 / 🔴 본부장 최종 결정</td>
 </tr>
 </tbody>
 </table>
@@ -6240,7 +6239,7 @@ body.dark .ops-table tbody tr:hover td { border-bottom-color: #303058; }
 <table class="ops-table">
 <tbody>
 <tr style="--row-bg:#FDEDEC">
-<td colspan="1" style="font-weight:700;" class="cell-wrap merged-cell">하선 프로세스는 승선의 역순이며, ①선내 정산·정리 ②하선 순서 관리 ③수화물 처리 ④VIP 우선 하선 ⑤터미널 사무를 체계적으로 수행합니다.<br>가장 빈번한 컴플레인은 "정산 불일치로 하선 지연"이며, 이를 방지하기 위해 황지애 대리가 승선일 이후부터 정산 업무에 전념합니다.<br>김남민 매니저가 부산 터미널에서 하선 사전 세팅 및 현장 대기합니다.</td>
+<td style="font-weight:700" class="cell-wrap">하선 프로세스는 승선의 역순이며, ①선내 정산·정리 ②하선 순서 관리 ③수화물 처리 ④VIP 우선 하선 ⑤터미널 사무를 체계적으로 수행합니다.<br>가장 빈번한 컴플레인은 "정산 불일치로 하선 지연"이며, 이를 방지하기 위해 황지애 대리가 승선일 이후부터 정산 업무에 전념합니다.<br>김남민 매니저가 부산 터미널에서 하선 사전 세팅 및 현장 대기합니다.</td>
 </tr>
 </tbody>
 </table>
@@ -6407,9 +6406,8 @@ body.dark .ops-table tbody tr:hover td { border-bottom-color: #303058; }
 <td style="" class="cell-wrap">- 선내 잔여 물품 하역<br>- 트럭 적재<br>- 물품 대장 최종 크로스체크</td>
 <td style="" class="cell-wrap">지원팀+알바+코스타 크루</td>
 </tr>
-<tr style="--row-bg:#FFFFFF">
-<td style="font-weight:700" class="cell-wrap">15:00</td>
-<td colspan="6" style="" class="cell-wrap">부산항 입항 / 전원 하선 완료</td>
+<tr>
+<td colspan="7" class="cell-wrap merged-desc">15:00<br>부산항 입항 / 전원 하선 완료</td>
 </tr>
 <tr style="--row-bg:#FFFFFF">
 <td style="font-weight:700" class="cell-wrap">15:00~17:00</td>
@@ -6554,7 +6552,7 @@ body.dark .ops-table tbody tr:hover td { border-bottom-color: #303058; }
 <table class="ops-table">
 <tbody>
 <tr style="--row-bg:#E8F8F5">
-<td colspan="1" style="font-weight:700;" class="cell-wrap merged-cell">기항지운영팀은 하코다테(6/21)·오타루(6/22~23) 기항 시 2,400명의 승하선을 안전하고 정시에 수행하는 것이 최우선 미션입니다.<br>투어 운영은 타이요플랜(6명+가이드70명)이 주도하되, 승하선 통제·입출국 서류·귀선 관리·중간 승하선자 지원은 본 팀이 직접 총괄합니다.<br>해상일에는 프로그램·행사팀에 탄력 합류하여 인력을 최대 활용합니다.</td>
+<td style="font-weight:700" class="cell-wrap">기항지운영팀은 하코다테(6/21)·오타루(6/22~23) 기항 시 2,400명의 승하선을 안전하고 정시에 수행하는 것이 최우선 미션입니다.<br>투어 운영은 타이요플랜(6명+가이드70명)이 주도하되, 승하선 통제·입출국 서류·귀선 관리·중간 승하선자 지원은 본 팀이 직접 총괄합니다.<br>해상일에는 프로그램·행사팀에 탄력 합류하여 인력을 최대 활용합니다.</td>
 </tr>
 </tbody>
 </table>
@@ -6817,10 +6815,8 @@ body.dark .ops-table tbody tr:hover td { border-bottom-color: #303058; }
 <td style="" class="cell-wrap">팀장+팀원</td>
 <td style="" class="cell-wrap">갱웨이</td>
 </tr>
-<tr style="--row-bg:#FEF9E7">
-<td style="font-weight:700" class="cell-wrap">13:00</td>
-<td style="" class="cell-wrap">★ 하코다테 입항</td>
-<td colspan="5" style="" class="cell-wrap">- CIQ 절차 시작<br>- 입국 심사관 선내 승선 (해당 시)<br>- PLP 확인 후 하선 개시</td>
+<tr>
+<td colspan="7" class="cell-wrap merged-desc">13:00<br>★ 하코다테 입항<br>- CIQ 절차 시작<br>- 입국 심사관 선내 승선 (해당 시)<br>- PLP 확인 후 하선 개시</td>
 </tr>
 <tr style="--row-bg:#FEF5E7">
 <td style="font-weight:700" class="cell-wrap">13:00~13:30</td>
@@ -6871,9 +6867,8 @@ body.dark .ops-table tbody tr:hover td { border-bottom-color: #303058; }
 <td style="" class="cell-wrap">- 전원 귀선 확인<br>- 코스타에 최종 인원 보고<br>- 갱웨이 폐쇄 확인</td>
 <td style="" class="cell-wrap">팀장</td>
 </tr>
-<tr style="--row-bg:#E8F8F5">
-<td style="font-weight:700" class="cell-wrap">22:00</td>
-<td colspan="6" style="" class="cell-wrap">하코다테 출항</td>
+<tr>
+<td colspan="7" class="cell-wrap merged-desc">22:00<br>하코다테 출항</td>
 </tr>
 <tr style="--row-bg:#FFFFFF">
 <td style="font-weight:700" class="cell-wrap">22:00</td>
@@ -6932,9 +6927,8 @@ body.dark .ops-table tbody tr:hover td { border-bottom-color: #303058; }
 <td style="" class="cell-wrap">팀원</td>
 <td style="" class="cell-wrap">갱웨이</td>
 </tr>
-<tr style="--row-bg:#FEF9E7">
-<td style="font-weight:700" class="cell-wrap">14:00</td>
-<td colspan="6" style="" class="cell-wrap">★ 오타루 입항</td>
+<tr>
+<td colspan="7" class="cell-wrap merged-desc">14:00<br>★ 오타루 입항</td>
 </tr>
 <tr style="--row-bg:#FDEDEC">
 <td style="font-weight:700" class="cell-wrap">14:00~14:30</td>
@@ -7027,9 +7021,8 @@ body.dark .ops-table tbody tr:hover td { border-bottom-color: #303058; }
 <td style="" class="cell-wrap">- 전원 귀선 확인<br>- 코스타에 최종 보고<br>- 갱웨이 폐쇄</td>
 <td style="" class="cell-wrap">팀장</td>
 </tr>
-<tr style="--row-bg:#E8F8F5">
-<td style="font-weight:700" class="cell-wrap">17:00</td>
-<td colspan="6" style="" class="cell-wrap">오타루 출항</td>
+<tr>
+<td colspan="7" class="cell-wrap merged-desc">17:00<br>오타루 출항</td>
 </tr>
 <tr style="--row-bg:#FEF9E7">
 <td style="font-weight:700" class="cell-wrap">17:00~22:00</td>
@@ -7397,8 +7390,8 @@ body.dark .ops-table tbody tr:hover td { border-bottom-color: #303058; }
 <div class="table-wrap">
 <table class="ops-table">
 <tbody>
-<tr style="--row-bg:#FDEDEC">
-<td colspan="1" style="" class="cell-wrap merged-cell">※ 기항지운영팀의 최대 리스크는 "미귀선"과 "중간 승하선 실패"입니다. 2,400명을 정해진 시간 안에 내보내고 받는 것이 핵심 미션입니다.<br>※ 대응 레벨: 🟢 현장 즉시 / 🟡 팀장 판단 / 🔴 본부장 최종 결정</td>
+<tr>
+<td colspan="8" class="cell-wrap merged-desc">※ 기항지운영팀의 최대 리스크는 "미귀선"과 "중간 승하선 실패"입니다. 2,400명을 정해진 시간 안에 내보내고 받는 것이 핵심 미션입니다.<br>※ 대응 레벨: 🟢 현장 즉시 / 🟡 팀장 판단 / 🔴 본부장 최종 결정</td>
 </tr>
 </tbody>
 <thead>
@@ -8109,7 +8102,7 @@ body.dark .ops-table tbody tr:hover td { border-bottom-color: #303058; }
 <td style="" class="cell-wrap">미팅 시</td>
 </tr>
 <tr style="--row-bg:#FEF9E7">
-<td colspan="1" style="font-weight:700;" class="cell-wrap merged-cell">총 63개 질문 | 10개 카테고리 | ★★★ 최우선 0</td>
+<td style="font-weight:700" class="cell-wrap">총 63개 질문 | 10개 카테고리 | ★★★ 최우선 0</td>
 </tr>
 </tbody>
 </table>
