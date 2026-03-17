@@ -23,6 +23,17 @@ DARK_BGS = {c.upper() for c in [
     '#BF360C','#4E342E','#37474F','#546E7A',
 ]}
 
+# ── 섹션 타이틀 채도 낮춘 모듈 색상 ─────────────────────────────────
+MODULE_SECTION_COLORS = {
+    'master': '#4A5568',   # 차분한 슬레이트
+    'org':    '#2B6CB0',   # 차분한 블루
+    'prog':   '#C05621',   # 차분한 오렌지
+    'sup':    '#2F855A',   # 차분한 그린
+    'emb':    '#4C51BF',   # 차분한 인디고
+    'port':   '#276749',   # 차분한 딥그린
+    'qa':     '#4A5568',   # 슬레이트
+}
+
 # ── 모듈별 메타정보 ───────────────────────────────────────────────────
 MODULE_META = {
     'master': {'icon':'📋','color':'#0D1B2A','desc':'D-90부터 D-Day까지 전체 준비사항'},
@@ -100,12 +111,11 @@ def render_sheet(sheet, module_key):
     for sec in sections:
         out.append('<div class="table-wrap">')
 
-        # 섹션 제목
+        # 섹션 제목 — JSON 원색 대신 모듈별 차분한 색상 사용
         if sec['title']:
-            t  = sec['title']
-            bg = t.get('bg', '#1B2A4A')
-            fc = t.get('fc', '#FFFFFF')
-            out.append(f'<div class="section-title" style="background:{bg};color:{fc}">{esc(t.get("value",""))}</div>')
+            sec_color = MODULE_SECTION_COLORS.get(module_key, '#4A5568')
+            val = esc(sec['title'].get('value', ''))
+            out.append(f'<div class="section-title" style="background:{sec_color}">{val}</div>')
 
         rows = sec['rows']
         if rows:
@@ -121,10 +131,10 @@ def render_sheet(sheet, module_key):
                     if not in_head:
                         out.append('<thead>')
                         in_head = True
-                    bg = cells[0].get('bg', '#1B2A4A')
-                    out.append(f'<tr style="background:{bg}">')
+                    # thead: tr에 bg 유지 (CSS !important로 덮어씀)
+                    out.append('<tr>')
                     for c in cells:
-                        out.append(f'<th style="{cell_style(c)}">{esc(c.get("value",""))}</th>')
+                        out.append(f'<th style="{cell_style(c, include_bg=False)}">{esc(c.get("value",""))}</th>')
                     out.append('</tr>')
                 else:  # 'd'
                     if in_head:
@@ -133,10 +143,12 @@ def render_sheet(sheet, module_key):
                     if not in_body:
                         out.append('<tbody>')
                         in_body = True
+                    # tbody: 원본 bg를 CSS 변수로 전달 → color-mix()로 연하게 처리
                     rb = cells[0].get('bg', '')
-                    out.append(f'<tr style="background:{rb}">' if rb else '<tr>')
+                    out.append(f'<tr style="--row-bg:{rb}">' if rb else '<tr>')
                     for c in cells:
-                        out.append(f'<td style="{cell_style(c)}" class="cell-wrap">{esc(c.get("value",""))}</td>')
+                        # td에는 bg 제외, color·bold만 적용
+                        out.append(f'<td style="{cell_style(c, include_bg=False)}" class="cell-wrap">{esc(c.get("value",""))}</td>')
                     out.append('</tr>')
 
             if in_head: out.append('</thead>')
@@ -485,47 +497,67 @@ body {
   box-shadow: var(--shadow-card);
   transition: border-color var(--transition);
 }
+
+/* 섹션 타이틀 — 색상은 Python 인라인 스타일(MODULE_SECTION_COLORS)로 결정 */
 .section-title {
-  padding:12px 18px; font-size:13px; font-weight:700;
-  position:sticky; top:0; z-index:5;
-  /* 섹션 타이틀 색상은 인라인 스타일(JSON)로 결정 */
+  padding: 11px 18px;
+  font-size: 13px; font-weight: 700;
+  color: #FFFFFF;
+  letter-spacing: .2px;
 }
+
 .ops-table {
   width:100%; border-collapse:collapse;
-  background: var(--bg-table); font-size:12px;
+  background: var(--bg-table); font-size:13px;
   transition: background var(--transition);
 }
 
-/* 라이트: thead 기본은 연한 회색 + 검은 텍스트, 인라인 색상 우선 */
+/* ── thead: 라이트 = 연한 회색(#F5F6F8) + 진한 텍스트, Python 인라인 무시 ── */
 .ops-table thead th {
-  padding:10px 12px; font-weight:600; text-align:center;
-  font-size:11px; letter-spacing:.3px;
-  background: var(--bg-thead); color: var(--thead-color);
-  border-bottom: 2px solid var(--border-main);
-  position:sticky; top:0; z-index:4;
-  /* 인라인 style의 bg/color가 있으면 그게 우선적으로 적용됨 */
+  padding: 10px 12px;
+  font-size: 12px; font-weight: 700;
+  text-align: center; letter-spacing: .3px;
+  white-space: nowrap;
+  background: #F5F6F8 !important;
+  color: #333333 !important;
+  border-bottom: 2px solid #E0E4EA;
+}
+
+/* ── tbody: color-mix()로 원본 bg를 opacity 35% 수준으로 연하게 ── */
+.ops-table tbody tr {
+  background: color-mix(in srgb, var(--row-bg, transparent) 35%, #FFFFFF);
+  min-height: 40px;
 }
 .ops-table tbody td {
-  padding:10px 12px; vertical-align:top; line-height:1.65;
-  border-bottom:1px solid var(--border-table);
+  padding: 10px 12px;
+  font-size: 13px; line-height: 1.6;
+  vertical-align: top;
+  border-bottom: 1px solid #EEF2F7;
   color: var(--text-primary);
-  transition: background .1s;
 }
-.ops-table tbody td:first-child { font-weight:600; white-space:nowrap; }
-.ops-table tbody tr:last-child td { border-bottom:none; }
-.ops-table tbody tr:hover td { background: var(--bg-hover) !important; }
-.cell-wrap { white-space:pre-line; }
+.ops-table tbody td:first-child { font-weight: 600; white-space: nowrap; }
+.ops-table tbody tr:last-child td { border-bottom: none; }
+.ops-table tbody tr:hover { background: #F0F7FF !important; }
+.ops-table tbody tr:hover td { border-bottom-color: #D8E8F8; }
+.cell-wrap { white-space: pre-line; }
 
-/* ── 다크모드: tbody 인라인 배경 무력화 → 다크 배경으로 통일 ── */
-body.dark .ops-table tbody tr { background: var(--bg-table) !important; }
-body.dark .ops-table tbody td {
-  background: transparent !important;
-  color: var(--text-primary) !important;
-  border-color: var(--border-table);
+/* ── 다크모드 테이블 ── */
+body.dark .ops-table thead th {
+  background: #252540 !important;
+  color: #C8C8E8 !important;
+  border-bottom-color: #2A2A40;
 }
-body.dark .ops-table tbody td:first-child { color: #A0D4B8 !important; }
-/* 섹션 타이틀(dark bg 컬러)은 인라인 bg 유지 - thead만 컬러 유지 */
-body.dark .ops-table thead th { border-bottom-color: var(--border-table); }
+body.dark .ops-table tbody tr {
+  /* 원본 bg를 opacity 15% 수준으로 */
+  background: color-mix(in srgb, var(--row-bg, transparent) 15%, #1E1E30);
+}
+body.dark .ops-table tbody td {
+  color: #C8C8E0;
+  border-bottom-color: #2A2A40;
+}
+body.dark .ops-table tbody td:first-child { color: #88C4A4; }
+body.dark .ops-table tbody tr:hover { background: #282848 !important; }
+body.dark .ops-table tbody tr:hover td { border-bottom-color: #303050; }
 
 /* ── 오버레이(모바일) ── */
 .overlay { display:none; position:fixed; inset:0; background:rgba(0,0,0,.4); z-index:85; }
