@@ -1,0 +1,7786 @@
+{
+ "key": "prog",
+ "label": "프로그램·행사팀",
+ "sheets": [
+  {
+   "name": "업무분장 및 조직",
+   "rows": 28,
+   "cols": 9,
+   "data": [
+    [
+     {
+      "col": 2,
+      "row": 2,
+      "value": "프로그램·행사팀 — 업무분장 및 조직 체계",
+      "bold": true,
+      "bg": "#E67E22",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 4,
+      "value": "▣ 프로그램 3대 카테고리 및 담당 구분",
+      "bold": true,
+      "bg": "#E67E22",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 5,
+      "value": "카테고리",
+      "bold": true,
+      "bg": "#1B2A4A",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 3,
+      "row": 5,
+      "value": "코드",
+      "bold": true,
+      "bg": "#1B2A4A",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 4,
+      "row": 5,
+      "value": "핵심 프로그램",
+      "bold": true,
+      "bg": "#1B2A4A",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 5,
+      "row": 5,
+      "value": "세부 내용",
+      "bold": true,
+      "bg": "#1B2A4A",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 6,
+      "row": 5,
+      "value": "담당 파트",
+      "bold": true,
+      "bg": "#1B2A4A",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 7,
+      "row": 5,
+      "value": "공연 횟수",
+      "bold": true,
+      "bg": "#1B2A4A",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 8,
+      "row": 5,
+      "value": "코스타 협조사항",
+      "bold": true,
+      "bg": "#1B2A4A",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 6,
+      "value": "메인행사\n(MAIN)",
+      "bold": true,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 6,
+      "value": "🔴 MAIN",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 6,
+      "value": "김태우 (1부/2부)\n조수찬/신성 (1부/2부)\n선상의 노래자랑 (예선/결선)\nMC쇼 (김종덕)",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 6,
+      "value": "- 김태우: 6/20 그랜드바 1부(13:30) + 2부(18:30)\n- 조수찬/신성: 6/24 그랜드바 1부(13:30) + 2부(18:30)\n- 선상노래자랑: 6/20 예선(15:30) + 6/24 결선(21:00)\n- MC쇼: 6/22 그랜드바(21:00) + 6/23 솔레(21:00)",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 6,
+      "value": "메인공연 담당\n(팀원 A+B)",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 6,
+      "value": "총 8회",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 6,
+      "value": "그랜드바 음향·조명·무대\n테크니션 배치\n리허설 시간 확보",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 7,
+      "value": "UPD행사\n(언플러그드)",
+      "bold": true,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 7,
+      "value": "🟣 UPD",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 7,
+      "value": "박재홍의 재즈\n임병수밴드\nDJ다방(나포리 음악다방)",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 7,
+      "value": "- 박재홍 재즈: 6/21 솔레(21:00) + 6/24 솔레(21:00)\n- 임병수밴드: 6/21 그랜드바(21:00) + 6/23 그랜드바(21:00)\n- DJ다방(나포리): 6/20 솔레(18:00) + 6/22 솔레(18:00) + 6/23 솔레(18:00)",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 7,
+      "value": "UPD 담당\n(팀원 C)",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 7,
+      "value": "총 7회",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 7,
+      "value": "솔레/그랜드바 음향\n소규모 세팅\n조명 무드 조정",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 8,
+      "value": "환경재단행사\n(FOUND)",
+      "bold": true,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 8,
+      "value": "🟢 FOUND",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 8,
+      "value": "게스트 강연 (다수)\n네트워킹\n가톨릭 미사\n대안공간\n재단 자체 기획",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 8,
+      "value": "- 게스트 강연: 6/20~24 매일 3~6회 (지오베/판디스코/큐피도/솔레 등)\n- 네트워킹: 6/20~23 지오베/리도 등 매일 운영\n- 가톨릭 미사: 6/20~23 루나라운지 매일 저녁\n- 대안공간: 각 장소 매일 운영\n- 재단 자체 기획: 아폴로/루나라운지",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 8,
+      "value": "재단행사 담당\n(팀원 D)\n+ 환경재단 8명",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 8,
+      "value": "매일\n다수 동시진행",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 8,
+      "value": "다중 장소 동시 사용\n장소별 마이크·스크린\n좌석 배치 변경",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 10,
+      "value": "▣ 팀 조직 구성 및 역할 (팀장 1명 + 팀원 4명 + 기항지팀 유동 + 알바)",
+      "bold": true,
+      "bg": "#E67E22",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 11,
+      "value": "직위/코드",
+      "bold": true,
+      "bg": "#E67E22",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 3,
+      "row": 11,
+      "value": "담당자",
+      "bold": true,
+      "bg": "#E67E22",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 4,
+      "row": 11,
+      "value": "담당 카테고리",
+      "bold": true,
+      "bg": "#E67E22",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 5,
+      "row": 11,
+      "value": "핵심 책임",
+      "bold": true,
+      "bg": "#E67E22",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 6,
+      "row": 11,
+      "value": "세부 업무",
+      "bold": true,
+      "bg": "#E67E22",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 7,
+      "row": 11,
+      "value": "관리 장소",
+      "bold": true,
+      "bg": "#E67E22",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 8,
+      "row": 11,
+      "value": "운영 시간대",
+      "bold": true,
+      "bg": "#E67E22",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 12,
+      "value": "팀장\n(프로그램총괄)",
+      "bold": true,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 12,
+      "value": "TBD",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 12,
+      "value": "전체 총괄",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 12,
+      "value": "전체 프로그램 스케줄링\n선사 GRM·테크니션 소통\n인력배치 컨트롤",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 12,
+      "value": "- 일자별 전체 타임테이블 최종 관리\n- 코스타 GRM/Cruise Director와 직접 소통\n- 테크니션 배치 요청 및 리허설 시간 확보\n- 동시 진행 프로그램 간 장소·시간 충돌 조정\n- 기항지팀 유동인력 배치 조율\n- HQ팀장/본부장 보고\n- 일일미팅 프로그램 현황 보고",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 12,
+      "value": "전 장소 순회\n(Mercurio HQ 기반)",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 12,
+      "value": "07:00~23:00",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 13,
+      "value": "팀원 A\n🔴메인공연-1",
+      "bold": true,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 13,
+      "value": "TBD",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 13,
+      "value": "메인행사\n(김태우/조수찬·신성)",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 13,
+      "value": "초대가수 공연 전담\n아티스트 케어",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 13,
+      "value": "- 김태우(6/20), 조수찬/신성(6/24) 공연 전담\n- 리허설 진행 및 테크니컬 점검\n- 아티스트 동선 관리·케어\n- 무대 세팅/해체 지휘\n- 공연 중 관객 통제\n- 공연 전 음향·조명 최종 확인\n- 아티스트 승하선 로지스틱 서포트",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 13,
+      "value": "그랜드바 (5층)\n+ 아티스트 대기실",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 13,
+      "value": "공연일 종일\n비공연일 준비",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 14,
+      "value": "팀원 B\n🔴메인공연-2",
+      "bold": true,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 14,
+      "value": "TBD",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 14,
+      "value": "메인행사\n(노래자랑/MC쇼)",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 14,
+      "value": "선상노래자랑·MC쇼\n고객참여행사 전담",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 14,
+      "value": "- 선상노래자랑 예선(6/20)/결선(6/24) 운영\n- 참가자 모집·관리·리허설\n- MC쇼(김종덕) 공연 운영 (6/22, 6/23)\n- 사회 진행 조율\n- 심사·시상 준비\n- 관객 참여 유도 및 좌석 관리",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 14,
+      "value": "그랜드바 (5층)\n솔레 (9층)",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 14,
+      "value": "행사시 전일\n비행사시 준비",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 15,
+      "value": "팀원 C\n🟣UPD 전담",
+      "bold": true,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 15,
+      "value": "TBD",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 15,
+      "value": "UPD행사\n(재즈/밴드/DJ)",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 15,
+      "value": "UPD(언플러그드) 공연\n전담 관리",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 15,
+      "value": "- 박재홍 재즈(6/21,24), 임병수밴드(6/21,23) 운영\n- DJ다방/나포리 음악다방(6/20,22,23) 운영\n- 소규모 공연 특성상 분위기·음향 섬세 관리\n- 아티스트 케어 및 동선 관리\n- 솔레/그랜드바 전환 세팅 관리\n- 조명 무드 전환 지시",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 15,
+      "value": "솔레 (9층)\n그랜드바 (5층)",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 15,
+      "value": "저녁 집중\n18:00~22:00",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 16,
+      "value": "팀원 D\n🟢재단행사 전담",
+      "bold": true,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 16,
+      "value": "TBD",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 16,
+      "value": "환경재단행사\n(강연/네트워킹/미사)",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 16,
+      "value": "환경재단 프로그램\n전체 코디네이션",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 16,
+      "value": "- 게스트 강연 다수(매일 3~6회) 장소·시간 관리\n- 네트워킹 세션 운영\n- 가톨릭 미사(매일 저녁) 장소 세팅\n- 대안공간 운영 관리\n- 재단 자체 기획 행사 지원\n- 환경재단 8명과 직접 소통 및 역할 분담\n- 동시 다발 강연 장소 전환 관리",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 16,
+      "value": "지오베/판디스코/큐피도\n루나라운지/아폴로/솔레",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 16,
+      "value": "종일\n(강연 09:00~)\n(미사 ~22:00)",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 17,
+      "value": "기항지팀 유동인력\n+ 알바",
+      "bold": true,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 17,
+      "value": "해상일 합류",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 17,
+      "value": "보조 투입",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 17,
+      "value": "행사장 세팅·정리\n관객 안내·통제",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 17,
+      "value": "- 대형 공연 시 관객 안내·좌석 통제\n- 행사장 세팅(의자/무대/장비) 및 철거\n- 부스 운영 보조\n- 동시 진행 행사 간 관객 이동 안내\n- 물품 운반 보조",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 17,
+      "value": "배치표에 따라\n순환",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 17,
+      "value": "행사시 집중",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 9,
+      "row": 17,
+      "value": "해상일 3~8명",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 19,
+      "value": "▣ 장소별 운영 가이드 (8개 공연·행사 장소)",
+      "bold": true,
+      "bg": "#2C3E50",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 20,
+      "value": "장소",
+      "bold": true,
+      "bg": "#2C3E50",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 3,
+      "row": 20,
+      "value": "위치(층)",
+      "bold": true,
+      "bg": "#2C3E50",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 4,
+      "row": 20,
+      "value": "수용 인원(추정)",
+      "bold": true,
+      "bg": "#2C3E50",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 5,
+      "row": 20,
+      "value": "주요 프로그램",
+      "bold": true,
+      "bg": "#2C3E50",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 6,
+      "row": 20,
+      "value": "장비 세팅",
+      "bold": true,
+      "bg": "#2C3E50",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 7,
+      "row": 20,
+      "value": "코스타 테크니션",
+      "bold": true,
+      "bg": "#2C3E50",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 8,
+      "row": 20,
+      "value": "전환 소요시간",
+      "bold": true,
+      "bg": "#2C3E50",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 21,
+      "value": "그랜드바",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 21,
+      "value": "5층",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 21,
+      "value": "약 300~400명",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 21,
+      "value": "김태우, 조수찬/신성, 노래자랑,\n임병수, 단체대여",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 21,
+      "value": "풀 PA 시스템\n조명 풀세트\n무대 세팅",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 21,
+      "value": "테크니션 2명 필수\n(음향1+조명1)",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 21,
+      "value": "전환 30분\n(무대 교체 포함)",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 22,
+      "value": "솔레(9층)",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 22,
+      "value": "9층",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 22,
+      "value": "약 150~200명",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 22,
+      "value": "박재홍 재즈, DJ다방,\n게스트 강연, MC쇼, 영화",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 22,
+      "value": "PA 시스템 (소규모)\n프로젝터/스크린\n조명 무드 조절",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 22,
+      "value": "테크니션 1명",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 22,
+      "value": "전환 20분",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 23,
+      "value": "지오베 극장",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 23,
+      "value": "메인 극장",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 23,
+      "value": "약 800~1,000명",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 23,
+      "value": "게스트 강연, 네트워킹,\n대안공간, 영화상영",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 23,
+      "value": "극장 PA/조명\n대형 스크린\n마이크 3개+",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 23,
+      "value": "코스타 극장 스태프",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 23,
+      "value": "전환 15분",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 24,
+      "value": "루나 라운지",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 24,
+      "value": "약 80~120명",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 24,
+      "value": "가톨릭 미사,\n재단 자체 기획",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 24,
+      "value": "마이크 1~2개\n간단 음향",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 24,
+      "value": "최소 (자체운영 가능)",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 24,
+      "value": "전환 10분",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 25,
+      "value": "아폴로",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 25,
+      "value": "약 100~150명",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 25,
+      "value": "대안공간, 재단 기획",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 25,
+      "value": "마이크+스크린",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 25,
+      "value": "테크니션 1명",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 25,
+      "value": "전환 15분",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 26,
+      "value": "판디스코",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 26,
+      "value": "약 100~150명",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 26,
+      "value": "게스트 강연, 대안공간",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 26,
+      "value": "마이크+스크린",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 26,
+      "value": "테크니션 1명",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 26,
+      "value": "전환 15분",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 27,
+      "value": "큐피도 볼룸",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 27,
+      "value": "약 100~150명",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 27,
+      "value": "게스트 강연, 대안공간",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 27,
+      "value": "마이크+스크린",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 27,
+      "value": "테크니션 1명",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 27,
+      "value": "전환 15분",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 28,
+      "value": "리도",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 28,
+      "value": "야외",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 28,
+      "value": "유동적",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 28,
+      "value": "네트워킹, 대안공간",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 28,
+      "value": "야외 음향\n(날씨 의존)",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 28,
+      "value": "최소",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 28,
+      "value": "전환 10분",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ]
+   ]
+  },
+  {
+   "name": "일자별 타임스케줄",
+   "rows": 100,
+   "cols": 10,
+   "data": [
+    [
+     {
+      "col": 2,
+      "row": 2,
+      "value": "프로그램·행사팀 — 일자별 전체 타임스케줄 (프로그램표 기반)",
+      "bold": true,
+      "bg": "#D35400",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 3,
+      "value": "6/20(토) 해상일 — 가장 바쁜 날 (프로그램 14건 이상 동시 다발)",
+      "bold": true,
+      "bg": "#D35400",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 4,
+      "value": "시간",
+      "bold": true,
+      "bg": "#D35400",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 3,
+      "row": 4,
+      "value": "카테고리",
+      "bold": true,
+      "bg": "#D35400",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 4,
+      "row": 4,
+      "value": "장소",
+      "bold": true,
+      "bg": "#D35400",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 5,
+      "row": 4,
+      "value": "프로그램",
+      "bold": true,
+      "bg": "#D35400",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 6,
+      "row": 4,
+      "value": "담당",
+      "bold": true,
+      "bg": "#D35400",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 7,
+      "row": 4,
+      "value": "테크니션",
+      "bold": true,
+      "bg": "#D35400",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 8,
+      "row": 4,
+      "value": "세팅/주의사항",
+      "bold": true,
+      "bg": "#D35400",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 9,
+      "row": 4,
+      "value": "★",
+      "bold": true,
+      "bg": "#D35400",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 5,
+      "value": "09:00~10:30",
+      "bold": true,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 5,
+      "value": "🟢FOUND",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 5,
+      "value": "솔레",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 5,
+      "value": "게스트 강연",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 5,
+      "value": "팀원D",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 5,
+      "value": "테크니션X",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 5,
+      "value": "마이크+스크린 세팅",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 6,
+      "value": "09:00~12:00",
+      "bold": true,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 6,
+      "value": "🟢FOUND",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 6,
+      "value": "아폴로",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 6,
+      "value": "대안공간",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 6,
+      "value": "팀원D",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 6,
+      "value": "X",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 6,
+      "value": "좌석 배치",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 7,
+      "value": "09:00~12:00",
+      "bold": true,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 7,
+      "value": "🟢FOUND",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 7,
+      "value": "그랜드바",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 7,
+      "value": "단체대여공간",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 7,
+      "value": "팀원D",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 7,
+      "value": "X",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 7,
+      "value": "사전 세팅 확인",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 8,
+      "value": "10:00~11:30",
+      "bold": true,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 8,
+      "value": "🟢FOUND",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 8,
+      "value": "지오베",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 8,
+      "value": "게스트 강연",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 8,
+      "value": "팀원D",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 8,
+      "value": "극장스태프",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 8,
+      "value": "대형 스크린 사용",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 9,
+      "value": "10:00~11:00",
+      "bold": true,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 9,
+      "value": "🟢FOUND",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 9,
+      "value": "큐피도",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 9,
+      "value": "대안공간",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 9,
+      "value": "팀원D",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 9,
+      "value": "X",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 10,
+      "value": "10:30~12:00",
+      "bold": true,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 10,
+      "value": "🟢FOUND",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 10,
+      "value": "솔레",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 10,
+      "value": "게스트 강연",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 10,
+      "value": "팀원D",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 10,
+      "value": "X",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 10,
+      "value": "앞 강연 종료 후 즉시 전환",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 9,
+      "row": 10,
+      "value": "⚠️연속",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 11,
+      "value": "12:00~13:00",
+      "bold": true,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 11,
+      "value": "🟢FOUND",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 11,
+      "value": "판디스코",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 11,
+      "value": "게스트 강연",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 11,
+      "value": "팀원D",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 11,
+      "value": "X",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 12,
+      "value": "12:30~13:30",
+      "bold": true,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 12,
+      "value": "🟢FOUND",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 12,
+      "value": "지오베",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 12,
+      "value": "대안공간",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 12,
+      "value": "팀원D",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 12,
+      "value": "극장스태프",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 13,
+      "value": "13:00~14:30",
+      "bold": true,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 13,
+      "value": "🟢FOUND",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 13,
+      "value": "솔레",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 13,
+      "value": "게스트 강연",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 13,
+      "value": "팀원D",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 13,
+      "value": "X",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 14,
+      "value": "13:30~14:30",
+      "bold": true,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 14,
+      "value": "🔴MAIN",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 14,
+      "value": "그랜드바",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 14,
+      "value": "★ 김태우 1부",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 14,
+      "value": "팀원A",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 14,
+      "value": "테크2명",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 14,
+      "value": "리허설 12:00 필수\n음향·조명 풀세팅",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 9,
+      "row": 14,
+      "value": "★핵심",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 15,
+      "value": "14:30~16:00",
+      "bold": true,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 15,
+      "value": "🟢FOUND",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 15,
+      "value": "솔레",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 15,
+      "value": "게스트 강연",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 15,
+      "value": "팀원D",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 15,
+      "value": "X",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 15,
+      "value": "김태우 후 전환",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 16,
+      "value": "15:00~16:30",
+      "bold": true,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 16,
+      "value": "🟢FOUND",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 16,
+      "value": "지오베",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 16,
+      "value": "게스트 강연/네트워킹",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 16,
+      "value": "팀원D",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 16,
+      "value": "극장스태프",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 17,
+      "value": "15:00~16:30",
+      "bold": true,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 17,
+      "value": "🟢FOUND",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 17,
+      "value": "큐피도",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 17,
+      "value": "게스트 강연",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 17,
+      "value": "팀원D",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 17,
+      "value": "X",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 18,
+      "value": "15:30~16:30",
+      "bold": true,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 18,
+      "value": "🔴MAIN",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 18,
+      "value": "그랜드바",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 18,
+      "value": "★ 선상노래자랑(예선)",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 18,
+      "value": "팀원B",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 18,
+      "value": "테크2명",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 18,
+      "value": "김태우 세팅 유지\n참가자 대기 관리",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 9,
+      "row": 18,
+      "value": "★핵심",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 19,
+      "value": "16:00~17:30",
+      "bold": true,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 19,
+      "value": "🟢FOUND",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 19,
+      "value": "솔레",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 19,
+      "value": "게스트 강연",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 19,
+      "value": "팀원D",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 19,
+      "value": "X",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 20,
+      "value": "16:30~18:00",
+      "bold": true,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 20,
+      "value": "🟢FOUND",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 20,
+      "value": "지오베",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 20,
+      "value": "네트워킹",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 20,
+      "value": "팀원D",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 20,
+      "value": "극장스태프",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 21,
+      "value": "16:30~18:00",
+      "bold": true,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 21,
+      "value": "🟢FOUND",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 21,
+      "value": "판디스코",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 21,
+      "value": "대안공간",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 21,
+      "value": "팀원D",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 21,
+      "value": "X",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 22,
+      "value": "16:30~18:00",
+      "bold": true,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 22,
+      "value": "🟢FOUND",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 22,
+      "value": "리도",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 22,
+      "value": "네트워킹",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 22,
+      "value": "팀원D",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 22,
+      "value": "X",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 22,
+      "value": "야외 날씨 확인",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 23,
+      "value": "18:00~19:00",
+      "bold": true,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 23,
+      "value": "🟢FOUND",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 23,
+      "value": "지오베",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 23,
+      "value": "대안공간",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 23,
+      "value": "팀원D",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 23,
+      "value": "극장스태프",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 24,
+      "value": "18:00~19:30",
+      "bold": true,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 24,
+      "value": "🟣UPD",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 24,
+      "value": "솔레",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 24,
+      "value": "★ 나포리(음악다방) 1회",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 24,
+      "value": "팀원C",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 24,
+      "value": "테크1명",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 24,
+      "value": "DJ장비 세팅\n조명 무드 전환",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 25,
+      "value": "18:00~20:00",
+      "bold": true,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 25,
+      "value": "🟢FOUND",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 25,
+      "value": "아폴로",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 25,
+      "value": "재단 자체 기획",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 25,
+      "value": "팀원D",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 25,
+      "value": "X",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 26,
+      "value": "18:30~19:30",
+      "bold": true,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 26,
+      "value": "🔴MAIN",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 26,
+      "value": "그랜드바",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 26,
+      "value": "★ 김태우 2부",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 26,
+      "value": "팀원A",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 26,
+      "value": "테크2명",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 26,
+      "value": "1부 세팅 유지 확인\n리허설 불필요",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 9,
+      "row": 26,
+      "value": "★핵심",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 27,
+      "value": "19:30~21:00",
+      "bold": true,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 27,
+      "value": "🟢FOUND",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 27,
+      "value": "루나라운지",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 27,
+      "value": "재단 자체 기획",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 27,
+      "value": "팀원D",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 27,
+      "value": "X",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 28,
+      "value": "20:00~21:00",
+      "bold": true,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 28,
+      "value": "🟢FOUND",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 28,
+      "value": "아폴로",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 28,
+      "value": "대안공간",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 28,
+      "value": "팀원D",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 28,
+      "value": "X",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 29,
+      "value": "20:30~22:00",
+      "bold": true,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 29,
+      "value": "🟢FOUND",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 29,
+      "value": "지오베",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 29,
+      "value": "대안공간",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 29,
+      "value": "팀원D",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 29,
+      "value": "극장스태프",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 30,
+      "value": "21:00~22:00",
+      "bold": true,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 30,
+      "value": "🟢FOUND",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 30,
+      "value": "루나라운지",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 30,
+      "value": "가톨릭 미사",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 30,
+      "value": "팀원D",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 30,
+      "value": "X",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 30,
+      "value": "미사 세팅 (제단/촛불)",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 32,
+      "value": "6/21(일) 하코다테 기항일 — 오전만 프로그램, 오후 기항지",
+      "bold": true,
+      "bg": "#1ABC9C",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 33,
+      "value": "시간",
+      "bold": true,
+      "bg": "#1ABC9C",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 3,
+      "row": 33,
+      "value": "카테고리",
+      "bold": true,
+      "bg": "#1ABC9C",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 4,
+      "row": 33,
+      "value": "장소",
+      "bold": true,
+      "bg": "#1ABC9C",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 5,
+      "row": 33,
+      "value": "프로그램",
+      "bold": true,
+      "bg": "#1ABC9C",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 6,
+      "row": 33,
+      "value": "담당",
+      "bold": true,
+      "bg": "#1ABC9C",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 7,
+      "row": 33,
+      "value": "테크니션",
+      "bold": true,
+      "bg": "#1ABC9C",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 8,
+      "row": 33,
+      "value": "세팅/주의사항",
+      "bold": true,
+      "bg": "#1ABC9C",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 9,
+      "row": 33,
+      "value": "★",
+      "bold": true,
+      "bg": "#1ABC9C",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 34,
+      "value": "10:00~11:30",
+      "bold": true,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 34,
+      "value": "🟢FOUND",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 34,
+      "value": "지오베",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 34,
+      "value": "게스트 강연",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 34,
+      "value": "팀원D",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 34,
+      "value": "극장스태프",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 35,
+      "value": "10:00~12:00",
+      "bold": true,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 35,
+      "value": "🟢FOUND",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 35,
+      "value": "루나라운지",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 35,
+      "value": "재단 자체 기획",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 35,
+      "value": "팀원D",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 35,
+      "value": "X",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 36,
+      "value": "10:30~12:00",
+      "bold": true,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 36,
+      "value": "🟢FOUND",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 36,
+      "value": "솔레",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 36,
+      "value": "게스트 강연",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 36,
+      "value": "팀원D",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 36,
+      "value": "X",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 37,
+      "value": "13:00~22:00",
+      "bold": true,
+      "bg": "#FDF2E9",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 37,
+      "value": "하코다테 기항 (프로그램 없음)",
+      "bold": false,
+      "bg": "#FDF2E9",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 37,
+      "value": "소수만 저녁 준비",
+      "bold": false,
+      "bg": "#FDF2E9",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 9,
+      "row": 37,
+      "value": "⚠️기항",
+      "bold": false,
+      "bg": "#FDF2E9",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 38,
+      "value": "18:00~22:00",
+      "bold": true,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 38,
+      "value": "🟢FOUND",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 38,
+      "value": "지오베",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 38,
+      "value": "네트워킹",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 38,
+      "value": "팀원D",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 38,
+      "value": "극장스태프",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 38,
+      "value": "귀선 후 운영",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 39,
+      "value": "18:00~20:00",
+      "bold": true,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 39,
+      "value": "🟢FOUND",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 39,
+      "value": "루나라운지",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 39,
+      "value": "재단 자체 기획",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 39,
+      "value": "팀원D",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 39,
+      "value": "X",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 40,
+      "value": "18:00~21:00",
+      "bold": true,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 40,
+      "value": "🟢FOUND",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 40,
+      "value": "그랜드바",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 40,
+      "value": "단체 대여 공간",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 40,
+      "value": "팀원B",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 40,
+      "value": "X",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 41,
+      "value": "20:00~22:00",
+      "bold": true,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 41,
+      "value": "🟢FOUND",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 41,
+      "value": "루나라운지",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 41,
+      "value": "가톨릭 미사",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 41,
+      "value": "팀원D",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 41,
+      "value": "X",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 42,
+      "value": "21:00~22:00",
+      "bold": true,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 42,
+      "value": "🟣UPD",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 42,
+      "value": "그랜드바",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 42,
+      "value": "★ 임병수밴드 1회",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 42,
+      "value": "팀원C",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 42,
+      "value": "테크2명",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 42,
+      "value": "귀선 후 세팅\n리허설 20:00",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 43,
+      "value": "21:00~22:00",
+      "bold": true,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 43,
+      "value": "🟣UPD",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 43,
+      "value": "솔레",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 43,
+      "value": "★ 박재홍 재즈 1회",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 43,
+      "value": "팀원C→팀장",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 43,
+      "value": "테크1명",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 43,
+      "value": "★동시진행 주의\n팀장이 솔레 커버",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 9,
+      "row": 43,
+      "value": "⚠️동시",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 45,
+      "value": "6/22(월) 오타루 입항일 — 오전 프로그램 + 오후 기항지",
+      "bold": true,
+      "bg": "#2980B9",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 46,
+      "value": "시간",
+      "bold": true,
+      "bg": "#2980B9",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 3,
+      "row": 46,
+      "value": "카테고리",
+      "bold": true,
+      "bg": "#2980B9",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 4,
+      "row": 46,
+      "value": "장소",
+      "bold": true,
+      "bg": "#2980B9",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 5,
+      "row": 46,
+      "value": "프로그램",
+      "bold": true,
+      "bg": "#2980B9",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 6,
+      "row": 46,
+      "value": "담당",
+      "bold": true,
+      "bg": "#2980B9",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 7,
+      "row": 46,
+      "value": "테크니션",
+      "bold": true,
+      "bg": "#2980B9",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 8,
+      "row": 46,
+      "value": "세팅/주의사항",
+      "bold": true,
+      "bg": "#2980B9",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 9,
+      "row": 46,
+      "value": "★",
+      "bold": true,
+      "bg": "#2980B9",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 47,
+      "value": "09:00~12:00",
+      "bold": true,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 47,
+      "value": "🟢FOUND",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 47,
+      "value": "아폴로",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 47,
+      "value": "대안공간",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 47,
+      "value": "팀원D",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 47,
+      "value": "X",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 48,
+      "value": "10:00~11:30",
+      "bold": true,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 48,
+      "value": "🟢FOUND",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 48,
+      "value": "지오베",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 48,
+      "value": "게스트 강연",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 48,
+      "value": "팀원D",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 48,
+      "value": "극장스태프",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 49,
+      "value": "10:30~12:00",
+      "bold": true,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 49,
+      "value": "🟢FOUND",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 49,
+      "value": "솔레",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 49,
+      "value": "게스트 강연",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 49,
+      "value": "팀원D",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 49,
+      "value": "X",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 50,
+      "value": "11:30~13:00",
+      "bold": true,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 50,
+      "value": "🟢FOUND",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 50,
+      "value": "지오베",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 50,
+      "value": "게스트 강연",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 50,
+      "value": "팀원D",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 50,
+      "value": "극장스태프",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 9,
+      "row": 50,
+      "value": "⚠️연속",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 51,
+      "value": "14:00~",
+      "bold": true,
+      "bg": "#FDF2E9",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 51,
+      "value": "오타루 기항 (프로그램 축소)",
+      "bold": false,
+      "bg": "#FDF2E9",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 9,
+      "row": 51,
+      "value": "⚠️기항",
+      "bold": false,
+      "bg": "#FDF2E9",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 52,
+      "value": "18:00~19:30",
+      "bold": true,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 52,
+      "value": "🟣UPD",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 52,
+      "value": "솔레",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 52,
+      "value": "★ 나포리(음악다방) 2회",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 52,
+      "value": "팀원C",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 52,
+      "value": "테크1명",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 52,
+      "value": "기항지 귀선 후 세팅",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 53,
+      "value": "19:30~22:30",
+      "bold": true,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 53,
+      "value": "🟢FOUND",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 53,
+      "value": "루나라운지",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 53,
+      "value": "재단 기획+가톨릭미사",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 53,
+      "value": "팀원D",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 53,
+      "value": "X",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 54,
+      "value": "20:00~22:00",
+      "bold": true,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 54,
+      "value": "🟢FOUND",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 54,
+      "value": "지오베",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 54,
+      "value": "네트워킹",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 54,
+      "value": "팀원D",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 54,
+      "value": "극장스태프",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 55,
+      "value": "21:00~22:00",
+      "bold": true,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 55,
+      "value": "🔴MAIN",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 55,
+      "value": "그랜드바",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 55,
+      "value": "★ MC쇼(김종덕) 1회",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 55,
+      "value": "팀원B",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 55,
+      "value": "테크2명",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 57,
+      "value": "6/23(화) 오타루 출항(17:00) — 오후 귀선 후 공연 집중",
+      "bold": true,
+      "bg": "#27AE60",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 58,
+      "value": "시간",
+      "bold": true,
+      "bg": "#27AE60",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 3,
+      "row": 58,
+      "value": "카테고리",
+      "bold": true,
+      "bg": "#27AE60",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 4,
+      "row": 58,
+      "value": "장소",
+      "bold": true,
+      "bg": "#27AE60",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 5,
+      "row": 58,
+      "value": "프로그램",
+      "bold": true,
+      "bg": "#27AE60",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 6,
+      "row": 58,
+      "value": "담당",
+      "bold": true,
+      "bg": "#27AE60",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 7,
+      "row": 58,
+      "value": "테크니션",
+      "bold": true,
+      "bg": "#27AE60",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 8,
+      "row": 58,
+      "value": "세팅/주의사항",
+      "bold": true,
+      "bg": "#27AE60",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 9,
+      "row": 58,
+      "value": "★",
+      "bold": true,
+      "bg": "#27AE60",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 59,
+      "value": "09:00~16:00",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 59,
+      "value": "오타루 잔류 관광 (프로그램 없음)",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 60,
+      "value": "18:00~19:30",
+      "bold": true,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 60,
+      "value": "🟣UPD",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 60,
+      "value": "솔레",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 60,
+      "value": "★ 나포리(음악다방) 3회",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 60,
+      "value": "팀원C",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 60,
+      "value": "테크1명",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 60,
+      "value": "출항 후 세팅",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 61,
+      "value": "18:30~22:30",
+      "bold": true,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 61,
+      "value": "🟢FOUND",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 61,
+      "value": "루나라운지",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 61,
+      "value": "재단기획+대안+미사",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 61,
+      "value": "팀원D",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 61,
+      "value": "X",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 62,
+      "value": "20:00~24:00",
+      "bold": true,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 62,
+      "value": "🟢FOUND",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 62,
+      "value": "지오베",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 62,
+      "value": "네트워킹",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 62,
+      "value": "팀원D",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 62,
+      "value": "극장스태프",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 63,
+      "value": "21:00~22:00",
+      "bold": true,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 63,
+      "value": "🟣UPD",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 63,
+      "value": "그랜드바",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 63,
+      "value": "★ 임병수밴드 2회",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 63,
+      "value": "팀원C",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 63,
+      "value": "테크2명",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 64,
+      "value": "21:00~22:00",
+      "bold": true,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 64,
+      "value": "🔴MAIN",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 64,
+      "value": "솔레",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 64,
+      "value": "★ MC쇼(김종덕) 2회",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 64,
+      "value": "팀원B→팀장",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 64,
+      "value": "테크1명",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 64,
+      "value": "★동시진행 주의\n팀장이 솔레 커버",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 9,
+      "row": 64,
+      "value": "⚠️동시",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 66,
+      "value": "6/24(수) 해상일 — 최대 프로그램일 (조수찬/신성 + 노래자랑 결선 + 다수)",
+      "bold": true,
+      "bg": "#E67E22",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 67,
+      "value": "시간",
+      "bold": true,
+      "bg": "#E67E22",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 3,
+      "row": 67,
+      "value": "카테고리",
+      "bold": true,
+      "bg": "#E67E22",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 4,
+      "row": 67,
+      "value": "장소",
+      "bold": true,
+      "bg": "#E67E22",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 5,
+      "row": 67,
+      "value": "프로그램",
+      "bold": true,
+      "bg": "#E67E22",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 6,
+      "row": 67,
+      "value": "담당",
+      "bold": true,
+      "bg": "#E67E22",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 7,
+      "row": 67,
+      "value": "테크니션",
+      "bold": true,
+      "bg": "#E67E22",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 8,
+      "row": 67,
+      "value": "세팅/주의사항",
+      "bold": true,
+      "bg": "#E67E22",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 9,
+      "row": 67,
+      "value": "★",
+      "bold": true,
+      "bg": "#E67E22",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 68,
+      "value": "09:00~10:30",
+      "bold": true,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 68,
+      "value": "🟢FOUND",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 68,
+      "value": "솔레",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 68,
+      "value": "게스트 강연",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 68,
+      "value": "팀원D",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 68,
+      "value": "X",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 69,
+      "value": "09:00~12:00",
+      "bold": true,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 69,
+      "value": "🟢FOUND",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 69,
+      "value": "아폴로",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 69,
+      "value": "재단 기획/대안공간",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 69,
+      "value": "팀원D",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 69,
+      "value": "X",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 70,
+      "value": "09:00~12:00",
+      "bold": true,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 70,
+      "value": "🟢FOUND",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 70,
+      "value": "그랜드바",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 70,
+      "value": "단체대여공간",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 70,
+      "value": "팀원D",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 70,
+      "value": "X",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 70,
+      "value": "12:00 이전 철수→김수찬 세팅",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 9,
+      "row": 70,
+      "value": "⚠️전환",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 71,
+      "value": "09:00~11:00",
+      "bold": true,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 71,
+      "value": "🟢FOUND",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 71,
+      "value": "리도",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 71,
+      "value": "대안공간",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 71,
+      "value": "팀원D",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 71,
+      "value": "X",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 72,
+      "value": "10:00~11:30",
+      "bold": true,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 72,
+      "value": "🟢FOUND",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 72,
+      "value": "지오베",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 72,
+      "value": "게스트 강연",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 72,
+      "value": "팀원D",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 72,
+      "value": "극장스태프",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 73,
+      "value": "10:30~12:00",
+      "bold": true,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 73,
+      "value": "🟢FOUND",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 73,
+      "value": "솔레",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 73,
+      "value": "게스트 강연",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 73,
+      "value": "팀원D",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 73,
+      "value": "X",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 9,
+      "row": 73,
+      "value": "⚠️연속",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 74,
+      "value": "11:00~12:00",
+      "bold": true,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 74,
+      "value": "🟢FOUND",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 74,
+      "value": "판디스코",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 74,
+      "value": "게스트 강연",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 74,
+      "value": "팀원D",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 74,
+      "value": "X",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 75,
+      "value": "13:00~14:30",
+      "bold": true,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 75,
+      "value": "🟢FOUND",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 75,
+      "value": "솔레",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 75,
+      "value": "게스트 강연",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 75,
+      "value": "팀원D",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 75,
+      "value": "X",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 76,
+      "value": "13:30~14:30",
+      "bold": true,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 76,
+      "value": "🔴MAIN",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 76,
+      "value": "그랜드바",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 76,
+      "value": "★ 조수찬/신성 1부",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 76,
+      "value": "팀원A",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 76,
+      "value": "테크2명",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 76,
+      "value": "리허설 12:00 필수\n★오전 단체대여 후 전환",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 9,
+      "row": 76,
+      "value": "★핵심",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 77,
+      "value": "14:00~15:00",
+      "bold": true,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 77,
+      "value": "🟢FOUND",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 77,
+      "value": "판디스코",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 77,
+      "value": "게스트 강연",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 77,
+      "value": "팀원D",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 77,
+      "value": "X",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 78,
+      "value": "14:00~15:00",
+      "bold": true,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 78,
+      "value": "🟢FOUND",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 78,
+      "value": "큐피도",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 78,
+      "value": "게스트 강연",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 78,
+      "value": "팀원D",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 78,
+      "value": "X",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 79,
+      "value": "14:00~16:00",
+      "bold": true,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 79,
+      "value": "🟢FOUND",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 79,
+      "value": "리도",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 79,
+      "value": "대안공간",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 79,
+      "value": "팀원D",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 79,
+      "value": "X",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 80,
+      "value": "14:30~16:00",
+      "bold": true,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 80,
+      "value": "🟢FOUND",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 80,
+      "value": "솔레",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 80,
+      "value": "게스트 강연",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 80,
+      "value": "팀원D",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 80,
+      "value": "X",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 81,
+      "value": "15:00~16:30",
+      "bold": true,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 81,
+      "value": "🟢FOUND",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 81,
+      "value": "판디스코",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 81,
+      "value": "대안공간",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 81,
+      "value": "팀원D",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 81,
+      "value": "X",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 82,
+      "value": "15:00~16:30",
+      "bold": true,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 82,
+      "value": "🟢FOUND",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 82,
+      "value": "큐피도",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 82,
+      "value": "게스트 강연",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 82,
+      "value": "팀원D",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 82,
+      "value": "X",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 83,
+      "value": "16:00~17:30",
+      "bold": true,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 83,
+      "value": "🟢FOUND",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 83,
+      "value": "솔레",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 83,
+      "value": "게스트 강연",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 83,
+      "value": "팀원D",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 83,
+      "value": "X",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 84,
+      "value": "16:30~18:00",
+      "bold": true,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 84,
+      "value": "🟢FOUND",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 84,
+      "value": "큐피도",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 84,
+      "value": "게스트 강연",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 84,
+      "value": "팀원D",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 84,
+      "value": "X",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 85,
+      "value": "18:00~20:00",
+      "bold": true,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 85,
+      "value": "🟢FOUND",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 85,
+      "value": "루나라운지",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 85,
+      "value": "재단기획/미사",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 85,
+      "value": "팀원D",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 85,
+      "value": "X",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 86,
+      "value": "18:00~21:00",
+      "bold": true,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 86,
+      "value": "🟢FOUND",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 86,
+      "value": "아폴로",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 86,
+      "value": "대안공간",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 86,
+      "value": "팀원D",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 86,
+      "value": "X",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 87,
+      "value": "18:00~18:30",
+      "bold": true,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 87,
+      "value": "🟢FOUND",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 87,
+      "value": "그랜드바",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 87,
+      "value": "단체대여(짧음)",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 87,
+      "value": "팀원B",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 87,
+      "value": "X",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 87,
+      "value": "18:30까지 반드시 철수",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 9,
+      "row": 87,
+      "value": "⚠️전환",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 88,
+      "value": "18:30~19:30",
+      "bold": true,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 88,
+      "value": "🔴MAIN",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 88,
+      "value": "그랜드바",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 88,
+      "value": "★ 조수찬/신성 2부",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 88,
+      "value": "팀원A",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 88,
+      "value": "테크2명",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 88,
+      "value": "단체대여 직후 전환\n세팅 유지 확인",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 9,
+      "row": 88,
+      "value": "★핵심",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 89,
+      "value": "19:30~21:00",
+      "bold": true,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 89,
+      "value": "🟢FOUND",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 89,
+      "value": "그랜드바",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 89,
+      "value": "단체대여공간",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 89,
+      "value": "팀원B",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 89,
+      "value": "X",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 89,
+      "value": "2부 후 전환",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 90,
+      "value": "20:00~24:00",
+      "bold": true,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 90,
+      "value": "🟢FOUND",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 90,
+      "value": "큐피도",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 90,
+      "value": "대안공간",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 90,
+      "value": "팀원D",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 90,
+      "value": "X",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 91,
+      "value": "21:00~22:00",
+      "bold": true,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 91,
+      "value": "🔴MAIN",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 91,
+      "value": "그랜드바",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 91,
+      "value": "★ 선상노래자랑(결선)",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 91,
+      "value": "팀원B",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 91,
+      "value": "테크2명",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 91,
+      "value": "★결선: 풀세팅\n심사위원석·시상 준비",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 9,
+      "row": 91,
+      "value": "★핵심",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 92,
+      "value": "21:00~22:00",
+      "bold": true,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 92,
+      "value": "🟣UPD",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 92,
+      "value": "솔레",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 92,
+      "value": "★ 박재홍 재즈 2회",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 92,
+      "value": "팀원C",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 92,
+      "value": "테크1명",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 92,
+      "value": "★동시진행\n노래자랑과 동시",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 9,
+      "row": 92,
+      "value": "⚠️동시",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 94,
+      "value": "6/25(목) 하선일 — 영화상영 + 철수",
+      "bold": true,
+      "bg": "#0D1B2A",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 95,
+      "value": "시간",
+      "bold": true,
+      "bg": "#0D1B2A",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 3,
+      "row": 95,
+      "value": "카테고리",
+      "bold": true,
+      "bg": "#0D1B2A",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 4,
+      "row": 95,
+      "value": "장소",
+      "bold": true,
+      "bg": "#0D1B2A",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 5,
+      "row": 95,
+      "value": "프로그램",
+      "bold": true,
+      "bg": "#0D1B2A",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 6,
+      "row": 95,
+      "value": "담당",
+      "bold": true,
+      "bg": "#0D1B2A",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 7,
+      "row": 95,
+      "value": "테크니션",
+      "bold": true,
+      "bg": "#0D1B2A",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 8,
+      "row": 95,
+      "value": "세팅/주의사항",
+      "bold": true,
+      "bg": "#0D1B2A",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 9,
+      "row": 95,
+      "value": "★",
+      "bold": true,
+      "bg": "#0D1B2A",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 96,
+      "value": "10:00~11:30",
+      "bold": true,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 96,
+      "value": "영화",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 96,
+      "value": "지오베",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 96,
+      "value": "영화상영 1회차",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 96,
+      "value": "팀원B",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 96,
+      "value": "극장스태프",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 96,
+      "value": "저작권 확인 완료 필수\n노트북+프로젝터",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 97,
+      "value": "10:00~11:30",
+      "bold": true,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 97,
+      "value": "영화",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 97,
+      "value": "솔레",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 97,
+      "value": "영화상영 1회차",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 97,
+      "value": "팀원C",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 97,
+      "value": "테크1명",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 97,
+      "value": "동시 상영",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 98,
+      "value": "11:30~13:00",
+      "bold": true,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 98,
+      "value": "영화",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 98,
+      "value": "지오베",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 98,
+      "value": "영화상영 2회차",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 98,
+      "value": "팀원B",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 98,
+      "value": "극장스태프",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 9,
+      "row": 98,
+      "value": "⚠️연속",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 99,
+      "value": "11:30~13:00",
+      "bold": true,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 99,
+      "value": "영화",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 99,
+      "value": "솔레",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 99,
+      "value": "영화상영 2회차",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 99,
+      "value": "팀원C",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 99,
+      "value": "테크1명",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 99,
+      "value": "동시 상영",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 100,
+      "value": "13:00~",
+      "bold": true,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 100,
+      "value": "철수",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 100,
+      "value": "전 장소",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 100,
+      "value": "장비 철수 및 물품 정리",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 100,
+      "value": "전원",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 100,
+      "value": "X",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 100,
+      "value": "장비 반납 리스트 확인",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     }
+    ]
+   ]
+  },
+  {
+   "name": "업무 매뉴얼",
+   "rows": 30,
+   "cols": 8,
+   "data": [
+    [
+     {
+      "col": 2,
+      "row": 2,
+      "value": "프로그램·행사팀 — 업무 매뉴얼 (SOP)",
+      "bold": true,
+      "bg": "#8E44AD",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 3,
+      "value": "M-01. 공연 준비 → 리허설 → 본공연 SOP",
+      "bold": true,
+      "bg": "#D35400",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 4,
+      "value": "단계",
+      "bold": true,
+      "bg": "#D35400",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 3,
+      "row": 4,
+      "value": "프로세스",
+      "bold": true,
+      "bg": "#D35400",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 4,
+      "row": 4,
+      "value": "상세 내용",
+      "bold": true,
+      "bg": "#D35400",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 5,
+      "row": 4,
+      "value": "체크리스트",
+      "bold": true,
+      "bg": "#D35400",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 6,
+      "row": 4,
+      "value": "담당",
+      "bold": true,
+      "bg": "#D35400",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 7,
+      "row": 4,
+      "value": "시점",
+      "bold": true,
+      "bg": "#D35400",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 5,
+      "value": "1",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 5,
+      "value": "사전 준비\n(공연 2시간 전)",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 5,
+      "value": "- 코스타 테크니션 배치 확인 (GRM에 2시간 전 콜)\n- 무대 세팅 시작 (의자/테이블 배치도 기준)\n- 음향장비 전원 ON 및 기본 체크\n- 조명 프리셋 로드\n- 아티스트 대기실 세팅 (음료/간식/타올)\n- 마이크 무선 채널 배정 및 테스트",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 5,
+      "value": "□ 테크니션 도착 확인\n□ PA 시스템 전원 ON\n□ 마이크 채널 테스트\n□ 모니터 스피커 확인\n□ 조명 프리셋 확인\n□ 대기실 세팅 완료",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 5,
+      "value": "팀원A/B",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 5,
+      "value": "2시간 전",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 6,
+      "value": "2",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 6,
+      "value": "리허설\n(공연 1시간 전)",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 6,
+      "value": "- 아티스트 도착 확인 및 인사\n- 음향 사운드체크 (보컬 → 악기 순)\n- 모니터 밸런스 조정 (아티스트 요청 반영)\n- 조명 큐 확인 (오프닝/엔딩/특수)\n- 무대 동선 확인\n- MC 오프닝 멘트 확인\n- 비상 시 대체 음원(MR) 준비 확인",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 6,
+      "value": "□ 아티스트 도착\n□ 사운드체크 완료\n□ 모니터 OK (아티스트 확인)\n□ 조명 큐 리스트 확인\n□ MR 백업 준비\n□ 동선 최종 확인",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 6,
+      "value": "팀원A/B+팀장",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 6,
+      "value": "1시간 전",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 7,
+      "value": "3",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 7,
+      "value": "관객 입장 관리\n(공연 30분 전)",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 7,
+      "value": "- 관객 입장 안내 (알바+기항지팀 배치)\n- VIP석 확보 확인\n- 좌석 만석 시 스탠딩 구역 안내\n- 안전 통로 확보\n- 방송 안내 (안내·방송파트 연동)",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 7,
+      "value": "□ 입장 안내 인력 배치\n□ VIP석 확보\n□ 안전통로 확보\n□ 방송 송출 확인",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 7,
+      "value": "알바/기항지팀",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 7,
+      "value": "30분 전",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 8,
+      "value": "4",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 8,
+      "value": "본공연 진행",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 8,
+      "value": "- 오프닝 큐 (조명→음향→MC)\n- 공연 중 음향·조명 실시간 조정\n- 관객 통제 (촬영 안내, 안전)\n- 앵콜 대응 (아티스트 사전 협의)\n- 엔딩 큐 및 아티스트 퇴장",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 8,
+      "value": "□ 큐 시트 실시간 추적\n□ 음향 레벨 모니터링\n□ 긴급 상황 대기\n□ 촬영팀 위치 확인",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 8,
+      "value": "팀원A/B",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 8,
+      "value": "공연 중",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 9,
+      "value": "5",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 9,
+      "value": "공연 종료 후\n(30분 이내)",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 9,
+      "value": "- 아티스트 케어 (퇴장 동선, 감사 인사)\n- 장비 철거 또는 다음 프로그램 전환\n- 관객 퇴장 안내\n- 공연 보고 (관객 수, 이슈, 피드백)\n- HQ 카톡 보고",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 9,
+      "value": "□ 아티스트 안전 퇴장\n□ 장비 상태 확인\n□ 다음 프로그램 전환 시작\n□ 카톡 보고 완료",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 9,
+      "value": "팀원A/B",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 9,
+      "value": "30분 이내",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 11,
+      "value": "M-02. 장소 전환(Turn-around) SOP",
+      "bold": true,
+      "bg": "#2C3E50",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 12,
+      "value": "단계",
+      "bold": true,
+      "bg": "#2C3E50",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 3,
+      "row": 12,
+      "value": "프로세스",
+      "bold": true,
+      "bg": "#2C3E50",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 4,
+      "row": 12,
+      "value": "상세 내용",
+      "bold": true,
+      "bg": "#2C3E50",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 5,
+      "row": 12,
+      "value": "체크리스트",
+      "bold": true,
+      "bg": "#2C3E50",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 6,
+      "row": 12,
+      "value": "담당",
+      "bold": true,
+      "bg": "#2C3E50",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 7,
+      "row": 12,
+      "value": "시점",
+      "bold": true,
+      "bg": "#2C3E50",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 13,
+      "value": "1",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 13,
+      "value": "전환 시작\n(이전 프로그램 종료 즉시)",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 13,
+      "value": "- 이전 프로그램 장비 OFF 또는 재배치\n- 의자/테이블 배치 변경 (배치도 기준)\n- 무대 세팅 변경 (필요시)\n- 사이니지/POP 교체",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 13,
+      "value": "□ 이전 장비 정리\n□ 배치도 확인\n□ 교체 시작",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 13,
+      "value": "담당 팀원+알바",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 13,
+      "value": "즉시",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 13,
+      "value": "전환 목표: 15~30분",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 14,
+      "value": "2",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 14,
+      "value": "세팅 완료 확인",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 14,
+      "value": "- 음향·조명 프리셋 변경\n- 마이크 채널 변경 (필요시)\n- 좌석 수 확인\n- 안내 POP 배치",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 14,
+      "value": "□ 음향 OK\n□ 조명 OK\n□ 좌석 OK\n□ POP 배치",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 14,
+      "value": "담당 팀원",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 14,
+      "value": "전환 중",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 15,
+      "value": "3",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 15,
+      "value": "다음 프로그램 준비 완료 보고",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 15,
+      "value": "- 팀장에게 전환 완료 보고\n- 다음 담당자에게 인계",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 15,
+      "value": "□ 카톡 보고\n□ 인계 완료",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 15,
+      "value": "담당 팀원",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 15,
+      "value": "전환 종료",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 17,
+      "value": "M-03. 동시 진행 프로그램 관리 SOP",
+      "bold": true,
+      "bg": "#6C5CE7",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 18,
+      "value": "단계",
+      "bold": true,
+      "bg": "#6C5CE7",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 3,
+      "row": 18,
+      "value": "프로세스",
+      "bold": true,
+      "bg": "#6C5CE7",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 4,
+      "row": 18,
+      "value": "상세 내용",
+      "bold": true,
+      "bg": "#6C5CE7",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 5,
+      "row": 18,
+      "value": "체크리스트",
+      "bold": true,
+      "bg": "#6C5CE7",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 6,
+      "row": 18,
+      "value": "담당",
+      "bold": true,
+      "bg": "#6C5CE7",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 7,
+      "row": 18,
+      "value": "시점",
+      "bold": true,
+      "bg": "#6C5CE7",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 19,
+      "value": "1",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 19,
+      "value": "사전 계획",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 19,
+      "value": "- 동시 진행 건 확인 (일일 타임테이블)\n- 담당자 이중 배치 불가 시 → 팀장이 커버\n- 테크니션 동시 필요 시 GRM에 사전 요청\n- 알바 추가 배치 요청 (HQ)",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 19,
+      "value": "□ 동시진행 건 리스트업\n□ 담당 배정 확인\n□ 테크니션 수 확인\n□ 알바 추가 요청",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 19,
+      "value": "팀장",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 19,
+      "value": "전일 22:00",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 20,
+      "value": "2",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 20,
+      "value": "현장 관리",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 20,
+      "value": "- 팀장이 두 장소 간 순회 (무전기 상시 ON)\n- 각 장소 담당자가 자율 운영\n- 이슈 발생 시 무전기 즉시 보고\n- 테크니션 긴급 이동 요청 가능",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 20,
+      "value": "□ 무전기 상시 ON\n□ 순회 15분 간격\n□ 이슈 즉시 보고",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 20,
+      "value": "팀장",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 20,
+      "value": "현장",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 22,
+      "value": "M-04. 아티스트 승하선 특수 SOP",
+      "bold": true,
+      "bg": "#E74C3C",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 23,
+      "value": "단계",
+      "bold": true,
+      "bg": "#E74C3C",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 3,
+      "row": 23,
+      "value": "프로세스",
+      "bold": true,
+      "bg": "#E74C3C",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 4,
+      "row": 23,
+      "value": "상세 내용",
+      "bold": true,
+      "bg": "#E74C3C",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 5,
+      "row": 23,
+      "value": "체크리스트",
+      "bold": true,
+      "bg": "#E74C3C",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 6,
+      "row": 23,
+      "value": "담당",
+      "bold": true,
+      "bg": "#E74C3C",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 7,
+      "row": 23,
+      "value": "시점",
+      "bold": true,
+      "bg": "#E74C3C",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 24,
+      "value": "1",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 24,
+      "value": "김태우 하코다테 하선\n(6/21)",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 24,
+      "value": "- 6/20 공연 완료 후 짐 정리 안내\n- 6/21 오전 하선 서류 사전 준비\n- 13:00 하코다테 입항 → 스태프 1명 동행 하선\n- 하선 후 현지 이동 수배 확인\n- 하선 완료 HQ 보고",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 24,
+      "value": "□ 짐 정리 확인\n□ 하선 서류 준비\n□ 동행 스태프 배정\n□ 현지 이동 수배\n□ 하선 보고",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 24,
+      "value": "팀원A+총괄",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 24,
+      "value": "6/21 13:00",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 24,
+      "value": "코스타 중간하선 절차",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 25,
+      "value": "2",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 25,
+      "value": "조수찬/신성 오타루 승선\n(6/22)",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 25,
+      "value": "- 항공편 도착 확인 (전일 또는 당일)\n- 오타루 항구 이동 확인\n- 14:00 입항 → 코스타 체크인 대행\n- 캐빈 안내 및 짐 운반\n- 리허설 시간 안내 (6/22 저녁 or 6/23)",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 25,
+      "value": "□ 항공편 확인\n□ 항구 이동 확인\n□ 체크인 서류 준비\n□ 캐빈 배정 확인\n□ 리허설 시간 안내",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 25,
+      "value": "팀원A+총괄",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 25,
+      "value": "6/22 14:00",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 25,
+      "value": "코스타 중간승선 절차",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 27,
+      "value": "M-05. 영화상영 SOP (6/25)",
+      "bold": true,
+      "bg": "#0D1B2A",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 28,
+      "value": "단계",
+      "bold": true,
+      "bg": "#0D1B2A",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 3,
+      "row": 28,
+      "value": "프로세스",
+      "bold": true,
+      "bg": "#0D1B2A",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 4,
+      "row": 28,
+      "value": "상세 내용",
+      "bold": true,
+      "bg": "#0D1B2A",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 5,
+      "row": 28,
+      "value": "체크리스트",
+      "bold": true,
+      "bg": "#0D1B2A",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 6,
+      "row": 28,
+      "value": "담당",
+      "bold": true,
+      "bg": "#0D1B2A",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 7,
+      "row": 28,
+      "value": "시점",
+      "bold": true,
+      "bg": "#0D1B2A",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 29,
+      "value": "1",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 29,
+      "value": "사전 준비",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 29,
+      "value": "- 저작권 라이선스 확보 확인 (D-30)\n- 코스타 승인 완료 확인 (질의서 #43)\n- 영화 파일 테스트 (포맷/화질/음향)\n- 노트북 + HDMI/USB 준비\n- 자막 확인 (한국어/영어)",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 29,
+      "value": "□ 저작권 확인\n□ 코스타 승인\n□ 파일 테스트\n□ 장비 확인",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 29,
+      "value": "팀원B+C",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 29,
+      "value": "D-7까지",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 30,
+      "value": "2",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 30,
+      "value": "상영일 운영",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 30,
+      "value": "- 지오베 + 솔레 동시 상영\n- 1회차 10:00~11:30 / 2회차 11:30~13:00\n- 관객 안내 및 좌석 관리\n- 상영 중 음향 모니터링",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 30,
+      "value": "□ 장비 연결 테스트\n□ 상영 시작 확인\n□ 음향 레벨 확인\n□ 관객 안내",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 30,
+      "value": "팀원B(지오베)\n팀원C(솔레)",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 30,
+      "value": "6/25 당일",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ]
+   ]
+  },
+  {
+   "name": "시나리오 상황대응 10선",
+   "rows": 16,
+   "cols": 9,
+   "data": [
+    [
+     {
+      "col": 2,
+      "row": 2,
+      "value": "프로그램·행사팀 — 시나리오별 상황대응 매뉴얼 10선",
+      "bold": true,
+      "bg": "#E74C3C",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 4,
+      "value": "※ 프로그램·행사팀은 하루 최대 15건 이상의 프로그램을 8개 장소에서 동시 다발적으로 운영합니다.\n※ 음향·조명 장비 의존도가 높고, 아티스트·관객·선사 테크니션 3자간 조율이 핵심이므로 아래 시나리오에 대한 사전 대비가 필수적입니다.\n※ 대응 레벨: 🟢 현장 즉시 처리 / 🟡 팀장 판단 / 🔴 본부장 최종 결정",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": ""
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 6,
+      "value": "No",
+      "bold": true,
+      "bg": "#E74C3C",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 3,
+      "row": 6,
+      "value": "발생 시점",
+      "bold": true,
+      "bg": "#E74C3C",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 4,
+      "row": 6,
+      "value": "시나리오",
+      "bold": true,
+      "bg": "#E74C3C",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 5,
+      "row": 6,
+      "value": "상세 상황",
+      "bold": true,
+      "bg": "#E74C3C",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 6,
+      "row": 6,
+      "value": "대응 절차 (SOP)",
+      "bold": true,
+      "bg": "#E74C3C",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 7,
+      "row": 6,
+      "value": "레벨",
+      "bold": true,
+      "bg": "#E74C3C",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 8,
+      "row": 6,
+      "value": "1차 담당",
+      "bold": true,
+      "bg": "#E74C3C",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 9,
+      "row": 6,
+      "value": "에스컬레이션",
+      "bold": true,
+      "bg": "#E74C3C",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 7,
+      "value": "S-01",
+      "bold": true,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 7,
+      "value": "공연 중",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 7,
+      "value": "음향 시스템 장애\n(PA 시스템 다운)",
+      "bold": true,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 7,
+      "value": "메인 공연(김태우/조수찬 등) 도중\nPA 시스템이 갑자기 다운되어\n음향이 완전히 끊김",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 7,
+      "value": "① 즉시 MC가 관객에게 \"잠시 기술 점검\" 안내 (마이크 불가 시 육성)\n② 테크니션에게 즉시 원인 파악 요청 (10분 이내)\n③ 백업 음향 투입 시도 (이동식 PA or 노트북+외부스피커)\n④ 5분 내 복구 불가 시 → 공연 일시 중단, MC 관객 안내\n⑤ 아티스트에게 상황 설명 및 MR(반주) 전환 가능 여부 확인\n⑥ 15분 내 미복구 → 공연 30분 딜레이 또는 시간대 변경\n⑦ 완전 불가 → 대체 장소(솔레/지오베) 긴급 전환 검토\n⑧ HQ/본부장 즉시 보고",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 7,
+      "value": "🟡→🔴",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 7,
+      "value": "팀원A+테크",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 9,
+      "row": 7,
+      "value": "팀장→본부장",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 8,
+      "value": "S-02",
+      "bold": true,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 8,
+      "value": "공연 전",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 8,
+      "value": "아티스트 지각·불참\n(no-show)",
+      "bold": true,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 8,
+      "value": "리허설 시간에 아티스트가 나타나지 않음.\n캐빈에서 컨디션 불량으로\n공연 불참 의사 전달",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 8,
+      "value": "① 캐빈으로 즉시 확인 연락 (전화+방문)\n② 컨디션 불량 시 → 의무실 연계, 회복 가능 여부 판단\n③ 30분 딜레이 가능 여부 검토\n④ 불참 확정 시 → 대체 프로그램 즉시 편성:\n   a) 다른 아티스트 추가 공연 (사전 양해 얻어둔 경우)\n   b) 선상노래자랑 확대 or MC쇼 확대\n   c) 영화 상영 긴급 전환\n⑤ 관객 안내 방송 (안내파트 연동)\n⑥ 사이니지 프로그램 변경 업데이트",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 8,
+      "value": "🔴",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 8,
+      "value": "팀원A→팀장",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 9,
+      "row": 8,
+      "value": "본부장",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 9,
+      "value": "S-03",
+      "bold": true,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 9,
+      "value": "공연 중",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 9,
+      "value": "관객 과밀·안전사고",
+      "bold": true,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 9,
+      "value": "그랜드바(수용 300~400명) 공연에\n500명 이상 몰려 입구·통로 막힘.\n밀림 사고 또는 쓰러짐 발생",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 9,
+      "value": "① 즉시 입장 제한 (알바+기항지팀 입구 통제)\n② 스탠딩 구역 개방 및 안전 통로 확보\n③ 방송으로 다른 장소(솔레 등) 중계/동시 관람 안내\n④ 쓰러짐 발생 시 → 의무실(내선99) 즉시 연락\n⑤ 코스타 보안팀에 지원 요청\n⑥ 심각 시 공연 일시 중단 → 관객 분산 후 재개\n⑦ 사고 보고서 작성 (부상자 정보, 상황 기록)",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 9,
+      "value": "🟡→🔴",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 9,
+      "value": "알바/팀원",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 9,
+      "row": 9,
+      "value": "팀장→본부장",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 10,
+      "value": "S-04",
+      "bold": true,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 10,
+      "value": "전환 시",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 10,
+      "value": "장소 전환 시간 초과\n(Turn-around 지연)",
+      "bold": true,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 10,
+      "value": "이전 프로그램(단체대여) 종료가\n늦어져 다음 공연(조수찬 1부)\n세팅 시간 부족. 리허설 불가 위기",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 10,
+      "value": "① 이전 프로그램 담당자에게 정시 종료 강력 요청\n② 전환 인력 사전 대기 (알바 3~4명 세팅 준비)\n③ 음향·조명은 프리셋으로 즉시 전환 (사전 저장 필수)\n④ 리허설 축소 (사운드체크만 5분)\n⑤ 아티스트에게 상황 설명 및 양해\n⑥ 최악의 경우 공연 15분 딜레이\n⑦ 재발 방지: 전환 버퍼 타임 30분 확보 원칙",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 10,
+      "value": "🟡",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 10,
+      "value": "팀원A/B",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 9,
+      "row": 10,
+      "value": "팀장",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 11,
+      "value": "S-05",
+      "bold": true,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 11,
+      "value": "운영 중",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 11,
+      "value": "테크니션 미배치\n(코스타 인력 불참)",
+      "bold": true,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 11,
+      "value": "요청한 시간에 코스타 테크니션이\n나타나지 않아 음향·조명 운영 불가",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 11,
+      "value": "① GRM에 즉시 연락 → 테크니션 출동 요청\n② 대기 중 자체 음향 운영 시도 (프리셋 기반)\n③ 간단 프로그램(강연 등)은 자체 운영으로 전환\n④ 10분 내 미도착 → Cruise Director에게 에스컬레이션\n⑤ 공연의 경우 → 15분 딜레이 안내\n⑥ 재발 방지: 매일 아침 테크니션 배치표 GRM과 사전 확인",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 11,
+      "value": "🟡",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 11,
+      "value": "팀장",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 9,
+      "row": 11,
+      "value": "GRM→CD",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 12,
+      "value": "S-06",
+      "bold": true,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 12,
+      "value": "동시진행",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 12,
+      "value": "동시 공연 긴급 이슈\n(두 장소 동시 문제)",
+      "bold": true,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 12,
+      "value": "21:00 임병수(그랜드바) + 박재홍(솔레)\n동시 진행 중 양쪽 모두 이슈 발생\n(한쪽 음향 문제 + 한쪽 관객 과밀)",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 12,
+      "value": "① 팀장이 더 심각한 쪽 우선 대응 (우선순위 판단)\n② 나머지 장소는 해당 담당 팀원이 자율 대응\n③ 알바/기항지팀 추가 투입 요청 (HQ)\n④ 무전기로 양쪽 상황 실시간 교신\n⑤ 심각한 쪽 해결 후 나머지 쪽 순회\n⑥ 재발 방지: 동시 진행 시 장소당 최소 2명 배치 원칙",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 12,
+      "value": "🟡",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 12,
+      "value": "팀장+팀원C",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 9,
+      "row": 12,
+      "value": "HQ팀장",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 13,
+      "value": "S-07",
+      "bold": true,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 13,
+      "value": "기항일",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 13,
+      "value": "기항지 귀선 지연으로\n저녁 공연 준비 불가",
+      "bold": true,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 13,
+      "value": "하코다테/오타루 귀선이 지연되어\n저녁 공연(임병수/박재홍) 세팅 인력 부족.\n기항지팀 합류 불가 상태",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 13,
+      "value": "① 귀선 현황 기항지팀에 실시간 확인\n② 선내 잔류 인력(팀장+팀원C+알바)으로 최소 세팅 시작\n③ 세팅 간소화: 풀세팅 → 미니멀 세팅 전환\n④ 공연 시작 30분 딜레이 안내 (방송파트 연동)\n⑤ 귀선 완료 즉시 기항지팀 합류 → 잔여 세팅\n⑥ 최악의 경우 소규모 공연으로 축소 운영",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 13,
+      "value": "🟡",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 13,
+      "value": "팀장",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 9,
+      "row": 13,
+      "value": "HQ팀장",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 14,
+      "value": "S-08",
+      "bold": true,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 14,
+      "value": "행사 중",
+      "bold": false,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 14,
+      "value": "선상노래자랑 진행 장애\n(참가자 문제)",
+      "bold": true,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 14,
+      "value": "노래자랑 결선(6/24) 시 참가자 미출석,\n음향 피드백 지속 발생,\n심사 결과 이의제기 등 복합 문제",
+      "bold": false,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 14,
+      "value": "① 참가자 미출석 → 예비 참가자 즉시 투입 (사전 대기 필수)\n② 음향 피드백 → 테크니션 즉시 조정, 마이크 교체\n③ MC가 자연스럽게 진행 연결 (대화/관객 참여)\n④ 심사 이의 → MC가 유머로 전환, 공정성 재확인 안내\n⑤ 시상품 문제 → 대체 상품 준비 (사전 예비 확보)\n⑥ 시간 초과 → 엔딩 축소 (마지막 곡+시상으로 정리)",
+      "bold": false,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 14,
+      "value": "🟢→🟡",
+      "bold": false,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 14,
+      "value": "팀원B",
+      "bold": false,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 9,
+      "row": 14,
+      "value": "팀장",
+      "bold": false,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 15,
+      "value": "S-09",
+      "bold": true,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 15,
+      "value": "환경재단",
+      "bold": false,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 15,
+      "value": "다중 강연 장소 전환 혼선",
+      "bold": true,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 15,
+      "value": "6/20·24 같은 날 6개 이상 강연이\n여러 장소에서 동시·연속 진행되면서\n강연자·관객·장비 혼선 발생",
+      "bold": false,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 15,
+      "value": "① 일일 강연 배치표를 전 장소 입구에 게시\n② 강연자에게 전일 22:00 최종 시간·장소 안내 (카톡)\n③ 장소별 안내 POP 배치 (알바 1명씩 입구 배치)\n④ 연속 강연 시 전환 시간 최소 10분 확보\n⑤ 혼선 발생 시 → 팀원D가 현장 조정, 관객 안내\n⑥ 재단 8명과 역할 분담: 재단측이 강연자 관리, 팀원D가 인프라 관리",
+      "bold": false,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 15,
+      "value": "🟢",
+      "bold": false,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 15,
+      "value": "팀원D",
+      "bold": false,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 9,
+      "row": 15,
+      "value": "팀장",
+      "bold": false,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 16,
+      "value": "S-10",
+      "bold": true,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 16,
+      "value": "날씨/선박",
+      "bold": false,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 16,
+      "value": "야외 행사 취소\n(리도/갑판 프로그램)",
+      "bold": true,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 16,
+      "value": "리도(야외)에서 예정된 네트워킹/대안공간이\n우천 또는 강풍으로 진행 불가",
+      "bold": false,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 16,
+      "value": "① 날씨 확인 (출항 후 매일 오전 기상 체크)\n② 우천 시 → 대체 장소 즉시 확보 (판디스코/큐피도)\n③ 해당 시간대 빈 장소 확인 (타임테이블 대조)\n④ 방송으로 장소 변경 안내\n⑤ 사이니지 긴급 업데이트\n⑥ 야외 장비 철수 (비 피해 방지)\n⑦ 재발 방지: 야외 행사는 항상 실내 대체 장소 사전 지정",
+      "bold": false,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 16,
+      "value": "🟢",
+      "bold": false,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 16,
+      "value": "팀원D→팀장",
+      "bold": false,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 9,
+      "row": 16,
+      "value": "HQ(방송)",
+      "bold": false,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     }
+    ]
+   ]
+  }
+ ]
+}

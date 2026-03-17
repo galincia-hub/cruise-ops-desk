@@ -1,0 +1,7038 @@
+{
+ "key": "sup",
+ "label": "지원·데이터팀",
+ "sheets": [
+  {
+   "name": "업무분장 및 조직",
+   "rows": 48,
+   "cols": 9,
+   "data": [
+    [
+     {
+      "col": 2,
+      "row": 2,
+      "value": "지원·데이터팀 — 업무분장 및 조직 체계",
+      "bold": true,
+      "bg": "#00695C",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 4,
+      "value": "지원·데이터팀은 전세선 운영의 \"인프라 백본\"으로서, IT·총무·홍보 기능을 통합 수행합니다.\n모든 팀이 원활하게 소통하고, 기록하고, 보고할 수 있는 환경을 구축·유지하며,\n현장에서 발생하는 하드웨어·소프트웨어·물류·미디어 관련 이슈에 즉시 대응할 수 있는 전문성을 갖춘 팀입니다.",
+      "bold": true,
+      "bg": "#E8F8F5",
+      "fc": ""
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 6,
+      "value": "▣ 지원·데이터팀 3대 파트 및 담당 영역",
+      "bold": true,
+      "bg": "#00695C",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 7,
+      "value": "파트",
+      "bold": true,
+      "bg": "#00695C",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 3,
+      "row": 7,
+      "value": "코드",
+      "bold": true,
+      "bg": "#00695C",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 4,
+      "row": 7,
+      "value": "핵심 기능",
+      "bold": true,
+      "bg": "#00695C",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 5,
+      "row": 7,
+      "value": "세부 업무 범위",
+      "bold": true,
+      "bg": "#00695C",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 6,
+      "row": 7,
+      "value": "필요 역량",
+      "bold": true,
+      "bg": "#00695C",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 7,
+      "row": 7,
+      "value": "장비/도구",
+      "bold": true,
+      "bg": "#00695C",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 8,
+      "row": 7,
+      "value": "운영 시간대",
+      "bold": true,
+      "bg": "#00695C",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 8,
+      "value": "IT·커뮤니케이션\n파트",
+      "bold": true,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 8,
+      "value": "🔵 IT",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 8,
+      "value": "통신 인프라 구축·유지\n디지털 협업 시스템 운영\n하드웨어 관리·장애대응",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 8,
+      "value": "▶ 통신 인프라\n- 무전기 100대 배부·채널관리·충전·장애대응\n- CISCO 내선전화기 5대 운영 (HQ1+리셉션1+휴대3)\n- Wi-Fi 30개 계정 배분·접속관리·장애대응\n\n▶ 디지털 협업 시스템\n- 카카오톡 단체방 운영 (전체+팀별+긴급)\n- 구글시트 실시간 보고체계 구축·유지\n- Teams / Office 365 문서 협업 환경 관리\n- 일일상황보고서 자동생성 시스템 운영\n\n▶ 하드웨어\n- 노트북 5대 관리 (HQ+각팀장)\n- 프린터 운영 (토너/용지 관리)\n- 사이니지 USB 관리·콘텐츠 교체\n- 전원/충전 인프라 (멀티탭, 보조배터리)",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 8,
+      "value": "- IT 하드웨어 트러블슈팅\n- 네트워크 기본 지식\n- Office365/구글 협업도구 숙련\n- 무전기 채널 설정 가능\n- 프린터 드라이버/잼 처리",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 8,
+      "value": "무전기 100대+충전기\nCISCO 전화기 5대\n노트북 5대\n프린터 1대\n멀티탭/보조배터리\nUSB (사이니지용)",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 8,
+      "value": "07:00~23:00\n(장애시 24h)",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 9,
+      "value": "총무·물류\n파트",
+      "bold": true,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 9,
+      "value": "🟠 총무",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 9,
+      "value": "물품·비품 관리\n문서·명단 통합관리\n비용 정산·회계",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 9,
+      "value": "▶ 물품·비품 관리\n- 인쇄물(프로그램표, 안내도, 메뉴판 등) 재고·배포\n- POP, 현수막, 배너 설치·관리·철거\n- 기념품 재고관리·배포\n- 사무용품(A4, 펜, 테이프, 가위, 바인더 등)\n- 목걸이(ID카드), 파우치 배부·회수\n- 구매 물품 전체 자산 대장 관리\n\n▶ 문서·명단\n- 코스타폼, 조별명단, 투어명단, VIP명단 통합관리\n- 구글시트 기반 명단 최신화\n- 캐빈 배정표 관리\n- 입출국 서류 지원\n\n▶ 비용·정산\n- 행사비용 집행 기록\n- 캐빈변경·과일바구니·유료서비스 비용 관리\n- 영수증/인보이스 보관\n- 하선 후 정산 자료 준비",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 9,
+      "value": "- 물류·재고 관리 경험\n- 엑셀/구글시트 숙련\n- 회계 기본 지식\n- 꼼꼼한 문서 관리",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 9,
+      "value": "물품 대장 (구글시트)\n인쇄물 재고함\n사무용품 보관함\n정산 바인더\n바코드/라벨 프린터",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 9,
+      "value": "07:00~22:00\n(물품 이동시 조기)",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 10,
+      "value": "홍보·미디어\n파트",
+      "bold": true,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 10,
+      "value": "🔴 PR",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 10,
+      "value": "보도자료·촬영\n콘텐츠 생성\n기자단·대외협력",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 10,
+      "value": "▶ 보도자료·미디어\n- 출항식/주요행사 보도자료 작성·배포\n- 사진·영상 촬영 (전 일정)\n- SNS용 콘텐츠 생성 (릴스/숏폼/스틸컷)\n- 촬영 허가서 관리 (코스타 승인)\n- 드론 촬영 운영 (허가 취득 후)\n\n▶ 기자단·대외협력\n- 동행 기자단 관리 (일정·객실·취재지원)\n- 기자간담회/인터뷰 주선\n- VIP 포토타임 조율\n- 협찬사(관광청·시몬스) 미디어 지원\n\n▶ 콘텐츠 아카이빙\n- 일자별 사진/영상 정리·백업\n- 하선 후 최종 미디어 패키지 제작\n- 차기 마케팅용 소스 확보",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 10,
+      "value": "- 보도자료 작성 경험\n- 사진/영상 촬영 능력\n- SNS 콘텐츠 제작\n- 대외 커뮤니케이션\n- 드론 촬영 자격증(있으면)",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 10,
+      "value": "카메라 (DSLR/미러리스)\n드론 (허가 시)\n노트북 (영상편집용)\n보조 조명\n삼각대/짐벌\n외장하드 (백업용)",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 10,
+      "value": "종일\n(주요행사 중심)",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 12,
+      "value": "▣ 팀 인력 구성 (팀장 1명 + 팀원 1명 + 홍보 1명 + 알바 1~2명)",
+      "bold": true,
+      "bg": "#00695C",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 13,
+      "value": "직위",
+      "bold": true,
+      "bg": "#00695C",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 3,
+      "row": 13,
+      "value": "담당자",
+      "bold": true,
+      "bg": "#00695C",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 4,
+      "row": 13,
+      "value": "담당 파트",
+      "bold": true,
+      "bg": "#00695C",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 5,
+      "row": 13,
+      "value": "핵심 책임",
+      "bold": true,
+      "bg": "#00695C",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 6,
+      "row": 13,
+      "value": "세부 업무",
+      "bold": true,
+      "bg": "#00695C",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 7,
+      "row": 13,
+      "value": "상주 위치",
+      "bold": true,
+      "bg": "#00695C",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 8,
+      "row": 13,
+      "value": "운영 시간대",
+      "bold": true,
+      "bg": "#00695C",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 14,
+      "value": "팀장\n(지원·데이터 총괄)",
+      "bold": true,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 14,
+      "value": "TBD",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 14,
+      "value": "전체 총괄\n(IT+총무 겸임)",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 14,
+      "value": "IT 인프라 + 총무 + \n보고체계 통합 관리",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 14,
+      "value": "- 전체 통신 인프라 최종 책임\n- 무전기 채널 관리 및 장애 대응\n- 구글시트/카카오톡 보고체계 설계·유지\n- Teams/Office365 협업 환경 관리\n- 일일상황보고서 자동생성 관리\n- 물품 대장 최종 관리\n- 비용 집행 승인 및 정산 총괄\n- Wi-Fi 계정 관리\n- 노트북/프린터/전화기 장애 1차 대응\n- HQ팀장/본부장 보고",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 14,
+      "value": "Mercurio Room\n(4층 HQ)",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 14,
+      "value": "07:00~23:00\n(장애시 24h)",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 9,
+      "row": 14,
+      "value": "IT+총무 겸임",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 15,
+      "value": "팀원\n(총무·물류 전담)",
+      "bold": true,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 15,
+      "value": "TBD",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 15,
+      "value": "🟠 총무·물류",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 15,
+      "value": "물품·비품·문서·\n명단·정산 전담",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 15,
+      "value": "- 인쇄물 재고관리 및 배포 (일일 프로그램표 등)\n- POP/현수막/배너 설치·관리·철거\n- 기념품 배포 관리\n- 사무용품 보충 (A4, 토너 등)\n- 코스타폼/명단/캐빈배정표 관리\n- 캐빈변경·과일바구니 등 비용 처리\n- 영수증/인보이스 보관 및 정산 준비\n- 물품 선적/하역 실무",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 15,
+      "value": "Mercurio Room\n+ 각 배포 지점",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 15,
+      "value": "07:00~22:00",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 16,
+      "value": "최구철 매니저\n(홍보·미디어 전담)",
+      "bold": true,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 16,
+      "value": "최구철 매니저",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 16,
+      "value": "🔴 PR\n홍보·미디어",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 16,
+      "value": "보도자료·촬영·\n콘텐츠·기자단·\n대외협력 전담",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 16,
+      "value": "- 출항식/주요행사 보도자료 작성·배포\n- 전 일정 사진·영상 촬영\n- SNS 콘텐츠 생성 (실시간 업로드)\n- 드론 촬영 운영 (허가 범위 내)\n- 동행 기자단 관리 (일정·객실·취재지원)\n- 기자간담회/인터뷰 주선\n- VIP 포토타임 조율\n- 협찬사 미디어 지원 (관광청·시몬스)\n- 일자별 사진/영상 아카이빙\n- 촬영 허가서 관리 (코스타 승인)",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 16,
+      "value": "이동형\n(주요행사 현장)",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 16,
+      "value": "종일\n(주요행사 중심)",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 17,
+      "value": "알바 1~2명",
+      "bold": true,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 17,
+      "value": "TBD",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 17,
+      "value": "총무·물류 보조",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 17,
+      "value": "물품 운반·배포\n인쇄물 배포",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 17,
+      "value": "- 일일 프로그램표 각 층 배포\n- 물품 운반 보조\n- 프린터 용지/토너 교체\n- 무전기 충전 보조\n- 기념품 배포 보조",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 17,
+      "value": "Mercurio Room\n+ 각 층",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 17,
+      "value": "스케줄별",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 9,
+      "row": 17,
+      "value": "HQ 배치표 따름",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 19,
+      "value": "▣ 관리 자산 총괄 목록 (하드웨어 + 소프트웨어 + 소모품)",
+      "bold": true,
+      "bg": "#2C3E50",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 20,
+      "value": "분류",
+      "bold": true,
+      "bg": "#2C3E50",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 3,
+      "row": 20,
+      "value": "품목",
+      "bold": true,
+      "bg": "#2C3E50",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 4,
+      "row": 20,
+      "value": "수량",
+      "bold": true,
+      "bg": "#2C3E50",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 5,
+      "row": 20,
+      "value": "배분 계획",
+      "bold": true,
+      "bg": "#2C3E50",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 6,
+      "row": 20,
+      "value": "관리 책임",
+      "bold": true,
+      "bg": "#2C3E50",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 7,
+      "row": 20,
+      "value": "조달 마감",
+      "bold": true,
+      "bg": "#2C3E50",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 8,
+      "row": 20,
+      "value": "장애시 대응",
+      "bold": true,
+      "bg": "#2C3E50",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 21,
+      "value": "통신장비",
+      "bold": true,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 21,
+      "value": "무전기",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 21,
+      "value": "100대",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 21,
+      "value": "본부2+HQ5+기항지10+프로그램5+지원2+가이드70+알바6",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 21,
+      "value": "팀장",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 21,
+      "value": "D-14",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 21,
+      "value": "예비 10대 확보\n채널 리셋 매뉴얼",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 22,
+      "value": "통신장비",
+      "bold": true,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 22,
+      "value": "무전기 충전기/배터리",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 22,
+      "value": "100세트+예비20",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 22,
+      "value": "Mercurio Room 충전 스테이션\n(매일 22:00 회수→07:00 배부)",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 22,
+      "value": "팀원",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 22,
+      "value": "D-14",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 22,
+      "value": "교체 배터리 30개",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 23,
+      "value": "통신장비",
+      "bold": true,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 23,
+      "value": "CISCO 내선전화기",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 23,
+      "value": "5대",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 23,
+      "value": "HQ(Mercurio)1+리셉션(3층)1+휴대용3",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 23,
+      "value": "팀장",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 23,
+      "value": "승선일",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 23,
+      "value": "코스타 제공\n고장시 교체 요청",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 24,
+      "value": "IT장비",
+      "bold": true,
+      "bg": "#E0F7FA",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 24,
+      "value": "노트북",
+      "bold": false,
+      "bg": "#E0F7FA",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 24,
+      "value": "5대",
+      "bold": false,
+      "bg": "#E0F7FA",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 24,
+      "value": "HQ1+팀장4(각팀)",
+      "bold": false,
+      "bg": "#E0F7FA",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 24,
+      "value": "팀장",
+      "bold": false,
+      "bg": "#E0F7FA",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 24,
+      "value": "D-7",
+      "bold": false,
+      "bg": "#E0F7FA",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 24,
+      "value": "예비 1대\nOffice365 사전설치",
+      "bold": false,
+      "bg": "#E0F7FA",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 25,
+      "value": "IT장비",
+      "bold": true,
+      "bg": "#E0F7FA",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 25,
+      "value": "프린터 (복합기)",
+      "bold": false,
+      "bg": "#E0F7FA",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 25,
+      "value": "1대",
+      "bold": false,
+      "bg": "#E0F7FA",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 25,
+      "value": "Mercurio Room 상주",
+      "bold": false,
+      "bg": "#E0F7FA",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 25,
+      "value": "팀장",
+      "bold": false,
+      "bg": "#E0F7FA",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 25,
+      "value": "D-7",
+      "bold": false,
+      "bg": "#E0F7FA",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 25,
+      "value": "토너3세트+용지10박스\n잼 처리 매뉴얼",
+      "bold": false,
+      "bg": "#E0F7FA",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 26,
+      "value": "IT장비",
+      "bold": true,
+      "bg": "#E0F7FA",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 26,
+      "value": "USB 메모리",
+      "bold": false,
+      "bg": "#E0F7FA",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 26,
+      "value": "10개",
+      "bold": false,
+      "bg": "#E0F7FA",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 26,
+      "value": "사이니지용5+백업용3+예비2",
+      "bold": false,
+      "bg": "#E0F7FA",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 26,
+      "value": "팀장",
+      "bold": false,
+      "bg": "#E0F7FA",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 26,
+      "value": "D-7",
+      "bold": false,
+      "bg": "#E0F7FA",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 26,
+      "value": "콘텐츠 사전 복제",
+      "bold": false,
+      "bg": "#E0F7FA",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 27,
+      "value": "IT장비",
+      "bold": true,
+      "bg": "#E0F7FA",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 27,
+      "value": "멀티탭/연장선",
+      "bold": false,
+      "bg": "#E0F7FA",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 27,
+      "value": "10개",
+      "bold": false,
+      "bg": "#E0F7FA",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 27,
+      "value": "HQ3+각행사장5+예비2",
+      "bold": false,
+      "bg": "#E0F7FA",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 27,
+      "value": "팀원",
+      "bold": false,
+      "bg": "#E0F7FA",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 27,
+      "value": "D-7",
+      "bold": false,
+      "bg": "#E0F7FA",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 27,
+      "value": "선박 콘센트 어댑터 확인",
+      "bold": false,
+      "bg": "#E0F7FA",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 28,
+      "value": "IT장비",
+      "bold": true,
+      "bg": "#E0F7FA",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 28,
+      "value": "보조배터리",
+      "bold": false,
+      "bg": "#E0F7FA",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 28,
+      "value": "20개",
+      "bold": false,
+      "bg": "#E0F7FA",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 28,
+      "value": "스태프용(무전기충전대용)",
+      "bold": false,
+      "bg": "#E0F7FA",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 28,
+      "value": "팀원",
+      "bold": false,
+      "bg": "#E0F7FA",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 28,
+      "value": "D-7",
+      "bold": false,
+      "bg": "#E0F7FA",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 28,
+      "value": "대용량 20,000mAh",
+      "bold": false,
+      "bg": "#E0F7FA",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 29,
+      "value": "촬영장비",
+      "bold": true,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 29,
+      "value": "카메라 (DSLR/미러리스)",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 29,
+      "value": "2대",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 29,
+      "value": "최구철 매니저 전담",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 29,
+      "value": "최구철",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 29,
+      "value": "D-7",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 29,
+      "value": "SD카드 예비 5장",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 30,
+      "value": "촬영장비",
+      "bold": true,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 30,
+      "value": "드론",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 30,
+      "value": "1대",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 30,
+      "value": "최구철 매니저 (허가 범위 내)",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 30,
+      "value": "최구철",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 30,
+      "value": "D-7",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 30,
+      "value": "코스타+항만 허가 필수",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 31,
+      "value": "촬영장비",
+      "bold": true,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 31,
+      "value": "삼각대/짐벌/보조조명",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 31,
+      "value": "각 1세트",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 31,
+      "value": "최구철 매니저 전담",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 31,
+      "value": "최구철",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 31,
+      "value": "D-7",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 32,
+      "value": "촬영장비",
+      "bold": true,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 32,
+      "value": "외장하드",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 32,
+      "value": "2TB×2개",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 32,
+      "value": "일일 백업용 + 최종본용",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 32,
+      "value": "최구철",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 32,
+      "value": "D-7",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 32,
+      "value": "클라우드 이중 백업",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 33,
+      "value": "인쇄물",
+      "bold": true,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 33,
+      "value": "일일 프로그램표",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 33,
+      "value": "일3,000부×6일",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 33,
+      "value": "매일 오전 각 층 배포",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 33,
+      "value": "팀원",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 33,
+      "value": "D-14",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 33,
+      "value": "선내 프린터 긴급인쇄 가능",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 34,
+      "value": "인쇄물",
+      "bold": true,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 34,
+      "value": "층별 안내도(Deck Plan)",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 34,
+      "value": "3,000부",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 34,
+      "value": "승선일 배포+각 층 게시",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 34,
+      "value": "팀원",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 34,
+      "value": "D-30",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 35,
+      "value": "인쇄물",
+      "bold": true,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 35,
+      "value": "테이블 카드(정찬)",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 35,
+      "value": "500세트",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 35,
+      "value": "승선일 세팅",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 35,
+      "value": "팀원",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 35,
+      "value": "D-21",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 36,
+      "value": "인쇄물",
+      "bold": true,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 36,
+      "value": "기항지 안내 책자",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 36,
+      "value": "3,000부",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 36,
+      "value": "기항 전일 배포",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 36,
+      "value": "팀원",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 36,
+      "value": "D-30",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 37,
+      "value": "인쇄물",
+      "bold": true,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 37,
+      "value": "POP/현수막/배너",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 37,
+      "value": "50종+10점",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 37,
+      "value": "행사장/안내포인트 설치",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 37,
+      "value": "팀원",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 37,
+      "value": "D-21",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 38,
+      "value": "소모품",
+      "bold": true,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 38,
+      "value": "A4용지",
+      "bold": false,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 38,
+      "value": "10박스(5,000매)",
+      "bold": false,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 38,
+      "value": "프린터용+현장배포용",
+      "bold": false,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 38,
+      "value": "팀원",
+      "bold": false,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 38,
+      "value": "D-7",
+      "bold": false,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 39,
+      "value": "소모품",
+      "bold": true,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 39,
+      "value": "문구류(펜/테이프/가위 등)",
+      "bold": false,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 39,
+      "value": "일괄",
+      "bold": false,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 39,
+      "value": "Mercurio Room+각 데스크",
+      "bold": false,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 39,
+      "value": "팀원",
+      "bold": false,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 39,
+      "value": "D-7",
+      "bold": false,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 40,
+      "value": "소모품",
+      "bold": true,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 40,
+      "value": "바인더/클립보드",
+      "bold": false,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 40,
+      "value": "20개",
+      "bold": false,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 40,
+      "value": "각 팀+가이드용",
+      "bold": false,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 40,
+      "value": "팀원",
+      "bold": false,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 40,
+      "value": "D-7",
+      "bold": false,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 41,
+      "value": "기념품",
+      "bold": true,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 41,
+      "value": "승객용 기념품",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 41,
+      "value": "3,000개",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 41,
+      "value": "일정에 따라 배포",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 41,
+      "value": "팀원",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 41,
+      "value": "D-21",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 42,
+      "value": "VIP용품",
+      "bold": true,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 42,
+      "value": "VIP 웰컴키트",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 42,
+      "value": "50세트",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 42,
+      "value": "승선일 객실 배치",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 42,
+      "value": "팀원",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 42,
+      "value": "D-7",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 42,
+      "value": "본부장 최종 확인",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 43,
+      "value": "스태프용",
+      "bold": true,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 43,
+      "value": "목걸이(ID카드)",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 43,
+      "value": "154개(여분20)",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 43,
+      "value": "승선 전 배부",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 43,
+      "value": "팀원",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 43,
+      "value": "D-30",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 43,
+      "value": "VIP용 별도 디자인",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 44,
+      "value": "스태프용",
+      "bold": true,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 44,
+      "value": "파우치",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 44,
+      "value": "50개+VIP50개",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 44,
+      "value": "승선 전 배부",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 44,
+      "value": "팀원",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 44,
+      "value": "D-30",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 45,
+      "value": "소프트웨어",
+      "bold": true,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 45,
+      "value": "Wi-Fi 계정",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 45,
+      "value": "30개",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 45,
+      "value": "스태프20+통역사10 배분",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 45,
+      "value": "팀장",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 45,
+      "value": "승선일",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 45,
+      "value": "접속 불량시 코스타 IT 연락",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 46,
+      "value": "소프트웨어",
+      "bold": true,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 46,
+      "value": "카카오톡 단체방",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 46,
+      "value": "5개방",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 46,
+      "value": "전체1+팀별4",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 46,
+      "value": "팀장",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 46,
+      "value": "D-7",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 46,
+      "value": "방장 권한 관리",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 47,
+      "value": "소프트웨어",
+      "bold": true,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 47,
+      "value": "구글시트 보고체계",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 47,
+      "value": "10시트",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 47,
+      "value": "VOC/일일보고/명단/비용 등",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 47,
+      "value": "팀장",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 47,
+      "value": "D-14",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 47,
+      "value": "오프라인 캐시 설정",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 48,
+      "value": "소프트웨어",
+      "bold": true,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 48,
+      "value": "Teams/Office365",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 48,
+      "value": "10계정",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 48,
+      "value": "팀장급+지원팀",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 48,
+      "value": "팀장",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 48,
+      "value": "D-7",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     }
+    ]
+   ]
+  },
+  {
+   "name": "일자별 타임스케줄",
+   "rows": 68,
+   "cols": 9,
+   "data": [
+    [
+     {
+      "col": 2,
+      "row": 2,
+      "value": "지원·데이터팀 — 일자별 타임스케줄",
+      "bold": true,
+      "bg": "#1ABC9C",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 3,
+      "value": "사전 준비 (D-90 ~ D-1)",
+      "bold": true,
+      "bg": "#2C3E50",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 4,
+      "value": "시간",
+      "bold": true,
+      "bg": "#2C3E50",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 3,
+      "row": 4,
+      "value": "파트",
+      "bold": true,
+      "bg": "#2C3E50",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 4,
+      "row": 4,
+      "value": "업무",
+      "bold": true,
+      "bg": "#2C3E50",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 5,
+      "row": 4,
+      "value": "세부 내용",
+      "bold": true,
+      "bg": "#2C3E50",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 6,
+      "row": 4,
+      "value": "담당",
+      "bold": true,
+      "bg": "#2C3E50",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 7,
+      "row": 4,
+      "value": "시기",
+      "bold": true,
+      "bg": "#2C3E50",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 8,
+      "row": 4,
+      "value": "비고",
+      "bold": true,
+      "bg": "#2C3E50",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 5,
+      "value": "D-90~60",
+      "bold": true,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 5,
+      "value": "IT",
+      "bold": true,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 5,
+      "value": "통신 인프라 기획",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 5,
+      "value": "- 무전기 100대 조달 및 채널 플랜 수립\n- CISCO 전화기 5대 요청 확인 (코스타)\n- Wi-Fi 30개 계정 협의\n- 카카오톡/구글시트/Teams 체계 설계",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 5,
+      "value": "팀장",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 6,
+      "value": "D-90~60",
+      "bold": true,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 6,
+      "value": "총무",
+      "bold": true,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 6,
+      "value": "물품 리스트업 및 발주",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 6,
+      "value": "- 전체 인쇄물 디자인·발주\n- POP/현수막/배너 제작 발주\n- 기념품/목걸이/파우치 발주\n- 사무용품 리스트업",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 6,
+      "value": "팀원",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 6,
+      "value": "발주마감 D-30",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 7,
+      "value": "D-90~60",
+      "bold": true,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 7,
+      "value": "PR",
+      "bold": true,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 7,
+      "value": "촬영 허가 취득",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 7,
+      "value": "- 코스타 촬영 허가서 신청 (질의서#45)\n- 드론 촬영 허가 신청 (질의서#44)\n- 촬영 제한 구역 확인",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 7,
+      "value": "최구철",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 7,
+      "value": "코스타+항만",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 8,
+      "value": "D-30~14",
+      "bold": true,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 8,
+      "value": "IT",
+      "bold": true,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 8,
+      "value": "시스템 구축·테스트",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 8,
+      "value": "- 구글시트 보고 템플릿 완성\n- 일일보고서 자동생성 시스템 테스트\n- VOC 수집 양식 설계\n- 오프라인 캐시 설정 (선내 Wi-Fi 불안정 대비)",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 8,
+      "value": "팀장",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 9,
+      "value": "D-30~14",
+      "bold": true,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 9,
+      "value": "총무",
+      "bold": true,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 9,
+      "value": "물품 입고·검수",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 9,
+      "value": "- 발주 물품 입고 확인\n- 인쇄물 교정·검수\n- 물품 대장 최초 작성\n- 무전기 전수 테스트",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 9,
+      "value": "팀원",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 10,
+      "value": "D-30~14",
+      "bold": true,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 10,
+      "value": "PR",
+      "bold": true,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 10,
+      "value": "콘텐츠 사전 제작",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 10,
+      "value": "- 사이니지 콘텐츠 제작 완료\n- 9층 LED Wall 영상 최종본\n- 보도자료 초안 (출항식 등)\n- 기자단 명단 확정·안내",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 10,
+      "value": "최구철",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 11,
+      "value": "D-7~1",
+      "bold": true,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 11,
+      "value": "전체",
+      "bold": true,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 11,
+      "value": "물품 패킹·선적",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 11,
+      "value": "- 전체 물품 리스트 대조 점검\n- Mercurio Room용/창고객실용 구분 패킹\n- 트럭 2톤 물류 최종 확인\n- 부산 베이스캠프 세팅",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 11,
+      "value": "전원",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 13,
+      "value": "6/19(목) 승선일 — 인프라 세팅 집중일",
+      "bold": true,
+      "bg": "#E67E22",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 14,
+      "value": "시간",
+      "bold": true,
+      "bg": "#E67E22",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 3,
+      "row": 14,
+      "value": "파트",
+      "bold": true,
+      "bg": "#E67E22",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 4,
+      "row": 14,
+      "value": "업무",
+      "bold": true,
+      "bg": "#E67E22",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 5,
+      "row": 14,
+      "value": "세부 내용",
+      "bold": true,
+      "bg": "#E67E22",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 6,
+      "row": 14,
+      "value": "담당",
+      "bold": true,
+      "bg": "#E67E22",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 7,
+      "row": 14,
+      "value": "시기",
+      "bold": true,
+      "bg": "#E67E22",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 8,
+      "row": 14,
+      "value": "비고",
+      "bold": true,
+      "bg": "#E67E22",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 15,
+      "value": "07:00~12:00",
+      "bold": true,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 15,
+      "value": "IT",
+      "bold": true,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 15,
+      "value": "HQ 인프라 세팅 (얼리보딩)",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 15,
+      "value": "- Mercurio Room IT 인프라 세팅\n  · 노트북 5대 세팅+인터넷 연결\n  · 프린터 설치+테스트 인쇄\n  · CISCO 전화기 설치+내선 테스트\n  · 멀티탭/충전 스테이션 설치\n- Wi-Fi 계정 배분 및 접속 테스트\n- 카카오톡 단체방 최종 점검",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 15,
+      "value": "팀장",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 15,
+      "value": "얼리보딩",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 15,
+      "value": "★최우선",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 16,
+      "value": "07:00~12:00",
+      "bold": true,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 16,
+      "value": "총무",
+      "bold": true,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 16,
+      "value": "물품 반입 및 배치",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 16,
+      "value": "- 트럭 하역 → 선내 운반 (코스타 크루 지원)\n- Mercurio Room 물품 배치\n- 인쇄물 각 층 사전 배치\n- POP/사이니지 설치\n- 테이블카드 정찬식당 세팅 확인",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 16,
+      "value": "팀원+알바",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 16,
+      "value": "얼리보딩",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 16,
+      "value": "코스타 협조",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 17,
+      "value": "12:00~15:00",
+      "bold": true,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 17,
+      "value": "IT",
+      "bold": true,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 17,
+      "value": "무전기 배부 및 채널 테스트",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 17,
+      "value": "- 무전기 100대 배부 (팀별 사전 분류)\n- 채널 할당: CH1전체/CH2HQ/CH3기항지/CH4프로그램/CH5지원\n- 전 채널 교신 테스트\n- 예비 무전기 10대 HQ 보관",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 17,
+      "value": "팀장",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 18,
+      "value": "12:00~15:00",
+      "bold": true,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 18,
+      "value": "PR",
+      "bold": true,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 18,
+      "value": "승선 현장 촬영",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 18,
+      "value": "- 승선 준비 현장 촬영\n- 부산항 외관 촬영\n- 스태프 단체사진",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 18,
+      "value": "최구철",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 19,
+      "value": "15:00~17:00",
+      "bold": true,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 19,
+      "value": "전체",
+      "bold": true,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 19,
+      "value": "전체 브리핑 지원",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 19,
+      "value": "- 브리핑장 IT 세팅 (노트북+프로젝터)\n- 배포 자료 준비·배부\n- 목걸이/파우치 배부",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 19,
+      "value": "전원",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 20,
+      "value": "17:00~20:00",
+      "bold": true,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 20,
+      "value": "PR",
+      "bold": true,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 20,
+      "value": "승선 촬영 + VIP 영접 촬영",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 20,
+      "value": "- 승객 승선 현장 촬영\n- VIP 영접 포토타임\n- 승선 브이로그용 영상",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 20,
+      "value": "최구철",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 20,
+      "value": "VIP 동선 사전 확인",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 21,
+      "value": "17:00~20:00",
+      "bold": true,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 21,
+      "value": "IT",
+      "bold": true,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 21,
+      "value": "실시간 시스템 모니터링",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 21,
+      "value": "- 무전기 교신 모니터링\n- 카카오톡 보고 시작\n- 구글시트 VOC 입력 시작\n- 긴급 IT 장애 대응",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 21,
+      "value": "팀장",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 22,
+      "value": "17:00~20:00",
+      "bold": true,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 22,
+      "value": "총무",
+      "bold": true,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 22,
+      "value": "일일 프로그램표 최종 배포 확인",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 22,
+      "value": "- 6/20 프로그램표 각 층 배포 확인\n- 안내데스크 물품 보충\n- 기념품 배포 준비 확인",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 22,
+      "value": "팀원",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 23,
+      "value": "20:00~21:00",
+      "bold": true,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 23,
+      "value": "전체",
+      "bold": true,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 23,
+      "value": "비상훈련 지원",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 23,
+      "value": "- 스태프 비상훈련 지원\n- 장비 일시 보관",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 23,
+      "value": "전원",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 24,
+      "value": "21:00~22:00",
+      "bold": true,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 24,
+      "value": "PR",
+      "bold": true,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 24,
+      "value": "출항식 촬영",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 24,
+      "value": "- 출항식 전 과정 촬영\n- 선장 인사 촬영\n- 출항 장면 촬영 (드론 가능 시)",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 24,
+      "value": "최구철",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 24,
+      "value": "★핵심 촬영",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 25,
+      "value": "22:00",
+      "bold": true,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 25,
+      "value": "전체",
+      "bold": true,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 25,
+      "value": "일일미팅 참석 + 보고",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 25,
+      "value": "- IT 인프라 상태 보고\n- 물품 배치 현황 보고\n- 익일 지원 계획\n- 일일보고서 생성",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 25,
+      "value": "팀장",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 27,
+      "value": "6/20(금) 해상일 — 정규 운영 시작",
+      "bold": true,
+      "bg": "#2980B9",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 28,
+      "value": "시간",
+      "bold": true,
+      "bg": "#2980B9",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 3,
+      "row": 28,
+      "value": "파트",
+      "bold": true,
+      "bg": "#2980B9",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 4,
+      "row": 28,
+      "value": "업무",
+      "bold": true,
+      "bg": "#2980B9",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 5,
+      "row": 28,
+      "value": "세부 내용",
+      "bold": true,
+      "bg": "#2980B9",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 6,
+      "row": 28,
+      "value": "담당",
+      "bold": true,
+      "bg": "#2980B9",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 7,
+      "row": 28,
+      "value": "시기",
+      "bold": true,
+      "bg": "#2980B9",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 8,
+      "row": 28,
+      "value": "비고",
+      "bold": true,
+      "bg": "#2980B9",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 29,
+      "value": "06:30~07:00",
+      "bold": true,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 29,
+      "value": "IT",
+      "bold": true,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 29,
+      "value": "오전 시스템 점검",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 29,
+      "value": "- 무전기 전 채널 교신 테스트\n- Wi-Fi 접속 상태 확인\n- 프린터 상태 확인\n- 구글시트 정상 작동 확인",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 29,
+      "value": "팀장",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 29,
+      "value": "매일 반복",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 30,
+      "value": "06:30~07:00",
+      "bold": true,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 30,
+      "value": "총무",
+      "bold": true,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 30,
+      "value": "인쇄물 배포",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 30,
+      "value": "- 일일 프로그램표 3,000부 각 층 배포\n- 안내데스크 물품 보충\n- POP 교체 (당일용)",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 30,
+      "value": "팀원+알바",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 30,
+      "value": "매일 반복",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 31,
+      "value": "07:00~22:00",
+      "bold": true,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 31,
+      "value": "IT",
+      "bold": true,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 31,
+      "value": "실시간 지원 대기",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 31,
+      "value": "- 무전기 장애 접수 및 대응\n- 프린터 긴급 인쇄 대응\n- 노트북/Wi-Fi 장애 대응\n- 카카오톡/구글시트 모니터링\n- 사이니지 콘텐츠 교체 (일정에 따라)",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 31,
+      "value": "팀장",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 32,
+      "value": "07:00~22:00",
+      "bold": true,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 32,
+      "value": "총무",
+      "bold": true,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 32,
+      "value": "물품·비용 관리",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 32,
+      "value": "- 물품 재고 확인 및 보충\n- 캐빈변경/과일바구니 등 요청 처리\n- 비용 집행 건별 기록\n- 기념품 배포 (스케줄에 따라)",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 32,
+      "value": "팀원",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 33,
+      "value": "종일",
+      "bold": true,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 33,
+      "value": "PR",
+      "bold": true,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 33,
+      "value": "행사 촬영 + 콘텐츠 생성",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 33,
+      "value": "- 김태우 1부(13:30) 공연 촬영\n- 김태우 2부(18:30) 공연 촬영\n- 선상노래자랑 예선(15:30) 촬영\n- 환경재단 강연 주요 장면 촬영\n- SNS 콘텐츠 실시간 업로드\n- 일일 사진/영상 정리·백업",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 33,
+      "value": "최구철",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 33,
+      "value": "★메인 촬영일",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 34,
+      "value": "22:00",
+      "bold": true,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 34,
+      "value": "전체",
+      "bold": true,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 34,
+      "value": "일일미팅 + 보고서 생성",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 34,
+      "value": "- 카카오톡 상황판 데이터 취합\n- 일일상황보고서 자동생성\n- VOC 일일 집계\n- 익일 지원 계획",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 34,
+      "value": "팀장",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 36,
+      "value": "6/21(토) 하코다테 기항일",
+      "bold": true,
+      "bg": "#27AE60",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 37,
+      "value": "시간",
+      "bold": true,
+      "bg": "#27AE60",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 3,
+      "row": 37,
+      "value": "파트",
+      "bold": true,
+      "bg": "#27AE60",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 4,
+      "row": 37,
+      "value": "업무",
+      "bold": true,
+      "bg": "#27AE60",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 5,
+      "row": 37,
+      "value": "세부 내용",
+      "bold": true,
+      "bg": "#27AE60",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 6,
+      "row": 37,
+      "value": "담당",
+      "bold": true,
+      "bg": "#27AE60",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 7,
+      "row": 37,
+      "value": "시기",
+      "bold": true,
+      "bg": "#27AE60",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 8,
+      "row": 37,
+      "value": "비고",
+      "bold": true,
+      "bg": "#27AE60",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 38,
+      "value": "06:30~07:00",
+      "bold": true,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 38,
+      "value": "IT+총무",
+      "bold": true,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 38,
+      "value": "오전 정규 점검 + 배포",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 38,
+      "value": "동일 루틴",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 38,
+      "value": "팀장+팀원",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 39,
+      "value": "10:00~12:00",
+      "bold": true,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 39,
+      "value": "PR",
+      "bold": true,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 39,
+      "value": "오전 프로그램 촬영",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 39,
+      "value": "- 게스트 강연 주요 장면 촬영",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 39,
+      "value": "최구철",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 40,
+      "value": "13:00~21:00",
+      "bold": true,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 40,
+      "value": "PR",
+      "bold": true,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 40,
+      "value": "★ 하코다테 기항지 촬영",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 40,
+      "value": "- 하코다테 항구 입항 장면 촬영\n- 투어 현장 촬영 (동행)\n- 김태우 하선 장면 촬영\n- 하코다테 관광지 촬영",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 40,
+      "value": "최구철",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 40,
+      "value": "★핵심 기항지 촬영",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 41,
+      "value": "13:00~21:00",
+      "bold": true,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 41,
+      "value": "IT",
+      "bold": true,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 41,
+      "value": "기항지 통신 지원",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 41,
+      "value": "- 기항지 Wi-Fi 상태 확인\n- 무전기 기항지 교신 테스트\n- 긴급 연락 체계 유지",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 41,
+      "value": "팀장",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 42,
+      "value": "21:00~22:00",
+      "bold": true,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 42,
+      "value": "PR",
+      "bold": true,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 42,
+      "value": "임병수/박재홍 공연 촬영",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 42,
+      "value": "- 21:00 임병수(그랜드바) 촬영\n- 21:00 박재홍 재즈(솔레) 촬영 (이동)",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 42,
+      "value": "최구철",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 42,
+      "value": "동시진행 이동촬영",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 43,
+      "value": "22:00",
+      "bold": true,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 43,
+      "value": "전체",
+      "bold": true,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 43,
+      "value": "일일미팅 + 보고서",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 43,
+      "value": "동일",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 43,
+      "value": "팀장",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 45,
+      "value": "6/22(일)~23(월) 오타루 기항",
+      "bold": true,
+      "bg": "#8E44AD",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 46,
+      "value": "시간",
+      "bold": true,
+      "bg": "#8E44AD",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 3,
+      "row": 46,
+      "value": "파트",
+      "bold": true,
+      "bg": "#8E44AD",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 4,
+      "row": 46,
+      "value": "업무",
+      "bold": true,
+      "bg": "#8E44AD",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 5,
+      "row": 46,
+      "value": "세부 내용",
+      "bold": true,
+      "bg": "#8E44AD",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 6,
+      "row": 46,
+      "value": "담당",
+      "bold": true,
+      "bg": "#8E44AD",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 7,
+      "row": 46,
+      "value": "시기",
+      "bold": true,
+      "bg": "#8E44AD",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 8,
+      "row": 46,
+      "value": "비고",
+      "bold": true,
+      "bg": "#8E44AD",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 47,
+      "value": "종일",
+      "bold": true,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 47,
+      "value": "IT+총무",
+      "bold": true,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 47,
+      "value": "정규 루틴",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 47,
+      "value": "오전 점검+배포+실시간 지원+물품관리",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 47,
+      "value": "팀장+팀원",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 48,
+      "value": "6/22 14:00",
+      "bold": true,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 48,
+      "value": "PR",
+      "bold": true,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 48,
+      "value": "★ 오타루 입항 촬영",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 48,
+      "value": "- 오타루 항구 촬영\n- 조수찬/신성 승선 장면 촬영",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 48,
+      "value": "최구철",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 48,
+      "value": "★핵심",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 49,
+      "value": "6/22 18:00",
+      "bold": true,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 49,
+      "value": "PR",
+      "bold": true,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 49,
+      "value": "나포리 음악다방 2회 촬영",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 49,
+      "value": "솔레 DJ다방 분위기 촬영",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 49,
+      "value": "최구철",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 50,
+      "value": "6/22 21:00",
+      "bold": true,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 50,
+      "value": "PR",
+      "bold": true,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 50,
+      "value": "MC쇼 1회 촬영",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 50,
+      "value": "그랜드바 김종덕 MC쇼 촬영",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 50,
+      "value": "최구철",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 51,
+      "value": "6/23 17:00",
+      "bold": true,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 51,
+      "value": "PR",
+      "bold": true,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 51,
+      "value": "★ 오타루 출항 촬영",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 51,
+      "value": "출항 장면 촬영",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 51,
+      "value": "최구철",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 52,
+      "value": "6/23 21:00",
+      "bold": true,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 52,
+      "value": "PR",
+      "bold": true,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 52,
+      "value": "임병수 2회 + MC쇼 2회 촬영",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 52,
+      "value": "그랜드바+솔레 이동 촬영",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 52,
+      "value": "최구철",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 52,
+      "value": "동시진행",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 53,
+      "value": "매일 22:00",
+      "bold": true,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 53,
+      "value": "전체",
+      "bold": true,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 53,
+      "value": "일일미팅 + 보고서",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 53,
+      "value": "동일",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 53,
+      "value": "팀장",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 55,
+      "value": "6/24(수) 해상일 — 최대 프로그램일",
+      "bold": true,
+      "bg": "#E74C3C",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 56,
+      "value": "시간",
+      "bold": true,
+      "bg": "#E74C3C",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 3,
+      "row": 56,
+      "value": "파트",
+      "bold": true,
+      "bg": "#E74C3C",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 4,
+      "row": 56,
+      "value": "업무",
+      "bold": true,
+      "bg": "#E74C3C",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 5,
+      "row": 56,
+      "value": "세부 내용",
+      "bold": true,
+      "bg": "#E74C3C",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 6,
+      "row": 56,
+      "value": "담당",
+      "bold": true,
+      "bg": "#E74C3C",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 7,
+      "row": 56,
+      "value": "시기",
+      "bold": true,
+      "bg": "#E74C3C",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 8,
+      "row": 56,
+      "value": "비고",
+      "bold": true,
+      "bg": "#E74C3C",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 57,
+      "value": "06:30~",
+      "bold": true,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 57,
+      "value": "IT+총무",
+      "bold": true,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 57,
+      "value": "정규 루틴",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 57,
+      "value": "동일 (프로그램 최다일 → 프린터 풀가동)",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 57,
+      "value": "팀장+팀원",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 58,
+      "value": "종일",
+      "bold": true,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 58,
+      "value": "PR",
+      "bold": true,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 58,
+      "value": "★ 최대 촬영일",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 58,
+      "value": "- 조수찬/신성 1부(13:30) 촬영\n- 조수찬/신성 2부(18:30) 촬영\n- 선상노래자랑 결선(21:00) 촬영\n- 박재홍 재즈 2회(21:00) 촬영\n- 환경재단 주요 행사 촬영\n- 페어웰 관련 콘텐츠\n- ★하루 촬영량 최대: 배터리/SD 예비 필수",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 58,
+      "value": "최구철",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 58,
+      "value": "★최대 촬영일",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 59,
+      "value": "22:00",
+      "bold": true,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 59,
+      "value": "전체",
+      "bold": true,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 59,
+      "value": "일일미팅 + 최종 전일 보고",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 59,
+      "value": "- 하선일 철수 계획 최종 확인\n- 물품 철수 순서 확정\n- 무전기 회수 계획",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 59,
+      "value": "팀장",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 61,
+      "value": "6/25(목) 하선일 — 철수 및 정리",
+      "bold": true,
+      "bg": "#0D1B2A",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 62,
+      "value": "시간",
+      "bold": true,
+      "bg": "#0D1B2A",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 3,
+      "row": 62,
+      "value": "파트",
+      "bold": true,
+      "bg": "#0D1B2A",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 4,
+      "row": 62,
+      "value": "업무",
+      "bold": true,
+      "bg": "#0D1B2A",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 5,
+      "row": 62,
+      "value": "세부 내용",
+      "bold": true,
+      "bg": "#0D1B2A",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 6,
+      "row": 62,
+      "value": "담당",
+      "bold": true,
+      "bg": "#0D1B2A",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 7,
+      "row": 62,
+      "value": "시기",
+      "bold": true,
+      "bg": "#0D1B2A",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 8,
+      "row": 62,
+      "value": "비고",
+      "bold": true,
+      "bg": "#0D1B2A",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 63,
+      "value": "07:00~09:00",
+      "bold": true,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 63,
+      "value": "총무",
+      "bold": true,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 63,
+      "value": "물품 패킹 시작",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 63,
+      "value": "- Mercurio Room 물품 패킹\n- 인쇄물 잔여분 정리\n- POP/배너 철거·패킹",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 63,
+      "value": "팀원+알바",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 64,
+      "value": "07:00~09:00",
+      "bold": true,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 64,
+      "value": "IT",
+      "bold": true,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 64,
+      "value": "장비 철수",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 64,
+      "value": "- 노트북 회수·포장\n- 프린터 해체·포장\n- CISCO 전화기 반납\n- 멀티탭 회수",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 64,
+      "value": "팀장",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 65,
+      "value": "09:00~12:00",
+      "bold": true,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 65,
+      "value": "IT",
+      "bold": true,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 65,
+      "value": "무전기 회수",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 65,
+      "value": "- 전 스태프 무전기 회수 (각 팀별)\n- 수량 확인 (100대 전수 확인)\n- 충전기·배터리 회수\n- 분실분 확인 및 기록",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 65,
+      "value": "팀장",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 65,
+      "value": "전수 확인 필수",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 66,
+      "value": "10:00~14:00",
+      "bold": true,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 66,
+      "value": "PR",
+      "bold": true,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 66,
+      "value": "하선 촬영 + 최종 콘텐츠",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 66,
+      "value": "- 영화상영(10:00~13:00) 촬영\n- 하선 장면 촬영\n- 부산항 입항 촬영\n- 스태프 마지막 단체사진\n- 최종 보도자료 배포",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 66,
+      "value": "최구철",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 67,
+      "value": "13:00~15:00",
+      "bold": true,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 67,
+      "value": "총무",
+      "bold": true,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 67,
+      "value": "물품 하역",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 67,
+      "value": "- 부산항 도착 후 물품 하역\n- 트럭 적재\n- 반환 물품 체크리스트 확인",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 67,
+      "value": "팀원+알바",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 68,
+      "value": "15:00~",
+      "bold": true,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 68,
+      "value": "전체",
+      "bold": true,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 68,
+      "value": "최종 정리",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 68,
+      "value": "- 물품 대장 최종 마감\n- 무전기 분실분 정산\n- 비용 정산 초안 완성\n- 미디어 최종 백업 확인\n- 일일보고서 최종본 생성",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 68,
+      "value": "전원",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 68,
+      "value": "D+3 최종보고",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     }
+    ]
+   ]
+  },
+  {
+   "name": "업무 매뉴얼 SOP",
+   "rows": 44,
+   "cols": 8,
+   "data": [
+    [
+     {
+      "col": 2,
+      "row": 2,
+      "value": "지원·데이터팀 — 업무 매뉴얼 (SOP 7종)",
+      "bold": true,
+      "bg": "#6C5CE7",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 3,
+      "value": "SOP-01. 무전기 운영 매뉴얼",
+      "bold": true,
+      "bg": "#00695C",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 4,
+      "value": "단계",
+      "bold": true,
+      "bg": "#00695C",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 3,
+      "row": 4,
+      "value": "프로세스",
+      "bold": true,
+      "bg": "#00695C",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 4,
+      "row": 4,
+      "value": "상세 내용",
+      "bold": true,
+      "bg": "#00695C",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 5,
+      "row": 4,
+      "value": "체크리스트",
+      "bold": true,
+      "bg": "#00695C",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 6,
+      "row": 4,
+      "value": "담당",
+      "bold": true,
+      "bg": "#00695C",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 7,
+      "row": 4,
+      "value": "시점",
+      "bold": true,
+      "bg": "#00695C",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 5,
+      "value": "1",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 5,
+      "value": "채널 플랜 설정\n(D-7)",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 5,
+      "value": "- CH1: 전체 공용 (긴급 호출 전용)\n- CH2: HQ(선내운영팀) 전용\n- CH3: 기항지운영팀 전용\n- CH4: 프로그램·행사팀 전용\n- CH5: 지원·데이터팀 전용\n- CH6: 본부장·부서장 직통\n- CH7~10: 예비/기항지 현장용",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 5,
+      "value": "□ 채널표 인쇄 (전 무전기 부착)\n□ 채널 프로그래밍 완료\n□ 전 채널 교신 테스트",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 5,
+      "value": "팀장",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 5,
+      "value": "D-7",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 6,
+      "value": "2",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 6,
+      "value": "일일 운영\n(매일)",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 6,
+      "value": "- 07:00 무전기 배부 (충전 완료분)\n- 배부 시 성명·번호 기록\n- 교신 에티켓 교육 (호출→응답→내용→끝)\n- 22:00 회수 (충전 스테이션 투입)\n- 분실/고장 즉시 예비기 교체",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 6,
+      "value": "□ 배부 대장 기록\n□ 전수 배부 확인\n□ 22:00 회수 수량 확인\n□ 충전 시작",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 6,
+      "value": "팀장",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 6,
+      "value": "매일",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 7,
+      "value": "3",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 7,
+      "value": "장애 대응",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 7,
+      "value": "- 교신 불량: 채널 리셋 → 배터리 교체 → 예비기 교체\n- 분실: 즉시 해당 채널 모니터링 (보안)\n- 대량 장애: 카카오톡 백업 채널 가동",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 7,
+      "value": "□ 예비기 10대 상시 보유\n□ 배터리 30개 충전 대기\n□ 카톡 백업 채널 사전 설정",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 7,
+      "value": "팀장",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 7,
+      "value": "상시",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 9,
+      "value": "SOP-02. 구글시트 보고체계 운영",
+      "bold": true,
+      "bg": "#2980B9",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 10,
+      "value": "단계",
+      "bold": true,
+      "bg": "#2980B9",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 3,
+      "row": 10,
+      "value": "프로세스",
+      "bold": true,
+      "bg": "#2980B9",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 4,
+      "row": 10,
+      "value": "상세 내용",
+      "bold": true,
+      "bg": "#2980B9",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 5,
+      "row": 10,
+      "value": "체크리스트",
+      "bold": true,
+      "bg": "#2980B9",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 6,
+      "row": 10,
+      "value": "담당",
+      "bold": true,
+      "bg": "#2980B9",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 7,
+      "row": 10,
+      "value": "시점",
+      "bold": true,
+      "bg": "#2980B9",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 11,
+      "value": "1",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 11,
+      "value": "시스템 구축\n(D-14)",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 11,
+      "value": "- 마스터 시트: 일일상황보고서, VOC, 명단, 비용, 인력배치\n- 시트별 접근 권한 설정 (편집/열람)\n- 자동 타임스탬프 수식 설정\n- 오프라인 캐시 설정 (선내 Wi-Fi 불안정 대비)\n- 모바일 접속 테스트",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 11,
+      "value": "□ 10개 시트 생성 완료\n□ 권한 설정 완료\n□ 오프라인 캐시 ON\n□ 모바일 접속 OK",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 11,
+      "value": "팀장",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 11,
+      "value": "D-14",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 12,
+      "value": "2",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 12,
+      "value": "일일 운영",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 12,
+      "value": "- 각 팀 → 카카오톡 보고 → 팀장이 구글시트 입력\n- VOC: 접수 즉시 입력 (HQ에서 전달)\n- 명단: 변경 사항 즉시 반영\n- 비용: 집행 건별 입력\n- 22:00 일일보고서 자동생성 (피벗+요약)",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 12,
+      "value": "□ 카톡 보고 → 시트 입력\n□ VOC 실시간 입력\n□ 22:00 보고서 생성\n□ 본부장 공유",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 12,
+      "value": "팀장",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 12,
+      "value": "매일",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 13,
+      "value": "3",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 13,
+      "value": "장애 대응",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 13,
+      "value": "- Wi-Fi 끊김: 오프라인 캐시로 작업 → 복구 시 동기화\n- 시트 오류: 버전 히스토리로 복원\n- 접속 불가: Teams 백업 또는 노트북 로컬 엑셀",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 13,
+      "value": "□ 오프라인 캐시 확인\n□ 로컬 백업 1일 1회\n□ Teams 백업 시트 준비",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 13,
+      "value": "팀장",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 13,
+      "value": "상시",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 15,
+      "value": "SOP-03. 일일 프로그램표 배포 매뉴얼",
+      "bold": true,
+      "bg": "#E67E22",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 16,
+      "value": "단계",
+      "bold": true,
+      "bg": "#E67E22",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 3,
+      "row": 16,
+      "value": "프로세스",
+      "bold": true,
+      "bg": "#E67E22",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 4,
+      "row": 16,
+      "value": "상세 내용",
+      "bold": true,
+      "bg": "#E67E22",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 5,
+      "row": 16,
+      "value": "체크리스트",
+      "bold": true,
+      "bg": "#E67E22",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 6,
+      "row": 16,
+      "value": "담당",
+      "bold": true,
+      "bg": "#E67E22",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 7,
+      "row": 16,
+      "value": "시점",
+      "bold": true,
+      "bg": "#E67E22",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 17,
+      "value": "1",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 17,
+      "value": "사전 인쇄\n(D-14)",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 17,
+      "value": "- 6일분 일일 프로그램표 사전 인쇄 (일 3,000부)\n- 일자별 분류·봉인\n- 선적 시 접근 용이한 위치 배치",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 17,
+      "value": "□ 6일분 인쇄 완료\n□ 일자별 분류\n□ 접근 용이 위치",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 17,
+      "value": "팀원",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 17,
+      "value": "D-14",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 18,
+      "value": "2",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 18,
+      "value": "일일 배포\n(매일 06:30)",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 18,
+      "value": "배포 위치 및 수량:\n- 각 객실 층 복도 (층당 200부 × 12층 = 2,400부)\n- 안내데스크 (200부)\n- 레스토랑 입구 (200부)\n- Mercurio Room (100부)\n- 예비 (100부)",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 18,
+      "value": "□ 알바 2명 06:30 배포 시작\n□ 07:00까지 배포 완료\n□ 잔여분 확인\n□ 전일분 회수",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 18,
+      "value": "팀원+알바",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 18,
+      "value": "매일 06:30",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 19,
+      "value": "3",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 19,
+      "value": "긴급 변경",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 19,
+      "value": "- 프로그램 변경 시 → 수정본 선내 프린터 긴급 인쇄\n- 소량(100~200부) 주요 포인트만 교체\n- 사이니지 동시 업데이트\n- 방송 안내 요청 (안내파트)",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 19,
+      "value": "□ 수정본 인쇄\n□ 주요 포인트 교체\n□ 사이니지 업데이트\n□ 방송 요청",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 19,
+      "value": "팀원",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 19,
+      "value": "상시",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 21,
+      "value": "SOP-04. 홍보·촬영 운영 매뉴얼 (최구철 매니저)",
+      "bold": true,
+      "bg": "#E74C3C",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 22,
+      "value": "단계",
+      "bold": true,
+      "bg": "#E74C3C",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 3,
+      "row": 22,
+      "value": "프로세스",
+      "bold": true,
+      "bg": "#E74C3C",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 4,
+      "row": 22,
+      "value": "상세 내용",
+      "bold": true,
+      "bg": "#E74C3C",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 5,
+      "row": 22,
+      "value": "체크리스트",
+      "bold": true,
+      "bg": "#E74C3C",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 6,
+      "row": 22,
+      "value": "담당",
+      "bold": true,
+      "bg": "#E74C3C",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 7,
+      "row": 22,
+      "value": "시점",
+      "bold": true,
+      "bg": "#E74C3C",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 23,
+      "value": "1",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 23,
+      "value": "촬영 계획\n(전일 22:00)",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 23,
+      "value": "- 익일 촬영 스케줄 확정 (프로그램표 기반)\n- 필수 촬영 건 마킹 (★메인공연/기항지/VIP)\n- 장비 충전·메모리 확인\n- 드론 사용 가능 여부 확인 (기항지별)",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 23,
+      "value": "□ 촬영 스케줄 확정\n□ 장비 충전 완료\n□ 메모리 잔량 확인\n□ 드론 가능 여부",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 23,
+      "value": "최구철",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 23,
+      "value": "전일 22:00",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 24,
+      "value": "2",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 24,
+      "value": "현장 촬영",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 24,
+      "value": "- 공연: 시작 30분 전 포지셔닝 → 전 과정 촬영\n- 기항지: 입항/투어/출항 핵심 장면\n- VIP: 포토타임은 본부장 지시에 따라\n- 일상: 선내 분위기, 식사, 시설 등 B-roll\n- 촬영 금지 구역 절대 준수",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 24,
+      "value": "□ 공연 30분 전 위치\n□ VIP 포토타임 확인\n□ 촬영 금지 구역 확인\n□ 배터리/SD 여분 소지",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 24,
+      "value": "최구철",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 24,
+      "value": "현장",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 25,
+      "value": "3",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 25,
+      "value": "콘텐츠 생성\n+ 보도자료",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 25,
+      "value": "- SNS용 숏폼 콘텐츠 당일 업로드\n- 보도자료 작성 (출항식/주요행사)\n- 기자단 취재 지원 (동선 안내, 인터뷰 주선)\n- 기자간담회 세팅 지원",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 25,
+      "value": "□ SNS 1일 2건 이상\n□ 보도자료 주요행사 당일\n□ 기자 취재 지원",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 25,
+      "value": "최구철",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 25,
+      "value": "매일",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 26,
+      "value": "4",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 26,
+      "value": "아카이빙\n(매일 22:00~)",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 26,
+      "value": "- 당일 사진/영상 외장하드 백업\n- 폴더 구조: 날짜/행사명/파일\n- 클라우드(OneDrive) 이중 백업\n- SD카드 포맷 후 익일 준비",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 26,
+      "value": "□ 외장하드 백업 완료\n□ 클라우드 업로드\n□ SD카드 포맷\n□ 배터리 충전",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 26,
+      "value": "최구철",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 26,
+      "value": "매일 22:00",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 28,
+      "value": "SOP-05. 물품 대장 및 재고 관리",
+      "bold": true,
+      "bg": "#2C3E50",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 29,
+      "value": "단계",
+      "bold": true,
+      "bg": "#2C3E50",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 3,
+      "row": 29,
+      "value": "프로세스",
+      "bold": true,
+      "bg": "#2C3E50",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 4,
+      "row": 29,
+      "value": "상세 내용",
+      "bold": true,
+      "bg": "#2C3E50",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 5,
+      "row": 29,
+      "value": "체크리스트",
+      "bold": true,
+      "bg": "#2C3E50",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 6,
+      "row": 29,
+      "value": "담당",
+      "bold": true,
+      "bg": "#2C3E50",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 7,
+      "row": 29,
+      "value": "시점",
+      "bold": true,
+      "bg": "#2C3E50",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 30,
+      "value": "1",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 30,
+      "value": "물품 대장 관리",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 30,
+      "value": "- 구글시트 기반 물품 대장 운영\n- 품목/수량/위치/상태/배부일/회수일 기록\n- 입고 시 즉시 기록 / 출고 시 즉시 차감\n- 일일 재고 확인 (22:00)",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 30,
+      "value": "□ 물품 대장 최신화\n□ 입출고 즉시 반영\n□ 일일 재고 확인",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 30,
+      "value": "팀원",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 30,
+      "value": "매일",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 31,
+      "value": "2",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 31,
+      "value": "배포 관리",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 31,
+      "value": "- 기념품: 행사팀 요청 시 배포\n- 인쇄물: 일일 배포 루틴\n- 소모품: 각 팀 요청 시 보충\n- VIP용품: 본부장 승인 후 배포",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 31,
+      "value": "□ 요청 접수 → 배포 → 기록\n□ VIP → 본부장 승인",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 31,
+      "value": "팀원",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 31,
+      "value": "상시",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 32,
+      "value": "3",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 32,
+      "value": "하선일 회수",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 32,
+      "value": "- 전 물품 회수 체크리스트\n- 무전기 전수 확인 (100대)\n- 장비 파손/분실 기록\n- 잔여 인쇄물/기념품 수량 기록\n- 트럭 적재 및 반출",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 32,
+      "value": "□ 회수 체크리스트 완료\n□ 무전기 100대 확인\n□ 분실분 정산\n□ 트럭 적재",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 32,
+      "value": "팀원+알바",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 32,
+      "value": "6/25",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 34,
+      "value": "SOP-06. 비용 정산 매뉴얼",
+      "bold": true,
+      "bg": "#0D1B2A",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 35,
+      "value": "단계",
+      "bold": true,
+      "bg": "#0D1B2A",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 3,
+      "row": 35,
+      "value": "프로세스",
+      "bold": true,
+      "bg": "#0D1B2A",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 4,
+      "row": 35,
+      "value": "상세 내용",
+      "bold": true,
+      "bg": "#0D1B2A",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 5,
+      "row": 35,
+      "value": "체크리스트",
+      "bold": true,
+      "bg": "#0D1B2A",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 6,
+      "row": 35,
+      "value": "담당",
+      "bold": true,
+      "bg": "#0D1B2A",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 7,
+      "row": 35,
+      "value": "시점",
+      "bold": true,
+      "bg": "#0D1B2A",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 36,
+      "value": "1",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 36,
+      "value": "비용 집행 기록",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 36,
+      "value": "- 건별 비용 기록 (구글시트)\n- 영수증/인보이스 즉시 보관 (바인더)\n- 캐빈변경/과일바구니/유료서비스 등 코스타 청구 건 별도 관리\n- 집행 한도 초과 시 본부장 승인",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 36,
+      "value": "□ 건별 기록\n□ 영수증 보관\n□ 한도 초과 → 승인",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 36,
+      "value": "팀원",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 36,
+      "value": "매일",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 37,
+      "value": "2",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 37,
+      "value": "일일 집계",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 37,
+      "value": "- 22:00 일일 비용 집계\n- 카테고리별 합산\n- 예산 대비 소진율 확인\n- 이상 지출 건 본부장 보고",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 37,
+      "value": "□ 일일 집계 완료\n□ 소진율 확인\n□ 이상 건 보고",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 37,
+      "value": "팀원",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 37,
+      "value": "매일 22:00",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 38,
+      "value": "3",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 38,
+      "value": "최종 정산\n(D+3)",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 38,
+      "value": "- 하선 후 3일 내 정산 초안 완성\n- 코스타 청구 건 크로스체크\n- 영수증 원본 정리\n- 정산 보고서 본부장 제출",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 38,
+      "value": "□ 정산 초안 D+1\n□ 크로스체크 D+2\n□ 최종 보고서 D+3",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 38,
+      "value": "팀원→팀장",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 38,
+      "value": "D+3",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 40,
+      "value": "SOP-07. 카카오톡 소통 프로토콜",
+      "bold": true,
+      "bg": "#1ABC9C",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 41,
+      "value": "단계",
+      "bold": true,
+      "bg": "#1ABC9C",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 3,
+      "row": 41,
+      "value": "프로세스",
+      "bold": true,
+      "bg": "#1ABC9C",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 4,
+      "row": 41,
+      "value": "상세 내용",
+      "bold": true,
+      "bg": "#1ABC9C",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 5,
+      "row": 41,
+      "value": "체크리스트",
+      "bold": true,
+      "bg": "#1ABC9C",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 6,
+      "row": 41,
+      "value": "담당",
+      "bold": true,
+      "bg": "#1ABC9C",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 7,
+      "row": 41,
+      "value": "시점",
+      "bold": true,
+      "bg": "#1ABC9C",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 42,
+      "value": "1",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 42,
+      "value": "채널 구조",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 42,
+      "value": "- [전체] 코스타세레나 전체방: 전 스태프 134명\n- [HQ] 선내운영팀: HQ 팀원+본부\n- [기항] 기항지운영팀: 기항지팀+타이요\n- [행사] 프로그램행사팀: 행사팀+아티스트 매니저\n- [지원] 지원데이터팀: 지원팀+홍보\n- [긴급] 긴급상황방: 본부장+부서장+팀장급",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 42,
+      "value": "□ 6개 방 개설\n□ 방장 권한 설정\n□ 전원 초대 확인",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 42,
+      "value": "팀장",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 42,
+      "value": "D-7",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 43,
+      "value": "2",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 43,
+      "value": "보고 프로토콜",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 43,
+      "value": "보고 형식 통일:\n[시간] [팀명] [보고유형]\n내용\n예) [14:30] [HQ] [VOC]\n3층 안내데스크 객실 컴플레인 접수 - 1205호 에어컨 고장\n\n보고 유형: [상황] [VOC] [긴급] [완료] [요청]",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 43,
+      "value": "□ 보고 형식 전 스태프 교육\n□ 예시 카드 배포\n□ 첫날 실습",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 43,
+      "value": "팀장",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 43,
+      "value": "D-2",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 44,
+      "value": "3",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 44,
+      "value": "금지 사항",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 44,
+      "value": "- 개인적 대화 금지 (업무 전용)\n- 사진/영상 무분별 공유 금지\n- 고객 개인정보 게시 금지\n- 미확인 정보 공유 금지",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 44,
+      "value": "□ 금지사항 사전 공지\n□ 위반 시 경고",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 44,
+      "value": "팀장",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 44,
+      "value": "상시",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ]
+   ]
+  },
+  {
+   "name": "시나리오 상황대응 10선",
+   "rows": 16,
+   "cols": 9,
+   "data": [
+    [
+     {
+      "col": 2,
+      "row": 2,
+      "value": "지원·데이터팀 — 시나리오별 상황대응 매뉴얼 10선",
+      "bold": true,
+      "bg": "#E74C3C",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 4,
+      "value": "※ 지원·데이터팀은 IT 인프라, 물류, 홍보를 총괄하므로 기술적 장애부터 물품 사고까지 광범위한 시나리오에 대비해야 합니다.\n※ 대응 레벨: 🟢 현장 즉시 처리 / 🟡 팀장 판단 / 🔴 본부장 최종 결정",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": ""
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 6,
+      "value": "No",
+      "bold": true,
+      "bg": "#E74C3C",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 3,
+      "row": 6,
+      "value": "발생 시점",
+      "bold": true,
+      "bg": "#E74C3C",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 4,
+      "row": 6,
+      "value": "시나리오",
+      "bold": true,
+      "bg": "#E74C3C",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 5,
+      "row": 6,
+      "value": "상세 상황",
+      "bold": true,
+      "bg": "#E74C3C",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 6,
+      "row": 6,
+      "value": "대응 절차 (SOP)",
+      "bold": true,
+      "bg": "#E74C3C",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 7,
+      "row": 6,
+      "value": "레벨",
+      "bold": true,
+      "bg": "#E74C3C",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 8,
+      "row": 6,
+      "value": "1차 담당",
+      "bold": true,
+      "bg": "#E74C3C",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 9,
+      "row": 6,
+      "value": "에스컬레이션",
+      "bold": true,
+      "bg": "#E74C3C",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 7,
+      "value": "S-01",
+      "bold": true,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 7,
+      "value": "운항 중\n(전 일정)",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 7,
+      "value": "무전기 대량 장애\n(10대 이상 동시 교신 불가)",
+      "bold": true,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 7,
+      "value": "특정 채널 또는 전체 채널에서\n10대 이상 무전기가 동시에\n교신 불가 상태 발생.\n현장 커뮤니케이션 마비 위험",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 7,
+      "value": "① 즉시 장애 채널 확인 (간섭/주파수 충돌 여부)\n② 채널 변경 테스트 (예비 채널 CH7~10 전환)\n③ 전 팀장에게 카카오톡으로 채널 변경 공지\n④ 물리적 고장 → 예비 무전기 10대 즉시 교체 배부\n⑤ 대량 고장 → 카카오톡을 1차 통신수단으로 전환 선언\n⑥ 코스타 측 무선 간섭 여부 확인 (선내 무선 환경)\n⑦ 15분 내 미복구 → 본부장 보고, 비상통신 체제 가동\n⑧ 복구 완료 후 전 채널 교신 테스트 재실시",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 7,
+      "value": "🟡→🔴",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 7,
+      "value": "팀장",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 9,
+      "row": 7,
+      "value": "본부장",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 8,
+      "value": "S-02",
+      "bold": true,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 8,
+      "value": "운항 중",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 8,
+      "value": "Wi-Fi 전면 장애\n(선내 인터넷 다운)",
+      "bold": true,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 8,
+      "value": "코스타 선내 Wi-Fi 시스템 전체 다운.\n구글시트·카카오톡·SNS 모두 사용 불가.\n보고체계 마비",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 8,
+      "value": "① 코스타 IT팀에 즉시 장애 신고 (내선 or 직접 방문)\n② 전 팀에 \"Wi-Fi 장애 — 무전기 + 대면 보고로 전환\" 공지\n③ 구글시트 → 오프라인 캐시 모드로 작업 전환\n④ 카카오톡 → 무전기 CH1(전체)로 보고 전환\n⑤ SNS 업로드 → 기항지 도착 시 현지 Wi-Fi로 일괄 업로드\n⑥ 일일보고서 → 노트북 로컬 엑셀로 수기 작성\n⑦ 복구 후 오프라인 데이터 동기화 확인\n⑧ 장기화 시 코스타에 스태프 전용 유선랜 제공 요청",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 8,
+      "value": "🟡",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 8,
+      "value": "팀장",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 9,
+      "row": 8,
+      "value": "코스타 IT",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 9,
+      "value": "S-03",
+      "bold": true,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 9,
+      "value": "승선일\n(6/19)",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 9,
+      "value": "물품 선적 차질\n(트럭 지연·반입 불가)",
+      "bold": true,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 9,
+      "value": "부산항에서 트럭 지연 또는\n항만 보안 문제로 물품 반입이\n승선 시작 전까지 완료되지 않음",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 9,
+      "value": "① 트럭 위치 실시간 확인 (운송업체 연락)\n② 항만 보안 통과 절차 사전 확인 (항만공사 연락)\n③ 코스타에 크루 운반 지원 긴급 요청 (3~4명)\n④ 우선순위 반입: ①무전기/전화기 ②노트북/프린터 ③인쇄물 ④기타\n⑤ 반입 지연 시 → 핵심 물품만 스태프 직접 운반 (택시)\n⑥ 비핵심 물품 → 출항 전까지 순차 반입\n⑦ 최악: 일부 물품 미반입 → 선내 프린터로 긴급 인쇄",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 9,
+      "value": "🟡→🔴",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 9,
+      "value": "팀원→팀장",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 9,
+      "row": 9,
+      "value": "본부장",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 10,
+      "value": "S-04",
+      "bold": true,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 10,
+      "value": "운항 중",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 10,
+      "value": "프린터 고장\n(긴급 인쇄 불가)",
+      "bold": true,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 10,
+      "value": "유일한 프린터가 고장(용지 잼/토너 소진/\n드라이버 오류)으로 긴급 인쇄 불가.\n프로그램 변경 안내물 인쇄 필요한 상황",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 10,
+      "value": "① 1차 진단: 용지 잼 → 제거, 토너 소진 → 교체, 드라이버 → 재설치\n② 2차: 자체 수리 불가 → 코스타 비즈니스센터 프린터 사용 요청\n③ 3차: Mercurio Room 내 공용시설 프린터 사용 (질의서#35)\n④ 소량 인쇄 → 노트북에서 사이니지로 디지털 전환\n⑤ 예방: 토너 3세트 + 용지 10박스 사전 확보\n⑥ 완전 불가 → 안내·방송파트에 방송 안내 요청으로 대체",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 10,
+      "value": "🟢",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 10,
+      "value": "팀장",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 9,
+      "row": 10,
+      "value": "코스타 비즈니스센터",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 11,
+      "value": "S-05",
+      "bold": true,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 11,
+      "value": "운항 중",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 11,
+      "value": "구글시트 데이터 유실\n(실수로 삭제/덮어쓰기)",
+      "bold": true,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 11,
+      "value": "스태프가 실수로 구글시트\n핵심 데이터(명단/VOC 등)를\n삭제하거나 잘못 덮어씌움",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 11,
+      "value": "① 즉시 구글시트 \"버전 기록\" 확인 (파일 → 버전기록)\n② 유실 전 버전으로 복원\n③ 복원 불가 시 → 로컬 백업(일일 1회)에서 데이터 복구\n④ Teams 백업 시트에서 교차 확인\n⑤ 복구 후 접근 권한 재확인 (편집 권한 최소화)\n⑥ 예방: 핵심 시트는 \"보호된 시트\" 설정\n⑦ 예방: 매일 22:00 로컬 백업 의무화",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 11,
+      "value": "🟢",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 11,
+      "value": "팀장",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 12,
+      "value": "S-06",
+      "bold": true,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 12,
+      "value": "기항일",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 12,
+      "value": "기항지 촬영 장비 고장\n(카메라/드론 고장)",
+      "bold": true,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 12,
+      "value": "하코다테/오타루 기항지에서\n카메라 고장 또는 드론 비행 불가.\n핵심 촬영 기회 놓칠 위기",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 12,
+      "value": "① 카메라 고장 → 예비 카메라(있는 경우) 또는 스마트폰 전환\n② 스마트폰 촬영: 프로모드+삼각대로 최대 품질 확보\n③ 드론 불가 → 선내 높은 층(데크)에서 대체 촬영\n④ 동행 기자단 중 촬영 협조 요청 (긴급)\n⑤ 기항지 도착 시 현지 카메라 렌탈 가능 여부 확인\n⑥ 예방: 배터리·SD카드 예비 항상 소지\n⑦ 예방: 장비 2세트 원칙 (메인+백업)",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 12,
+      "value": "🟢→🟡",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 12,
+      "value": "최구철",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 9,
+      "row": 12,
+      "value": "팀장",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 13,
+      "value": "S-07",
+      "bold": true,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 13,
+      "value": "운항 중",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 13,
+      "value": "기자단 관리 이슈\n(취재 갈등/허가 위반)",
+      "bold": true,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 13,
+      "value": "동행 기자가 촬영 금지 구역에서 촬영,\n또는 아티스트/VIP 무단 촬영.\n코스타 보안팀과 갈등 발생",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 13,
+      "value": "① 즉시 현장 개입 → 기자에게 정중히 중단 요청\n② 코스타 보안팀에 사과 및 상황 설명\n③ 촬영 허가서 범위 재확인 후 기자에게 재안내\n④ 아티스트/VIP 촬영 → 사전 동의 필수 원칙 재공지\n⑤ 반복 위반 → 본부장 보고 후 취재 제한 조치\n⑥ 예방: 승선 시 기자 브리핑 (촬영 가능/불가 구역, 규칙)\n⑦ 예방: 촬영 허가 범위 기자용 안내서 배포",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 13,
+      "value": "🟡",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 13,
+      "value": "최구철",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 9,
+      "row": 13,
+      "value": "팀장→본부장",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 14,
+      "value": "S-08",
+      "bold": true,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 14,
+      "value": "승선일",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 14,
+      "value": "목걸이(ID카드)/무전기\n대량 분실",
+      "bold": true,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 14,
+      "value": "승선 첫날 혼잡 속에서\nID카드 또는 무전기 다수 분실 보고.\n스태프 식별/통신 지장",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 14,
+      "value": "① 분실 수량 즉시 파악 (배부 대장 대조)\n② ID카드 → Mercurio Room에서 프린터로 임시 ID 즉시 발급\n③ 무전기 → 예비기(10대) 우선 배부\n④ 분실자 확인 및 기록 (정산 반영)\n⑤ 대량 분실(10개 이상) → 배부 절차 개선 (서명 필수 등)\n⑥ 무전기 추가 부족 → 카카오톡 보조 통신 강화",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 14,
+      "value": "🟢→🟡",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 14,
+      "value": "팀원→팀장",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 15,
+      "value": "S-09",
+      "bold": true,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 15,
+      "value": "운항 중",
+      "bold": false,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 15,
+      "value": "보도자료/SNS\n사실 오류 배포",
+      "bold": true,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 15,
+      "value": "배포된 보도자료나 SNS에\n일정·인명·장소 등 사실 오류 발견.\n기자단이 이미 기사 송고",
+      "bold": false,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 15,
+      "value": "① 오류 확인 즉시 → 정정본 작성\n② 기자단 전원에게 정정 안내 (카톡/이메일 즉시)\n③ SNS → 오류 게시물 수정 또는 삭제+재게시\n④ 본부장에게 오류 내용 및 정정 조치 보고\n⑤ 기사 송고된 경우 → 정정 보도 요청\n⑥ 예방: 보도자료 배포 전 팀장 + 본부장 더블체크 의무화",
+      "bold": false,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 15,
+      "value": "🟡",
+      "bold": false,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 15,
+      "value": "최구철",
+      "bold": false,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 9,
+      "row": 15,
+      "value": "팀장→본부장",
+      "bold": false,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 16,
+      "value": "S-10",
+      "bold": true,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 16,
+      "value": "하선일\n(6/25)",
+      "bold": false,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 16,
+      "value": "물품 하역 혼선\n(물품 분실/파손/누락)",
+      "bold": true,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 16,
+      "value": "하선 시 물품 하역 과정에서\n물품 분실, 파손, 또는\n선내 잔류 물품 발견",
+      "bold": false,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 16,
+      "value": "① 하역 전 물품 대장 최종 확인 (전수 체크)\n② 하역 시 품목별 체크리스트 사용 (팀원+알바 교차 확인)\n③ 분실 발견 → 코스타에 선내 잔류 물품 수색 요청\n④ 파손 발견 → 현장 사진 촬영 + 파손 기록서 작성\n⑤ 귀중 장비(노트북/카메라) → 스태프 직접 운반 원칙\n⑥ 트럭 적재 완료 후 최종 수량 크로스체크\n⑦ 선내 잔류 확인 → 코스타에 택배 반송 요청",
+      "bold": false,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 16,
+      "value": "🟢→🟡",
+      "bold": false,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 16,
+      "value": "팀원→팀장",
+      "bold": false,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 9,
+      "row": 16,
+      "value": "코스타",
+      "bold": false,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     }
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,5250 @@
+{
+ "key": "port",
+ "label": "기항지운영팀",
+ "sheets": [
+  {
+   "name": "업무분장 및 조직",
+   "rows": 23,
+   "cols": 9,
+   "data": [
+    [
+     {
+      "col": 2,
+      "row": 2,
+      "value": "기항지운영팀 — 업무분장 및 조직 체계",
+      "bold": true,
+      "bg": "#2E7D32",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 4,
+      "value": "기항지운영팀은 하코다테(6/21)·오타루(6/22~23) 기항 시 2,400명의 승하선을 안전하고 정시에 수행하는 것이 최우선 미션입니다.\n투어 운영은 타이요플랜(6명+가이드70명)이 주도하되, 승하선 통제·입출국 서류·귀선 관리·중간 승하선자 지원은 본 팀이 직접 총괄합니다.\n해상일에는 프로그램·행사팀에 탄력 합류하여 인력을 최대 활용합니다.",
+      "bold": true,
+      "bg": "#E8F8F5",
+      "fc": ""
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 6,
+      "value": "▣ 기항지운영팀 3대 업무 영역",
+      "bold": true,
+      "bg": "#2E7D32",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 7,
+      "value": "영역",
+      "bold": true,
+      "bg": "#2E7D32",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 3,
+      "row": 7,
+      "value": "코드",
+      "bold": true,
+      "bg": "#2E7D32",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 4,
+      "row": 7,
+      "value": "핵심 기능",
+      "bold": true,
+      "bg": "#2E7D32",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 5,
+      "row": 7,
+      "value": "세부 업무 범위",
+      "bold": true,
+      "bg": "#2E7D32",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 6,
+      "row": 7,
+      "value": "관련 파트너",
+      "bold": true,
+      "bg": "#2E7D32",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 7,
+      "row": 7,
+      "value": "주요 장비",
+      "bold": true,
+      "bg": "#2E7D32",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 8,
+      "row": 7,
+      "value": "비고",
+      "bold": true,
+      "bg": "#2E7D32",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 8,
+      "value": "승하선 통제\n(Gate Control)",
+      "bold": true,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 8,
+      "value": "🔵 GATE",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 8,
+      "value": "승하선 시간 관리\n인원 체크\n동선 통제",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 8,
+      "value": "▶ 하선 관리\n- 하선 시작/종료 시간 코스타와 사전 확정\n- 갱웨이 앞 하선 대기열 관리\n- 조별·시간대별 하선 순서 안내\n- 하선 인원 실시간 집계\n- 자유여행자 vs 투어 참가자 분리 안내\n- PLP(임시상륙허가) 배포·확인\n\n▶ 귀선(재승선) 관리\n- All Aboard 시간 30분 전부터 귀선 체크 시작\n- 투어별 귀선 인원 실시간 집계\n- 미귀선자 즉시 전화·현지 확인\n- 갱웨이 귀선 체크 포인트 운영\n- 최종 인원 확인 → 코스타에 보고\n\n▶ 중간 승하선자 관리\n- 김태우 하코다테 하선 (6/21)\n- 조수찬/신성 오타루 승선 (6/22)\n- 코스타 중간 승하선 절차 사전 확정\n- 동행 스태프 배정\n- 서류·짐 관리",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 8,
+      "value": "코스타 GRM\n코스타 CIQ 담당\n코스타 갱웨이 크루",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 8,
+      "value": "클립보드/체크리스트\n무전기\n확성기(메가폰)\n명단 출력물",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 8,
+      "value": "핵심 최우선 업무",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 9,
+      "value": "입출국·서류 관리\n(CIQ/Documentation)",
+      "bold": true,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 9,
+      "value": "🟠 CIQ",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 9,
+      "value": "입출국 심사 지원\n서류 검수·제출\n여권 관리",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 9,
+      "value": "▶ 사전 준비 (기항 전일)\n- 전 승객 여권정보 명단 최종 확인\n- CIQ 제출용 명단 코스타 양식 작성\n- PLP(승객리스트) 인쇄·준비\n- 중간 승하선자 별도 서류 준비\n\n▶ 기항 당일\n- 입국 심사관 선내 승선 시 안내 협조\n- PLP 스티커 배포 확인\n- 여권 원본/사본 제출 여부 확인 (기항지별)\n- 입국 심사 완료 후 하선 허가 확인\n- 중간 하선자(김태우) 별도 출국 서류 처리\n- 중간 승선자(조수찬/신성) 별도 입국 서류 처리\n\n▶ 부산 귀항 시\n- 한국 입국 CIQ 절차 지원\n- 하선 순서별 여권 반환",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 9,
+      "value": "코스타 CIQ 담당\n일본 입국심사관\n항만 출입국관리",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 9,
+      "value": "여권 리스트\nPLP 인쇄물\n코스타폼\n중간 승하선 서류",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 9,
+      "value": "서류 오류=탑승 불가",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 10,
+      "value": "투어 운영 지원\n(Tour Operations)",
+      "bold": true,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 10,
+      "value": "🟢 TOUR",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 10,
+      "value": "기항지 투어 총괄\n가이드 관리\n자유여행자 관리",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 10,
+      "value": "▶ 투어 운영 (타이요플랜 주도, 본 팀 감독)\n- 투어별 일정·차량·가이드·식당 확인\n- 투어 출발 전 브리핑 (인솔자에게)\n- 투어 중 실시간 상황 모니터링\n- 투어별 귀선 보고 수집\n- 투어 후 리포트 작성\n\n▶ 자유여행자 관리\n- 자유일정 확인서 수령 (필수)\n- 귀선시간 반복 안내\n- 비상연락번호 배포\n- 귀선 미이행 시 즉시 연락\n\n▶ 기항지별 투어 리포트\n- 투어별 참가현황\n- 문제점·개선사항\n- 고객 피드백 수집",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 10,
+      "value": "타이요플랜 팀장\n타이요 가이드 70명\n현지 투어업체\n현지 차량업체",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 10,
+      "value": "투어 일정표\n명단 출력물\n비상연락망\n현지 지도",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 10,
+      "value": "타이요플랜이 실행\n본 팀은 감독·지원",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 12,
+      "value": "▣ 팀 인력 구성 (팀장 1명 + 팀원 1명 + 타이요플랜 6명 + 가이드 70명)",
+      "bold": true,
+      "bg": "#2E7D32",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 13,
+      "value": "직위",
+      "bold": true,
+      "bg": "#2E7D32",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 3,
+      "row": 13,
+      "value": "담당자",
+      "bold": true,
+      "bg": "#2E7D32",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 4,
+      "row": 13,
+      "value": "담당 영역",
+      "bold": true,
+      "bg": "#2E7D32",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 5,
+      "row": 13,
+      "value": "핵심 책임",
+      "bold": true,
+      "bg": "#2E7D32",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 6,
+      "row": 13,
+      "value": "세부 업무",
+      "bold": true,
+      "bg": "#2E7D32",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 7,
+      "row": 13,
+      "value": "배치 위치",
+      "bold": true,
+      "bg": "#2E7D32",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 8,
+      "row": 13,
+      "value": "운영 시간대",
+      "bold": true,
+      "bg": "#2E7D32",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 14,
+      "value": "기항지운영팀장",
+      "bold": true,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 14,
+      "value": "TBD",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 14,
+      "value": "전체 총괄\n(승하선통제 + CIQ)",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 14,
+      "value": "승하선 통제 총괄\n입출국 서류 최종 책임\n중간 승하선자 직접 관리",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 14,
+      "value": "- 하선·귀선 인원 최종 확인 및 코스타 보고\n- CIQ 서류 최종 검수 및 제출\n- 중간 승하선자(김태우/조수찬·신성) 직접 서포트\n- All Aboard 미귀선 시 본부장 즉시 보고\n- 코스타 갱웨이 크루·CIQ 담당과 직접 소통\n- 기항지별 투어 리포트 취합\n- 해상일: HQ 보고 + 프로그램팀 지원 조율",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 14,
+      "value": "갱웨이 / CIQ 구역\n→ 해상일: HQ",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 14,
+      "value": "기항일: 종일\n해상일: 프로그램 지원",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 15,
+      "value": "기항지운영 팀원",
+      "bold": true,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 15,
+      "value": "TBD",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 15,
+      "value": "투어 지원\n+ 자유여행자 관리",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 15,
+      "value": "투어 운영 현장 지원\n자유여행자 관리 전담\n귀선 체크 포인트 운영",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 15,
+      "value": "- 투어별 출발·귀선 인원 집계\n- 자유여행 확인서 수령·관리\n- 귀선 체크 포인트 현장 운영\n- 미귀선자 전화 연락\n- 투어 현장 문제 대응 지원\n- 해상일: 식당안내/고객응대 + 프로그램팀 합류",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 15,
+      "value": "갱웨이 체크포인트\n→ 해상일: 프로그램장",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 15,
+      "value": "기항일: 종일\n해상일: 프로그램 지원",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 16,
+      "value": "타이요플랜 팀장",
+      "bold": true,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 16,
+      "value": "타이요플랜",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 16,
+      "value": "투어 운영 총괄",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 16,
+      "value": "가이드 70명 지휘\n투어 실행 총괄",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 16,
+      "value": "- 가이드 70명 배치·관리\n- 투어별 차량·식당·일정 최종 확인\n- 투어 중 긴급 대응 (차량 고장, 가이드 이슈 등)\n- 현지 투어업체·차량업체 직접 소통\n- 투어별 귀선 보고",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 16,
+      "value": "기항지 현장",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 16,
+      "value": "기항일 종일",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 17,
+      "value": "타이요플랜 스태프",
+      "bold": true,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 17,
+      "value": "타이요플랜\n5명",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 17,
+      "value": "투어 실행 지원",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 17,
+      "value": "투어 인솔 지원\n현장 안내",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 17,
+      "value": "- 투어 그룹별 인솔 보조\n- 현장 안내·통역\n- 자유여행자 관리 보조\n- 귀선 체크 보조",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 17,
+      "value": "기항지 현장",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 17,
+      "value": "기항일 종일",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 18,
+      "value": "가이드 70명",
+      "bold": true,
+      "bg": "#FDF2E9",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 18,
+      "value": "타이요플랜 소속",
+      "bold": false,
+      "bg": "#FDF2E9",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 18,
+      "value": "고객 인솔",
+      "bold": false,
+      "bg": "#FDF2E9",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 18,
+      "value": "조별 고객 인솔\n투어 가이드",
+      "bold": false,
+      "bg": "#FDF2E9",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 18,
+      "value": "- 조별(30~40개 조) 고객 인솔\n- 투어 가이드 진행\n- 자유여행자 귀선 시간 안내\n- 해상일: 선내 고객관리·식당안내 지원",
+      "bold": false,
+      "bg": "#FDF2E9",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 18,
+      "value": "투어 현장\n→ 해상일: 선내",
+      "bold": false,
+      "bg": "#FDF2E9",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 18,
+      "value": "종일",
+      "bold": false,
+      "bg": "#FDF2E9",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 20,
+      "value": "▣ 중간 승하선자 관리 프로세스 (아티스트 전용)",
+      "bold": true,
+      "bg": "#E74C3C",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 21,
+      "value": "대상",
+      "bold": true,
+      "bg": "#E74C3C",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 3,
+      "row": 21,
+      "value": "일시",
+      "bold": true,
+      "bg": "#E74C3C",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 4,
+      "row": 21,
+      "value": "항구",
+      "bold": true,
+      "bg": "#E74C3C",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 5,
+      "row": 21,
+      "value": "승/하선",
+      "bold": true,
+      "bg": "#E74C3C",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 6,
+      "row": 21,
+      "value": "절차 상세",
+      "bold": true,
+      "bg": "#E74C3C",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 7,
+      "row": 21,
+      "value": "필요 서류",
+      "bold": true,
+      "bg": "#E74C3C",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 8,
+      "row": 21,
+      "value": "담당",
+      "bold": true,
+      "bg": "#E74C3C",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 9,
+      "row": 21,
+      "value": "동행 스태프",
+      "bold": true,
+      "bg": "#E74C3C",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 22,
+      "value": "김태우",
+      "bold": true,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 22,
+      "value": "6/21(토)\n13:00 이후",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 22,
+      "value": "하코다테",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 22,
+      "value": "하선\n(중간 하선)",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 22,
+      "value": "① 기항 전일(6/20): 하선 서류 사전 준비\n   - 코스타 GRM에 중간 하선 통보\n   - 코스타 양식 하선 신청서 작성·제출\n   - 선내 정산 사전 완료 (미니바 등)\n② 기항 당일(6/21) 오전:\n   - 김태우 짐 패킹 확인 (동행 스태프)\n   - 하선 시간·장소 최종 안내\n   - 하선 시 코스타 승선카드 반납 절차 확인\n③ 13:00 하코다테 입항 후:\n   - 일반 승객 하선 완료 후 별도 하선 or 동시 하선\n   - 동행 스태프 1명 갱웨이까지 에스코트\n   - 짐 운반 지원\n   - 하코다테 항구에서 현지 이동 수배 확인\n     (하코다테→도쿄 항공편 or 현지 체류)\n④ 하선 완료 보고 (HQ+본부장)",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 22,
+      "value": "- 코스타 하선 신청서\n- 여권 원본\n- PLP(있는 경우)\n- 하코다테 현지 이동 티켓\n- 선내 정산 완료 확인서",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 22,
+      "value": "팀장 직접\n+ 프로그램팀원A",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 9,
+      "row": 22,
+      "value": "동행 스태프 1명\n(갱웨이→항구까지)",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 23,
+      "value": "조수찬\n/\n신성",
+      "bold": true,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 23,
+      "value": "6/22(일)\n14:00 이후",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 23,
+      "value": "오타루",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 23,
+      "value": "승선\n(중간 승선)",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 23,
+      "value": "① 사전 준비 (D-7~):\n   - 서울→삿포로(or 오타루) 항공편 확정\n   - 오타루 항구까지 이동 수배 (택시/렌터카)\n   - 코스타 GRM에 중간 승선 통보\n   - 코스타 양식 승선 신청서 작성·제출\n   - 승선카드 사전 발급 요청\n② 기항 전일(6/21):\n   - 아티스트 항공편 재확인\n   - 현지 숙박(필요 시) 확인\n   - 승선 서류 최종 확인\n③ 6/22 당일:\n   - 아티스트 삿포로 도착 확인 (전화)\n   - 오타루 항구 도착 확인\n   - 14:00 입항 후 → 스태프 항구 영접\n   - 코스타 갱웨이에서 체크인 (동행 스태프 대행)\n   - 승선카드 수령·캐빈 안내\n   - 짐 운반 지원 (캐빈까지)\n   - 리허설 시간·장소 안내\n④ 승선 완료 보고 (HQ+본부장)",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 23,
+      "value": "- 코스타 승선 신청서\n- 여권 원본\n- 코스타폼 (사전 작성)\n- 승선카드 (사전 발급)\n- 항공 티켓 정보\n- 오타루 이동 수배 확인",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 23,
+      "value": "팀장 직접\n+ 프로그램팀원A",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 9,
+      "row": 23,
+      "value": "동행 스태프 1명\n(항구→캐빈까지)",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     }
+    ]
+   ]
+  },
+  {
+   "name": "일자별 타임스케줄",
+   "rows": 59,
+   "cols": 9,
+   "data": [
+    [
+     {
+      "col": 2,
+      "row": 2,
+      "value": "기항지운영팀 — 일자별 타임스케줄",
+      "bold": true,
+      "bg": "#2E7D32",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 3,
+      "value": "6/20(금) 해상일 — 프로그램팀 합류 + 기항 준비",
+      "bold": true,
+      "bg": "#2980B9",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 4,
+      "value": "시간",
+      "bold": true,
+      "bg": "#2980B9",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 3,
+      "row": 4,
+      "value": "영역",
+      "bold": true,
+      "bg": "#2980B9",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 4,
+      "row": 4,
+      "value": "업무",
+      "bold": true,
+      "bg": "#2980B9",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 5,
+      "row": 4,
+      "value": "세부 내용",
+      "bold": true,
+      "bg": "#2980B9",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 6,
+      "row": 4,
+      "value": "담당",
+      "bold": true,
+      "bg": "#2980B9",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 7,
+      "row": 4,
+      "value": "장소",
+      "bold": true,
+      "bg": "#2980B9",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 8,
+      "row": 4,
+      "value": "비고",
+      "bold": true,
+      "bg": "#2980B9",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 5,
+      "value": "09:00~17:00",
+      "bold": true,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 5,
+      "value": "TOUR",
+      "bold": true,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 5,
+      "value": "★ 프로그램팀 탄력 합류",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 5,
+      "value": "- 해상일: 기항지 업무 없음\n- 프로그램팀에 전원 합류 (행사장 세팅/관객안내/부스 등)\n- HQ 배치표에 따라 운영",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 5,
+      "value": "팀장+팀원",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 5,
+      "value": "선내 행사장",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 5,
+      "value": "★탄력 운영",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 6,
+      "value": "17:00~18:00",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 6,
+      "value": "CIQ",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 6,
+      "value": "하코다테 기항 사전 준비",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 6,
+      "value": "- 하코다테 CIQ 서류 최종 확인\n- PLP 인쇄·준비\n- 투어별 명단 최종 확인\n- 자유여행자 명단 확정",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 6,
+      "value": "팀장",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 6,
+      "value": "HQ",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 7,
+      "value": "18:00~19:00",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 7,
+      "value": "GATE",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 7,
+      "value": "하코다테 기항 안내 방송 지원",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 7,
+      "value": "- 기항지 투어 안내 방송 요청 (안내파트)\n- 투어별 집합 시간·장소 공지\n- 자유여행자 귀선 시간 안내",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 7,
+      "value": "팀원",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 8,
+      "value": "19:00~20:00",
+      "bold": true,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 8,
+      "value": "CIQ",
+      "bold": true,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 8,
+      "value": "★ 김태우 하선 서류 최종 준비",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 8,
+      "value": "- 중간 하선 신청서 코스타 제출 확인\n- 김태우 선내 정산 사전 완료 확인\n- 동행 스태프 배정 최종 확인\n- 하코다테 현지 이동 수배 재확인",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 8,
+      "value": "팀장",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 8,
+      "value": "HQ",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 8,
+      "value": "★중간 하선",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 9,
+      "value": "22:00",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 9,
+      "value": "전체",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 9,
+      "value": "일일미팅",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 9,
+      "value": "- 익일 하코다테 기항 최종 브리핑\n- 투어별 배치 확인\n- 중간 하선(김태우) 절차 최종 확인",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 9,
+      "value": "팀장",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 11,
+      "value": "6/21(토) 하코다테 기항 (13:00 입항 / 22:00 출항) — 핵심 기항일",
+      "bold": true,
+      "bg": "#2E7D32",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 12,
+      "value": "시간",
+      "bold": true,
+      "bg": "#2E7D32",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 3,
+      "row": 12,
+      "value": "영역",
+      "bold": true,
+      "bg": "#2E7D32",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 4,
+      "row": 12,
+      "value": "업무",
+      "bold": true,
+      "bg": "#2E7D32",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 5,
+      "row": 12,
+      "value": "세부 내용",
+      "bold": true,
+      "bg": "#2E7D32",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 6,
+      "row": 12,
+      "value": "담당",
+      "bold": true,
+      "bg": "#2E7D32",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 7,
+      "row": 12,
+      "value": "장소",
+      "bold": true,
+      "bg": "#2E7D32",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 8,
+      "row": 12,
+      "value": "비고",
+      "bold": true,
+      "bg": "#2E7D32",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 13,
+      "value": "07:00~09:00",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 13,
+      "value": "CIQ",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 13,
+      "value": "CIQ 서류 최종 점검",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 13,
+      "value": "- CIQ 명단 코스타 제출 최종 확인\n- PLP 준비 상태 확인\n- 여권 관련 이슈 사전 파악",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 13,
+      "value": "팀장",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 13,
+      "value": "HQ",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 14,
+      "value": "09:00~10:00",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 14,
+      "value": "GATE",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 14,
+      "value": "하선 사전 브리핑 (인솔자)",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 14,
+      "value": "- 인솔자 70명 하선 브리핑\n- 투어별 하선 순서·동선 안내\n- 자유여행 귀선 시간 반복 안내\n- 비상연락번호 배포",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 14,
+      "value": "팀장+팀원",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 14,
+      "value": "회의 장소",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 15,
+      "value": "10:00~12:00",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 15,
+      "value": "TOUR",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 15,
+      "value": "투어 출발 준비",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 15,
+      "value": "- 투어별 집합 장소 안내 POP 배치\n- 자유여행 확인서 수령\n- 비상연락망 최종 배포",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 15,
+      "value": "팀원",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 15,
+      "value": "선내 로비",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 16,
+      "value": "12:00~13:00",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 16,
+      "value": "GATE",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 16,
+      "value": "하선 대기열 관리",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 16,
+      "value": "- 갱웨이 앞 하선 대기열 정리\n- 조별 하선 순서 안내\n- PLP 소지 확인",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 16,
+      "value": "팀장+팀원",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 16,
+      "value": "갱웨이",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 17,
+      "value": "13:00",
+      "bold": true,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 17,
+      "value": "★ 하코다테 입항",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 17,
+      "value": "- CIQ 절차 시작\n- 입국 심사관 선내 승선 (해당 시)\n- PLP 확인 후 하선 개시",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 18,
+      "value": "13:00~13:30",
+      "bold": true,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 18,
+      "value": "GATE",
+      "bold": true,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 18,
+      "value": "★★ 김태우 중간 하선 서포트",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 18,
+      "value": "- 김태우 하선 절차 실행\n- 동행 스태프 갱웨이까지 에스코트\n- 짐 운반 지원\n- 코스타 승선카드 반납\n- 하코다테 항구에서 현지 이동 확인\n- 하선 완료 → HQ+본부장 보고",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 18,
+      "value": "팀장 직접",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 18,
+      "value": "갱웨이→항구",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 18,
+      "value": "★★핵심",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 19,
+      "value": "13:00~13:30",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 19,
+      "value": "CIQ",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 19,
+      "value": "일반 승객 하선 개시",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 19,
+      "value": "- CIQ 완료 후 순차 하선\n- 하선 인원 실시간 집계\n- 투어 참가자 조별 하선\n- 자유여행자 하선",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 19,
+      "value": "팀원",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 19,
+      "value": "갱웨이",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 20,
+      "value": "13:30~21:00",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 20,
+      "value": "TOUR",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 20,
+      "value": "투어 운영 모니터링",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 20,
+      "value": "- 타이요플랜 주도 투어 진행\n- 투어별 상황 카톡 보고 수집\n- 문제 발생 시 즉시 대응 지원\n- 자유여행자 위치 확인 (필요 시)",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 20,
+      "value": "팀원",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 20,
+      "value": "선내 대기\n(무전기 상시)",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 21,
+      "value": "20:00~20:30",
+      "bold": true,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 21,
+      "value": "GATE",
+      "bold": true,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 21,
+      "value": "★ 귀선 체크 시작 (All Aboard 30분 전)",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 21,
+      "value": "- 갱웨이 귀선 체크 포인트 운영\n- 투어별 귀선 인원 실시간 집계\n- 자유여행자 귀선 확인\n- 귀선 현황 HQ 실시간 보고",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 21,
+      "value": "팀장+팀원",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 21,
+      "value": "갱웨이",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 22,
+      "value": "20:30~21:00",
+      "bold": true,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 22,
+      "value": "GATE",
+      "bold": true,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 22,
+      "value": "★★ 미귀선자 대응",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 22,
+      "value": "- 미귀선자 즉시 전화 연락 (3회 이상)\n- 현지 가이드에게 위치 확인 요청\n- 미귀선 현황 HQ+본부장 즉시 보고\n- 코스타에 미귀선 현황 통보\n- 최악: 현지 체류 → 귀국 수배",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 22,
+      "value": "팀장",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 22,
+      "value": "갱웨이",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 22,
+      "value": "★★최긴급",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 23,
+      "value": "21:00",
+      "bold": true,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 23,
+      "value": "GATE",
+      "bold": true,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 23,
+      "value": "★ 최종 인원 확인 → 갱웨이 폐쇄",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 23,
+      "value": "- 전원 귀선 확인\n- 코스타에 최종 인원 보고\n- 갱웨이 폐쇄 확인",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 23,
+      "value": "팀장",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 24,
+      "value": "22:00",
+      "bold": true,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 24,
+      "value": "하코다테 출항",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 25,
+      "value": "22:00",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 25,
+      "value": "전체",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 25,
+      "value": "일일미팅",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 25,
+      "value": "- 하코다테 기항 이슈 보고\n- 김태우 하선 완료 보고\n- 익일 오타루 준비 확인",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 25,
+      "value": "팀장",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 27,
+      "value": "6/22(일) 오타루 기항 (14:00 입항 / 오버나잇) — 중간 승선 핵심일",
+      "bold": true,
+      "bg": "#1ABC9C",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 28,
+      "value": "시간",
+      "bold": true,
+      "bg": "#1ABC9C",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 3,
+      "row": 28,
+      "value": "영역",
+      "bold": true,
+      "bg": "#1ABC9C",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 4,
+      "row": 28,
+      "value": "업무",
+      "bold": true,
+      "bg": "#1ABC9C",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 5,
+      "row": 28,
+      "value": "세부 내용",
+      "bold": true,
+      "bg": "#1ABC9C",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 6,
+      "row": 28,
+      "value": "담당",
+      "bold": true,
+      "bg": "#1ABC9C",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 7,
+      "row": 28,
+      "value": "장소",
+      "bold": true,
+      "bg": "#1ABC9C",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 8,
+      "row": 28,
+      "value": "비고",
+      "bold": true,
+      "bg": "#1ABC9C",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 29,
+      "value": "07:00~09:00",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 29,
+      "value": "CIQ",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 29,
+      "value": "오타루 CIQ 서류 최종 점검",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 29,
+      "value": "- 오타루 CIQ 명단 확인\n- PLP 준비\n- 중간 승선(조수찬/신성) 서류 최종 확인",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 29,
+      "value": "팀장",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 29,
+      "value": "HQ",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 30,
+      "value": "09:00~13:00",
+      "bold": true,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 30,
+      "value": "TOUR",
+      "bold": true,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 30,
+      "value": "★ 프로그램팀 합류 (오전)",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 30,
+      "value": "- 오전 프로그램 지원 (크루즈가수왕 결선 등)\n- HQ 배치표에 따라 운영",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 30,
+      "value": "팀원",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 30,
+      "value": "행사장",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 30,
+      "value": "★탄력",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 31,
+      "value": "09:00~10:00",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 31,
+      "value": "GATE",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 31,
+      "value": "하선 사전 브리핑",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 31,
+      "value": "- 인솔자 오타루 하선 브리핑\n- 오버나잇 특수사항 안내 (야간 재승선 가능)",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 31,
+      "value": "팀장",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 32,
+      "value": "12:00~14:00",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 32,
+      "value": "CIQ",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 32,
+      "value": "오타루 하선 준비",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 32,
+      "value": "- 하선 대기열 관리\n- PLP 확인",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 32,
+      "value": "팀원",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 32,
+      "value": "갱웨이",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 33,
+      "value": "14:00",
+      "bold": true,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 33,
+      "value": "★ 오타루 입항",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 34,
+      "value": "14:00~14:30",
+      "bold": true,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 34,
+      "value": "GATE",
+      "bold": true,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 34,
+      "value": "★★★ 조수찬/신성 오타루 중간 승선 서포트",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 34,
+      "value": "- 오타루 항구에서 아티스트 영접\n  (스태프 1명 항구 사전 대기)\n- 코스타 갱웨이에서 체크인 (동행 스태프 대행)\n- 승선카드 수령\n- 캐빈 안내·짐 운반\n- 리허설 시간·장소 안내\n- 승선 완료 → HQ+본부장 보고",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 34,
+      "value": "팀장 직접\n+ 프로그램팀원A",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 34,
+      "value": "항구→갱웨이→캐빈",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 34,
+      "value": "★★★핵심",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 35,
+      "value": "14:00~14:30",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 35,
+      "value": "CIQ",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 35,
+      "value": "일반 승객 하선 개시",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 35,
+      "value": "- CIQ 완료 후 순차 하선\n- 하선 인원 집계",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 35,
+      "value": "팀원",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 35,
+      "value": "갱웨이",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 36,
+      "value": "14:30~22:00",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 36,
+      "value": "TOUR",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 36,
+      "value": "투어 운영 모니터링",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 36,
+      "value": "- 오후 투어 진행 모니터링\n- 자유여행자 관리\n- 오버나잇 특수: 야간까지 자유시간",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 36,
+      "value": "팀원",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 36,
+      "value": "선내 대기",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 37,
+      "value": "22:00",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 37,
+      "value": "전체",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 37,
+      "value": "일일미팅",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 37,
+      "value": "- 오타루 기항 이슈\n- 조수찬/신성 승선 완료 보고\n- 오버나잇 야간 운영 안내",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 37,
+      "value": "팀장",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 38,
+      "value": "22:00~07:00",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 38,
+      "value": "GATE",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 38,
+      "value": "오버나잇 야간 승하선 관리",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 38,
+      "value": "- 야간 하선/승선 가능 여부 확인 (갱웨이 24h)\n- 야간 귀선자 체크\n- 야간 하선자 주의 안내 (귀선 시간 안내)\n- 교대 운영 (팀원 야간 당직)",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 38,
+      "value": "팀원(교대)",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 38,
+      "value": "갱웨이",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 38,
+      "value": "오버나잇 특수",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 40,
+      "value": "6/23(월) 오타루 출항 (17:00) — 최종 귀선 관리",
+      "bold": true,
+      "bg": "#E67E22",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 41,
+      "value": "시간",
+      "bold": true,
+      "bg": "#E67E22",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 3,
+      "row": 41,
+      "value": "영역",
+      "bold": true,
+      "bg": "#E67E22",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 4,
+      "row": 41,
+      "value": "업무",
+      "bold": true,
+      "bg": "#E67E22",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 5,
+      "row": 41,
+      "value": "세부 내용",
+      "bold": true,
+      "bg": "#E67E22",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 6,
+      "row": 41,
+      "value": "담당",
+      "bold": true,
+      "bg": "#E67E22",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 7,
+      "row": 41,
+      "value": "장소",
+      "bold": true,
+      "bg": "#E67E22",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 8,
+      "row": 41,
+      "value": "비고",
+      "bold": true,
+      "bg": "#E67E22",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 42,
+      "value": "07:00~09:00",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 42,
+      "value": "GATE",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 42,
+      "value": "오전 승하선 관리",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 42,
+      "value": "- 오타루 오전 자유 관광 하선 관리\n- 하선 인원 집계",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 42,
+      "value": "팀원",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 42,
+      "value": "갱웨이",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 43,
+      "value": "09:00~15:00",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 43,
+      "value": "TOUR",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 43,
+      "value": "오타루 잔류 관광 모니터링",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 43,
+      "value": "- 투어/자유여행 진행 모니터링\n- 귀선 시간 반복 안내 (카톡/방송)",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 43,
+      "value": "팀원",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 43,
+      "value": "선내 대기",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 44,
+      "value": "15:00~16:00",
+      "bold": true,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 44,
+      "value": "GATE",
+      "bold": true,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 44,
+      "value": "★★ 귀선 체크 (All Aboard 16:00)",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 44,
+      "value": "- 귀선 체크 포인트 운영\n- 투어별 귀선 인원 집계\n- 자유여행자 귀선 확인\n- 미귀선자 즉시 대응",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 44,
+      "value": "팀장+팀원",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 44,
+      "value": "갱웨이",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 44,
+      "value": "★★핵심",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 45,
+      "value": "16:00",
+      "bold": true,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 45,
+      "value": "GATE",
+      "bold": true,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 45,
+      "value": "★ 최종 인원 확인 → 갱웨이 폐쇄",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 45,
+      "value": "- 전원 귀선 확인\n- 코스타에 최종 보고\n- 갱웨이 폐쇄",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 45,
+      "value": "팀장",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 46,
+      "value": "17:00",
+      "bold": true,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 46,
+      "value": "오타루 출항",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 47,
+      "value": "17:00~22:00",
+      "bold": true,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 47,
+      "value": "TOUR",
+      "bold": true,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 47,
+      "value": "★ 프로그램팀 합류",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 47,
+      "value": "- 출항 후 즉시 프로그램팀 합류\n- 김수찬/신성 메인 공연(21:00) 지원\n- 행사장 세팅·관객 안내",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 47,
+      "value": "팀장+팀원",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 47,
+      "value": "행사장",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 47,
+      "value": "★탄력",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 48,
+      "value": "22:00",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 48,
+      "value": "전체",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 48,
+      "value": "일일미팅",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 48,
+      "value": "- 오타루 최종 이슈\n- 기항지 전체 리포트 초안",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 48,
+      "value": "팀장",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 50,
+      "value": "6/24(화) 해상일 — 전원 프로그램팀 합류",
+      "bold": true,
+      "bg": "#2980B9",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 51,
+      "value": "시간",
+      "bold": true,
+      "bg": "#2980B9",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 3,
+      "row": 51,
+      "value": "영역",
+      "bold": true,
+      "bg": "#2980B9",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 4,
+      "row": 51,
+      "value": "업무",
+      "bold": true,
+      "bg": "#2980B9",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 5,
+      "row": 51,
+      "value": "세부 내용",
+      "bold": true,
+      "bg": "#2980B9",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 6,
+      "row": 51,
+      "value": "담당",
+      "bold": true,
+      "bg": "#2980B9",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 7,
+      "row": 51,
+      "value": "장소",
+      "bold": true,
+      "bg": "#2980B9",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 8,
+      "row": 51,
+      "value": "비고",
+      "bold": true,
+      "bg": "#2980B9",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 52,
+      "value": "종일",
+      "bold": true,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 52,
+      "value": "TOUR",
+      "bold": true,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 52,
+      "value": "★ 프로그램팀 전원 합류",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 52,
+      "value": "- 기항지 업무 완전 종료\n- 프로그램팀에 전원 합류\n- 최대 프로그램일(6/24): 최대 인력 필요\n- 행사장 세팅/관객안내/부스 운영 등",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 52,
+      "value": "팀장+팀원",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 52,
+      "value": "행사장",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 52,
+      "value": "★탄력",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 53,
+      "value": "22:00",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 53,
+      "value": "전체",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 53,
+      "value": "일일미팅",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 53,
+      "value": "- 기항지 전체 리포트 최종\n- 하선일 준비 확인",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 53,
+      "value": "팀장",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 55,
+      "value": "6/25(수) 하선일 — 부산 하선 지원",
+      "bold": true,
+      "bg": "#0D1B2A",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 56,
+      "value": "시간",
+      "bold": true,
+      "bg": "#0D1B2A",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 3,
+      "row": 56,
+      "value": "영역",
+      "bold": true,
+      "bg": "#0D1B2A",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 4,
+      "row": 56,
+      "value": "업무",
+      "bold": true,
+      "bg": "#0D1B2A",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 5,
+      "row": 56,
+      "value": "세부 내용",
+      "bold": true,
+      "bg": "#0D1B2A",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 6,
+      "row": 56,
+      "value": "담당",
+      "bold": true,
+      "bg": "#0D1B2A",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 7,
+      "row": 56,
+      "value": "장소",
+      "bold": true,
+      "bg": "#0D1B2A",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 8,
+      "row": 56,
+      "value": "비고",
+      "bold": true,
+      "bg": "#0D1B2A",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 57,
+      "value": "07:00~",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 57,
+      "value": "CIQ",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 57,
+      "value": "부산 입국 CIQ 준비",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 57,
+      "value": "- 한국 입국 CIQ 서류 확인\n- 하선 순서 안내 지원",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 57,
+      "value": "팀장",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 58,
+      "value": "10:00~14:00",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 58,
+      "value": "GATE",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 58,
+      "value": "하선 지원",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 58,
+      "value": "- 층별 하선 안내 지원\n- 하선 인원 집계 보조\n- 인솔자 조별 하선 인솔",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 58,
+      "value": "팀원",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 58,
+      "value": "갱웨이",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 59,
+      "value": "14:00~",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 59,
+      "value": "전체",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 59,
+      "value": "물품 철수 지원",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 59,
+      "value": "- 물품 하역 보조\n- 정리 및 해산",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 59,
+      "value": "전원",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ]
+   ]
+  },
+  {
+   "name": "업무 매뉴얼 SOP",
+   "rows": 38,
+   "cols": 8,
+   "data": [
+    [
+     {
+      "col": 2,
+      "row": 2,
+      "value": "기항지운영팀 — 업무 매뉴얼 (SOP 6종)",
+      "bold": true,
+      "bg": "#6C5CE7",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 3,
+      "value": "SOP-01. 하선 관리 매뉴얼",
+      "bold": true,
+      "bg": "#2E7D32",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 4,
+      "value": "단계",
+      "bold": true,
+      "bg": "#2E7D32",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 3,
+      "row": 4,
+      "value": "프로세스",
+      "bold": true,
+      "bg": "#2E7D32",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 4,
+      "row": 4,
+      "value": "상세 내용",
+      "bold": true,
+      "bg": "#2E7D32",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 5,
+      "row": 4,
+      "value": "체크리스트",
+      "bold": true,
+      "bg": "#2E7D32",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 6,
+      "row": 4,
+      "value": "담당",
+      "bold": true,
+      "bg": "#2E7D32",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 7,
+      "row": 4,
+      "value": "시점",
+      "bold": true,
+      "bg": "#2E7D32",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 5,
+      "value": "1",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 5,
+      "value": "하선 준비\n(기항 전일 22:00)",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 5,
+      "value": "- 투어별 하선 순서 확정\n- 자유여행자 명단 확정\n- PLP 인쇄·확인\n- CIQ 명단 코스타 제출 확인\n- 인솔자 브리핑 자료 준비",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 5,
+      "value": "□ 하선 순서표 확정\n□ PLP 준비 완료\n□ CIQ 제출 확인\n□ 인솔자 자료 준비",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 5,
+      "value": "팀장",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 5,
+      "value": "전일 22:00",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 6,
+      "value": "2",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 6,
+      "value": "인솔자 브리핑\n(기항 당일 09:00)",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 6,
+      "value": "- 인솔자 70명 하선 브리핑\n- 투어별 집합장소·시간·차량 안내\n- 자유여행 귀선 시간 반복 강조\n- 비상연락번호 배포\n- 승하선 주의사항 (PLP/여권/시간)",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 6,
+      "value": "□ 브리핑 장소 확보\n□ 전 인솔자 참석\n□ 비상연락번호 배포\n□ 귀선 시간 3회 이상 안내",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 6,
+      "value": "팀장",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 6,
+      "value": "당일 09:00",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 7,
+      "value": "3",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 7,
+      "value": "하선 실행\n(입항 후)",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 7,
+      "value": "- 갱웨이 앞 대기열 관리\n- 조별 순차 하선 (투어 → 자유여행 순)\n- PLP 소지 확인\n- 하선 인원 실시간 집계 (클립보드/체크리스트)\n- 하선 완료 → 코스타에 보고",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 7,
+      "value": "□ 갱웨이 스태프 배치\n□ 조별 하선 개시\n□ 인원 집계 시작\n□ 하선 완료 보고",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 7,
+      "value": "팀장+팀원",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 7,
+      "value": "입항 후",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 9,
+      "value": "SOP-02. 귀선(재승선) 관리 매뉴얼",
+      "bold": true,
+      "bg": "#E74C3C",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 10,
+      "value": "단계",
+      "bold": true,
+      "bg": "#E74C3C",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 3,
+      "row": 10,
+      "value": "프로세스",
+      "bold": true,
+      "bg": "#E74C3C",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 4,
+      "row": 10,
+      "value": "상세 내용",
+      "bold": true,
+      "bg": "#E74C3C",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 5,
+      "row": 10,
+      "value": "체크리스트",
+      "bold": true,
+      "bg": "#E74C3C",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 6,
+      "row": 10,
+      "value": "담당",
+      "bold": true,
+      "bg": "#E74C3C",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 7,
+      "row": 10,
+      "value": "시점",
+      "bold": true,
+      "bg": "#E74C3C",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 11,
+      "value": "1",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 11,
+      "value": "귀선 준비\n(All Aboard 1시간 전)",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 11,
+      "value": "- 갱웨이 귀선 체크 포인트 세팅\n- 체크리스트(투어별 명단) 준비\n- 무전기 교신 확인\n- 코스타 갱웨이 크루와 사전 조율",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 11,
+      "value": "□ 체크 포인트 세팅\n□ 명단 준비\n□ 무전기 OK\n□ 코스타 조율",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 11,
+      "value": "팀원",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 11,
+      "value": "AB -1h",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 12,
+      "value": "2",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 12,
+      "value": "귀선 체크\n(All Aboard 30분 전~)",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 12,
+      "value": "- 귀선자 성명·캐빈 번호 체크\n- 투어별 귀선 인원 실시간 집계\n- 카톡으로 HQ에 귀선 현황 보고 (15분 간격)\n- 미귀선 투어 그룹 인솔자에게 확인",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 12,
+      "value": "□ 체크 시작\n□ 15분 간격 보고\n□ 미귀선 그룹 확인",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 12,
+      "value": "팀장+팀원",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 12,
+      "value": "AB -30min",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 13,
+      "value": "3",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 13,
+      "value": "미귀선 대응\n(All Aboard 15분 전~)",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 13,
+      "value": "- 미귀선자 명단 추출\n- 개별 전화 연락 (3회 이상)\n- 현지 가이드에게 위치 확인\n- HQ+본부장 즉시 보고\n- 코스타에 미귀선 현황 통보\n- All Aboard 시간 도달 시 최종 판단:\n  → 연락 닿은 경우: 코스타에 대기 요청 (최대 15분)\n  → 연락 불가: 출항 결정은 코스타 선장 권한",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 13,
+      "value": "□ 미귀선자 명단\n□ 3회 연락\n□ 가이드 확인\n□ 본부장 보고\n□ 코스타 통보",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 13,
+      "value": "팀장",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 13,
+      "value": "AB -15min",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 13,
+      "value": "★최긴급",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 14,
+      "value": "4",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 14,
+      "value": "최종 확인\n(출항 직전)",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 14,
+      "value": "- 전원 귀선 확인 or 미귀선 확정\n- 코스타에 최종 인원 보고\n- 갱웨이 폐쇄 확인\n- 미귀선자 → 현지 체류 대응:\n  · 여행자보험 안내\n  · 현지 숙박 수배\n  · 귀국 항공편 수배\n  · 가족/긴급 연락처 안내",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 14,
+      "value": "□ 최종 인원 확인\n□ 갱웨이 폐쇄\n□ 미귀선자 대응 시작",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 14,
+      "value": "팀장",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 14,
+      "value": "출항 직전",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 16,
+      "value": "SOP-03. 중간 하선 매뉴얼 (김태우 / 하코다테)",
+      "bold": true,
+      "bg": "#E67E22",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 17,
+      "value": "단계",
+      "bold": true,
+      "bg": "#E67E22",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 3,
+      "row": 17,
+      "value": "프로세스",
+      "bold": true,
+      "bg": "#E67E22",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 4,
+      "row": 17,
+      "value": "상세 내용",
+      "bold": true,
+      "bg": "#E67E22",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 5,
+      "row": 17,
+      "value": "체크리스트",
+      "bold": true,
+      "bg": "#E67E22",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 6,
+      "row": 17,
+      "value": "담당",
+      "bold": true,
+      "bg": "#E67E22",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 7,
+      "row": 17,
+      "value": "시점",
+      "bold": true,
+      "bg": "#E67E22",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 18,
+      "value": "1",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 18,
+      "value": "서류 준비\n(D-7~전일)",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 18,
+      "value": "- 코스타 GRM에 중간 하선 공식 통보\n- 코스타 양식 하선 신청서 작성·제출\n- 김태우 여권 정보 확인\n- 하코다테 현지 이동 수배 확인\n- 동행 스태프 1명 배정 확정",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 18,
+      "value": "□ GRM 통보\n□ 신청서 제출\n□ 여권 확인\n□ 이동 수배\n□ 동행 스태프",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 18,
+      "value": "팀장",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 18,
+      "value": "D-7~전일",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 18,
+      "value": "프로그램팀 협업",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 19,
+      "value": "2",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 19,
+      "value": "정산 완료\n(전일)",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 19,
+      "value": "- 김태우 선내 비용 정산 사전 완료\n  (미니바·유료서비스 등 결제 완료)\n- 정산 미완료 시 하선 지연 가능성\n→ HQ 고객응대파트에 정산 완료 확인 요청",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 19,
+      "value": "□ 선내 정산 완료\n□ HQ 확인",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 19,
+      "value": "팀장→HQ",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 19,
+      "value": "전일",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 19,
+      "value": "★정산 필수",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 20,
+      "value": "3",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 20,
+      "value": "하선 실행\n(당일 13:00~)",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 20,
+      "value": "- 김태우 짐 패킹 확인\n- 갱웨이까지 동행 에스코트\n- 코스타 승선카드 반납\n- 짐 운반 지원\n- 항구에서 현지 이동 수단 인계\n- 하선 완료 → HQ+본부장 보고",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 20,
+      "value": "□ 짐 확인\n□ 에스코트\n□ 카드 반납\n□ 이동 인계\n□ 완료 보고",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 20,
+      "value": "팀장+동행",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 20,
+      "value": "당일",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 22,
+      "value": "SOP-04. 중간 승선 매뉴얼 (조수찬·신성 / 오타루)",
+      "bold": true,
+      "bg": "#8E44AD",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 23,
+      "value": "단계",
+      "bold": true,
+      "bg": "#8E44AD",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 3,
+      "row": 23,
+      "value": "프로세스",
+      "bold": true,
+      "bg": "#8E44AD",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 4,
+      "row": 23,
+      "value": "상세 내용",
+      "bold": true,
+      "bg": "#8E44AD",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 5,
+      "row": 23,
+      "value": "체크리스트",
+      "bold": true,
+      "bg": "#8E44AD",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 6,
+      "row": 23,
+      "value": "담당",
+      "bold": true,
+      "bg": "#8E44AD",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 7,
+      "row": 23,
+      "value": "시점",
+      "bold": true,
+      "bg": "#8E44AD",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 24,
+      "value": "1",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 24,
+      "value": "사전 수배\n(D-30~D-7)",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 24,
+      "value": "- 서울→삿포로 항공편 예약·확정\n- 삿포로→오타루 이동 수배\n- 오타루 현지 숙박 (필요 시)\n- 코스타 GRM에 중간 승선 공식 통보\n- 코스타 양식 승선 신청서 작성·제출\n- 코스타폼 사전 작성 (아티스트 정보)\n- 승선카드 사전 발급 요청",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 24,
+      "value": "□ 항공편 확정\n□ 이동 수배\n□ GRM 통보\n□ 신청서 제출\n□ 코스타폼\n□ 승선카드 요청",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 24,
+      "value": "팀장+총괄",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 24,
+      "value": "D-30~D-7",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 25,
+      "value": "2",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 25,
+      "value": "현지 확인\n(전일~당일 오전)",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 25,
+      "value": "- 아티스트 항공편 출발 확인\n- 삿포로 도착 확인 (전화)\n- 오타루 항구 이동 출발 확인\n- 항구 도착 예상 시간 확인",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 25,
+      "value": "□ 출발 확인\n□ 도착 확인\n□ 이동 확인\n□ 도착 예상",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 25,
+      "value": "팀장",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 25,
+      "value": "전일~당일",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 26,
+      "value": "3",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 26,
+      "value": "항구 영접\n(당일 14:00~)",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 26,
+      "value": "- 동행 스태프 1명 항구 사전 대기\n- 아티스트 항구 도착 → 영접\n- 갱웨이로 안내\n- 코스타 체크인 (동행 스태프 대행)\n- 승선카드 수령\n- 보안 검색 통과\n- 캐빈까지 에스코트\n- 짐 운반 지원\n- 리허설 시간·장소 안내\n- 승선 완료 → HQ+본부장 보고",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 26,
+      "value": "□ 항구 영접\n□ 체크인 완료\n□ 승선카드 수령\n□ 캐빈 안내\n□ 리허설 안내\n□ 완료 보고",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 26,
+      "value": "팀장+동행",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 26,
+      "value": "당일 14:00~",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 28,
+      "value": "SOP-05. 자유여행자 관리 매뉴얼",
+      "bold": true,
+      "bg": "#1ABC9C",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 29,
+      "value": "단계",
+      "bold": true,
+      "bg": "#1ABC9C",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 3,
+      "row": 29,
+      "value": "프로세스",
+      "bold": true,
+      "bg": "#1ABC9C",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 4,
+      "row": 29,
+      "value": "상세 내용",
+      "bold": true,
+      "bg": "#1ABC9C",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 5,
+      "row": 29,
+      "value": "체크리스트",
+      "bold": true,
+      "bg": "#1ABC9C",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 6,
+      "row": 29,
+      "value": "담당",
+      "bold": true,
+      "bg": "#1ABC9C",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 7,
+      "row": 29,
+      "value": "시점",
+      "bold": true,
+      "bg": "#1ABC9C",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 30,
+      "value": "1",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 30,
+      "value": "사전 등록",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 30,
+      "value": "- 자유여행 신청 접수 (승선 전 or 선내)\n- 자유일정 확인서 수령 (서명 필수)\n- 비상연락번호 기록\n- 귀선 시간 서면 확인",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 30,
+      "value": "□ 확인서 수령\n□ 연락번호 기록\n□ 귀선 시간 확인",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 30,
+      "value": "팀원",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 30,
+      "value": "기항 전일",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 31,
+      "value": "2",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 31,
+      "value": "하선 시 안내",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 31,
+      "value": "- 자유여행자 별도 하선 안내\n- 귀선 시간 반복 강조 (구두+서면+문자)\n- 비상연락 카드 배포\n- 현지 지도·주요 정보 안내",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 31,
+      "value": "□ 귀선 시간 3회 안내\n□ 비상 카드 배포\n□ 지도 배포",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 31,
+      "value": "팀원",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 31,
+      "value": "하선 시",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 32,
+      "value": "3",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 32,
+      "value": "귀선 관리",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 32,
+      "value": "- 귀선 체크 시 자유여행자 별도 체크\n- All Aboard 1시간 전 문자 발송\n- 30분 전 전화 확인 (미귀선 시)\n- 미귀선 → SOP-02 미귀선 대응 프로세스 돌입",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 32,
+      "value": "□ 문자 발송\n□ 전화 확인\n□ 미귀선 시 SOP-02",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 32,
+      "value": "팀원→팀장",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 32,
+      "value": "All Aboard 전",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 34,
+      "value": "SOP-06. 오타루 오버나잇 특수 운영",
+      "bold": true,
+      "bg": "#2C3E50",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 35,
+      "value": "단계",
+      "bold": true,
+      "bg": "#2C3E50",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 3,
+      "row": 35,
+      "value": "프로세스",
+      "bold": true,
+      "bg": "#2C3E50",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 4,
+      "row": 35,
+      "value": "상세 내용",
+      "bold": true,
+      "bg": "#2C3E50",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 5,
+      "row": 35,
+      "value": "체크리스트",
+      "bold": true,
+      "bg": "#2C3E50",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 6,
+      "row": 35,
+      "value": "담당",
+      "bold": true,
+      "bg": "#2C3E50",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 7,
+      "row": 35,
+      "value": "시점",
+      "bold": true,
+      "bg": "#2C3E50",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 36,
+      "value": "1",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 36,
+      "value": "야간 운영 준비\n(22:00)",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 36,
+      "value": "- 갱웨이 24시간 오픈 확인 (코스타)\n- 야간 승하선 절차 확인\n- 야간 당직 배정 (팀원 교대)\n- 야간 하선 시 귀선 시간 안내 (6/23 16:00 All Aboard)",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 36,
+      "value": "□ 갱웨이 24h 확인\n□ 당직 배정\n□ 귀선 안내",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 36,
+      "value": "팀장",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 36,
+      "value": "22:00",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 37,
+      "value": "2",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 37,
+      "value": "야간 운영\n(22:00~07:00)",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 37,
+      "value": "- 야간 하선자 체크 (성명·캐빈·예상 귀선 시간)\n- 야간 귀선자 체크\n- 야간 음주/사고 주의 안내\n- 비상연락 체계 유지\n- 이상 상황 즉시 HQ 보고",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 37,
+      "value": "□ 하선자 체크\n□ 귀선자 체크\n□ 비상 대기",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 37,
+      "value": "팀원(당직)",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 37,
+      "value": "야간",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 37,
+      "value": "교대 운영",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 38,
+      "value": "3",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 38,
+      "value": "익일 오전 전환\n(6/23 07:00~)",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 38,
+      "value": "- 야간 하선/귀선 현황 인수인계\n- 미귀선 야간 하선자 확인\n- 오전 자유 관광 하선 관리 시작\n- 최종 All Aboard(16:00) 카운트다운 시작",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 38,
+      "value": "□ 야간 현황 인계\n□ 미귀선 확인\n□ 오전 하선 관리",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 38,
+      "value": "팀장",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 38,
+      "value": "07:00",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ]
+   ]
+  },
+  {
+   "name": "시나리오 상황대응 10선",
+   "rows": 16,
+   "cols": 9,
+   "data": [
+    [
+     {
+      "col": 2,
+      "row": 2,
+      "value": "기항지운영팀 — 시나리오별 상황대응 매뉴얼 10선",
+      "bold": true,
+      "bg": "#E74C3C",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 4,
+      "value": "※ 기항지운영팀의 최대 리스크는 \"미귀선\"과 \"중간 승하선 실패\"입니다. 2,400명을 정해진 시간 안에 내보내고 받는 것이 핵심 미션입니다.\n※ 대응 레벨: 🟢 현장 즉시 / 🟡 팀장 판단 / 🔴 본부장 최종 결정",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": ""
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 6,
+      "value": "No",
+      "bold": true,
+      "bg": "#E74C3C",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 3,
+      "row": 6,
+      "value": "발생 시점",
+      "bold": true,
+      "bg": "#E74C3C",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 4,
+      "row": 6,
+      "value": "시나리오",
+      "bold": true,
+      "bg": "#E74C3C",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 5,
+      "row": 6,
+      "value": "상세 상황",
+      "bold": true,
+      "bg": "#E74C3C",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 6,
+      "row": 6,
+      "value": "대응 절차 (SOP)",
+      "bold": true,
+      "bg": "#E74C3C",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 7,
+      "row": 6,
+      "value": "레벨",
+      "bold": true,
+      "bg": "#E74C3C",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 8,
+      "row": 6,
+      "value": "1차 담당",
+      "bold": true,
+      "bg": "#E74C3C",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 9,
+      "row": 6,
+      "value": "에스컬레이션",
+      "bold": true,
+      "bg": "#E74C3C",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 7,
+      "value": "P-01",
+      "bold": true,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 7,
+      "value": "귀선 시간\n(AB 직전)",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 7,
+      "value": "★★ 미귀선 — 연락 닿는 경우",
+      "bold": true,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 7,
+      "value": "All Aboard 시간 경과 후에도\n승객 2~3명이 미귀선.\n전화 연락은 닿는 상태.",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 7,
+      "value": "① 현재 위치·도착 예상 시간 즉시 확인\n② 코스타 갱웨이 크루에게 \"지연 승선 요청\" (최대 15분)\n③ HQ+본부장 즉시 보고\n④ 현지 가이드에게 택시 수배 또는 동행 요청\n⑤ 도착 시 갱웨이에서 신속 재승선\n⑥ 코스타 출항 딜레이 한계 확인 (선장 판단)\n⑦ 도착 불가 판단 시 → 현지 체류 대응(P-02)",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 7,
+      "value": "🔴",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 7,
+      "value": "팀장",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 9,
+      "row": 7,
+      "value": "본부장→선장",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 8,
+      "value": "P-02",
+      "bold": true,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 8,
+      "value": "귀선 시간\n(AB 경과)",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 8,
+      "value": "★★★ 미귀선 — 연락 불가\n/ 현지 체류 확정",
+      "bold": true,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 8,
+      "value": "All Aboard 시간 경과.\n전화 연락 불가 또는\n물리적으로 귀선 불가능 확정.",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 8,
+      "value": "① 코스타에 미귀선 확정 통보 → 출항 허가 요청\n② 미귀선자 정보 기록 (성명·캐빈·여권정보·비상연락처)\n③ 미귀선자 동행 가족/일행 확인 → 선내 안내\n④ 현지 대사관/영사관 연락처 안내 (일행에게)\n⑤ 현지 체류 수배:\n   a) 숙박: 현지 호텔 예약 (가이드 지원)\n   b) 귀국: 항공편 수배 (또는 다음 기항지 합류 가능성)\n   c) 여행자보험 안내\n⑥ 객실 내 잔류 짐 보관 조치\n⑦ 사고보고서 작성 (법적 대비)\n⑧ 귀항 후 D+1 내 후속 연락",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 8,
+      "value": "🔴",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 8,
+      "value": "팀장",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 9,
+      "row": 8,
+      "value": "본부장→\n코스타 선장→\n대사관",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 9,
+      "value": "P-03",
+      "bold": true,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 9,
+      "value": "하선 시",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 9,
+      "value": "CIQ(입국 심사) 지연\n대규모 체류",
+      "bold": true,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 9,
+      "value": "일본 입국 심사가 예상보다\n오래 걸려 하선이 1시간 이상 지연.\n투어 차량·가이드 대기 중.",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 9,
+      "value": "① 코스타 CIQ 담당에게 예상 소요 시간 확인\n② 투어 차량·가이드에게 지연 안내 (타이요)\n③ 대기 승객에게 방송 안내 (안내파트 요청)\n④ 하선 순서 조정: 투어 참가자 우선 심사 요청\n⑤ 자유여행자 → 투어 참가자 이후 하선\n⑥ 투어 일정 조정: 단축 코스 대비안 가동\n⑦ 코스타에 출항 시간 영향 여부 확인",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 9,
+      "value": "🟡",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 9,
+      "value": "팀장",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 9,
+      "row": 9,
+      "value": "코스타 CIQ",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 10,
+      "value": "P-04",
+      "bold": true,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 10,
+      "value": "기항일 중",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 10,
+      "value": "투어 차량 고장/지연",
+      "bold": true,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 10,
+      "value": "투어 중 버스 고장 또는\n교통 체증으로 대규모 지연.\n귀선 시간 위협.",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 10,
+      "value": "① 타이요 팀장에게 즉시 상황 확인\n② 대체 차량 수배 (타이요→현지 업체)\n③ 귀선 가능 시간 재계산\n④ HQ에 상황 보고\n⑤ All Aboard 시간 전 귀선 불가 시 → 코스타에 사전 통보\n⑥ 해당 투어 고객에게 직접 안내 (인솔자 통해)\n⑦ 사후: 투어 리포트에 기록, 업체 클레임",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 10,
+      "value": "🟡→🔴",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 10,
+      "value": "타이요팀장→팀장",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 9,
+      "row": 10,
+      "value": "본부장",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 11,
+      "value": "P-05",
+      "bold": true,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 11,
+      "value": "기항일 중",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 11,
+      "value": "투어 고객 부상/급병",
+      "bold": true,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 11,
+      "value": "투어 중 고객 부상, 급병 발생.\n현지 의료 지원 필요.",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 11,
+      "value": "① 인솔자 → 119(일본: 119) 즉시 호출\n② 타이요 팀장에게 즉시 보고\n③ 현지 병원 이송 시 인솔자 1명 동행\n④ HQ+본부장 즉시 보고\n⑤ 동행 가족/일행에게 상황 안내\n⑥ 여행자보험 안내\n⑦ 병원 치료 후 귀선 가능 여부 판단\n⑧ 귀선 불가 → 현지 체류 대응(P-02 연계)\n⑨ 사고보고서 작성",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 11,
+      "value": "🔴",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 11,
+      "value": "인솔자→타이요→팀장",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 9,
+      "row": 11,
+      "value": "본부장",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 12,
+      "value": "P-06",
+      "bold": true,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 12,
+      "value": "오타루\n(6/22)",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 12,
+      "value": "★★ 조수찬/신성 항공편 지연\n→ 승선 시간 위협",
+      "bold": true,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 12,
+      "value": "서울→삿포로 항공편 지연으로\n아티스트가 오타루 입항(14:00)\n시간에 맞춰 도착 불가능.",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 12,
+      "value": "① 항공사에 도착 예상 시간 확인\n② 삿포로→오타루 이동 시간 재계산\n③ 14:00 입항 후에도 승선 가능한 시간 한계 확인 (오버나잇이므로)\n④ 오타루 오버나잇 → 6/22 야간 or 6/23 오전 승선도 가능\n⑤ 프로그램팀에 리허설·공연 일정 조정 통보\n⑥ 본부장 보고\n⑦ 최악: 6/23 17:00 출항 전까지는 승선 가능 → 일정 대폭 조정",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 12,
+      "value": "🔴",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 12,
+      "value": "팀장",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 9,
+      "row": 12,
+      "value": "본부장→\n프로그램팀장",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 13,
+      "value": "P-07",
+      "bold": true,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 13,
+      "value": "하코다테\n(6/21)",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 13,
+      "value": "★★ 김태우 하선 시\n코스타 거부/절차 지연",
+      "bold": true,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 13,
+      "value": "코스타 측이 중간 하선 서류 미비\n또는 절차 미확인을 이유로\n하선을 거부 또는 지연.",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 13,
+      "value": "① 사전 제출한 하선 신청서 원본 제시\n② GRM에 즉시 연락 → 승인 확인 요청\n③ 서류 미비 → 현장에서 즉시 보완 작성\n④ 코스타 측 지연 → 본부장이 Hotel Director에게 직접 교섭\n⑤ 하코다테 출항(22:00) 전까지 하선 완료 필수\n⑥ 최악: 김태우 하선 불가 → 오타루에서 하선 대안 검토\n⑦ 예방: D-7에 GRM과 서면 확인 (이메일 증거 보관)",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 13,
+      "value": "🔴",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 13,
+      "value": "팀장",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 9,
+      "row": 13,
+      "value": "본부장→HD",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 14,
+      "value": "P-08",
+      "bold": true,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 14,
+      "value": "기항일",
+      "bold": false,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 14,
+      "value": "자유여행자 다수 미귀선\n(5명 이상)",
+      "bold": true,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 14,
+      "value": "자유여행자 5명 이상이\nAll Aboard 시간에 미귀선.\n개별 연락으로는 수습 불가 규모.",
+      "bold": false,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 14,
+      "value": "① 미귀선자 전원 동시 전화 (스태프 총동원)\n② 현지 가이드 분산 투입 → 주요 관광지 탐색\n③ 코스타에 대량 미귀선 통보\n④ 본부장 → 코스타 선장에게 출항 15~30분 딜레이 교섭\n⑤ 연락 닿는 순서대로 택시 수배 → 항구 집결\n⑥ 최종 딜레이 한계 도달 → 미귀선 확정 → P-02 대응\n⑦ 예방: 자유여행 확인서에 \"미귀선 시 본인 책임\" 서명 필수",
+      "bold": false,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 14,
+      "value": "🔴",
+      "bold": false,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 14,
+      "value": "팀장",
+      "bold": false,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 9,
+      "row": 14,
+      "value": "본부장→선장",
+      "bold": false,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 15,
+      "value": "P-09",
+      "bold": true,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 15,
+      "value": "기항일",
+      "bold": false,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 15,
+      "value": "악천후로 기항지\n투어 전면 취소",
+      "bold": true,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 15,
+      "value": "폭우·태풍 등으로\n하코다테 or 오타루 투어\n전면 취소 불가피.",
+      "bold": false,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 15,
+      "value": "① 기상 확인 → 취소 결정 (타이요+팀장+본부장)\n② 전 인솔자에게 취소 통보\n③ 방송으로 승객 안내 (안내파트)\n④ 대안 프로그램 편성 (프로그램팀 연계):\n   a) 선내 특별 프로그램 긴급 편성\n   b) 항구 인근 도보 관광 가능 시 안내\n⑤ 자유하선은 개인 판단 (우천 시 주의 안내)\n⑥ 투어 환불/대체 안내",
+      "bold": false,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 15,
+      "value": "🟡→🔴",
+      "bold": false,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 15,
+      "value": "팀장",
+      "bold": false,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 9,
+      "row": 15,
+      "value": "본부장",
+      "bold": false,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 16,
+      "value": "P-10",
+      "bold": true,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 16,
+      "value": "기항일",
+      "bold": false,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 16,
+      "value": "PLP/입국 서류 오류로\n하선 거부",
+      "bold": true,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 16,
+      "value": "CIQ 서류 오류(이름 오기, 생년월일 불일치 등)로\n일부 승객이 하선 거부됨.",
+      "bold": false,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 16,
+      "value": "① 해당 승객 여권 원본과 서류 즉시 대조\n② 오류 발견 → 현장에서 수정본 작성\n③ 코스타 CIQ 담당에게 수정본 제출\n④ 재심사 요청\n⑤ 재심사 통과 → 하선 허가\n⑥ 통과 불가 → 선내 체류 안내 (자유시간)\n⑦ 예방: 기항 전일 전 승객 서류 교차 검수 (이름/생년월일/여권번호)",
+      "bold": false,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 16,
+      "value": "🟡",
+      "bold": false,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 16,
+      "value": "팀장",
+      "bold": false,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 9,
+      "row": 16,
+      "value": "코스타 CIQ",
+      "bold": false,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     }
+    ]
+   ]
+  }
+ ]
+}

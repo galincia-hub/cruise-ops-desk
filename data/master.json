@@ -1,0 +1,7462 @@
+{
+ "key": "master",
+ "label": "총괄 마스터플랜",
+ "sheets": [
+  {
+   "name": "사전준비 마스터플랜",
+   "rows": 37,
+   "cols": 8,
+   "data": [
+    [
+     {
+      "col": 2,
+      "row": 2,
+      "value": "2026 코스타 세레나 한일전세선 — 사전준비 마스터플랜 (D-Day: 6/19 기준)",
+      "bold": true,
+      "bg": "#1B2A4A",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 4,
+      "value": "시기(D-Day)",
+      "bold": true,
+      "bg": "#2C3E50",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 3,
+      "row": 4,
+      "value": "카테고리",
+      "bold": true,
+      "bg": "#2C3E50",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 4,
+      "row": 4,
+      "value": "업무항목",
+      "bold": true,
+      "bg": "#2C3E50",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 5,
+      "row": 4,
+      "value": "세부 내용 및 체크리스트",
+      "bold": true,
+      "bg": "#2C3E50",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 6,
+      "row": 4,
+      "value": "담당팀/담당자",
+      "bold": true,
+      "bg": "#2C3E50",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 7,
+      "row": 4,
+      "value": "상태",
+      "bold": true,
+      "bg": "#2C3E50",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 8,
+      "row": 4,
+      "value": "비고",
+      "bold": true,
+      "bg": "#2C3E50",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 5,
+      "value": "D-90 ~ D-60\n(3월 중순~4월 중순)",
+      "bold": true,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 5,
+      "value": "계약/행정",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 5,
+      "value": "코스타 질의서 발송 및 회신 추적",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 5,
+      "value": "- 48개 항목 11개 카테고리 질의서 발송 완료\n- 회신 추적 및 미회신 항목 리마인드\n- 승선 스케줄, 얼리보딩, 비상훈련 시간 확정\n- 중간 승하선 절차 확인 (김태우 하코다테 하선, 김수찬/신성 오타루 승선)",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 5,
+      "value": "총괄본부/CI",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 5,
+      "value": "진행중",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 5,
+      "value": "질의서 48개 항목",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 3,
+      "row": 6,
+      "value": "계약/행정",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 6,
+      "value": "선사 담당자 연락체계 구축",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 6,
+      "value": "- Hotel Director, Cruise Director, F&B Director, GRM 연락처 확보\n- 한국인 승무원 확인 및 커뮤니케이션 채널 설정\n- 통역사 18명 관리체계 확인",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 6,
+      "value": "총괄본부",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 6,
+      "value": "질의서 #46~48",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 3,
+      "row": 7,
+      "value": "인력",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 7,
+      "value": "아르바이트 채용 공고 및 선발",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 7,
+      "value": "- 부산 지역 관광대학교 연계 채용 (30명)\n- 1월 항차 탑승 경험자 우선 선발\n- 채용 기준: 고객응대 능력, 체력, 언어능력\n- 면접 일정 수립 및 진행",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 7,
+      "value": "선내운영팀장",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 7,
+      "value": "관광대 협력",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 3,
+      "row": 8,
+      "value": "인력",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 8,
+      "value": "인솔자/가이드 70명 확정 및 교육계획 수립",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 8,
+      "value": "- 타이요플랜 협력 가이드 70명 명단 확정\n- 기항지별(하코다테/오타루) 투어 배정\n- 자유여행자 관리 가이드 별도 지정",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 8,
+      "value": "기항지운영팀/타이요",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 3,
+      "row": 9,
+      "value": "공연/행사",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 9,
+      "value": "초대가수 계약 및 일정 확정",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 9,
+      "value": "- 김태우: 부산 승선 → 선상 공연 → 하코다테 하선 (6/21)\n- 김수찬/신성: 오타루 승선 (6/22) → 선상 공연 → 부산 하선 (6/25)\n- 공연 일정, 리허설 시간, 음향/조명 요구사항 확인\n- 계약서 체결 및 출연료 집행 일정",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 9,
+      "value": "프로그램·행사팀",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 9,
+      "value": "승하선 서포트 필수",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 3,
+      "row": 10,
+      "value": "공연/행사",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 10,
+      "value": "영화 상영 저작권 확보",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 10,
+      "value": "- 상영 예정 영화 선정 (2회 상영)\n- 저작권 라이선스 계약 체결\n- 코스타 측 저작권 승인 절차 진행 (질의서 #43)\n- 상영 장비(노트북 등) 확인",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 10,
+      "value": "프로그램·행사팀",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 10,
+      "value": "코스타 승인 필수",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 3,
+      "row": 11,
+      "value": "콘텐츠/제작",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 11,
+      "value": "사이니지 콘텐츠 기획 및 제작 착수",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 11,
+      "value": "- 코스타 회신 후 사이니지 포맷/규격 확인 (JPEG/MP4, 가로/세로형)\n- 9층 LED Wall 콘텐츠 제작 (816×468px / 1920×1080)\n- 일자별 콘텐츠 계획 수립 (출항식, 기항지 안내, 공연 안내 등)\n- 콘텐츠 교체 주기 및 USB 전달 절차 확인",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 11,
+      "value": "지원·데이터팀",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 11,
+      "value": "질의서 #16~17",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 3,
+      "row": 12,
+      "value": "콘텐츠/제작",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 12,
+      "value": "층별 안내도(Deck Plan) 한국어 제작",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 12,
+      "value": "- 리노베이션 후 최신 Deck Plan 입수\n- 한국어 번역 및 디자인 작업\n- 인쇄용(A3/A4) 및 디지털 사이니지용 제작\n- 주요 시설 위치, 레스토랑, 공연장 등 표기",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 12,
+      "value": "지원·데이터팀/디자인",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 12,
+      "value": "인쇄 D-30까지",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 3,
+      "row": 13,
+      "value": "VIP 의전",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 13,
+      "value": "VIP 의전 프로토콜 수립",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 13,
+      "value": "- 회장님 포함 VIP 리스트 확정\n- VIP 전용 동선 설계 (승선~하선)\n- VIP 전용 구역(정찬 식당 스위트 구역) 확보\n- 과일바구니/와인 서비스 사전 신청 (질의서 #29~30)\n- VIP 웰컴키트 구성 결정",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 13,
+      "value": "총괄본부/선내운영팀",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 13,
+      "value": "질의서 #22,29,30",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 14,
+      "value": "D-60 ~ D-30\n(4월 중순~5월 중순)",
+      "bold": true,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 14,
+      "value": "인력",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 14,
+      "value": "운영 조직 확정 및 업무분장 확정",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 14,
+      "value": "- 총 134명 인력 편성 최종 확정\n  · 본부장1, 부서장1, 팀장4, 팀원10, 알바30, 가이드70, 협력사18\n- 4개 팀(선내운영/기항지/프로그램·행사/지원·데이터) 팀장 확정\n- 팀별 세부 업무분장표 배포",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 14,
+      "value": "총괄본부",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 14,
+      "value": "인력구성표 기준",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 3,
+      "row": 15,
+      "value": "인력",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 15,
+      "value": "아르바이트 교육 프로그램 수립",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 15,
+      "value": "- 크루즈 기본 교육 커리큘럼 설계\n- 고객응대 매뉴얼 제작\n- 비상상황 대응 교육 계획\n- 교육 일정: D-14(6/5) 온라인 + D-2(6/17) 부산 현장",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 15,
+      "value": "선내운영팀장",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 3,
+      "row": 16,
+      "value": "물품/물류",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 16,
+      "value": "운영 물품 리스트업 및 발주",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 16,
+      "value": "- 목걸이(네임택/ID카드) 제작 발주\n- 파우치 제작 발주\n- 무전기 100대 확보 및 점검 (질의서 #14 허가 여부 확인)\n- 노트북, A4용지, 프린터 토너 등 사무용품\n- POP, 현수막, 배너 등 홍보물 제작 발주\n- 기념품 제작/구매",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 16,
+      "value": "지원·데이터팀",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 16,
+      "value": "발주 마감 D-30",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 3,
+      "row": 17,
+      "value": "콘텐츠/제작",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 17,
+      "value": "테이블 카드 제작",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 17,
+      "value": "- 정찬 식당 테이블 카드 디자인 및 인쇄\n- 테이블 번호, 주의사항 표기\n- 코스타에 세팅 요청 절차 확인 (질의서 #23)",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 17,
+      "value": "지원·데이터팀/디자인",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 3,
+      "row": 18,
+      "value": "콘텐츠/제작",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 18,
+      "value": "선내 인쇄물 일괄 제작",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 18,
+      "value": "- 일일 프로그램표(Daily Program) 한국어판\n- 식당 메뉴판 한국어 번역\n- 기항지 안내 책자 (하코다테/오타루)\n- 비상대피 안내문 한국어판\n- 고객 안내문(Wi-Fi, 카드, 환전, 의료 등)",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 18,
+      "value": "지원·데이터팀",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 3,
+      "row": 19,
+      "value": "공연/행사",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 19,
+      "value": "전체 공연·행사계획표 확정",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 19,
+      "value": "- 6박 7일 전체 프로그램 타임테이블 확정\n- 출항식, 트래블토크 2회, 크루즈가수왕, 환경재단 강연/공연\n- GRM 및 코스타 테크니션팀에 프로그램 스케줄 제출\n- 리허설 시간 예약",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 19,
+      "value": "프로그램·행사팀",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 19,
+      "value": "코스타 양식 제출",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 3,
+      "row": 20,
+      "value": "공연/행사",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 20,
+      "value": "부스 설치 계획 확정",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 20,
+      "value": "- 관광청, 시몬스, 환경재단 부스 위치/규격 확정\n- POP 디자인 및 설치물 제작\n- 부스 운영 인력 배정",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 20,
+      "value": "프로그램·행사팀",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 3,
+      "row": 21,
+      "value": "촬영/미디어",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 21,
+      "value": "드론/미디어 촬영 허가 취득",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 21,
+      "value": "- 드론 촬영 허가서 신청 (질의서 #44)\n- 공식 촬영팀 선내 허가서 발급 (질의서 #45)\n- 촬영 제한 구역 확인\n- 장비 반입 승인",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 21,
+      "value": "프로그램·행사팀",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 21,
+      "value": "코스타+항만 승인",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 3,
+      "row": 22,
+      "value": "기항지",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 22,
+      "value": "기항지 투어 상품 확정",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 22,
+      "value": "- 하코다테(6/21): 투어 코스, 차량, 가이드, 식당 확정\n- 오타루(6/22~23): 투어 코스, 야간 프로그램 확정\n- 자유여행 안내서 제작\n- 입출국 서류 양식 준비",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 22,
+      "value": "기항지운영팀/타이요",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 3,
+      "row": 23,
+      "value": "시스템",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 23,
+      "value": "커뮤니케이션 체계 구축",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 23,
+      "value": "- 카카오톡 단체방 개설 (전체/팀별)\n- 구글시트 기반 실시간 보고 시스템 설계\n- 일일상황보고서 자동생성 템플릿 구축\n- VOC 수집 양식 설계",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 23,
+      "value": "지원·데이터팀",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 24,
+      "value": "D-30 ~ D-14\n(5월 중순~6월 초)",
+      "bold": true,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 24,
+      "value": "점검",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 24,
+      "value": "1차 전체 운영점검회의",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 24,
+      "value": "- 모든 기획안 실행 가능성 검토\n- 파트별 리스크 점검\n- 예산 재점검\n- 통합운영 시뮬레이션 개시",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 24,
+      "value": "총괄본부(전 팀장)",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 24,
+      "value": "정기점검회의",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 3,
+      "row": 25,
+      "value": "물품/물류",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 25,
+      "value": "물품 최종 점검 및 패킹",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 25,
+      "value": "- 전체 물품 리스트 대조 점검\n- 트럭 2톤 물류 계획 수립\n- Mercurio Room(HQ)용 / 창고객실용 구분 패킹\n- 물품 반입 타임라인 수립 (질의서 #2)",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 25,
+      "value": "지원·데이터팀",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 3,
+      "row": 26,
+      "value": "인력",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 26,
+      "value": "전 스태프 명단 확정 및 캐빈 배정",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 26,
+      "value": "- 운영 스태프 전원 여권 사본 수집\n- 코스타폼 작성 및 제출\n- 스태프 캐빈 배정 확정\n- 얼리보딩 4명 명단 제출 (질의서 #3)",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 26,
+      "value": "지원·데이터팀",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 3,
+      "row": 27,
+      "value": "공연/행사",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 27,
+      "value": "초대가수 승하선 로지스틱 확정",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 27,
+      "value": "- 김태우: 부산항 승선 절차 → 공연 → 하코다테 하선 수배\n  (하코다테→도쿄 항공편 or 현지 숙박)\n- 김수찬/신성: 오타루 승선 수배 (항공편+항구 이동)\n  → 선상공연 → 부산 하선\n- 코스타 중간 승하선 절차 최종 확인 (질의서 #10)",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 27,
+      "value": "프로그램·행사팀/총괄",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 27,
+      "value": "항공/숙박 수배",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 3,
+      "row": 28,
+      "value": "VIP 의전",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 28,
+      "value": "VIP 웰컴키트 제작",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 28,
+      "value": "- VIP 전용 목걸이, 파우치 별도 제작\n- 웰컴레터 작성\n- 객실 과일바구니/와인 사전 주문\n- VIP 일정표 별도 제작",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 28,
+      "value": "총괄본부/선내운영팀",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 3,
+      "row": 29,
+      "value": "콘텐츠/제작",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 29,
+      "value": "사이니지 콘텐츠 최종 납품",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 29,
+      "value": "- 일자별 사이니지 콘텐츠 USB 제작\n- 9층 LED Wall 영상 최종본 완성\n- 테스트 파일 코스타 사전 전달",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 29,
+      "value": "지원·데이터팀",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 30,
+      "value": "D-14 ~ D-7\n(6/5~6/12)",
+      "bold": true,
+      "bg": "#EBF5FB",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 30,
+      "value": "교육",
+      "bold": false,
+      "bg": "#EBF5FB",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 30,
+      "value": "아르바이트 온라인 사전교육",
+      "bold": false,
+      "bg": "#EBF5FB",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 30,
+      "value": "- 크루즈 개요 및 선내 구조 교육\n- 고객응대 매뉴얼 숙지\n- 비상 대응 절차 교육\n- 팀별 업무 브리핑",
+      "bold": false,
+      "bg": "#EBF5FB",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 30,
+      "value": "선내운영팀장",
+      "bold": false,
+      "bg": "#EBF5FB",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 30,
+      "value": "온라인 진행",
+      "bold": false,
+      "bg": "#EBF5FB",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 3,
+      "row": 31,
+      "value": "점검",
+      "bold": false,
+      "bg": "#EBF5FB",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 31,
+      "value": "교차검증(Co-Validation)",
+      "bold": false,
+      "bg": "#EBF5FB",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 31,
+      "value": "- 모두투어, CI, 환경재단, 웅진, 타이요 간 상호 운영항목 교차검증\n- 체크리스트 상호 공유 및 검토\n- 미비사항 보완",
+      "bold": false,
+      "bg": "#EBF5FB",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 31,
+      "value": "총괄본부(전체)",
+      "bold": false,
+      "bg": "#EBF5FB",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 3,
+      "row": 32,
+      "value": "인력",
+      "bold": false,
+      "bg": "#EBF5FB",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 32,
+      "value": "초대가수/공연자 최종 인폼",
+      "bold": false,
+      "bg": "#EBF5FB",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 32,
+      "value": "- 공연 일정, 리허설 시간, 동선 최종 안내\n- 숙소(캐빈) 배정 안내\n- 승하선 절차 상세 안내\n- 음향/조명 테크니컬 라이더 최종 확인",
+      "bold": false,
+      "bg": "#EBF5FB",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 32,
+      "value": "프로그램·행사팀",
+      "bold": false,
+      "bg": "#EBF5FB",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 33,
+      "value": "D-7 ~ D-1\n(6/12~6/18)",
+      "bold": true,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 33,
+      "value": "점검",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 33,
+      "value": "최종 점검 및 운영 시뮬레이션 (6/12~13)",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 33,
+      "value": "- 실제 오퍼레이션 시뮬레이션 실시\n- 커뮤니케이션/보고/결정 프로세스 점검\n- 비상상황 시나리오별 대응 훈련\n- 전체 이슈 재검토 및 최종 보완",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 33,
+      "value": "총괄본부(전체)",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 33,
+      "value": "6/12~13 집중",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 3,
+      "row": 34,
+      "value": "물류",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 34,
+      "value": "부산 베이스캠프 세팅 (6/17~18)",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 34,
+      "value": "- 컨벤션홀 1일 임차 및 세팅\n- 물품 집결 및 최종 점검\n- 트럭 물류 최종 확인\n- 스태프 집결 및 숙박",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 34,
+      "value": "지원·데이터팀",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 34,
+      "value": "부산 이동",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 3,
+      "row": 35,
+      "value": "교육",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 35,
+      "value": "아르바이트 현장교육 (6/17 부산)",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 35,
+      "value": "- 대면 최종 교육 및 팀 배정\n- 유니폼/명찰/무전기 배부\n- 실전 시뮬레이션\n- 비상대응 실습",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 35,
+      "value": "선내운영팀장",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 35,
+      "value": "부산 현장",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 3,
+      "row": 36,
+      "value": "물류",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 36,
+      "value": "물품 선적 (6/18 또는 6/19 오전)",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 36,
+      "value": "- 트럭 2톤 부산항 도착\n- 코스타 크루 3~4명 지원 요청 (질의서 #2)\n- Mercurio Room용/창고객실용 구분 운반\n- 물품 인수인계 확인",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 36,
+      "value": "지원·데이터팀",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 36,
+      "value": "코스타 협조",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 3,
+      "row": 37,
+      "value": "VIP 의전",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 37,
+      "value": "VIP 최종 브리핑",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 37,
+      "value": "- VIP 동선 최종 확인\n- 의전 담당자 배정 확인\n- 웰컴키트 최종 점검\n- 승선 당일 VIP 영접 시나리오 리허설",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 37,
+      "value": "총괄본부",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     }
+    ]
+   ]
+  },
+  {
+   "name": "선상운영 타임스케줄",
+   "rows": 88,
+   "cols": 7,
+   "data": [
+    [
+     {
+      "col": 2,
+      "row": 2,
+      "value": "2026 코스타 세레나 — 선상운영 일자별 타임스케줄",
+      "bold": true,
+      "bg": "#E67E22",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 4,
+      "value": "6/19(목) — 승선일 [부산항 출항]",
+      "bold": true,
+      "bg": "#1B2A4A",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 5,
+      "value": "시간",
+      "bold": true,
+      "bg": "#34495E",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 3,
+      "row": 5,
+      "value": "구분",
+      "bold": true,
+      "bg": "#34495E",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 4,
+      "row": 5,
+      "value": "업무",
+      "bold": true,
+      "bg": "#34495E",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 5,
+      "row": 5,
+      "value": "세부 내용",
+      "bold": true,
+      "bg": "#34495E",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 6,
+      "row": 5,
+      "value": "담당",
+      "bold": true,
+      "bg": "#34495E",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 7,
+      "row": 5,
+      "value": "비고",
+      "bold": true,
+      "bg": "#34495E",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 6,
+      "value": "07:00~12:00",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 6,
+      "value": "사전준비",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 6,
+      "value": "얼리보딩 스태프 4명 선내 입장 및 HQ 세팅",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 6,
+      "value": "Mercurio Room(4층) 사무실 세팅, 사이니지 설치, 안내데스크 세팅, 물품 배치",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 6,
+      "value": "총괄본부/지원팀",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 6,
+      "value": "얼리보딩",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 7,
+      "value": "12:00~15:00",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 7,
+      "value": "사전준비",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 7,
+      "value": "전체 스태프 선내 최종 점검",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 7,
+      "value": "각 팀별 현장 최종 확인, 무전기 테스트, 사이니지 작동 확인, 식당 테이블카드 세팅 확인",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 7,
+      "value": "전 팀장",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 8,
+      "value": "15:00~16:00",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 8,
+      "value": "사전준비",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 8,
+      "value": "전체 스태프 브리핑",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 8,
+      "value": "운영 시나리오 최종 확인, 비상연락 체계 점검, VIP 동선 확인",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 8,
+      "value": "총괄본부장",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 8,
+      "value": "필수 참석",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 9,
+      "value": "16:30",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 9,
+      "value": "얼리보딩",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 9,
+      "value": "얼리보딩 스태프 선내 배치 완료",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 9,
+      "value": "안내데스크, 갱웨이, 주요 포인트 배치",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 9,
+      "value": "선내운영팀",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 10,
+      "value": "17:00~20:00",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 10,
+      "value": "승선",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 10,
+      "value": "승객 체크인 및 승선",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 10,
+      "value": "안내 스태프 배치(갱웨이~로비~객실층), VIP 별도 영접, 층별 안내",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 10,
+      "value": "선내운영팀/알바",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 10,
+      "value": "VIP 의전 동시",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 11,
+      "value": "17:00~20:00",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 11,
+      "value": "VIP 의전",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 11,
+      "value": "VIP 승선 영접 및 객실 안내",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 11,
+      "value": "회장님 포함 VIP 별도 동선 안내, 웰컴키트 객실 배치 확인, 과일바구니/와인 확인",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 11,
+      "value": "총괄본부",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 12,
+      "value": "19:00~20:30",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 12,
+      "value": "식사",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 12,
+      "value": "뷔페 저녁식사 안내",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 12,
+      "value": "식당 위치/시간 안내 방송, 식당 입구 스태프 배치, 혼잡도 관리",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 12,
+      "value": "선내운영팀",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 12,
+      "value": "Prometeo 9층 등",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 13,
+      "value": "20:00~21:00",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 13,
+      "value": "안전",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 13,
+      "value": "비상훈련(Muster Drill)",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 13,
+      "value": "전 승객 참여 안내, 거동불편자 면제레터 처리, 스태프 서포트",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 13,
+      "value": "전 팀",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 13,
+      "value": "출항 전 필수",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 14,
+      "value": "21:00",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 14,
+      "value": "출항",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 14,
+      "value": "부산항 출항",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 14,
+      "value": "출항식 진행 (선장 참석 여부 확인)",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 14,
+      "value": "프로그램·행사팀",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 15,
+      "value": "21:00~22:00",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 15,
+      "value": "행사",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 15,
+      "value": "출항식 / 웰컴파티",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 15,
+      "value": "선장 인사, 환영 프로그램, 기념 촬영",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 15,
+      "value": "프로그램·행사팀",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 15,
+      "value": "Grand Bar",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 16,
+      "value": "22:00~22:30",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 16,
+      "value": "행사",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 16,
+      "value": "트래블토크 1회차",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 16,
+      "value": "항차 소개, 기항지 안내, 선내 프로그램 소개",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 16,
+      "value": "프로그램·행사팀",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 17,
+      "value": "22:00",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 17,
+      "value": "미팅",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 17,
+      "value": "전체 스태프 일일미팅",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 17,
+      "value": "당일 이슈 정리, 익일 일정 브리핑, 개선사항 공유",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 17,
+      "value": "총괄본부(전체)",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 17,
+      "value": "매일 22:00",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 19,
+      "value": "6/20(금) — 해상일 (종일 해상)",
+      "bold": true,
+      "bg": "#1B2A4A",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 20,
+      "value": "시간",
+      "bold": true,
+      "bg": "#34495E",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 3,
+      "row": 20,
+      "value": "구분",
+      "bold": true,
+      "bg": "#34495E",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 4,
+      "row": 20,
+      "value": "업무",
+      "bold": true,
+      "bg": "#34495E",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 5,
+      "row": 20,
+      "value": "세부 내용",
+      "bold": true,
+      "bg": "#34495E",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 6,
+      "row": 20,
+      "value": "담당",
+      "bold": true,
+      "bg": "#34495E",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 7,
+      "row": 20,
+      "value": "비고",
+      "bold": true,
+      "bg": "#34495E",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 21,
+      "value": "07:00~09:00",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 21,
+      "value": "식사",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 21,
+      "value": "조식 안내 및 운영",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 21,
+      "value": "뷔페/정찬 식당 안내, 스태프 교대 배치",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 21,
+      "value": "선내운영팀",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 22,
+      "value": "09:00~12:00",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 22,
+      "value": "행사",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 22,
+      "value": "오전 프로그램",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 22,
+      "value": "환경재단 강연, 고객참여 이벤트, 부스 운영",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 22,
+      "value": "프로그램·행사팀",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 23,
+      "value": "10:00~12:00",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 23,
+      "value": "운영",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 23,
+      "value": "안내데스크 풀가동",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 23,
+      "value": "고객 문의 대응, 투어 예약 확인, VOC 수집",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 23,
+      "value": "선내운영팀",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 24,
+      "value": "12:00~14:00",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 24,
+      "value": "식사",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 24,
+      "value": "중식 안내",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 24,
+      "value": "뷔페 운영 안내",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 24,
+      "value": "선내운영팀",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 25,
+      "value": "14:00~17:00",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 25,
+      "value": "행사",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 25,
+      "value": "오후 프로그램",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 25,
+      "value": "크루즈가수왕 예선, 레크리에이션, 시설 이용 안내",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 25,
+      "value": "프로그램·행사팀",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 26,
+      "value": "17:00~19:00",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 26,
+      "value": "준비",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 26,
+      "value": "하코다테 기항 사전 안내",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 26,
+      "value": "기항지 투어 안내 방송, 입국서류 안내, 집합시간/장소 공지",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 26,
+      "value": "기항지운영팀",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 27,
+      "value": "18:00~20:00",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 27,
+      "value": "식사",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 27,
+      "value": "석식 안내",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 27,
+      "value": "정찬/뷔페 운영",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 27,
+      "value": "선내운영팀",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 28,
+      "value": "20:00~22:00",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 28,
+      "value": "행사",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 28,
+      "value": "메인 이벤트(저녁 공연)",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 28,
+      "value": "환경재단 행사, 선내 공연 등",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 28,
+      "value": "프로그램·행사팀",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 28,
+      "value": "Grand Bar/Lounge",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 29,
+      "value": "22:00",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 29,
+      "value": "미팅",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 29,
+      "value": "전체 스태프 일일미팅",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 29,
+      "value": "당일 이슈, 익일 하코다테 기항 준비 최종 확인",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 29,
+      "value": "총괄본부(전체)",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 30,
+      "value": "22:00~",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 30,
+      "value": "야식",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 30,
+      "value": "Prometeo 야식 운영",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 30,
+      "value": "야식 안내",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 30,
+      "value": "선내운영팀",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 32,
+      "value": "6/21(토) — 하코다테 기항 (13:00 입항 / 22:00 출항)",
+      "bold": true,
+      "bg": "#1B2A4A",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 33,
+      "value": "시간",
+      "bold": true,
+      "bg": "#34495E",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 3,
+      "row": 33,
+      "value": "구분",
+      "bold": true,
+      "bg": "#34495E",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 4,
+      "row": 33,
+      "value": "업무",
+      "bold": true,
+      "bg": "#34495E",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 5,
+      "row": 33,
+      "value": "세부 내용",
+      "bold": true,
+      "bg": "#34495E",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 6,
+      "row": 33,
+      "value": "담당",
+      "bold": true,
+      "bg": "#34495E",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 7,
+      "row": 33,
+      "value": "비고",
+      "bold": true,
+      "bg": "#34495E",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 34,
+      "value": "07:00~09:00",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 34,
+      "value": "식사",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 34,
+      "value": "조식 운영",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 34,
+      "value": "선내운영팀",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 35,
+      "value": "09:00~12:00",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 35,
+      "value": "행사",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 35,
+      "value": "오전 선내 프로그램",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 35,
+      "value": "입항 전 선내 프로그램 운영",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 35,
+      "value": "프로그램·행사팀",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 36,
+      "value": "11:00~12:30",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 36,
+      "value": "준비",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 36,
+      "value": "하코다테 하선 준비 브리핑",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 36,
+      "value": "투어별 집합장소/시간 안내, 자유여행자 귀선시간 공지, PLP 절차 안내",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 36,
+      "value": "기항지운영팀",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 37,
+      "value": "12:00~13:00",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 37,
+      "value": "식사",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 37,
+      "value": "중식 (일찍 운영)",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 37,
+      "value": "기항지 일정에 따라 식사시간 앞당김",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 37,
+      "value": "선내운영팀",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 38,
+      "value": "13:00",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 38,
+      "value": "기항",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 38,
+      "value": "하코다테 입항",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 38,
+      "value": "CIQ 절차, 하선 시작",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 38,
+      "value": "기항지운영팀",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 39,
+      "value": "13:00~13:30",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 39,
+      "value": "특수",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 39,
+      "value": "★ 김태우 공연 마감 후 하선 서포트",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 39,
+      "value": "김태우 하선 절차: 짐 관리, 코스타 하선 서류, 현지 이동 수배 확인",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 39,
+      "value": "프로그램·행사팀/총괄",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 39,
+      "value": "중간 하선 절차",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 40,
+      "value": "13:30~21:00",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 40,
+      "value": "기항",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 40,
+      "value": "하코다테 투어 운영",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 40,
+      "value": "투어별 인솔자 동행, 자유여행자 관리, 귀선체크",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 40,
+      "value": "기항지운영팀/타이요",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 41,
+      "value": "20:30~21:00",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 41,
+      "value": "기항",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 41,
+      "value": "귀선 체크 및 미귀선자 확인",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 41,
+      "value": "전원 귀선 확인, 미귀선자 즉시 보고",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 41,
+      "value": "기항지운영팀",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 41,
+      "value": "All Aboard 21:00",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 42,
+      "value": "22:00",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 42,
+      "value": "출항",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 42,
+      "value": "하코다테 출항",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 43,
+      "value": "22:00",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 43,
+      "value": "미팅",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 43,
+      "value": "전체 스태프 일일미팅",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 43,
+      "value": "기항지 이슈, 익일 오타루 준비",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 43,
+      "value": "총괄본부(전체)",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 45,
+      "value": "6/22(일) — 오타루 기항 (14:00 입항 / 오버나잇)",
+      "bold": true,
+      "bg": "#1B2A4A",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 46,
+      "value": "시간",
+      "bold": true,
+      "bg": "#34495E",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 3,
+      "row": 46,
+      "value": "구분",
+      "bold": true,
+      "bg": "#34495E",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 4,
+      "row": 46,
+      "value": "업무",
+      "bold": true,
+      "bg": "#34495E",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 5,
+      "row": 46,
+      "value": "세부 내용",
+      "bold": true,
+      "bg": "#34495E",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 6,
+      "row": 46,
+      "value": "담당",
+      "bold": true,
+      "bg": "#34495E",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 7,
+      "row": 46,
+      "value": "비고",
+      "bold": true,
+      "bg": "#34495E",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 47,
+      "value": "07:00~09:00",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 47,
+      "value": "식사",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 47,
+      "value": "조식 운영",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 47,
+      "value": "선내운영팀",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 48,
+      "value": "09:00~13:00",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 48,
+      "value": "행사",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 48,
+      "value": "오전 선내 프로그램",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 48,
+      "value": "크루즈가수왕 결선 등",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 48,
+      "value": "프로그램·행사팀",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 49,
+      "value": "12:00~13:30",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 49,
+      "value": "식사",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 49,
+      "value": "중식 운영",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 49,
+      "value": "선내운영팀",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 50,
+      "value": "13:00~14:00",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 50,
+      "value": "준비",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 50,
+      "value": "오타루 하선 준비 브리핑",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 50,
+      "value": "투어/자유여행 안내, 야간 재승선 가능 안내",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 50,
+      "value": "기항지운영팀",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 51,
+      "value": "14:00",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 51,
+      "value": "기항",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 51,
+      "value": "오타루 입항",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 51,
+      "value": "CIQ 절차, 하선 시작",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 51,
+      "value": "기항지운영팀",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 52,
+      "value": "14:00~14:30",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 52,
+      "value": "특수",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 52,
+      "value": "★ 김수찬/신성 오타루 승선 서포트",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 52,
+      "value": "중간 승선 절차: 코스타 체크인, 짐 운반, 캐빈 안내, 리허설 안내",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 52,
+      "value": "프로그램·행사팀/총괄",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 52,
+      "value": "중간 승선 절차",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 53,
+      "value": "14:30~22:00",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 53,
+      "value": "기항",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 53,
+      "value": "오타루 투어 운영 (오후)",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 53,
+      "value": "투어 인솔, 자유여행 관리",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 53,
+      "value": "기항지운영팀/타이요",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 54,
+      "value": "18:00~20:00",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 54,
+      "value": "식사",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 54,
+      "value": "석식 운영",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 54,
+      "value": "선내운영팀",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 55,
+      "value": "20:00~22:00",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 55,
+      "value": "행사",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 55,
+      "value": "김수찬/신성 선상 공연 (리허설 or 1회차)",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 55,
+      "value": "오타루 승선 후 리허설 진행, 일정에 따라 공연 1회차",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 55,
+      "value": "프로그램·행사팀",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 55,
+      "value": "음향/조명 확인",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 56,
+      "value": "22:00",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 56,
+      "value": "미팅",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 56,
+      "value": "전체 스태프 일일미팅",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 56,
+      "value": "오타루 오버나잇 야간 운영 안내",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 56,
+      "value": "총괄본부(전체)",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 57,
+      "value": "22:00~",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 57,
+      "value": "야간",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 57,
+      "value": "오타루 야간 자유시간 운영",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 57,
+      "value": "야간 승하선 가능(갱웨이 24시간 오픈 확인), 야간 귀선 관리",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 57,
+      "value": "선내운영팀(교대)",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 57,
+      "value": "오버나잇",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 59,
+      "value": "6/23(월) — 오타루 출항 (17:00) + 해상",
+      "bold": true,
+      "bg": "#1B2A4A",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 60,
+      "value": "시간",
+      "bold": true,
+      "bg": "#34495E",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 3,
+      "row": 60,
+      "value": "구분",
+      "bold": true,
+      "bg": "#34495E",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 4,
+      "row": 60,
+      "value": "업무",
+      "bold": true,
+      "bg": "#34495E",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 5,
+      "row": 60,
+      "value": "세부 내용",
+      "bold": true,
+      "bg": "#34495E",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 6,
+      "row": 60,
+      "value": "담당",
+      "bold": true,
+      "bg": "#34495E",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 7,
+      "row": 60,
+      "value": "비고",
+      "bold": true,
+      "bg": "#34495E",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 61,
+      "value": "07:00~09:00",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 61,
+      "value": "식사",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 61,
+      "value": "조식 운영",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 61,
+      "value": "선내운영팀",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 62,
+      "value": "09:00~16:00",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 62,
+      "value": "기항",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 62,
+      "value": "오타루 오전~오후 자유 관광",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 62,
+      "value": "투어/자유여행 계속, 쇼핑 시간",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 62,
+      "value": "기항지운영팀",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 63,
+      "value": "15:00~16:00",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 63,
+      "value": "기항",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 63,
+      "value": "귀선 체크 및 최종 확인",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 63,
+      "value": "전원 귀선 확인, All Aboard 16:00",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 63,
+      "value": "기항지운영팀",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 64,
+      "value": "17:00",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 64,
+      "value": "출항",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 64,
+      "value": "오타루 출항",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 65,
+      "value": "18:00~20:00",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 65,
+      "value": "식사",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 65,
+      "value": "석식 운영",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 65,
+      "value": "선내운영팀",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 66,
+      "value": "20:00~22:00",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 66,
+      "value": "행사",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 66,
+      "value": "김수찬/신성 메인 공연",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 66,
+      "value": "선상 메인 공연, 음향/조명 풀 세팅",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 66,
+      "value": "프로그램·행사팀",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 66,
+      "value": "Grand Bar",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 67,
+      "value": "22:00",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 67,
+      "value": "미팅",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 67,
+      "value": "전체 스태프 일일미팅",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 67,
+      "value": "총괄본부(전체)",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 69,
+      "value": "6/24(화) — 해상일 (종일 해상)",
+      "bold": true,
+      "bg": "#1B2A4A",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 70,
+      "value": "시간",
+      "bold": true,
+      "bg": "#34495E",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 3,
+      "row": 70,
+      "value": "구분",
+      "bold": true,
+      "bg": "#34495E",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 4,
+      "row": 70,
+      "value": "업무",
+      "bold": true,
+      "bg": "#34495E",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 5,
+      "row": 70,
+      "value": "세부 내용",
+      "bold": true,
+      "bg": "#34495E",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 6,
+      "row": 70,
+      "value": "담당",
+      "bold": true,
+      "bg": "#34495E",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 7,
+      "row": 70,
+      "value": "비고",
+      "bold": true,
+      "bg": "#34495E",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 71,
+      "value": "07:00~09:00",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 71,
+      "value": "식사",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 71,
+      "value": "조식 운영",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 71,
+      "value": "선내운영팀",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 72,
+      "value": "09:00~12:00",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 72,
+      "value": "행사",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 72,
+      "value": "오전 프로그램",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 72,
+      "value": "환경재단 프로그램, 고객 이벤트",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 72,
+      "value": "프로그램·행사팀",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 73,
+      "value": "12:00~14:00",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 73,
+      "value": "식사",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 73,
+      "value": "중식 운영",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 73,
+      "value": "선내운영팀",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 74,
+      "value": "14:00~17:00",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 74,
+      "value": "행사",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 74,
+      "value": "오후 프로그램 / 트래블토크 2회차",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 74,
+      "value": "다음 항차 소개, 피드백 수집",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 74,
+      "value": "프로그램·행사팀",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 75,
+      "value": "15:00~17:00",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 75,
+      "value": "운영",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 75,
+      "value": "하선 준비 안내",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 75,
+      "value": "하선 절차 안내 방송, 짐 태그 배포, 정산 안내",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 75,
+      "value": "선내운영팀",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 76,
+      "value": "18:00~20:00",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 76,
+      "value": "식사",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 76,
+      "value": "페어웰 디너(송별 석식)",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 76,
+      "value": "정찬 마지막 식사, VIP 특별 안내",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 76,
+      "value": "선내운영팀",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 77,
+      "value": "20:00~22:00",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 77,
+      "value": "행사",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 77,
+      "value": "페어웰 파티 / 최종 공연",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 77,
+      "value": "마지막 밤 이벤트, 승객 감사 인사",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 77,
+      "value": "프로그램·행사팀",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 78,
+      "value": "22:00",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 78,
+      "value": "미팅",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 78,
+      "value": "전체 스태프 최종미팅",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 78,
+      "value": "하선일 운영 최종 확인, 물품 철수 계획",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 78,
+      "value": "총괄본부(전체)",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 80,
+      "value": "6/25(수) — 하선일 [부산항 입항]",
+      "bold": true,
+      "bg": "#1B2A4A",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 81,
+      "value": "시간",
+      "bold": true,
+      "bg": "#34495E",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 3,
+      "row": 81,
+      "value": "구분",
+      "bold": true,
+      "bg": "#34495E",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 4,
+      "row": 81,
+      "value": "업무",
+      "bold": true,
+      "bg": "#34495E",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 5,
+      "row": 81,
+      "value": "세부 내용",
+      "bold": true,
+      "bg": "#34495E",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 6,
+      "row": 81,
+      "value": "담당",
+      "bold": true,
+      "bg": "#34495E",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 7,
+      "row": 81,
+      "value": "비고",
+      "bold": true,
+      "bg": "#34495E",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 82,
+      "value": "07:00~09:00",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 82,
+      "value": "식사",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 82,
+      "value": "조식 운영",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 82,
+      "value": "선내운영팀",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 83,
+      "value": "09:00~12:00",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 83,
+      "value": "운영",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 83,
+      "value": "HQ 및 물품 철수",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 83,
+      "value": "Mercurio Room 정리, 사이니지 철거, 물품 패킹",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 83,
+      "value": "지원·데이터팀",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 84,
+      "value": "10:00~14:00",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 84,
+      "value": "운영",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 84,
+      "value": "하선 안내 및 서포트",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 84,
+      "value": "층별 하선 순서 안내, VIP 우선 하선 서포트, 짐 관리",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 84,
+      "value": "선내운영팀/알바",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 85,
+      "value": "13:00~14:00",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 85,
+      "value": "특수",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 85,
+      "value": "★ 김수찬/신성 부산 하선 서포트",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 85,
+      "value": "하선 절차 서포트, 짐 관리, 이동 수배",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 85,
+      "value": "프로그램·행사팀",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 86,
+      "value": "15:00",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 86,
+      "value": "입항",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 86,
+      "value": "부산항 입항 / 하선 완료",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 86,
+      "value": "CIQ 절차, 전원 하선 확인",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 86,
+      "value": "전 팀",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 87,
+      "value": "15:00~17:00",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 87,
+      "value": "철수",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 87,
+      "value": "물품 하역 및 트럭 반출",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 87,
+      "value": "물품 하역, 트럭 적재, 반환 물품 확인",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 87,
+      "value": "지원·데이터팀",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 88,
+      "value": "17:00~",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 88,
+      "value": "마무리",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 88,
+      "value": "스태프 해산 / 정산 시작",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 88,
+      "value": "일당 정산, 장비 반납(무전기 등), 최종 인원 확인",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 88,
+      "value": "총괄본부",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ]
+   ]
+  },
+  {
+   "name": "업무분장표",
+   "rows": 23,
+   "cols": 7,
+   "data": [
+    [
+     {
+      "col": 2,
+      "row": 2,
+      "value": "2026 코스타 세레나 — 선내 운영조직 업무분장표",
+      "bold": true,
+      "bg": "#27AE60",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 4,
+      "value": "조직 체계 요약",
+      "bold": true,
+      "bg": "#1B2A4A",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 5,
+      "value": "구분",
+      "bold": true,
+      "bg": "#2C3E50",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 3,
+      "row": 5,
+      "value": "직책",
+      "bold": true,
+      "bg": "#2C3E50",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 4,
+      "row": 5,
+      "value": "인원(명)",
+      "bold": true,
+      "bg": "#2C3E50",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 5,
+      "row": 5,
+      "value": "주요 역할",
+      "bold": true,
+      "bg": "#2C3E50",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 6,
+      "row": 5,
+      "value": "세부 담당 업무",
+      "bold": true,
+      "bg": "#2C3E50",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 7,
+      "row": 5,
+      "value": "비고",
+      "bold": true,
+      "bg": "#2C3E50",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 6,
+      "value": "총괄운영본부장",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 6,
+      "value": "본부장",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 6,
+      "value": "1",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 6,
+      "value": "선내 전체 운영 총괄 및 지휘",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 6,
+      "value": "- 전세선 전체 운영 및 최종 의사결정\n- 선사·협력사 실무 조율\n- 예산/일정/계약/보고 통합관리\n- VIP 의전 총괄\n- 코스타 Hotel Director·Cruise Director와 직접 소통",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 6,
+      "value": "모두투어",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 7,
+      "value": "운영부서장",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 7,
+      "value": "부서장",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 7,
+      "value": "1",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 7,
+      "value": "각 팀간 조율, 현장 의사결정 지원",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 7,
+      "value": "- 팀간 업무 조율 및 갈등 조정\n- 현장 긴급 의사결정\n- 일일미팅 진행\n- 본부장 부재시 대행",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 7,
+      "value": "CI 겸임",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 8,
+      "value": "선내운영팀",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 8,
+      "value": "팀장1+팀원4",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 8,
+      "value": "5",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 8,
+      "value": "안내데스크·고객응대·현장 컨트롤타워",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 8,
+      "value": "- 안내데스크 운영 (고객문의, 시설/일정 안내)\n- 방송·공지 송출 관리\n- VOC 수집 및 피드백\n- 카카오톡 실시간 상황판 관리\n- 알바 30명 스케줄 관리\n- 식당 안내 및 혼잡도 관리",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 8,
+      "value": "핵심 운영 허브\n알바 30명 관할",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 9,
+      "value": "기항지운영팀",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 9,
+      "value": "팀장1+팀원1",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 9,
+      "value": "2",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 9,
+      "value": "기항지투어 관리, 입출국 지원",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 9,
+      "value": "- 하코다테/오타루 투어 운영 총괄\n- 입출국 서류 검수 및 명단 관리\n- 자유여행자 관리 및 귀선 통제\n- 해상일: 식당안내, 고객응대 보조\n- 기항지 리포트 작성",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 9,
+      "value": "타이요플랜 협력",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 10,
+      "value": "프로그램·행사팀",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 10,
+      "value": "팀장1+팀원4",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 10,
+      "value": "5",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 10,
+      "value": "공연·이벤트·환경재단행사 통합운영",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 10,
+      "value": "- 초대가수(김태우/김수찬/신성) 관리 및 공연 운영\n- 크루즈가수왕 기획 및 운영\n- 환경재단 행사 운영 지원\n- GRM·코스타 테크니션 협업\n- 부스 설치 및 관리\n- 출항식/트래블토크/페어웰파티 진행",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 10,
+      "value": "GRM·코스타 협업",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 11,
+      "value": "지원·데이터팀",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 11,
+      "value": "팀장1+팀원1",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 11,
+      "value": "2",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 11,
+      "value": "물류·장비·IT·데이터·정산",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 11,
+      "value": "- 물품/장비 전체 자산관리\n- 명단·문서 통합관리 (Google Sheet)\n- 회계 및 정산 관리\n- 사이니지 콘텐츠 관리\n- 캐빈변경/과일바구니 등 예외사항 처리\n- 일일보고서 자동생성",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 11,
+      "value": "후방지원",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 12,
+      "value": "가이드팀(타이요플랜)",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 12,
+      "value": "팀장1+팀원5+가이드70",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 12,
+      "value": "76",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 12,
+      "value": "고객안내, 투어인솔, 통역",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 12,
+      "value": "- 기항지 투어 인솔\n- 선내 고객관리\n- 자유여행자 관리\n- 통역 지원",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 12,
+      "value": "타이요 소속\n모두투어 인력 제외",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 13,
+      "value": "협력사 파견인력",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 13,
+      "value": "환경재단8+웅진4",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 13,
+      "value": "12",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 13,
+      "value": "자사 고객관리 중심",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 13,
+      "value": "- 자사 배정 고객 관리\n- 필요시 공동업무(행사, 안내) 지원\n- 상시운영인력에는 미포함",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 13,
+      "value": "자사 전담",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 14,
+      "value": "아르바이트",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 14,
+      "value": "순환배치",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 14,
+      "value": "30",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 14,
+      "value": "고객응대, 행사보조, 물류지원",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 14,
+      "value": "- 안내데스크 보조\n- 식당 안내 보조\n- 행사장 세팅/정리\n- 물류 운반 지원\n- 오전(07~15)/오후(15~23) 교대제",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 14,
+      "value": "부산 관광대",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 15,
+      "value": "총 인원(예상)",
+      "bold": true,
+      "bg": "#FEF9E7",
+      "fc": ""
+     },
+     {
+      "col": 4,
+      "row": 15,
+      "value": "약 134명",
+      "bold": true,
+      "bg": "#FEF9E7",
+      "fc": ""
+     },
+     {
+      "col": 5,
+      "row": 15,
+      "value": "본부장1 + 부서장1 + 팀장4 + 팀원10 + 알바30 + 가이드70 + 협력사18",
+      "bold": true,
+      "bg": "#FEF9E7",
+      "fc": ""
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 17,
+      "value": "보고라인 및 커뮤니케이션 체계",
+      "bold": true,
+      "bg": "#1B2A4A",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 18,
+      "value": "단계",
+      "bold": true,
+      "bg": "#1B2A4A",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 3,
+      "row": 18,
+      "value": "방식",
+      "bold": true,
+      "bg": "#1B2A4A",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 4,
+      "row": 18,
+      "value": "주요 내용",
+      "bold": true,
+      "bg": "#1B2A4A",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 5,
+      "row": 18,
+      "value": "시간",
+      "bold": true,
+      "bg": "#1B2A4A",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 6,
+      "row": 18,
+      "value": "참석자",
+      "bold": true,
+      "bg": "#1B2A4A",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 7,
+      "row": 18,
+      "value": "비고",
+      "bold": true,
+      "bg": "#1B2A4A",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 19,
+      "value": "보고라인",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 19,
+      "value": "단일체계",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 19,
+      "value": "본부장 → 부서장 → 팀장 → 팀원/보조",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 19,
+      "value": "상시",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 19,
+      "value": "전 인력",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 20,
+      "value": "1차 커뮤니케이션",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 20,
+      "value": "무전기 실시간 교신",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 20,
+      "value": "현장 긴급 대응, 고객이슈, 이동통제",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 20,
+      "value": "상시",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 20,
+      "value": "팀장급 이상 + 키맨",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 20,
+      "value": "100대",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 21,
+      "value": "2차 커뮤니케이션",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 21,
+      "value": "카카오톡 단체방",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 21,
+      "value": "실시간 보고, 사진/문서 공유, 결재라인",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 21,
+      "value": "상시",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 21,
+      "value": "전 스태프",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 21,
+      "value": "팀별+전체방",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 22,
+      "value": "3차 커뮤니케이션",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 22,
+      "value": "전체미팅",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 22,
+      "value": "주요현안 브리핑, 개선사항 공유",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 22,
+      "value": "매일 22:00",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 22,
+      "value": "전 관계자 (필수근무자 제외)",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 22,
+      "value": "모두투어/CI/재단/웅진/타이요",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 23,
+      "value": "데이터 공유",
+      "bold": true,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 23,
+      "value": "Google Sheet",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 23,
+      "value": "문서 실시간 연동, 자동 기록, 일일보고",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 23,
+      "value": "상시",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 23,
+      "value": "팀장급 이상",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 23,
+      "value": "자동화 시스템",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ]
+   ]
+  },
+  {
+   "name": "준비물 체크리스트",
+   "rows": 32,
+   "cols": 8,
+   "data": [
+    [
+     {
+      "col": 2,
+      "row": 2,
+      "value": "2026 코스타 세레나 — 운영 준비물 체크리스트",
+      "bold": true,
+      "bg": "#E74C3C",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 4,
+      "value": "No",
+      "bold": true,
+      "bg": "#2C3E50",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 3,
+      "row": 4,
+      "value": "카테고리",
+      "bold": true,
+      "bg": "#2C3E50",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 4,
+      "row": 4,
+      "value": "품목",
+      "bold": true,
+      "bg": "#2C3E50",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 5,
+      "row": 4,
+      "value": "수량",
+      "bold": true,
+      "bg": "#2C3E50",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 6,
+      "row": 4,
+      "value": "담당",
+      "bold": true,
+      "bg": "#2C3E50",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 7,
+      "row": 4,
+      "value": "조달마감",
+      "bold": true,
+      "bg": "#2C3E50",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 8,
+      "row": 4,
+      "value": "비고",
+      "bold": true,
+      "bg": "#2C3E50",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 5,
+      "value": "1",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 5,
+      "value": "스태프 운영",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 5,
+      "value": "목걸이(네임택/ID카드)",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 5,
+      "value": "134개+여분20",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 5,
+      "value": "지원팀",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 5,
+      "value": "D-30",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 5,
+      "value": "VIP용 별도 제작",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 6,
+      "value": "2",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 6,
+      "value": "스태프 운영",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 6,
+      "value": "파우치 (스태프용)",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 6,
+      "value": "50개",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 6,
+      "value": "지원팀",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 6,
+      "value": "D-30",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 7,
+      "value": "3",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 7,
+      "value": "스태프 운영",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 7,
+      "value": "파우치 (VIP용)",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 7,
+      "value": "50개",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 7,
+      "value": "지원팀",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 7,
+      "value": "D-30",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 7,
+      "value": "별도 디자인",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 8,
+      "value": "4",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 8,
+      "value": "스태프 운영",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 8,
+      "value": "무전기",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 8,
+      "value": "100대",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 8,
+      "value": "지원팀",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 8,
+      "value": "D-14",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 8,
+      "value": "코스타 허가 확인",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 9,
+      "value": "5",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 9,
+      "value": "스태프 운영",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 9,
+      "value": "무전기 충전기/배터리",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 9,
+      "value": "100세트",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 9,
+      "value": "지원팀",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 9,
+      "value": "D-14",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 10,
+      "value": "6",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 10,
+      "value": "사무용품",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 10,
+      "value": "노트북",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 10,
+      "value": "5대",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 10,
+      "value": "지원팀",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 10,
+      "value": "D-7",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 10,
+      "value": "HQ+각팀장",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 11,
+      "value": "7",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 11,
+      "value": "사무용품",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 11,
+      "value": "A4용지",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 11,
+      "value": "10박스",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 11,
+      "value": "지원팀",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 11,
+      "value": "D-7",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 12,
+      "value": "8",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 12,
+      "value": "사무용품",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 12,
+      "value": "프린터 토너/잉크",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 12,
+      "value": "5세트",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 12,
+      "value": "지원팀",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 12,
+      "value": "D-7",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 12,
+      "value": "CISCO 전화기 5대 요청",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 13,
+      "value": "9",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 13,
+      "value": "사무용품",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 13,
+      "value": "문구류(펜/테이프/가위 등)",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 13,
+      "value": "일괄",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 13,
+      "value": "지원팀",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 13,
+      "value": "D-7",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 14,
+      "value": "10",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 14,
+      "value": "사무용품",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 14,
+      "value": "바인더/클립보드",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 14,
+      "value": "20개",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 14,
+      "value": "지원팀",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 14,
+      "value": "D-7",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 15,
+      "value": "11",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 15,
+      "value": "인쇄물",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 15,
+      "value": "층별 안내도(Deck Plan) 한국어",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 15,
+      "value": "3,000부",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 15,
+      "value": "지원팀",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 15,
+      "value": "D-30",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 15,
+      "value": "A3 접지",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 16,
+      "value": "12",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 16,
+      "value": "인쇄물",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 16,
+      "value": "일일 프로그램표(Daily Program)",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 16,
+      "value": "일 3,000부 × 7일",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 16,
+      "value": "지원팀",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 16,
+      "value": "D-14",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 16,
+      "value": "일자별 별도 인쇄",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 17,
+      "value": "13",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 17,
+      "value": "인쇄물",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 17,
+      "value": "테이블 카드(정찬식당)",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 17,
+      "value": "500세트",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 17,
+      "value": "지원팀",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 17,
+      "value": "D-21",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 18,
+      "value": "14",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 18,
+      "value": "인쇄물",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 18,
+      "value": "기항지 안내 책자",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 18,
+      "value": "3,000부",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 18,
+      "value": "지원팀",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 18,
+      "value": "D-30",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 18,
+      "value": "하코다테/오타루",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 19,
+      "value": "15",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 19,
+      "value": "인쇄물",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 19,
+      "value": "비상대피 안내문(한국어)",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 19,
+      "value": "1,500부",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 19,
+      "value": "지원팀",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 19,
+      "value": "D-30",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 19,
+      "value": "객실 비치용",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 20,
+      "value": "16",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 20,
+      "value": "인쇄물",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 20,
+      "value": "식당 메뉴판(한국어)",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 20,
+      "value": "각 300부",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 20,
+      "value": "지원팀",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 20,
+      "value": "D-14",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 21,
+      "value": "17",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 21,
+      "value": "홍보물/설치물",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 21,
+      "value": "POP(각종 안내판)",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 21,
+      "value": "50종+",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 21,
+      "value": "행사팀",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 21,
+      "value": "D-21",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 22,
+      "value": "18",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 22,
+      "value": "홍보물/설치물",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 22,
+      "value": "현수막/배너",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 22,
+      "value": "10점",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 22,
+      "value": "행사팀",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 22,
+      "value": "D-21",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 22,
+      "value": "출항식/행사용",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 23,
+      "value": "19",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 23,
+      "value": "홍보물/설치물",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 23,
+      "value": "부스 설치물(관광청/시몬스/재단)",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 23,
+      "value": "3세트",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 23,
+      "value": "행사팀",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 23,
+      "value": "D-14",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 24,
+      "value": "20",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 24,
+      "value": "디지털 콘텐츠",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 24,
+      "value": "사이니지 콘텐츠 USB",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 24,
+      "value": "10개",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 24,
+      "value": "지원팀",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 24,
+      "value": "D-7",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 24,
+      "value": "JPEG/MP4",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 25,
+      "value": "21",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 25,
+      "value": "디지털 콘텐츠",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 25,
+      "value": "9층 LED Wall 영상",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 25,
+      "value": "일자별",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 25,
+      "value": "지원팀",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 25,
+      "value": "D-7",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 25,
+      "value": "1920×1080",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 26,
+      "value": "22",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 26,
+      "value": "디지털 콘텐츠",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 26,
+      "value": "영화 파일(저작권 확보)",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 26,
+      "value": "2편",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 26,
+      "value": "행사팀",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 26,
+      "value": "D-30",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 26,
+      "value": "라이선스 계약",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 27,
+      "value": "23",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 27,
+      "value": "VIP용품",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 27,
+      "value": "VIP 웰컴키트",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 27,
+      "value": "50세트",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 27,
+      "value": "총괄",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 27,
+      "value": "D-7",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 27,
+      "value": "웰컴레터+기념품",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 28,
+      "value": "24",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 28,
+      "value": "VIP용품",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 28,
+      "value": "VIP 별도 일정표",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 28,
+      "value": "50부",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 28,
+      "value": "총괄",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 28,
+      "value": "D-3",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 29,
+      "value": "25",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 29,
+      "value": "기타",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 29,
+      "value": "기념품(승객용)",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 29,
+      "value": "3,000개",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 29,
+      "value": "지원팀",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 29,
+      "value": "D-21",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 30,
+      "value": "26",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 30,
+      "value": "기타",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 30,
+      "value": "의약품(비상용)",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 30,
+      "value": "1세트",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 30,
+      "value": "운영팀",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 30,
+      "value": "D-7",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 31,
+      "value": "27",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 31,
+      "value": "기타",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 31,
+      "value": "촬영장비(카메라/드론)",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 31,
+      "value": "일괄",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 31,
+      "value": "행사팀",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 31,
+      "value": "D-7",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 31,
+      "value": "허가서 필요",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 32,
+      "value": "28",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 32,
+      "value": "기타",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 32,
+      "value": "간식/음료(스태프용)",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 32,
+      "value": "일괄",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 32,
+      "value": "지원팀",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 32,
+      "value": "D-1",
+      "bold": false,
+      "bg": "#FFFFFF",
+      "fc": "#2C3E50"
+     }
+    ]
+   ]
+  },
+  {
+   "name": "특수업무·VIP의전",
+   "rows": 15,
+   "cols": 6,
+   "data": [
+    [
+     {
+      "col": 2,
+      "row": 2,
+      "value": "2026 코스타 세레나 — 특수업무 및 VIP 의전 프로토콜",
+      "bold": true,
+      "bg": "#8E44AD",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 4,
+      "value": "1. 초대가수 승하선 로지스틱",
+      "bold": true,
+      "bg": "#1B2A4A",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 5,
+      "value": "대상",
+      "bold": true,
+      "bg": "#1B2A4A",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 3,
+      "row": 5,
+      "value": "일정",
+      "bold": true,
+      "bg": "#1B2A4A",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 4,
+      "row": 5,
+      "value": "상세 절차",
+      "bold": true,
+      "bg": "#1B2A4A",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 5,
+      "row": 5,
+      "value": "사전 준비사항",
+      "bold": true,
+      "bg": "#1B2A4A",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 6,
+      "row": 5,
+      "value": "담당",
+      "bold": true,
+      "bg": "#1B2A4A",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 6,
+      "value": "김태우",
+      "bold": true,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 6,
+      "value": "6/19 부산 승선\n→ 선상공연\n→ 6/21 하코다테 하선",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 6,
+      "value": "1) 6/19 부산항 승선 (일반 승객과 동일 또는 얼리보딩)\n2) 캐빈 배정 및 안내\n3) 리허설 시간 배정 (GRM·테크니션 협조)\n4) 6/20 or 6/21 오전 선상 공연 진행\n5) 6/21 하코다테 입항(13:00) 후 중간 하선\n6) 하선 후 현지 이동 (하코다테→도쿄 or 현지 체류)",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 6,
+      "value": "- 코스타 중간 하선 절차 사전 확인 (질의서 #10)\n- 하코다테 하선 후 항공편/숙박 수배\n- 짐 별도 관리 (하선 시 동행 스태프 1명 배정)\n- 하선 서류(PLP/여권) 사전 준비\n- 공연 음향/조명 테크니컬 라이더 사전 전달",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 6,
+      "value": "프로그램팀/총괄",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 7,
+      "value": "김수찬 / 신성",
+      "bold": true,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 7,
+      "value": "6/22 오타루 승선\n→ 선상공연\n→ 6/25 부산 하선",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 7,
+      "value": "1) 서울→삿포로(or 오타루) 항공편 수배\n2) 6/22 오타루 항구 도착 후 중간 승선 (14:00 입항)\n3) 코스타 체크인 및 캐빈 배정\n4) 리허설 진행 (6/22 저녁 or 6/23)\n5) 6/23 오타루 출항 후 메인 공연\n6) 6/25 부산 하선 (일반 승객과 동일)",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 7,
+      "value": "- 코스타 중간 승선 절차 사전 확인 (질의서 #10)\n- 서울→오타루 항공편 수배 (6/21 or 6/22 도착)\n- 오타루 현지 숙박 (항공편에 따라)\n- 항구까지 이동 수배 (택시/전세버스)\n- 승선 서류 사전 준비 (코스타폼/여권)\n- 공연 음향/조명 테크니컬 라이더 사전 전달",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 7,
+      "value": "프로그램팀/총괄",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 9,
+      "value": "2. VIP 의전 프로토콜",
+      "bold": true,
+      "bg": "#1B2A4A",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 10,
+      "value": "단계",
+      "bold": true,
+      "bg": "#1B2A4A",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 3,
+      "row": 10,
+      "value": "시점",
+      "bold": true,
+      "bg": "#1B2A4A",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 4,
+      "row": 10,
+      "value": "상세 내용",
+      "bold": true,
+      "bg": "#1B2A4A",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 5,
+      "row": 10,
+      "value": "준비물/체크사항",
+      "bold": true,
+      "bg": "#1B2A4A",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 6,
+      "row": 10,
+      "value": "담당",
+      "bold": true,
+      "bg": "#1B2A4A",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 11,
+      "value": "사전 준비",
+      "bold": true,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 11,
+      "value": "D-30~D-7",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 11,
+      "value": "- VIP 리스트 확정 (회장님 포함)\n- VIP 전용 캐빈 확인 (스위트/그랜드스위트)\n- 과일바구니 일괄 신청 ($7/일)\n- 객실 와인 서비스 신청\n- VIP 전용 정찬 구역 확보",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 11,
+      "value": "- VIP 명단 + 캐빈번호 매핑\n- 과일바구니/와인 인보이스\n- 정찬 스위트 구역 좌석 배치도\n- VIP 웰컴키트 제작",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 11,
+      "value": "총괄본부",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 12,
+      "value": "승선 영접",
+      "bold": true,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 12,
+      "value": "6/19 승선 시",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 12,
+      "value": "- VIP 전용 동선 안내 (별도 체크인 or 우선 탑승)\n- 본부장 직접 영접\n- 객실까지 에스코트\n- 웰컴키트 객실 사전 배치 확인",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 12,
+      "value": "- 영접 담당자 사전 배정\n- 동선 사전 답사\n- 웰컴키트 배치 확인",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 12,
+      "value": "총괄본부",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 13,
+      "value": "선내 운영",
+      "bold": true,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 13,
+      "value": "6/19~25 전 일정",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 13,
+      "value": "- 정찬 VIP 구역 매일 확인\n- 과일바구니 매일 교체 확인\n- 주요 행사 시 VIP석 확보\n- VIP 요청사항 즉시 대응 (전담 스태프 배정)",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 13,
+      "value": "- VIP 전담 스태프 1명 상시\n- 일일 VIP 만족도 체크\n- 특별 요청 즉시보고",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 13,
+      "value": "선내운영팀",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 14,
+      "value": "기항지",
+      "bold": true,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 14,
+      "value": "기항일",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 14,
+      "value": "- VIP 전용 투어 또는 우선 하선\n- 기항지 특별 안내",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 14,
+      "value": "- VIP 투어 별도 수배\n- 가이드 배정",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 14,
+      "value": "기항지팀",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 15,
+      "value": "하선",
+      "bold": true,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 15,
+      "value": "6/25",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 15,
+      "value": "- VIP 우선 하선 안내\n- 본부장 배석 감사 인사\n- 짐 우선 처리",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 15,
+      "value": "- 우선 하선 동선 확인\n- 감사 기념품",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 15,
+      "value": "총괄본부",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     }
+    ]
+   ]
+  },
+  {
+   "name": "인력운영안(원본)",
+   "rows": 2,
+   "cols": 1,
+   "data": [
+    [
+     {
+      "col": 1,
+      "row": 1,
+      "value": "※ 본 시트는 원본 \"전세선_운영파트_정리\" 파일의 인력운영안을 참고하여 작성되었습니다.",
+      "bold": false,
+      "bg": "",
+      "fc": "#888888"
+     }
+    ],
+    [
+     {
+      "col": 1,
+      "row": 2,
+      "value": "원본 파일의 인력운영안/인력구성표/비용 시트를 기반으로 사전준비 마스터플랜, 선상운영 타임스케줄, 업무분장표, 준비물 체크리스트, 특수업무·VIP의전 시트를 구성하였습니다.",
+      "bold": false,
+      "bg": "",
+      "fc": "#888888"
+     }
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,3343 @@
+{
+ "key": "qa",
+ "label": "자문 질문 리스트",
+ "sheets": [
+  {
+   "name": "자문 질문 리스트",
+   "rows": 90,
+   "cols": 7,
+   "data": [
+    [
+     {
+      "col": 2,
+      "row": 2,
+      "value": "롯데JTB 이문규 팀장 자문 질문 리스트 — 코스타 세레나 전세선 총괄운영 사전 자문",
+      "bold": true,
+      "bg": "#0D1B2A",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 4,
+      "value": "발신: 모두투어 크루즈사업부 (2026년 6월 19일~25일 코스타 세레나 전세선 총괄운영)\n수신: 롯데JTB 이문규 팀장 (코스타 세레나 전세선 운영 경험자)\n\n안녕하십니까, 모두투어 크루즈사업부입니다.\n당사는 2026년 6월 코스타 세레나 한일전세선(6박 7일, 부산-하코다테-오타루-부산)을 처음 운영하게 되었습니다.\n귀사의 2026년 5월 항차(5/27~6/1) 운영 경험을 바탕으로, 아래 항목에 대해 실무적 자문을 구하고자 합니다.\n특히 \"이론적으로는 준비했으나 현장에서만 알 수 있는 것들\"에 대한 조언을 부탁드립니다.",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": ""
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 6,
+      "value": "No",
+      "bold": true,
+      "bg": "#1B2A4A",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 3,
+      "row": 6,
+      "value": "카테고리",
+      "bold": true,
+      "bg": "#1B2A4A",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 4,
+      "row": 6,
+      "value": "질문 항목 (제목 수준)",
+      "bold": true,
+      "bg": "#1B2A4A",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 5,
+      "row": 6,
+      "value": "질문 의도/배경",
+      "bold": true,
+      "bg": "#1B2A4A",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 6,
+      "row": 6,
+      "value": "우선순위",
+      "bold": true,
+      "bg": "#1B2A4A",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 7,
+      "row": 6,
+      "value": "회신 희망",
+      "bold": true,
+      "bg": "#1B2A4A",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 7,
+      "value": "1. 승선일 — 터미널 운영 (시간순)",
+      "bold": true,
+      "bg": "#2980B9",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 8,
+      "value": "1",
+      "bold": true,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 8,
+      "value": "터미널 세팅",
+      "bold": true,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 8,
+      "value": "전일(D-1) 터미널 사전 세팅 시 유의사항",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 8,
+      "value": "전일 회의실 대여·물품 배치·동선 세팅 시\n실제로 겪은 문제점이나 팁",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 8,
+      "value": "★★★",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 8,
+      "value": "미팅 시",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 9,
+      "value": "2",
+      "bold": true,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 9,
+      "value": "터미널 세팅",
+      "bold": true,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 9,
+      "value": "터미널 3층·4층 조별 미팅 장소 배치 최적안",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 9,
+      "value": "2,400명 동시 수용 시 3·4층 공간 활용법\n실제 혼잡도와 최적 동선",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 9,
+      "value": "★★★",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 9,
+      "value": "미팅 시",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 10,
+      "value": "3",
+      "bold": true,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 10,
+      "value": "트럭·선적",
+      "bold": true,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 10,
+      "value": "트럭 반입 시 항만 보안 통과 소요 시간과 주의점",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 10,
+      "value": "항만 보안 절차에서 실제 소요된 시간\n사전 허가 외 현장에서 추가로 필요한 것",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 10,
+      "value": "★★★",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 10,
+      "value": "미팅 시",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 11,
+      "value": "4",
+      "bold": true,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 11,
+      "value": "트럭·선적",
+      "bold": true,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 11,
+      "value": "코스타 크루 선적 지원 요청 시 실제 대응 수준",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 11,
+      "value": "크루 3~4명 지원 요청 시 실제 몇 명 왔는지\n운반 속도·협조 수준",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 11,
+      "value": "★★",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 11,
+      "value": "미팅 시",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 12,
+      "value": "5",
+      "bold": true,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 12,
+      "value": "트럭·선적",
+      "bold": true,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 12,
+      "value": "선적 물품의 선내 도착까지 실제 소요 시간",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 12,
+      "value": "트럭 하역 → 갱웨이 → 선내 도착까지\n실제로 얼마나 걸렸는지",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 12,
+      "value": "★★",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 12,
+      "value": "미팅 시",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 13,
+      "value": "6",
+      "bold": true,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 13,
+      "value": "승선 프로세스",
+      "bold": true,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 13,
+      "value": "승선 체크인 실제 소요 시간 (1인당/전체)",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 13,
+      "value": "2,400명 기준 실제 체크인 완료까지 몇 시간인지\n병목 구간은 어디였는지",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 13,
+      "value": "★★★",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 13,
+      "value": "미팅 시",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 14,
+      "value": "7",
+      "bold": true,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 14,
+      "value": "승선 프로세스",
+      "bold": true,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 14,
+      "value": "조별 승선 시간 배분 최적안 (시차 승선)",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 14,
+      "value": "조별 몇 분 간격이 적정했는지\n한꺼번에 몰릴 때 대응법",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 14,
+      "value": "★★★",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 14,
+      "value": "미팅 시",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 15,
+      "value": "8",
+      "bold": true,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 15,
+      "value": "승선 프로세스",
+      "bold": true,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 15,
+      "value": "얼리보딩 스태프 입장 시 실제 절차와 시간",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 15,
+      "value": "실제 몇 시에 입장 가능했는지\n임시출입증 발급에 걸린 시간",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 15,
+      "value": "★★",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 15,
+      "value": "미팅 시",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 16,
+      "value": "9",
+      "bold": true,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 16,
+      "value": "수화물",
+      "bold": true,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 16,
+      "value": "수화물 태깅 → 객실 도착까지 실제 소요 시간",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 16,
+      "value": "짐이 객실에 도착하기까지 실제 시간\n최초·최종 도착 시차",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 16,
+      "value": "★★",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 16,
+      "value": "미팅 시",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 17,
+      "value": "10",
+      "bold": true,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 17,
+      "value": "수화물",
+      "bold": true,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 17,
+      "value": "수화물 분실·미도착 실제 발생 건수와 원인",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 17,
+      "value": "실제로 몇 건이나 발생했는지\n주요 원인(태그 분실? 잘못 배달?)",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 17,
+      "value": "★★",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 17,
+      "value": "미팅 시",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 19,
+      "value": "2. 승선일 — 객실·듀플리케이트·컴플레인",
+      "bold": true,
+      "bg": "#E74C3C",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 20,
+      "value": "11",
+      "bold": true,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 20,
+      "value": "듀플리케이트",
+      "bold": true,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 20,
+      "value": "코스타 직판 고객과의 객실 듀플리케이트 실제 발생 건수",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 20,
+      "value": "실제로 몇 건이나 발생했는지\n사전 크로스체크로 방지 가능했는지",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 20,
+      "value": "★★★",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 20,
+      "value": "미팅 시",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 21,
+      "value": "12",
+      "bold": true,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 21,
+      "value": "듀플리케이트",
+      "bold": true,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 21,
+      "value": "듀플리케이트 발생 시 코스타 측 대응 태도와 속도",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 21,
+      "value": "코스타가 대체 객실을 얼마나 빨리 제공하는지\n협조적이었는지, 비협조적이었는지",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 21,
+      "value": "★★★",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 21,
+      "value": "미팅 시",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 22,
+      "value": "13",
+      "bold": true,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 22,
+      "value": "듀플리케이트",
+      "bold": true,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 22,
+      "value": "탑승 거절까지 간 최악의 케이스 유무",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 22,
+      "value": "실제로 탑승 자체가 거절된 사례가 있었는지\n있었다면 어떻게 해결했는지",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 22,
+      "value": "★★★",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 22,
+      "value": "미팅 시",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 23,
+      "value": "14",
+      "bold": true,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 23,
+      "value": "듀플리케이트",
+      "bold": true,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 23,
+      "value": "듀프 사전 방지를 위해 코스타에 요청해야 할 것",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 23,
+      "value": "코스타에 사전 크로스체크를 요청한 방법\n실효성이 있었는지",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 23,
+      "value": "★★★",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 23,
+      "value": "미팅 시",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 24,
+      "value": "15",
+      "bold": true,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 24,
+      "value": "객실 컴플레인",
+      "bold": true,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 24,
+      "value": "승선 첫날 객실 컴플레인 실제 건수와 유형 TOP 5",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 24,
+      "value": "가장 많이 발생한 컴플레인 유형 순위\n예상 못한 유형이 있었는지",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 24,
+      "value": "★★★",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 24,
+      "value": "미팅 시",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 25,
+      "value": "16",
+      "bold": true,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 25,
+      "value": "객실 컴플레인",
+      "bold": true,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 25,
+      "value": "객실 변경 요청 시 코스타 리셉션 처리 속도",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 25,
+      "value": "변경 요청 → 실제 변경 완료까지 소요 시간\n야간에도 처리 가능한지",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 25,
+      "value": "★★",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 25,
+      "value": "미팅 시",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 26,
+      "value": "17",
+      "bold": true,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 26,
+      "value": "여권 이슈",
+      "bold": true,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 26,
+      "value": "여권 미소지·구여권·훼손 고객 실제 발생 건수",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 26,
+      "value": "실제로 몇 건 발생했는지\n어떻게 처리했는지",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 26,
+      "value": "★★",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 26,
+      "value": "미팅 시",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 27,
+      "value": "18",
+      "bold": true,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 27,
+      "value": "지연 고객",
+      "bold": true,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 27,
+      "value": "승선 마감 직전 도착 고객 비율과 대응",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 27,
+      "value": "승선 마감 시간 전후 실제 상황\n코스타가 마감 시간을 엄격히 지키는지",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 27,
+      "value": "★★",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 27,
+      "value": "미팅 시",
+      "bold": false,
+      "bg": "#FDEDEC",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 29,
+      "value": "3. 선내 운영 — 코스타 협조 체계·커뮤니케이션",
+      "bold": true,
+      "bg": "#1ABC9C",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 30,
+      "value": "19",
+      "bold": true,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 30,
+      "value": "GRM/HD 소통",
+      "bold": true,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 30,
+      "value": "GRM·Hotel Director와의 실제 소통 빈도와 방식",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 30,
+      "value": "매일 미팅? 필요시만? 이메일? 대면?\n요청 시 응답 속도",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 30,
+      "value": "★★★",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 30,
+      "value": "미팅 시",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 31,
+      "value": "20",
+      "bold": true,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 31,
+      "value": "GRM/HD 소통",
+      "bold": true,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 31,
+      "value": "코스타 측 \"안 된다\"고 한 것 중 실제로 된 것",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 31,
+      "value": "공식적으로는 거절했으나 현장에서 협조된 사례\n(예: 무전기, 장소 사용 등)",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 31,
+      "value": "★★★",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 31,
+      "value": "미팅 시",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 32,
+      "value": "21",
+      "bold": true,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 32,
+      "value": "테크니션",
+      "bold": true,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 32,
+      "value": "테크니션 배치 요청 시 실제 이행률",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 32,
+      "value": "요청한 시간에 실제 나타났는지\n미배치 시 어떻게 대응했는지",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 32,
+      "value": "★★",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 32,
+      "value": "미팅 시",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 33,
+      "value": "22",
+      "bold": true,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 33,
+      "value": "테크니션",
+      "bold": true,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 33,
+      "value": "테크니션 근무시간 외 지원 시 추가 비용 여부",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 33,
+      "value": "야간·초과 시간 테크니션 요청 시\n실제로 비용이 발생했는지",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 33,
+      "value": "★★",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 33,
+      "value": "미팅 시",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 34,
+      "value": "23",
+      "bold": true,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 34,
+      "value": "통신",
+      "bold": true,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 34,
+      "value": "선내 Wi-Fi 실제 안정성",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 34,
+      "value": "Wi-Fi가 끊기는 빈도, 속도\n해상일과 기항일 차이\n업무용으로 신뢰 가능한 수준인지",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 34,
+      "value": "★★★",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 34,
+      "value": "미팅 시",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 35,
+      "value": "24",
+      "bold": true,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 35,
+      "value": "통신",
+      "bold": true,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 35,
+      "value": "무전기 사용 실제 허가 여부",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 35,
+      "value": "1월 항차에서 거부되었으나\n5월 항차에서는 허가되었는지\n대안(카카오톡 등) 실효성",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 35,
+      "value": "★★★",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 35,
+      "value": "미팅 시",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 36,
+      "value": "25",
+      "bold": true,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 36,
+      "value": "통신",
+      "bold": true,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 36,
+      "value": "CISCO 전화기 실제 활용도",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 36,
+      "value": "내선전화가 실무에 얼마나 도움이 되었는지\n코스타 부서별 내선이 잘 연결되는지",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 36,
+      "value": "★★",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 36,
+      "value": "미팅 시",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 37,
+      "value": "26",
+      "bold": true,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 37,
+      "value": "방송",
+      "bold": true,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 37,
+      "value": "선내 방송 실제 운영 방법",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 37,
+      "value": "차터사 자체 방송이 가능한지\n코스타 방송팀에 의뢰해야 하는지\n한국어 방송 가능 여부",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 37,
+      "value": "★★",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 37,
+      "value": "미팅 시",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 39,
+      "value": "4. 식음료(F&B) 운영",
+      "bold": true,
+      "bg": "#E67E22",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 40,
+      "value": "27",
+      "bold": true,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 40,
+      "value": "뷔페 운영",
+      "bold": true,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 40,
+      "value": "승선일 첫 석식 실제 혼잡도와 대기 시간",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 40,
+      "value": "2,400명 몰렸을 때 실제 대기 시간\n시간대 분산이 효과 있었는지",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 40,
+      "value": "★★★",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 40,
+      "value": "미팅 시",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 41,
+      "value": "28",
+      "bold": true,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 41,
+      "value": "뷔페 운영",
+      "bold": true,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 41,
+      "value": "뷔페 오픈 시간 \"공지 vs 실제\" 불일치 문제",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 41,
+      "value": "2025.1월 항차에서 발생한 문제\n5월 항차에서 개선되었는지",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 41,
+      "value": "★★",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 41,
+      "value": "미팅 시",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 42,
+      "value": "29",
+      "bold": true,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 42,
+      "value": "한식 메뉴",
+      "bold": true,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 42,
+      "value": "한식 메뉴 실제 품질과 고객 반응",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 42,
+      "value": "김치·불고기 등 실제 맛 수준\n컴플레인이 많았는지\n개선 요청이 반영되었는지",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 42,
+      "value": "★★",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 42,
+      "value": "미팅 시",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 43,
+      "value": "30",
+      "bold": true,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 43,
+      "value": "정찬·VIP",
+      "bold": true,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 43,
+      "value": "정찬 식당 VIP 구역 운영 실제 경험",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 43,
+      "value": "VIP 전용 구역이 실제로 분리 가능했는지\n스위트 고객 외 VIP도 이용 가능했는지",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 43,
+      "value": "★★",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 43,
+      "value": "미팅 시",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 44,
+      "value": "31",
+      "bold": true,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 44,
+      "value": "야식",
+      "bold": true,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 44,
+      "value": "야식(Prometeo) 실제 운영 시간과 메뉴 만족도",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 44,
+      "value": "실제 오픈·마감 시간\n야식 메뉴 수준",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 44,
+      "value": "★",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 44,
+      "value": "메일",
+      "bold": false,
+      "bg": "#FEF5E7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 46,
+      "value": "5. 프로그램·공연 운영",
+      "bold": true,
+      "bg": "#8E44AD",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 47,
+      "value": "32",
+      "bold": true,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 47,
+      "value": "장소 사용",
+      "bold": true,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 47,
+      "value": "각 공연장(그랜드바/솔레 등) 실제 수용 인원과 한계",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 47,
+      "value": "공식 수용 대비 실제 가능 인원\n스탠딩 시 한계치",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 47,
+      "value": "★★",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 47,
+      "value": "미팅 시",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 48,
+      "value": "33",
+      "bold": true,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 48,
+      "value": "장소 전환",
+      "bold": true,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 48,
+      "value": "프로그램 간 장소 전환(Turn-around) 실제 소요 시간",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 48,
+      "value": "세팅 교체에 실제로 몇 분 걸렸는지\n30분 버퍼가 충분한지",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 48,
+      "value": "★★",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 48,
+      "value": "미팅 시",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 49,
+      "value": "34",
+      "bold": true,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 49,
+      "value": "음향·조명",
+      "bold": true,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 49,
+      "value": "음향·조명 장비 상태와 코스타 제공 수준",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 49,
+      "value": "PA 시스템 품질, 외부 장비 반입 필요 여부\n모니터 스피커 상태",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 49,
+      "value": "★★",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 49,
+      "value": "미팅 시",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 50,
+      "value": "35",
+      "bold": true,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 50,
+      "value": "초대가수",
+      "bold": true,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 50,
+      "value": "초대가수 관리 시 선사와의 마찰 포인트",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 50,
+      "value": "리허설 시간 확보 어려움, 장비 사용 제한 등\n실제로 어떤 마찰이 있었는지",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 50,
+      "value": "★★",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 50,
+      "value": "미팅 시",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 51,
+      "value": "36",
+      "bold": true,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 51,
+      "value": "영화 상영",
+      "bold": true,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 51,
+      "value": "영화 상영 시 코스타 저작권 승인 실제 절차",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 51,
+      "value": "승인 받기까지 소요 시간\n거절된 사례 유무",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 51,
+      "value": "★",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 51,
+      "value": "메일",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 52,
+      "value": "37",
+      "bold": true,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 52,
+      "value": "동시 진행",
+      "bold": true,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 52,
+      "value": "다수 프로그램 동시 진행 시 인력 운영 노하우",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 52,
+      "value": "동시 3~4개 진행 시 어떻게 인력을 배분했는지\n핵심 노하우",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 52,
+      "value": "★★",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 52,
+      "value": "미팅 시",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 54,
+      "value": "6. 기항지 운영 (하코다테·오타루)",
+      "bold": true,
+      "bg": "#27AE60",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 55,
+      "value": "38",
+      "bold": true,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 55,
+      "value": "입출국",
+      "bold": true,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 55,
+      "value": "하코다테/오타루 CIQ 실제 소요 시간",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 55,
+      "value": "입국 심사에 실제 걸린 시간\nPLP 절차 원활했는지",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 55,
+      "value": "★★",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 55,
+      "value": "미팅 시",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 56,
+      "value": "39",
+      "bold": true,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 56,
+      "value": "입출국",
+      "bold": true,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 56,
+      "value": "중간 승하선(아티스트 등) 실제 절차와 난이도",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 56,
+      "value": "중간 승선자/하선자 처리 시 코스타 협조 수준\n추가 서류나 비용 발생 여부",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 56,
+      "value": "★★★",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 56,
+      "value": "미팅 시",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 57,
+      "value": "40",
+      "bold": true,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 57,
+      "value": "귀선 관리",
+      "bold": true,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 57,
+      "value": "All Aboard 시간 관리 실제 경험",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 57,
+      "value": "미귀선 위기가 실제로 있었는지\n코스타가 출항을 기다려주는 한계",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 57,
+      "value": "★★",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 57,
+      "value": "미팅 시",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 58,
+      "value": "41",
+      "bold": true,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 58,
+      "value": "오타루 오버나잇",
+      "bold": true,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 58,
+      "value": "오타루 1박 정박 시 야간 승하선 실제 운영",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 58,
+      "value": "24시간 갱웨이 오픈 실제 여부\n야간 보안 체크 절차",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 58,
+      "value": "★★",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 58,
+      "value": "미팅 시",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 59,
+      "value": "42",
+      "bold": true,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 59,
+      "value": "투어 운영",
+      "bold": true,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 59,
+      "value": "기항지 투어 운영 시 가장 큰 문제점",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 59,
+      "value": "차량 지연? 가이드 품질? 날씨? 기타\n예상 못한 문제",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 59,
+      "value": "★★",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 59,
+      "value": "미팅 시",
+      "bold": false,
+      "bg": "#E8F8F5",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 61,
+      "value": "7. 하선일 운영·정산",
+      "bold": true,
+      "bg": "#6C5CE7",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 62,
+      "value": "43",
+      "bold": true,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 62,
+      "value": "하선 프로세스",
+      "bold": true,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 62,
+      "value": "하선 시작 → 전원 하선 완료까지 실제 소요 시간",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 62,
+      "value": "2,400명 기준 하선 완료 시간\n병목 구간",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 62,
+      "value": "★★★",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 62,
+      "value": "미팅 시",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 63,
+      "value": "44",
+      "bold": true,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 63,
+      "value": "하선 프로세스",
+      "bold": true,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 63,
+      "value": "하선 순서 실제 운영 방법 (층별? VIP 우선?)",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 63,
+      "value": "코스타의 기본 하선 순서 규칙\nVIP 우선 하선이 실제 가능했는지",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 63,
+      "value": "★★",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 63,
+      "value": "미팅 시",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 64,
+      "value": "45",
+      "bold": true,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 64,
+      "value": "정산 분쟁",
+      "bold": true,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 64,
+      "value": "정산 불일치로 하선 지연 실제 발생 빈도",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 64,
+      "value": "실제로 몇 건이나 발생했는지\n주요 원인 (미니바? 유료서비스?)",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 64,
+      "value": "★★★",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 64,
+      "value": "미팅 시",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 65,
+      "value": "46",
+      "bold": true,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 65,
+      "value": "정산 분쟁",
+      "bold": true,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 65,
+      "value": "정산 분쟁 고객의 하선 허용 기준",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 65,
+      "value": "정산 미해결 상태에서 하선이 가능한지\n코스타 측 정책",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 65,
+      "value": "★★★",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 65,
+      "value": "미팅 시",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 66,
+      "value": "47",
+      "bold": true,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 66,
+      "value": "정산 분쟁",
+      "bold": true,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 66,
+      "value": "정산 사전 점검을 위해 하선 전일에 할 수 있는 것",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 66,
+      "value": "코스타 시스템에서 사전 점검이 가능한 범위\n요청 방법",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 66,
+      "value": "★★★",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 66,
+      "value": "미팅 시",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 67,
+      "value": "48",
+      "bold": true,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 67,
+      "value": "수화물",
+      "bold": true,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 67,
+      "value": "하선 시 수화물 하역 프로세스와 실제 소요 시간",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 67,
+      "value": "짐 태그 수거 → 객실 앞 배출 → 터미널 도착 시간\n분실 건수",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 67,
+      "value": "★★",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 67,
+      "value": "미팅 시",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 68,
+      "value": "49",
+      "bold": true,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 68,
+      "value": "선사 정산",
+      "bold": true,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 68,
+      "value": "코스타 최종 인보이스 수령 시점",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 68,
+      "value": "하선 당일? D+1? D+3?\n인보이스 항목 구성",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 68,
+      "value": "★★",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 68,
+      "value": "메일",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 69,
+      "value": "50",
+      "bold": true,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 69,
+      "value": "선사 정산",
+      "bold": true,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 69,
+      "value": "LB 패널티·기항지 패널티 정산 실제 경험",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 69,
+      "value": "패널티 발생 시 코스타 청구 시점과 방법\n이의 제기 가능 여부",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 69,
+      "value": "★★",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 69,
+      "value": "메일",
+      "bold": false,
+      "bg": "#F4ECF7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 71,
+      "value": "8. 인력·조직 운영 노하우",
+      "bold": true,
+      "bg": "#2C3E50",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 72,
+      "value": "51",
+      "bold": true,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 72,
+      "value": "인력 규모",
+      "bold": true,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 72,
+      "value": "총괄 운영 스태프 실제 투입 인원과 적정 수준",
+      "bold": false,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 72,
+      "value": "귀사는 몇 명으로 운영했는지\n부족했던 파트/과잉이었던 파트",
+      "bold": false,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 72,
+      "value": "★★★",
+      "bold": false,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 72,
+      "value": "미팅 시",
+      "bold": false,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 73,
+      "value": "52",
+      "bold": true,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 73,
+      "value": "알바 운영",
+      "bold": true,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 73,
+      "value": "아르바이트 인력 실제 운영 경험",
+      "bold": false,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 73,
+      "value": "몇 명 투입했는지, 교대제 효과\n부산 관광대 학생 활용 시 주의점",
+      "bold": false,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 73,
+      "value": "★★",
+      "bold": false,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 73,
+      "value": "미팅 시",
+      "bold": false,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 74,
+      "value": "53",
+      "bold": true,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 74,
+      "value": "인솔자 관리",
+      "bold": true,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 74,
+      "value": "타이요플랜 인솔자 70명 관리 시 주의점",
+      "bold": false,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 74,
+      "value": "인솔자 컨디션 관리, 보고 체계\n인솔자와 차터사 스태프 간 역할 중복 문제",
+      "bold": false,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 74,
+      "value": "★★",
+      "bold": false,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 74,
+      "value": "미팅 시",
+      "bold": false,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 75,
+      "value": "54",
+      "bold": true,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 75,
+      "value": "교대제",
+      "bold": true,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 75,
+      "value": "오전/오후 교대제 운영 실제 효과와 문제점",
+      "bold": false,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 75,
+      "value": "교대 시간대, 인수인계 방법\n야간 당직 운영",
+      "bold": false,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 75,
+      "value": "★★",
+      "bold": false,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 75,
+      "value": "미팅 시",
+      "bold": false,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 76,
+      "value": "55",
+      "bold": true,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 76,
+      "value": "일일미팅",
+      "bold": true,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 76,
+      "value": "일일미팅 실제 운영 방식과 효과",
+      "bold": false,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 76,
+      "value": "매일 22:00? 장소? 참석자?\n효과적이었는지",
+      "bold": false,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 76,
+      "value": "★★",
+      "bold": false,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 76,
+      "value": "미팅 시",
+      "bold": false,
+      "bg": "#F7F9FC",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 78,
+      "value": "9. VIP 의전·특수 관리",
+      "bold": true,
+      "bg": "#1B2A4A",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 79,
+      "value": "56",
+      "bold": true,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 79,
+      "value": "VIP 승선",
+      "bold": true,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 79,
+      "value": "VIP 별도 동선·우선 승선 실제 가능 여부",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 79,
+      "value": "코스타가 VIP 별도 동선을 허용하는지\n실제 운영 방법",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 79,
+      "value": "★★",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 79,
+      "value": "미팅 시",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 80,
+      "value": "57",
+      "bold": true,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 80,
+      "value": "VIP 서비스",
+      "bold": true,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 80,
+      "value": "과일바구니·와인 서비스 실제 품질과 프로세스",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 80,
+      "value": "주문 → 배달 실제 시간\n품질 수준, 교체 주기",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 80,
+      "value": "★",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 80,
+      "value": "메일",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 81,
+      "value": "58",
+      "bold": true,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 81,
+      "value": "VIP 컴플레인",
+      "bold": true,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 81,
+      "value": "VIP 고객 컴플레인 특수 대응 경험",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 81,
+      "value": "VIP 컴플레인 시 일반 고객과 다르게 처리한 사례",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 81,
+      "value": "★★",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 81,
+      "value": "미팅 시",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 83,
+      "value": "10. 리노베이션 이후 변경사항·총평",
+      "bold": true,
+      "bg": "#0D1B2A",
+      "fc": "#FFFFFF"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 84,
+      "value": "59",
+      "bold": true,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 84,
+      "value": "리노베이션",
+      "bold": true,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 84,
+      "value": "리노베이션 후 체감된 주요 변경사항",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 84,
+      "value": "시설·객실·식당·동선 등 체감 변화\n좋아진 점 / 나빠진 점",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 84,
+      "value": "★★★",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 84,
+      "value": "미팅 시",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 85,
+      "value": "60",
+      "bold": true,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 85,
+      "value": "사이니지",
+      "bold": true,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 85,
+      "value": "사이니지 시스템 변경 여부와 실제 사용법",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 85,
+      "value": "리노베이션 후 포맷·위치 변경 유무\n콘텐츠 교체 실제 방법",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 85,
+      "value": "★★",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 85,
+      "value": "미팅 시",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 86,
+      "value": "61",
+      "bold": true,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 86,
+      "value": "시설",
+      "bold": true,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 86,
+      "value": "Mercurio Room 실제 상태와 사용 편의성",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 86,
+      "value": "비품 현황, 콘센트 수, 인터넷 연결 가능 여부\n24시간 사용 실제 가능 여부",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 86,
+      "value": "★★",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 86,
+      "value": "미팅 시",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 87,
+      "value": "62",
+      "bold": true,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 87,
+      "value": "총평",
+      "bold": true,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 87,
+      "value": "전체적으로 \"이것만은 꼭 알아두라\" 한 가지",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 87,
+      "value": "운영 경험자로서 처음 하는 사람에게\n가장 중요한 한 가지 조언",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 87,
+      "value": "★★★",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 87,
+      "value": "미팅 시",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 88,
+      "value": "63",
+      "bold": true,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 3,
+      "row": 88,
+      "value": "총평",
+      "bold": true,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 4,
+      "row": 88,
+      "value": "\"다시 한다면 이것은 바꾸겠다\" 한 가지",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 5,
+      "row": 88,
+      "value": "돌이켜 보니 비효율적이었던 것\n다음에는 개선하고 싶은 점",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 6,
+      "row": 88,
+      "value": "★★★",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     },
+     {
+      "col": 7,
+      "row": 88,
+      "value": "미팅 시",
+      "bold": false,
+      "bg": "#EAF2F8",
+      "fc": "#2C3E50"
+     }
+    ],
+    [
+     {
+      "col": 2,
+      "row": 90,
+      "value": "총 63개 질문 | 10개 카테고리 | ★★★ 최우선 0",
+      "bold": true,
+      "bg": "#FEF9E7",
+      "fc": ""
+     }
+    ]
+   ]
+  }
+ ]
+}
