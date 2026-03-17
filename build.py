@@ -56,11 +56,11 @@ def esc(v):
 def is_dark(bg):
     return bool(bg) and bg.upper() in DARK_BGS
 
-def cell_style(c, include_bg=True):
+def cell_style(c, include_bg=True, include_color=True):
     parts = []
     if include_bg and c.get('bg'):
         parts.append(f"background:{c['bg']}")
-    if c.get('fc'):
+    if include_color and c.get('fc'):
         parts.append(f"color:{c['fc']}")
     if c.get('bold'):
         parts.append('font-weight:700')
@@ -147,8 +147,9 @@ def render_sheet(sheet, module_key):
                     rb = cells[0].get('bg', '')
                     out.append(f'<tr style="--row-bg:{rb}">' if rb else '<tr>')
                     for c in cells:
-                        # td에는 bg 제외, color·bold만 적용
-                        out.append(f'<td style="{cell_style(c, include_bg=False)}" class="cell-wrap">{esc(c.get("value",""))}</td>')
+                        # td에는 bg·color 제외, bold만 인라인 유지
+                        # → CSS 변수로 라이트/다크 텍스트 색상 제어
+                        out.append(f'<td style="{cell_style(c, include_bg=False, include_color=False)}" class="cell-wrap">{esc(c.get("value",""))}</td>')
                     out.append('</tr>')
 
             if in_head: out.append('</thead>')
@@ -544,20 +545,20 @@ body {
 /* ── 다크모드 테이블 ── */
 body.dark .ops-table thead th {
   background: #252540 !important;
-  color: #C8C8E8 !important;
+  color: #D8D8F0 !important;
   border-bottom-color: #2A2A40;
 }
+/* 다크: 행 배경을 단색 기본으로 통일 (color-mix 파스텔 제거) */
 body.dark .ops-table tbody tr {
-  /* 원본 bg를 opacity 15% 수준으로 */
-  background: color-mix(in srgb, var(--row-bg, transparent) 15%, #1E1E30);
+  background: #1E1E30 !important;
 }
 body.dark .ops-table tbody td {
-  color: #C8C8E0;
+  color: #D8D8E8 !important;       /* 인라인 color 완전 무력화 */
   border-bottom-color: #2A2A40;
 }
-body.dark .ops-table tbody td:first-child { color: #88C4A4; }
+body.dark .ops-table tbody td:first-child { color: #88C8A8 !important; }
 body.dark .ops-table tbody tr:hover { background: #282848 !important; }
-body.dark .ops-table tbody tr:hover td { border-bottom-color: #303050; }
+body.dark .ops-table tbody tr:hover td { border-bottom-color: #303058; }
 
 /* ── 오버레이(모바일) ── */
 .overlay { display:none; position:fixed; inset:0; background:rgba(0,0,0,.4); z-index:85; }
