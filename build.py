@@ -127,6 +127,16 @@ def render_sheet(sheet, module_key):
             # 설명 행이 헤더보다 앞에 오는 경우에도 올바른 colspan 적용 가능
             col_count = next((len(cells) for rtype, cells in rows if rtype == 'h'), 0)
 
+            # ── 헤더 텍스트 기반 좌측정렬 컬럼 판별 ──────────────────
+            LEFT_ALIGN_KEYWORDS = ['세부', '내용', '체크리스트', '항목', '업무']
+            left_cols = set()
+            for rtype, cells in rows:
+                if rtype == 'h':
+                    for ci, c in enumerate(cells):
+                        hval = str(c.get('value', ''))
+                        if any(kw in hval for kw in LEFT_ALIGN_KEYWORDS):
+                            left_cols.add(ci)
+
             out.append('<table class="ops-table">')
             in_head = False
             in_body = False
@@ -169,8 +179,9 @@ def render_sheet(sheet, module_key):
                         rb = cells[0].get('bg', '')
                         row_style = f' style="--row-bg:{rb}"' if rb else ''
                         out.append(f'<tr{row_style}>')
-                        for c in cells:
-                            out.append(f'<td style="{cell_style(c, include_bg=False, include_color=False)}" class="cell-wrap">{esc(c.get("value",""))}</td>')
+                        for idx, c in enumerate(cells):
+                            cls = "cell-wrap text-left" if idx in left_cols else "cell-wrap"
+                            out.append(f'<td style="{cell_style(c, include_bg=False, include_color=False)}" class="{cls}">{esc(c.get("value",""))}</td>')
                         out.append('</tr>')
 
             if in_head: out.append('</thead>')
@@ -590,7 +601,9 @@ body {
   vertical-align: top;
   border-bottom: 1px solid #EEF2F7;
   color: var(--text-primary);
+  text-align: center;
 }
+.ops-table tbody td.text-left { text-align: left; }
 .ops-table tbody td:first-child { font-weight: 600; white-space: nowrap; }
 .ops-table tbody tr:last-child td { border-bottom: none; }
 .ops-table tbody tr:hover { background: #F0F7FF !important; }
