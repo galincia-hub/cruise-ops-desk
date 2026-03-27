@@ -382,6 +382,7 @@ CSS = """/* ── 레이아웃 상수 ── */
   --nav-hover-bg:  #F7F7F7;
   --nav-section-c: #AAAAAA;
   --nav-dot:       #CCCCCC;
+  --nav-main-bg:   #F0F1F4;
   --shadow-card:   0 1px 3px rgba(0,0,0,.06), 0 4px 16px rgba(0,0,0,.06);
   --shadow-lg:     0 4px 24px rgba(0,0,0,.10);
   --thead-color:   #333333;
@@ -406,6 +407,7 @@ body.dark {
   --nav-hover-bg:  #1E1E38;
   --nav-section-c: #555570;
   --nav-dot:       #404060;
+  --nav-main-bg:   #222240;
   --shadow-card:   0 1px 3px rgba(0,0,0,.3), 0 4px 16px rgba(0,0,0,.3);
   --shadow-lg:     0 4px 24px rgba(0,0,0,.5);
   --thead-color:   #E0E0E0;
@@ -489,6 +491,8 @@ body {
 .nav-group-header {
   display:flex; align-items:center; padding:10px 16px; cursor:pointer;
   color: var(--text-nav-head); font-size:13px; font-weight:600;
+  background: var(--nav-main-bg);
+  margin: 2px 8px; border-radius: 6px;
   transition: background .12s;
 }
 .nav-group-header:hover { background: var(--nav-hover-bg); }
