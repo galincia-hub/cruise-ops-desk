@@ -25,13 +25,15 @@ DARK_BGS = {c.upper() for c in [
 
 # ── 섹션 타이틀 채도 낮춘 모듈 색상 ─────────────────────────────────
 MODULE_SECTION_COLORS = {
-    'master': '#4A5568',   # 차분한 슬레이트
-    'org':    '#2B6CB0',   # 차분한 블루
-    'prog':   '#C05621',   # 차분한 오렌지
-    'sup':    '#2F855A',   # 차분한 그린
-    'emb':    '#4C51BF',   # 차분한 인디고
-    'port':   '#276749',   # 차분한 딥그린
-    'qa':     '#4A5568',   # 슬레이트
+    'master':     '#4A5568',   # 차분한 슬레이트
+    'org':        '#2B6CB0',   # 차분한 블루
+    'prog':       '#C05621',   # 차분한 오렌지
+    'sup':        '#2F855A',   # 차분한 그린
+    'emb':        '#4C51BF',   # 차분한 인디고
+    'port':       '#276749',   # 차분한 딥그린
+    'qa':         '#4A5568',   # 슬레이트
+    'orgv2':      '#1565C0',   # 조직도 블루
+    'supplement': '#00695C',   # 보강자료 틸
 }
 
 # ── 모듈별 메타정보 ───────────────────────────────────────────────────
@@ -42,7 +44,9 @@ MODULE_META = {
     'sup':    {'icon':'🔧','color':'#1ABC9C','desc':'IT·총무·홍보 통합 후방지원'},
     'emb':    {'icon':'🚢','color':'#6C5CE7','desc':'2,400명 승선·하선 총괄 운영'},
     'port':   {'icon':'⚓','color':'#27AE60','desc':'하코다테·오타루 기항 운영'},
-    'qa':     {'icon':'❓','color':'#34495E','desc':'선행 항차 경험자 자문용'},
+    'qa':         {'icon':'❓','color':'#34495E','desc':'선행 항차 경험자 자문용'},
+    'orgv2':      {'icon':'📊','color':'#1565C0','desc':'확정 조직도 + 포지션별 역량 정의'},
+    'supplement': {'icon':'📎','color':'#00695C','desc':'무전기·Wi-Fi·비상연락 등 보강자료'},
 }
 
 # ── 유틸리티 ─────────────────────────────────────────────────────────
@@ -208,6 +212,7 @@ def build_nav(manifest):
 
     order = ['master','org','prog','sup','emb','port']
     ref   = ['qa']
+    extra = ['orgv2','supplement']
 
     for key in order:
         if key not in manifest:
@@ -246,12 +251,41 @@ def build_nav(manifest):
         lines.append(f'    </div>')
 
     lines.append('  </div>')
+
+    # ── 조직도·역량정의서 + 보강자료 ──
+    lines.append('  <div class="nav-section">')
+    lines.append('    <div class="nav-section-title">추가자료</div>')
+
+    for key in extra:
+        if key not in manifest:
+            continue
+        info  = manifest[key]
+        meta  = MODULE_META.get(key, {'icon':'📄','color':'#2C3E50'})
+        icon  = meta['icon']
+        label = info['label']
+        lines.append(f'    <div class="nav-group">')
+        lines.append(f'      <div class="nav-group-header" onclick="toggleGroup(this)"><span class="icon">{icon}</span>{esc(label)}<span class="arrow">▶</span></div>')
+        lines.append(f'      <div class="nav-sub">')
+        for idx, sheet_name in enumerate(info['sheets'], 1):
+            pid = f'{key}-{idx}'
+            lines.append(f'        <div class="nav-item" onclick="showPage(\'{pid}\')">{esc(sheet_name)}</div>')
+        lines.append(f'      </div>')
+        lines.append(f'    </div>')
+
+    lines.append('  </div>')
+
+    # ── 아카이브 섹션 ──
+    lines.append('  <div class="nav-section">')
+    lines.append('    <div class="nav-section-title">📁 아카이브 (버전 기록)</div>')
+    lines.append('    <div class="nav-item" onclick="window.open(\'archive/v1.0_2026-03-17.html\',\'_blank\')">v1.0 (2026-03-17)</div>')
+    lines.append('  </div>')
+
     lines.append('</nav>')
     return '\n'.join(lines)
 
 # ── 홈 대시보드 생성 ─────────────────────────────────────────────────
 def build_dashboard(manifest):
-    order = ['prog','master','org','sup','emb','port','qa']
+    order = ['prog','master','org','sup','emb','port','qa','orgv2','supplement']
     cards = []
     for key in order:
         if key not in manifest:
@@ -696,7 +730,7 @@ def build_html(manifest, modules):
   <div class="header-logo">모두의 <span>크루즈</span> 운영 데스크</div>
   <div class="header-sub">2026 코스타 세레나 한일전세선 (6.19~6.25)</div>
   <div class="header-right">
-    <span class="badge-ver">v2.0</span>
+    <span class="badge-ver">v2.1</span>
     <button class="dark-toggle" id="dark-btn" onclick="toggleDark()" title="다크모드 전환">🌙</button>
   </div>
 </header>
