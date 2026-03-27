@@ -70,6 +70,67 @@ def cell_style(c, include_bg=True, include_color=True):
         parts.append('font-weight:700')
     return ';'.join(parts)
 
+# ── 역량 정의서 전치 렌더링 ──────────────────────────────────────────
+def render_competency_transpose(sheet, module_key):
+    """orgv2-2 '포지션별 역량 정의서' 전용: 포지션별 세로 반복 → 가로 비교표 전치."""
+    data = sheet.get('data', [])
+    if not data:
+        return '', ''
+
+    page_title = data[0][0].get('value', '')
+
+    # 섹션 제목(SINGLE DARK) 기준으로 포지션별 그룹 분리
+    positions = []   # [{'name': str, 'rows': {label: value}}]
+    cur = None
+    for row in data[1:]:
+        if not row:
+            continue
+        single = (len(row) == 1)
+        all_dark = all(is_dark(c.get('bg', '')) for c in row)
+        if single and (all_dark or is_dark(row[0].get('bg', ''))):
+            cur = {'name': row[0].get('value', '').replace('\n', ' '), 'rows': {}}
+            positions.append(cur)
+        elif cur is not None and len(row) >= 2:
+            label = row[0].get('value', '').replace('\n', ' ').strip()
+            value = row[1].get('value', '')
+            cur['rows'][label] = value
+
+    if not positions:
+        return page_title, ''
+
+    # 행 라벨 순서 (첫 포지션 기준)
+    row_labels = list(positions[0]['rows'].keys())
+
+    sec_color = MODULE_SECTION_COLORS.get(module_key, '#4A5568')
+    out = []
+    out.append('<div class="table-wrap">')
+    out.append(f'<div class="section-title" style="background:{sec_color}">포지션별 역량 비교표</div>')
+    out.append('<table class="ops-table">')
+
+    # thead: 구분 + 카테고리 라벨
+    out.append('<thead><tr>')
+    out.append('<th style="min-width:140px">구분</th>')
+    for label in row_labels:
+        out.append(f'<th>{esc(label)}</th>')
+    out.append('</tr></thead>')
+
+    # tbody: 각 포지션이 한 행
+    out.append('<tbody>')
+    for pos in positions:
+        name = esc(pos['name'].lstrip('▣').strip())
+        out.append('<tr>')
+        out.append(f'<td style="font-weight:700;white-space:nowrap;text-align:center" class="cell-wrap">{name}</td>')
+        for label in row_labels:
+            val = pos['rows'].get(label, '')
+            out.append(f'<td style="text-align:left" class="cell-wrap">{esc(val)}</td>')
+        out.append('</tr>')
+    out.append('</tbody>')
+
+    out.append('</table>')
+    out.append('</div>')
+
+    return page_title, '\n'.join(out)
+
 # ── 시트 렌더링 핵심 로직 ─────────────────────────────────────────────
 def render_sheet(sheet, module_key):
     """
@@ -347,7 +408,12 @@ def build_pages(manifest, modules):
             sheet_name = info['sheets'][idx-1] if idx-1 < len(info['sheets']) else sheet.get('name','')
             label      = info['label']
 
-            page_title, content_html = render_sheet(sheet, key)
+            # 역량 정의서 전치 렌더링 판별
+            is_competency = (pid == 'orgv2-2') or ('역량 정의서' in sheet_name)
+            if is_competency:
+                page_title, content_html = render_competency_transpose(sheet, key)
+            else:
+                page_title, content_html = render_sheet(sheet, key)
 
             # 페이지 제목: JSON 첫 행 값 우선, 없으면 sheet_name
             display_title = page_title.strip() or sheet_name
