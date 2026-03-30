@@ -1,6 +1,6 @@
 {
  "key": "supplement",
- "label": "보강자료 통합",
+ "label": "보강자료",
  "sheets": [
   {
    "name": "무전기 채널 배정표",
@@ -305,7 +305,7 @@
      {
       "col": 5,
       "row": 10,
-      "value": "지원팀장(1)\n팀원(1)\n최구철(1)",
+      "value": "IT홍보팀장(1)\n팀원(1)\n최구철(1)",
       "bold": false,
       "bg": "#FFFFFF",
       "fc": "#2C3E50"
@@ -695,7 +695,7 @@
      {
       "col": 2,
       "row": 22,
-      "value": "지원·데이터팀",
+      "value": "IT홍보팀",
       "bold": true,
       "bg": "#FFFFFF",
       "fc": "#2C3E50"
@@ -1264,7 +1264,7 @@
      {
       "col": 3,
       "row": 14,
-      "value": "지원·데이터팀",
+      "value": "IT홍보팀",
       "bold": false,
       "bg": "#FFFFFF",
       "fc": "#2C3E50"
@@ -1306,7 +1306,7 @@
      {
       "col": 3,
       "row": 15,
-      "value": "지원·데이터팀",
+      "value": "IT홍보팀",
       "bold": false,
       "bg": "#FFFFFF",
       "fc": "#2C3E50"
@@ -2806,7 +2806,7 @@
      {
       "col": 6,
       "row": 12,
-      "value": "지원팀",
+      "value": "IT홍보팀",
       "bold": false,
       "bg": "#FFFFFF",
       "fc": "#2C3E50"
@@ -3716,7 +3716,7 @@
      {
       "col": 6,
       "row": 7,
-      "value": "지원팀",
+      "value": "IT홍보팀",
       "bold": false,
       "bg": "#FFFFFF",
       "fc": "#2C3E50"
