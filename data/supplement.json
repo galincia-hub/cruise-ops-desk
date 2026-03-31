@@ -155,7 +155,7 @@
      {
       "col": 5,
       "row": 7,
-      "value": "공동부서장(2)\n고객응대(2)\n안내방송(1)\n식음료(1)\n정산(1)",
+      "value": "HQ(2)\n고객응대(2)\n안내방송(1)\n식음료(1)\n정산(1)",
       "bold": false,
       "bg": "#EAF2F8",
       "fc": "#2C3E50"
@@ -920,7 +920,7 @@
      {
       "col": 3,
       "row": 6,
-      "value": "HQ 공동부서장",
+      "value": "HQ HQ",
       "bold": false,
       "bg": "#FFFFFF",
       "fc": "#2C3E50"
