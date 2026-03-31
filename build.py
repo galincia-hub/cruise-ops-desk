@@ -307,7 +307,7 @@ def build_nav(manifest):
         ('orgv3-2', '📝', '기안·협조공문'),
         ('orgv3-4', '📋', '온보드미팅 준비'),
         ('ref-supplement', '📎', '보강자료'),
-        ('qa-1', '❓', '자문 질문 리스트'),
+        ('qa-1', '❓', '질의·자문 요청사항'),
         ('ref-manuals', '📚', '운영매뉴얼 (초안)'),
     ]
     for pid, icon, label in ref_items:
