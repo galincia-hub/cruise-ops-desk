@@ -410,7 +410,7 @@ def build_org_chart():
       <h2 style="font-size:18px;font-weight:800;margin-bottom:16px;color:var(--text-primary)">📊 선내운영 조직도 v4</h2>
       <div class="org-chart">
         <div class="org-node org-hq" onclick="showPage('home')" style="cursor:pointer">
-          <div class="org-node-title">HQ 운영사령실 (모두투어 + CI)</div>
+          <div class="org-node-title">HQ 운영본부 (모두투어 + CI)</div>
           <div class="org-node-role">공연/기항지/승하선/고객응대/정산/식음료/방송 등 전체 운영 과업을 공동 수행</div>
           <div class="org-node-note">VIP: 부서장 직속 관리</div>
         </div>
