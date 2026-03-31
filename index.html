@@ -227,17 +227,65 @@ body.dark .badge-status-todo{background:#78350F;color:#FDE68A}
   </div>
   <div class="nav-section">
     <div class="nav-section-title">팀별 워크스페이스</div>
-    <div class="nav-item" onclick="showPage('team-support')"><span class="icon">🏢</span>운영지원팀</div>
-    <div class="nav-item" onclick="showPage('team-event')"><span class="icon">🎭</span>공연/행사팀</div>
+    <div class="nav-group">
+      <div class="nav-group-header" onclick="toggleGroup(this)"><span class="icon">🏛️</span>HQ 운영본부<span class="arrow">▶</span></div>
+      <div class="nav-sub">
+        <div class="nav-item" onclick="showPageSection('team-hq','org-chart')">조직도</div>
+        <div class="nav-item" onclick="showPageSection('team-hq','progress')">업무 진행현황</div>
+        <div class="nav-item" onclick="showPageSection('team-hq','docs')">기안·협조공문</div>
+        <div class="nav-item" onclick="showPageSection('team-hq','timeline')">핵심 일정</div>
+      </div>
+    </div>
+    <div class="nav-group">
+      <div class="nav-group-header" onclick="toggleGroup(this)"><span class="icon">🏢</span>운영지원팀<span class="arrow">▶</span></div>
+      <div class="nav-sub">
+        <div class="nav-item" onclick="showPageSection('team-support','overview')">팀 개요·미션</div>
+        <div class="nav-item" onclick="showPageSection('team-support','tasks')">업무 리스트</div>
+        <div class="nav-item" onclick="showPageSection('team-support','sop')">SOP·시나리오</div>
+      </div>
+    </div>
+    <div class="nav-group">
+      <div class="nav-group-header" onclick="toggleGroup(this)"><span class="icon">🎭</span>공연/행사팀<span class="arrow">▶</span></div>
+      <div class="nav-sub">
+        <div class="nav-item" onclick="showPageSection('team-event','overview')">팀 개요·미션</div>
+        <div class="nav-item" onclick="showPageSection('team-event','tasks')">업무 리스트</div>
+        <div class="nav-item" onclick="showPageSection('team-event','sop')">SOP·시나리오</div>
+        <div class="nav-item" onclick="showPageSection('team-event','manual')">매뉴얼 (초안)</div>
+      </div>
+    </div>
     <div class="nav-group">
       <div class="nav-group-header" onclick="toggleGroup(this)"><span class="icon">⚓</span>기항지운영팀<span class="arrow">▶</span></div>
       <div class="nav-sub">
-        <div class="nav-item" onclick="showPage('team-port')">기항지운영팀 업무분장</div>
-        <div class="nav-item" onclick="showPage('team-embark')">🚢 승하선팀</div>
+        <div class="nav-item" onclick="showPageSection('team-port','overview')">팀 개요·미션</div>
+        <div class="nav-item" onclick="showPageSection('team-port','tasks')">업무 리스트</div>
+        <div class="nav-item" onclick="showPageSection('team-port','sop')">SOP·시나리오</div>
+        <div class="nav-item" onclick="showPageSection('team-port','manual')">매뉴얼 (초안)</div>
+        <div class="nav-group">
+          <div class="nav-group-header" onclick="toggleGroup(this)"><span class="icon">🚢</span>승하선팀<span class="arrow">▶</span></div>
+          <div class="nav-sub">
+            <div class="nav-item" onclick="showPageSection('team-embark','overview')">팀 개요</div>
+            <div class="nav-item" onclick="showPageSection('team-embark','tasks')">업무 리스트</div>
+            <div class="nav-item" onclick="showPageSection('team-embark','sop')">SOP·케이스스터디</div>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="nav-item" onclick="showPage('team-fb')"><span class="icon">🍽️</span>식음료파트</div>
-    <div class="nav-item" onclick="showPage('team-it')"><span class="icon">💻</span>IT홍보팀</div>
+    <div class="nav-group">
+      <div class="nav-group-header" onclick="toggleGroup(this)"><span class="icon">🍽️</span>식음료파트<span class="arrow">▶</span></div>
+      <div class="nav-sub">
+        <div class="nav-item" onclick="showPageSection('team-fb','overview')">팀 개요</div>
+        <div class="nav-item" onclick="showPageSection('team-fb','tasks')">업무 리스트</div>
+      </div>
+    </div>
+    <div class="nav-group">
+      <div class="nav-group-header" onclick="toggleGroup(this)"><span class="icon">💻</span>IT홍보팀<span class="arrow">▶</span></div>
+      <div class="nav-sub">
+        <div class="nav-item" onclick="showPageSection('team-it','overview')">팀 개요·미션</div>
+        <div class="nav-item" onclick="showPageSection('team-it','tasks')">업무 리스트</div>
+        <div class="nav-item" onclick="showPageSection('team-it','sop')">SOP·시나리오</div>
+        <div class="nav-item" onclick="showPageSection('team-it','manual')">매뉴얼 (초안)</div>
+      </div>
+    </div>
   </div>
   <div class="nav-section">
     <div class="nav-section-title">참고자료실</div>
@@ -2010,13 +2058,821 @@ body.dark .badge-status-todo{background:#78350F;color:#FDE68A}
 </table>
 </div>
   </div>
+  <div class="page" id="page-team-hq">
+    <div class="breadcrumb"><a href="#" onclick="showPage('home')">홈</a> / 팀별 워크스페이스 / HQ 운영본부</div>
+    <div class="team-header" style="border-left:5px solid #0D1B2A">
+      <h1>🏛️ HQ 운영본부</h1>
+      <div class="team-members">모두투어 + CI 공동부서장</div>
+      <div class="team-mission">전 팀 조율·관리 총괄 | VIP 의전 | 코스타 선사 최종 대응</div>
+    </div>
+    <div id="team-hq-org-chart">
+
+    <div class="org-chart-section">
+      <h2 style="font-size:18px;font-weight:800;margin-bottom:16px;color:var(--text-primary)">📊 선내운영 조직도 v4</h2>
+      <div class="org-chart">
+        <div class="org-node org-hq" onclick="showPage('home')" style="cursor:pointer">
+          <div class="org-node-title">HQ 운영사령실 (모두투어 + CI)</div>
+          <div class="org-node-role">공연/기항지/승하선/고객응대/정산/식음료/방송 등 전체 운영 과업을 공동 수행</div>
+          <div class="org-node-note">VIP: 부서장 직속 관리</div>
+        </div>
+        <div class="org-branches">
+          <div class="org-branch">
+            <div class="org-node org-support" onclick="showPage('team-support')" style="cursor:pointer">
+              <div class="org-node-title">운영지원팀</div>
+              <div class="org-node-members">황지애(CI, 지원) · 양은희(모두투어) · 조아라(웅진) · 김지은(환경재단)</div>
+              <div class="org-node-role">팀 과업, 유동배치</div>
+            </div>
+            <div class="org-node org-event" onclick="showPage('team-event')" style="cursor:pointer">
+              <div class="org-node-title">공연/행사팀 <span class="org-tag tag-pre">★사전탑승</span></div>
+              <div class="org-node-members">이상민 매니저(팀장) + 팀원4 + 환경재단15명 협업</div>
+            </div>
+            <div class="org-node org-port" onclick="showPage('team-port')" style="cursor:pointer">
+              <div class="org-node-title">기항지운영팀 <span class="org-tag tag-dual">★듀얼</span></div>
+              <div class="org-node-members">이수일 팀장 + 팀원1 + 타이요(6+가이드70)</div>
+              <div class="org-sub-node">
+                <div class="org-node org-embark" onclick="showPage('team-embark');event.stopPropagation()" style="cursor:pointer">
+                  <div class="org-node-title">승하선팀 (기항지팀 산하)</div>
+                  <div class="org-node-members">김남민 매니저 <span class="org-tag tag-off">미탑승/터미널</span> + 이수일<span class="org-tag tag-dual">★듀얼</span> + 알바3~4</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="org-branch">
+            <div class="org-node org-fb" onclick="showPage('team-fb')" style="cursor:pointer">
+              <div class="org-node-title">식음료파트 <span class="org-tag tag-pre">★사전탑승</span></div>
+              <div class="org-node-members">문형식 매니저</div>
+            </div>
+            <div class="org-node org-it" onclick="showPage('team-it')" style="cursor:pointer">
+              <div class="org-node-title">IT홍보팀</div>
+              <div class="org-node-members">최구철 매니저(팀장)</div>
+            </div>
+            <div class="org-node org-alba">
+              <div class="org-node-title">알바 12명</div>
+              <div class="org-node-role">탄력 배치</div>
+            </div>
+            <div class="org-node org-temp">
+              <div class="org-node-title">[임시] 부산지점 사전준비팀</div>
+              <div class="org-node-sub">(탑승 전 임시조직)</div>
+              <div class="org-node-members">이수일 / 김남민 / 정은혜</div>
+            </div>
+          </div>
+        </div>
+        <div class="org-legend">
+          <span class="org-tag tag-pre">★사전탑승자</span>
+          <span class="org-tag tag-dual">★듀얼임무자</span>
+          <span class="org-tag tag-off">미탑승(터미널전담)</span>
+        </div>
+      </div>
+    </div>
+
+    </div>
+    <div id="team-hq-progress">
+    <h3 class="section-heading">📊 업무 진행현황</h3>
+    <div class="stat-row">
+      <div class="stat-card"><div class="stat-num">120</div><div class="stat-label">전체 업무</div></div>
+      <div class="stat-card stat-done"><div class="stat-num">1</div><div class="stat-label">완료</div></div>
+      <div class="stat-card stat-prog"><div class="stat-num">0</div><div class="stat-label">진행중</div></div>
+      <div class="stat-card stat-todo"><div class="stat-num">60</div><div class="stat-label">미착수</div></div>
+    </div>
+<div class="table-wrap">
+<div class="section-title" style="background:#4A5568">조직 체계 요약</div>
+<table class="ops-table">
+<thead>
+<tr>
+<th style="color:#FFFFFF;font-weight:700">구분</th>
+<th style="color:#FFFFFF;font-weight:700">직책</th>
+<th style="color:#FFFFFF;font-weight:700">인원(명)</th>
+<th style="color:#FFFFFF;font-weight:700">주요 역할</th>
+<th style="color:#FFFFFF;font-weight:700">세부 담당 업무</th>
+<th style="color:#FFFFFF;font-weight:700">비고</th>
+</tr>
+</thead>
+<tbody>
+<tr style="--row-bg:#FFFFFF">
+<td style="font-weight:700" class="cell-wrap">총괄운영본부장</td>
+<td style="" class="cell-wrap">본부장</td>
+<td style="" class="cell-wrap">1</td>
+<td style="" class="cell-wrap">선내 전체 운영 총괄 및 지휘</td>
+<td style="" class="cell-wrap text-left">- 전세선 전체 운영 및 최종 의사결정<br>- 선사·협력사 실무 조율<br>- 예산/일정/계약/보고 통합관리<br>- VIP 의전 총괄<br>- 코스타 Hotel Director·Cruise Director와 직접 소통</td>
+<td style="" class="cell-wrap">모두투어</td>
+</tr>
+<tr style="--row-bg:#FFFFFF">
+<td style="font-weight:700" class="cell-wrap">운영부서장</td>
+<td style="" class="cell-wrap">부서장</td>
+<td style="" class="cell-wrap">1</td>
+<td style="" class="cell-wrap">각 팀간 조율, 현장 의사결정 지원</td>
+<td style="" class="cell-wrap text-left">- 팀간 업무 조율 및 갈등 조정<br>- 현장 긴급 의사결정<br>- 일일미팅 진행<br>- 본부장 부재시 대행</td>
+<td style="" class="cell-wrap">CI 겸임</td>
+</tr>
+<tr style="--row-bg:#FFFFFF">
+<td style="font-weight:700" class="cell-wrap">선내운영팀</td>
+<td style="" class="cell-wrap">팀장1+팀원4</td>
+<td style="" class="cell-wrap">5</td>
+<td style="" class="cell-wrap">안내데스크·고객응대·현장 컨트롤타워</td>
+<td style="" class="cell-wrap text-left">- 안내데스크 운영 (고객문의, 시설/일정 안내)<br>- 방송·공지 송출 관리<br>- VOC 수집 및 피드백<br>- 카카오톡 실시간 상황판 관리<br>- 알바 30명 스케줄 관리<br>- 식당 안내 및 혼잡도 관리</td>
+<td style="" class="cell-wrap">핵심 운영 허브<br>알바 30명 관할</td>
+</tr>
+<tr style="--row-bg:#FFFFFF">
+<td style="font-weight:700" class="cell-wrap">기항지운영팀</td>
+<td style="" class="cell-wrap">팀장1+팀원1</td>
+<td style="" class="cell-wrap">2</td>
+<td style="" class="cell-wrap">기항지투어 관리, 입출국 지원</td>
+<td style="" class="cell-wrap text-left">- 하코다테/오타루 투어 운영 총괄<br>- 입출국 서류 검수 및 명단 관리<br>- 자유여행자 관리 및 귀선 통제<br>- 해상일: 식당안내, 고객응대 보조<br>- 기항지 리포트 작성</td>
+<td style="" class="cell-wrap">타이요플랜 협력</td>
+</tr>
+<tr style="--row-bg:#FFFFFF">
+<td style="font-weight:700" class="cell-wrap">프로그램·행사팀</td>
+<td style="" class="cell-wrap">팀장1+팀원4</td>
+<td style="" class="cell-wrap">5</td>
+<td style="" class="cell-wrap">공연·이벤트·환경재단행사 통합운영</td>
+<td style="" class="cell-wrap text-left">- 초대가수(김태우/김수찬/신성) 관리 및 공연 운영<br>- 크루즈가수왕 기획 및 운영<br>- 환경재단 행사 운영 지원<br>- GRM·코스타 테크니션 협업<br>- 부스 설치 및 관리<br>- 출항식/트래블토크/페어웰파티 진행</td>
+<td style="" class="cell-wrap">GRM·코스타 협업</td>
+</tr>
+<tr style="--row-bg:#FFFFFF">
+<td style="font-weight:700" class="cell-wrap">지원·데이터팀</td>
+<td style="" class="cell-wrap">팀장1+팀원1</td>
+<td style="" class="cell-wrap">2</td>
+<td style="" class="cell-wrap">물류·장비·IT·데이터·정산</td>
+<td style="" class="cell-wrap text-left">- 물품/장비 전체 자산관리<br>- 명단·문서 통합관리 (Google Sheet)<br>- 회계 및 정산 관리<br>- 사이니지 콘텐츠 관리<br>- 캐빈변경/과일바구니 등 예외사항 처리<br>- 일일보고서 자동생성</td>
+<td style="" class="cell-wrap">후방지원</td>
+</tr>
+<tr style="--row-bg:#FFFFFF">
+<td style="font-weight:700" class="cell-wrap">가이드팀(타이요플랜)</td>
+<td style="" class="cell-wrap">팀장1+팀원5+가이드70</td>
+<td style="" class="cell-wrap">76</td>
+<td style="" class="cell-wrap">고객안내, 투어인솔, 통역</td>
+<td style="" class="cell-wrap text-left">- 기항지 투어 인솔<br>- 선내 고객관리<br>- 자유여행자 관리<br>- 통역 지원</td>
+<td style="" class="cell-wrap">타이요 소속<br>모두투어 인력 제외</td>
+</tr>
+<tr style="--row-bg:#FFFFFF">
+<td style="font-weight:700" class="cell-wrap">협력사 파견인력</td>
+<td style="" class="cell-wrap">환경재단8+웅진4</td>
+<td style="" class="cell-wrap">12</td>
+<td style="" class="cell-wrap">자사 고객관리 중심</td>
+<td style="" class="cell-wrap text-left">- 자사 배정 고객 관리<br>- 필요시 공동업무(행사, 안내) 지원<br>- 상시운영인력에는 미포함</td>
+<td style="" class="cell-wrap">자사 전담</td>
+</tr>
+<tr style="--row-bg:#FFFFFF">
+<td style="font-weight:700" class="cell-wrap">아르바이트</td>
+<td style="" class="cell-wrap">순환배치</td>
+<td style="" class="cell-wrap">30</td>
+<td style="" class="cell-wrap">고객응대, 행사보조, 물류지원</td>
+<td style="" class="cell-wrap text-left">- 안내데스크 보조<br>- 식당 안내 보조<br>- 행사장 세팅/정리<br>- 물류 운반 지원<br>- 오전(07~15)/오후(15~23) 교대제</td>
+<td style="" class="cell-wrap">부산 관광대</td>
+</tr>
+<tr style="--row-bg:#FEF9E7">
+<td style="font-weight:700" class="cell-wrap">총 인원(예상)</td>
+<td style="font-weight:700" class="cell-wrap">약 134명</td>
+<td style="font-weight:700" class="cell-wrap">본부장1 + 부서장1 + 팀장4 + 팀원10 + 알바30 + 가이드70 + 협력사18</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrap">
+<div class="section-title" style="background:#4A5568">보고라인 및 커뮤니케이션 체계</div>
+<table class="ops-table">
+<thead>
+<tr>
+<th style="color:#FFFFFF;font-weight:700">단계</th>
+<th style="color:#FFFFFF;font-weight:700">방식</th>
+<th style="color:#FFFFFF;font-weight:700">주요 내용</th>
+<th style="color:#FFFFFF;font-weight:700">시간</th>
+<th style="color:#FFFFFF;font-weight:700">참석자</th>
+<th style="color:#FFFFFF;font-weight:700">비고</th>
+</tr>
+</thead>
+<tbody>
+<tr style="--row-bg:#FFFFFF">
+<td style="font-weight:700" class="cell-wrap">보고라인</td>
+<td style="" class="cell-wrap">단일체계</td>
+<td style="" class="cell-wrap text-left">본부장 → 부서장 → 팀장 → 팀원/보조</td>
+<td style="" class="cell-wrap">상시</td>
+<td style="" class="cell-wrap">전 인력</td>
+</tr>
+<tr style="--row-bg:#FFFFFF">
+<td style="font-weight:700" class="cell-wrap">1차 커뮤니케이션</td>
+<td style="" class="cell-wrap">무전기 실시간 교신</td>
+<td style="" class="cell-wrap text-left">현장 긴급 대응, 고객이슈, 이동통제</td>
+<td style="" class="cell-wrap">상시</td>
+<td style="" class="cell-wrap">팀장급 이상 + 키맨</td>
+<td style="" class="cell-wrap">100대</td>
+</tr>
+<tr style="--row-bg:#FFFFFF">
+<td style="font-weight:700" class="cell-wrap">2차 커뮤니케이션</td>
+<td style="" class="cell-wrap">카카오톡 단체방</td>
+<td style="" class="cell-wrap text-left">실시간 보고, 사진/문서 공유, 결재라인</td>
+<td style="" class="cell-wrap">상시</td>
+<td style="" class="cell-wrap">전 스태프</td>
+<td style="" class="cell-wrap">팀별+전체방</td>
+</tr>
+<tr style="--row-bg:#FFFFFF">
+<td style="font-weight:700" class="cell-wrap">3차 커뮤니케이션</td>
+<td style="" class="cell-wrap">전체미팅</td>
+<td style="" class="cell-wrap text-left">주요현안 브리핑, 개선사항 공유</td>
+<td style="" class="cell-wrap">매일 22:00</td>
+<td style="" class="cell-wrap">전 관계자 (필수근무자 제외)</td>
+<td style="" class="cell-wrap">모두투어/CI/재단/웅진/타이요</td>
+</tr>
+<tr style="--row-bg:#FFFFFF">
+<td style="font-weight:700" class="cell-wrap">데이터 공유</td>
+<td style="" class="cell-wrap">Google Sheet</td>
+<td style="" class="cell-wrap text-left">문서 실시간 연동, 자동 기록, 일일보고</td>
+<td style="" class="cell-wrap">상시</td>
+<td style="" class="cell-wrap">팀장급 이상</td>
+<td style="" class="cell-wrap">자동화 시스템</td>
+</tr>
+</tbody>
+</table>
+</div>
+    </div>
+    <div id="team-hq-docs">
+    <h3 class="section-heading">📝 기안·협조공문</h3>
+<div class="table-wrap">
+<div class="section-title" style="background:#283593">▣ 사내 협조 요청 (11건)</div>
+<table class="ops-table">
+<thead>
+<tr>
+<th style="color:#FFFFFF;font-weight:700">No</th>
+<th style="color:#FFFFFF;font-weight:700">협조 대상</th>
+<th style="color:#FFFFFF;font-weight:700">요청 내용</th>
+<th style="color:#FFFFFF;font-weight:700">세부 사항</th>
+<th style="color:#FFFFFF;font-weight:700">발송 시기</th>
+<th style="color:#FFFFFF;font-weight:700">상태</th>
+</tr>
+</thead>
+<tbody>
+<tr style="--row-bg:#FFFFFF">
+<td style="font-weight:700" class="cell-wrap">1</td>
+<td style="" class="cell-wrap">인사부</td>
+<td style="" class="cell-wrap text-left">알바 12명 채용 업무협조</td>
+<td style="" class="cell-wrap text-left">근로계약서, 보험, 일당 기준, 교육 협의</td>
+<td style="" class="cell-wrap">D-90 (4월 초)</td>
+<td style="" class="cell-wrap">미발송</td>
+</tr>
+<tr style="--row-bg:#FFFFFF">
+<td style="font-weight:700" class="cell-wrap">2</td>
+<td style="" class="cell-wrap">인사부</td>
+<td style="" class="cell-wrap text-left">통역 18명 채용 업무협조</td>
+<td style="" class="cell-wrap text-left">채용 기준, 계약 조건, 코스타 인수 조건</td>
+<td style="" class="cell-wrap">D-90 (4월 초)</td>
+<td style="" class="cell-wrap">미발송</td>
+</tr>
+<tr style="--row-bg:#FFFFFF">
+<td style="font-weight:700" class="cell-wrap">3</td>
+<td style="" class="cell-wrap">인사부</td>
+<td style="" class="cell-wrap text-left">교육 스케줄 업무협조</td>
+<td style="" class="cell-wrap text-left">집체교육2회, 전달교육, 알바교육<br>교육장 확보, 이수 기록</td>
+<td style="" class="cell-wrap">D-60 (4월)</td>
+<td style="" class="cell-wrap">미발송</td>
+</tr>
+<tr style="--row-bg:#FFFFFF">
+<td style="font-weight:700" class="cell-wrap">4</td>
+<td style="" class="cell-wrap">재무팀</td>
+<td style="" class="cell-wrap text-left">공연자 대금 지급 협조</td>
+<td style="" class="cell-wrap text-left">계약서에 의거하여 지출<br>인보이스 처리<br>★체크포인트: 업무 누락 방지용</td>
+<td style="" class="cell-wrap">수시(계약서 기준)</td>
+<td style="" class="cell-wrap">미발송</td>
+</tr>
+<tr style="--row-bg:#FFFFFF">
+<td style="font-weight:700" class="cell-wrap">5</td>
+<td style="" class="cell-wrap">테마사업부 국내팀</td>
+<td style="" class="cell-wrap text-left">KTX 왕복 예매</td>
+<td style="" class="cell-wrap text-left">전 스태프 서울↔부산, 부산거주자 제외<br>★한달 전 예매 필수</td>
+<td style="" class="cell-wrap">D-30 (5월)</td>
+<td style="" class="cell-wrap">미발송</td>
+</tr>
+<tr style="--row-bg:#FFFFFF">
+<td style="font-weight:700" class="cell-wrap">6</td>
+<td style="" class="cell-wrap">테마사업부 국내팀</td>
+<td style="" class="cell-wrap text-left">호텔 예약</td>
+<td style="" class="cell-wrap text-left">아스티호텔, 인원수 확정 후</td>
+<td style="" class="cell-wrap">D-30 (5월)</td>
+<td style="" class="cell-wrap">미발송</td>
+</tr>
+<tr style="--row-bg:#FFFFFF">
+<td style="font-weight:700" class="cell-wrap">7</td>
+<td style="" class="cell-wrap">IT팀</td>
+<td style="" class="cell-wrap text-left">IT홍보팀 파견 — 최구철 매니저</td>
+<td style="" class="cell-wrap text-left">IT장비·통신·데이터 관리 담당</td>
+<td style="" class="cell-wrap">D-60 (4월)</td>
+<td style="" class="cell-wrap">미발송</td>
+</tr>
+<tr style="--row-bg:#FFFFFF">
+<td style="font-weight:700" class="cell-wrap">8</td>
+<td style="" class="cell-wrap">대외협력팀</td>
+<td style="" class="cell-wrap text-left">IT홍보팀 파견 — 최구철 매니저</td>
+<td style="" class="cell-wrap text-left">대외홍보·언론 대응 담당</td>
+<td style="" class="cell-wrap">D-60 (4월)</td>
+<td style="" class="cell-wrap">미발송</td>
+</tr>
+<tr style="--row-bg:#FFFFFF">
+<td style="font-weight:700" class="cell-wrap">9</td>
+<td style="" class="cell-wrap">법무팀</td>
+<td style="" class="cell-wrap text-left">공연자 계약서 검토</td>
+<td style="" class="cell-wrap text-left">출연 계약서 법무 검토</td>
+<td style="" class="cell-wrap">D-90 (즉시)</td>
+<td style="" class="cell-wrap">미발송</td>
+</tr>
+<tr style="--row-bg:#FFFFFF">
+<td style="font-weight:700" class="cell-wrap">10</td>
+<td style="" class="cell-wrap">총무/구매팀</td>
+<td style="" class="cell-wrap text-left">물품 제작·구매 협조</td>
+<td style="" class="cell-wrap text-left">인쇄물/기념품/POP/배너 등<br>★리드타임 2~4주</td>
+<td style="" class="cell-wrap">D-60~D-30</td>
+<td style="" class="cell-wrap">미발송</td>
+</tr>
+<tr style="--row-bg:#FFFFFF">
+<td style="font-weight:700" class="cell-wrap">11</td>
+<td style="" class="cell-wrap">IT팀/총무팀</td>
+<td style="" class="cell-wrap text-left">IT장비 렌탈 협조</td>
+<td style="" class="cell-wrap text-left">노트북5/프린터1 등 렌탈<br>렌탈기간: 6/13~6/26</td>
+<td style="" class="cell-wrap">D-45~D-30</td>
+<td style="" class="cell-wrap">미발송</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrap">
+<div class="section-title" style="background:#283593">▣ 외부 협조 요청 (9건)</div>
+<table class="ops-table">
+<thead>
+<tr>
+<th style="color:#FFFFFF;font-weight:700">No</th>
+<th style="color:#FFFFFF;font-weight:700">협조 대상</th>
+<th style="color:#FFFFFF;font-weight:700">요청 내용</th>
+<th style="color:#FFFFFF;font-weight:700">세부 사항</th>
+<th style="color:#FFFFFF;font-weight:700">발송 시기</th>
+<th style="color:#FFFFFF;font-weight:700">상태</th>
+</tr>
+</thead>
+<tbody>
+<tr style="--row-bg:#FEF5E7">
+<td style="font-weight:700" class="cell-wrap">12</td>
+<td style="" class="cell-wrap">웅진프리드</td>
+<td style="" class="cell-wrap text-left">조아라 매니저 TF 파견</td>
+<td style="" class="cell-wrap text-left">운영지원팀, 온보드미팅(5/27) 참석 포함</td>
+<td style="" class="cell-wrap">D-60 (4월)</td>
+<td style="" class="cell-wrap">미발송</td>
+</tr>
+<tr style="--row-bg:#FEF5E7">
+<td style="font-weight:700" class="cell-wrap">13</td>
+<td style="" class="cell-wrap">환경재단</td>
+<td style="" class="cell-wrap text-left">김지은 선임 운영지원팀 파견</td>
+<td style="" class="cell-wrap text-left">각사별 예약관리·이슈 대응</td>
+<td style="" class="cell-wrap">D-60 (4월)</td>
+<td style="" class="cell-wrap">미발송</td>
+</tr>
+<tr style="--row-bg:#FEF5E7">
+<td style="font-weight:700" class="cell-wrap">14</td>
+<td style="" class="cell-wrap">환경재단</td>
+<td style="" class="cell-wrap text-left">온보드미팅(5/27) 참석 요청</td>
+<td style="" class="cell-wrap text-left">재단 공연/프로그램 이슈</td>
+<td style="" class="cell-wrap">D-30 (5월)</td>
+<td style="" class="cell-wrap">미발송</td>
+</tr>
+<tr style="--row-bg:#FEF5E7">
+<td style="font-weight:700" class="cell-wrap">15</td>
+<td style="" class="cell-wrap">롯데관광</td>
+<td style="" class="cell-wrap text-left">직전항차(6/13~19) 사전탑승 협조</td>
+<td style="" class="cell-wrap text-left">4명 승선 허가, 객실/식사 조건</td>
+<td style="" class="cell-wrap">D-30 (5월)</td>
+<td style="" class="cell-wrap">미발송</td>
+</tr>
+<tr style="--row-bg:#FEF5E7">
+<td style="font-weight:700" class="cell-wrap">16</td>
+<td style="" class="cell-wrap">코스타</td>
+<td style="" class="cell-wrap text-left">사전탑승자 4명 승인</td>
+<td style="" class="cell-wrap text-left">직전항차 탑승, 얼리보딩 절차</td>
+<td style="" class="cell-wrap">D-30 (5월)</td>
+<td style="" class="cell-wrap">미발송</td>
+</tr>
+<tr style="--row-bg:#FEF5E7">
+<td style="font-weight:700" class="cell-wrap">17</td>
+<td style="" class="cell-wrap">코스타</td>
+<td style="" class="cell-wrap text-left">UPD 이병수 감독 별도 승선</td>
+<td style="" class="cell-wrap text-left">5/17(1순위) or 5/22(2순위)<br>온보드미팅+승하선 인스펙션</td>
+<td style="" class="cell-wrap">D-45 (4~5월)</td>
+<td style="" class="cell-wrap">미발송</td>
+</tr>
+<tr style="--row-bg:#FEF5E7">
+<td style="font-weight:700" class="cell-wrap">18</td>
+<td style="" class="cell-wrap">코스타</td>
+<td style="" class="cell-wrap text-left">온보드미팅(5/27) 확정</td>
+<td style="" class="cell-wrap text-left">참석: HQ+팀장+웅진+환경재단</td>
+<td style="" class="cell-wrap">D-30 (5월)</td>
+<td style="" class="cell-wrap">미발송</td>
+</tr>
+<tr style="--row-bg:#FEF5E7">
+<td style="font-weight:700" class="cell-wrap">19</td>
+<td style="" class="cell-wrap">인쇄업체</td>
+<td style="" class="cell-wrap text-left">인쇄물 제작 발주</td>
+<td style="" class="cell-wrap text-left">프로그램표/안내도/POP/배너 등<br>★리드타임 2~3주</td>
+<td style="" class="cell-wrap">D-30 (5월)</td>
+<td style="" class="cell-wrap">미발송</td>
+</tr>
+<tr style="--row-bg:#FEF5E7">
+<td style="font-weight:700" class="cell-wrap">20</td>
+<td style="" class="cell-wrap">기념품업체</td>
+<td style="" class="cell-wrap text-left">기념품·물품 제작 발주</td>
+<td style="" class="cell-wrap text-left">승객용 기념품/VIP웰컴키트/목걸이 등<br>★리드타임 3~4주</td>
+<td style="" class="cell-wrap">D-45~D-30</td>
+<td style="" class="cell-wrap">미발송</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrap">
+<div class="section-title" style="background:#283593">▣ A. TF조직승인 기안 (일괄 상신, ★★★ 최우선 4월 초)</div>
+<table class="ops-table">
+<thead>
+<tr>
+<th style="color:#FFFFFF;font-weight:700">No</th>
+<th style="color:#FFFFFF;font-weight:700">항목</th>
+<th style="color:#FFFFFF;font-weight:700">내용</th>
+<th style="color:#FFFFFF;font-weight:700">예산</th>
+<th style="color:#FFFFFF;font-weight:700">상신 시기</th>
+</tr>
+</thead>
+<tbody>
+<tr style="--row-bg:#FDEDEC">
+<td style="font-weight:700" class="cell-wrap">A-1</td>
+<td style="" class="cell-wrap text-left">TF 명칭·기간·목적</td>
+<td style="" class="cell-wrap text-left">코스타 세레나 전세선 운영 TF<br>2026.3~7월, 2,400명 6박7일</td>
+<td style="" class="cell-wrap">즉시</td>
+</tr>
+<tr style="--row-bg:#FDEDEC">
+<td style="font-weight:700" class="cell-wrap">A-2</td>
+<td style="" class="cell-wrap text-left">구성원·조직도</td>
+<td style="" class="cell-wrap text-left">HQ(HQ)+운영지원4+식음료1+IT홍보1+알바12<br>공연행사5+기항지2+승하선2+파견2</td>
+</tr>
+<tr style="--row-bg:#FDEDEC">
+<td style="font-weight:700" class="cell-wrap">A-3</td>
+<td style="" class="cell-wrap text-left">총 예산</td>
+<td style="" class="cell-wrap text-left">알바12+통역18 인건비, 물품 구매·제작비<br>IT장비 렌탈비, 사무용품</td>
+<td style="" class="cell-wrap">별첨</td>
+</tr>
+<tr style="--row-bg:#FDEDEC">
+<td style="font-weight:700" class="cell-wrap">A-4</td>
+<td style="" class="cell-wrap text-left">출장 계획 (7건 일괄)</td>
+<td style="" class="cell-wrap text-left">①인스펙션(4/17) ②터미널답사(4월) ③참관4회(5월)<br>④온보드미팅(5/27) ⑤이병수별도(5/17or22)<br>⑥사전탑승4명(6/13~19) ⑦베이스캠프(6/17~19)</td>
+<td style="" class="cell-wrap">출장비 별첨</td>
+</tr>
+<tr style="--row-bg:#FDEDEC">
+<td style="font-weight:700" class="cell-wrap">A-5</td>
+<td style="" class="cell-wrap text-left">인사부 협조</td>
+<td style="" class="cell-wrap text-left">알바12 채용+보험, 통역18 채용, 교육 스케줄</td>
+<td style="" class="cell-wrap">인건비</td>
+</tr>
+<tr style="--row-bg:#FDEDEC">
+<td style="font-weight:700" class="cell-wrap">A-6</td>
+<td style="" class="cell-wrap text-left">타부서 파견</td>
+<td style="" class="cell-wrap text-left">IT팀+대외협력팀→최구철(IT홍보팀)</td>
+</tr>
+<tr style="--row-bg:#FDEDEC">
+<td style="font-weight:700" class="cell-wrap">A-7</td>
+<td style="" class="cell-wrap text-left">외부 파견</td>
+<td style="" class="cell-wrap text-left">웅진→조아라(운영지원), 환경재단→김지은(운영지원)</td>
+</tr>
+<tr style="--row-bg:#FDEDEC">
+<td style="font-weight:700" class="cell-wrap">A-8</td>
+<td style="" class="cell-wrap text-left">물품 구매·제작</td>
+<td style="" class="cell-wrap text-left">인쇄물/기념품/POP/배너/테이블카드 등<br>★리드타임 2~4주</td>
+<td style="" class="cell-wrap">물품비 별첨</td>
+</tr>
+<tr style="--row-bg:#FDEDEC">
+<td style="font-weight:700" class="cell-wrap">A-9</td>
+<td style="" class="cell-wrap text-left">IT장비 렌탈</td>
+<td style="" class="cell-wrap text-left">노트북5/프린터1/멀티탭/보조배터리 등</td>
+<td style="" class="cell-wrap">렌탈비 별첨</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrap">
+<div class="section-title" style="background:#283593">▣ B. 별도 기안 (개별 상신)</div>
+<table class="ops-table">
+<thead>
+<tr>
+<th style="color:#FFFFFF;font-weight:700">No</th>
+<th style="color:#FFFFFF;font-weight:700">항목</th>
+<th style="color:#FFFFFF;font-weight:700">내용</th>
+<th style="color:#FFFFFF;font-weight:700">예산</th>
+<th style="color:#FFFFFF;font-weight:700">시기</th>
+</tr>
+</thead>
+<tbody>
+<tr style="--row-bg:#FEF5E7">
+<td style="font-weight:700" class="cell-wrap">B-1</td>
+<td style="" class="cell-wrap text-left">공연자 계약+대금</td>
+<td style="" class="cell-wrap text-left">계약 체결+대금 지급<br>계약서에 의거하여 지출</td>
+<td style="" class="cell-wrap">출연료</td>
+<td style="" class="cell-wrap">D-90~D-60</td>
+</tr>
+<tr style="--row-bg:#FEF5E7">
+<td style="font-weight:700" class="cell-wrap">B-2</td>
+<td style="" class="cell-wrap text-left">기항지 인스펙션(4/17)</td>
+<td style="" class="cell-wrap text-left">★기득 완료</td>
+<td style="" class="cell-wrap">출장비</td>
+<td style="" class="cell-wrap">기득</td>
+</tr>
+<tr style="--row-bg:#FEF5E7">
+<td style="font-weight:700" class="cell-wrap">B-3</td>
+<td style="" class="cell-wrap text-left">온보드미팅 승선(5/27)</td>
+<td style="" class="cell-wrap text-left">롯데JTB 항차 승선<br>HQ+팀장+웅진+환경재단</td>
+<td style="" class="cell-wrap">승선비</td>
+<td style="" class="cell-wrap">D-45</td>
+</tr>
+<tr style="--row-bg:#FEF5E7">
+<td style="font-weight:700" class="cell-wrap">B-4</td>
+<td style="" class="cell-wrap text-left">이병수 감독 별도 승선</td>
+<td style="" class="cell-wrap text-left">5/17 or 5/22 + 승하선 인스펙션</td>
+<td style="" class="cell-wrap">승선비</td>
+<td style="" class="cell-wrap">D-45</td>
+</tr>
+<tr style="--row-bg:#FEF5E7">
+<td style="font-weight:700" class="cell-wrap">B-5</td>
+<td style="" class="cell-wrap text-left">사전탑승 4명</td>
+<td style="" class="cell-wrap text-left">롯데관광(6/13~19) 탑승<br>롯데관광+코스타 협조</td>
+<td style="" class="cell-wrap">승선비</td>
+<td style="" class="cell-wrap">D-30</td>
+</tr>
+<tr style="--row-bg:#FEF5E7">
+<td style="font-weight:700" class="cell-wrap">B-6</td>
+<td style="" class="cell-wrap text-left">터미널 회의실 대관</td>
+<td style="" class="cell-wrap text-left">6/18 리허설+짐 보관</td>
+<td style="" class="cell-wrap">대관비</td>
+<td style="" class="cell-wrap">D-30</td>
+</tr>
+<tr style="--row-bg:#FEF5E7">
+<td style="font-weight:700" class="cell-wrap">B-7</td>
+<td style="" class="cell-wrap text-left">물품 제작 발주</td>
+<td style="" class="cell-wrap text-left">인쇄물·기념품 대량<br>★TF 예산 포함 시 별도 불필요</td>
+<td style="" class="cell-wrap">물품비</td>
+<td style="" class="cell-wrap">D-45~D-30</td>
+</tr>
+<tr style="--row-bg:#FEF5E7">
+<td style="font-weight:700" class="cell-wrap">B-8</td>
+<td style="" class="cell-wrap text-left">IT장비 렌탈 계약</td>
+<td style="" class="cell-wrap text-left">노트북/프린터 렌탈<br>★TF 예산 포함 시 별도 불필요</td>
+<td style="" class="cell-wrap">렌탈비</td>
+<td style="" class="cell-wrap">D-45~D-30</td>
+</tr>
+</tbody>
+</table>
+</div>
+    </div>
+    <div id="team-hq-timeline">
+    <h3 class="section-heading">🗓️ 핵심 일정 타임라인</h3>
+<div class="table-wrap">
+<table class="ops-table">
+<thead>
+<tr>
+<th style="color:#FFFFFF;font-weight:700">시기(D-Day)</th>
+<th style="color:#FFFFFF;font-weight:700">카테고리</th>
+<th style="color:#FFFFFF;font-weight:700">업무항목</th>
+<th style="color:#FFFFFF;font-weight:700">세부 내용 및 체크리스트</th>
+<th style="color:#FFFFFF;font-weight:700">담당팀/담당자</th>
+<th style="color:#FFFFFF;font-weight:700">상태</th>
+<th style="color:#FFFFFF;font-weight:700">비고</th>
+</tr>
+</thead>
+<tbody>
+<tr style="--row-bg:#FEF9E7">
+<td style="font-weight:700" class="cell-wrap">D-90 ~ D-60<br>(3월 중순~4월 중순)</td>
+<td style="" class="cell-wrap">계약/행정</td>
+<td style="" class="cell-wrap text-left">코스타 질의서 발송 및 회신 추적</td>
+<td style="" class="cell-wrap text-left">- 48개 항목 11개 카테고리 질의서 발송 완료<br>- 회신 추적 및 미회신 항목 리마인드<br>- 승선 스케줄, 얼리보딩, 비상훈련 시간 확정<br>- 중간 승하선 절차 확인 (김태우 하코다테 하선, 김수찬/신성 오타루 승선)</td>
+<td style="" class="cell-wrap">총괄본부/CI</td>
+<td style="" class="cell-wrap">진행중</td>
+<td style="" class="cell-wrap">질의서 48개 항목</td>
+</tr>
+<tr style="--row-bg:#FEF9E7">
+<td style="" class="cell-wrap">계약/행정</td>
+<td style="" class="cell-wrap">선사 담당자 연락체계 구축</td>
+<td style="" class="cell-wrap text-left">- Hotel Director, Cruise Director, F&amp;B Director, GRM 연락처 확보<br>- 한국인 승무원 확인 및 커뮤니케이션 채널 설정<br>- 통역사 18명 관리체계 확인</td>
+<td style="" class="cell-wrap text-left">총괄본부</td>
+<td style="" class="cell-wrap">질의서 #46~48</td>
+</tr>
+<tr style="--row-bg:#FEF9E7">
+<td style="" class="cell-wrap">인력</td>
+<td style="" class="cell-wrap">아르바이트 채용 공고 및 선발</td>
+<td style="" class="cell-wrap text-left">- 부산 지역 관광대학교 연계 채용 (30명)<br>- 1월 항차 탑승 경험자 우선 선발<br>- 채용 기준: 고객응대 능력, 체력, 언어능력<br>- 면접 일정 수립 및 진행</td>
+<td style="" class="cell-wrap text-left">선내운영팀장</td>
+<td style="" class="cell-wrap">관광대 협력</td>
+</tr>
+<tr style="--row-bg:#FEF9E7">
+<td style="" class="cell-wrap">인력</td>
+<td style="" class="cell-wrap">인솔자/가이드 70명 확정 및 교육계획 수립</td>
+<td style="" class="cell-wrap text-left">- 타이요플랜 협력 가이드 70명 명단 확정<br>- 기항지별(하코다테/오타루) 투어 배정<br>- 자유여행자 관리 가이드 별도 지정</td>
+<td style="" class="cell-wrap text-left">기항지운영팀/타이요</td>
+</tr>
+<tr style="--row-bg:#FEF9E7">
+<td style="" class="cell-wrap">공연/행사</td>
+<td style="" class="cell-wrap">초대가수 계약 및 일정 확정</td>
+<td style="" class="cell-wrap text-left">- 김태우: 부산 승선 → 선상 공연 → 하코다테 하선 (6/21)<br>- 김수찬/신성: 오타루 승선 (6/22) → 선상 공연 → 부산 하선 (6/25)<br>- 공연 일정, 리허설 시간, 음향/조명 요구사항 확인<br>- 계약서 체결 및 출연료 집행 일정</td>
+<td style="" class="cell-wrap text-left">프로그램·행사팀</td>
+<td style="" class="cell-wrap">승하선 서포트 필수</td>
+</tr>
+<tr style="--row-bg:#FEF9E7">
+<td style="" class="cell-wrap">공연/행사</td>
+<td style="" class="cell-wrap">영화 상영 저작권 확보</td>
+<td style="" class="cell-wrap text-left">- 상영 예정 영화 선정 (2회 상영)<br>- 저작권 라이선스 계약 체결<br>- 코스타 측 저작권 승인 절차 진행 (질의서 #43)<br>- 상영 장비(노트북 등) 확인</td>
+<td style="" class="cell-wrap text-left">프로그램·행사팀</td>
+<td style="" class="cell-wrap">코스타 승인 필수</td>
+</tr>
+<tr style="--row-bg:#FEF9E7">
+<td style="" class="cell-wrap">콘텐츠/제작</td>
+<td style="" class="cell-wrap">사이니지 콘텐츠 기획 및 제작 착수</td>
+<td style="" class="cell-wrap text-left">- 코스타 회신 후 사이니지 포맷/규격 확인 (JPEG/MP4, 가로/세로형)<br>- 9층 LED Wall 콘텐츠 제작 (816×468px / 1920×1080)<br>- 일자별 콘텐츠 계획 수립 (출항식, 기항지 안내, 공연 안내 등)<br>- 콘텐츠 교체 주기 및 USB 전달 절차 확인</td>
+<td style="" class="cell-wrap text-left">지원·데이터팀</td>
+<td style="" class="cell-wrap">질의서 #16~17</td>
+</tr>
+<tr style="--row-bg:#FEF9E7">
+<td style="" class="cell-wrap">콘텐츠/제작</td>
+<td style="" class="cell-wrap">층별 안내도(Deck Plan) 한국어 제작</td>
+<td style="" class="cell-wrap text-left">- 리노베이션 후 최신 Deck Plan 입수<br>- 한국어 번역 및 디자인 작업<br>- 인쇄용(A3/A4) 및 디지털 사이니지용 제작<br>- 주요 시설 위치, 레스토랑, 공연장 등 표기</td>
+<td style="" class="cell-wrap text-left">지원·데이터팀/디자인</td>
+<td style="" class="cell-wrap">인쇄 D-30까지</td>
+</tr>
+<tr style="--row-bg:#FEF9E7">
+<td style="" class="cell-wrap">VIP 의전</td>
+<td style="" class="cell-wrap">VIP 의전 프로토콜 수립</td>
+<td style="" class="cell-wrap text-left">- 회장님 포함 VIP 리스트 확정<br>- VIP 전용 동선 설계 (승선~하선)<br>- VIP 전용 구역(정찬 식당 스위트 구역) 확보<br>- 과일바구니/와인 서비스 사전 신청 (질의서 #29~30)<br>- VIP 웰컴키트 구성 결정</td>
+<td style="" class="cell-wrap text-left">총괄본부/선내운영팀</td>
+<td style="" class="cell-wrap">질의서 #22,29,30</td>
+</tr>
+<tr style="--row-bg:#E8F8F5">
+<td style="font-weight:700" class="cell-wrap">D-60 ~ D-30<br>(4월 중순~5월 중순)</td>
+<td style="" class="cell-wrap">인력</td>
+<td style="" class="cell-wrap text-left">운영 조직 확정 및 업무분장 확정</td>
+<td style="" class="cell-wrap text-left">- 총 134명 인력 편성 최종 확정<br>  · 본부장1, 부서장1, 팀장4, 팀원10, 알바30, 가이드70, 협력사18<br>- 4개 팀(선내운영/기항지/프로그램·행사/지원·데이터) 팀장 확정<br>- 팀별 세부 업무분장표 배포</td>
+<td style="" class="cell-wrap">총괄본부</td>
+<td style="" class="cell-wrap">인력구성표 기준</td>
+</tr>
+<tr style="--row-bg:#E8F8F5">
+<td style="" class="cell-wrap">인력</td>
+<td style="" class="cell-wrap">아르바이트 교육 프로그램 수립</td>
+<td style="" class="cell-wrap text-left">- 크루즈 기본 교육 커리큘럼 설계<br>- 고객응대 매뉴얼 제작<br>- 비상상황 대응 교육 계획<br>- 교육 일정: D-14(6/5) 온라인 + D-2(6/17) 부산 현장</td>
+<td style="" class="cell-wrap text-left">선내운영팀장</td>
+</tr>
+<tr style="--row-bg:#E8F8F5">
+<td style="" class="cell-wrap">물품/물류</td>
+<td style="" class="cell-wrap">운영 물품 리스트업 및 발주</td>
+<td style="" class="cell-wrap text-left">- 목걸이(네임택/ID카드) 제작 발주<br>- 파우치 제작 발주<br>- 무전기 100대 확보 및 점검 (질의서 #14 허가 여부 확인)<br>- 노트북, A4용지, 프린터 토너 등 사무용품<br>- POP, 현수막, 배너 등 홍보물 제작 발주<br>- 기념품 제작/구매</td>
+<td style="" class="cell-wrap text-left">지원·데이터팀</td>
+<td style="" class="cell-wrap">발주 마감 D-30</td>
+</tr>
+<tr style="--row-bg:#E8F8F5">
+<td style="" class="cell-wrap">콘텐츠/제작</td>
+<td style="" class="cell-wrap">테이블 카드 제작</td>
+<td style="" class="cell-wrap text-left">- 정찬 식당 테이블 카드 디자인 및 인쇄<br>- 테이블 번호, 주의사항 표기<br>- 코스타에 세팅 요청 절차 확인 (질의서 #23)</td>
+<td style="" class="cell-wrap text-left">지원·데이터팀/디자인</td>
+</tr>
+<tr style="--row-bg:#E8F8F5">
+<td style="" class="cell-wrap">콘텐츠/제작</td>
+<td style="" class="cell-wrap">선내 인쇄물 일괄 제작</td>
+<td style="" class="cell-wrap text-left">- 일일 프로그램표(Daily Program) 한국어판<br>- 식당 메뉴판 한국어 번역<br>- 기항지 안내 책자 (하코다테/오타루)<br>- 비상대피 안내문 한국어판<br>- 고객 안내문(Wi-Fi, 카드, 환전, 의료 등)</td>
+<td style="" class="cell-wrap text-left">지원·데이터팀</td>
+</tr>
+<tr style="--row-bg:#E8F8F5">
+<td style="" class="cell-wrap">공연/행사</td>
+<td style="" class="cell-wrap">전체 공연·행사계획표 확정</td>
+<td style="" class="cell-wrap text-left">- 6박 7일 전체 프로그램 타임테이블 확정<br>- 출항식, 트래블토크 2회, 크루즈가수왕, 환경재단 강연/공연<br>- GRM 및 코스타 테크니션팀에 프로그램 스케줄 제출<br>- 리허설 시간 예약</td>
+<td style="" class="cell-wrap text-left">프로그램·행사팀</td>
+<td style="" class="cell-wrap">코스타 양식 제출</td>
+</tr>
+<tr style="--row-bg:#E8F8F5">
+<td style="" class="cell-wrap">공연/행사</td>
+<td style="" class="cell-wrap">부스 설치 계획 확정</td>
+<td style="" class="cell-wrap text-left">- 관광청, 시몬스, 환경재단 부스 위치/규격 확정<br>- POP 디자인 및 설치물 제작<br>- 부스 운영 인력 배정</td>
+<td style="" class="cell-wrap text-left">프로그램·행사팀</td>
+</tr>
+<tr style="--row-bg:#E8F8F5">
+<td style="" class="cell-wrap">촬영/미디어</td>
+<td style="" class="cell-wrap">드론/미디어 촬영 허가 취득</td>
+<td style="" class="cell-wrap text-left">- 드론 촬영 허가서 신청 (질의서 #44)<br>- 공식 촬영팀 선내 허가서 발급 (질의서 #45)<br>- 촬영 제한 구역 확인<br>- 장비 반입 승인</td>
+<td style="" class="cell-wrap text-left">프로그램·행사팀</td>
+<td style="" class="cell-wrap">코스타+항만 승인</td>
+</tr>
+<tr style="--row-bg:#E8F8F5">
+<td style="" class="cell-wrap">기항지</td>
+<td style="" class="cell-wrap">기항지 투어 상품 확정</td>
+<td style="" class="cell-wrap text-left">- 하코다테(6/21): 투어 코스, 차량, 가이드, 식당 확정<br>- 오타루(6/22~23): 투어 코스, 야간 프로그램 확정<br>- 자유여행 안내서 제작<br>- 입출국 서류 양식 준비</td>
+<td style="" class="cell-wrap text-left">기항지운영팀/타이요</td>
+</tr>
+<tr style="--row-bg:#E8F8F5">
+<td style="" class="cell-wrap">시스템</td>
+<td style="" class="cell-wrap">커뮤니케이션 체계 구축</td>
+<td style="" class="cell-wrap text-left">- 카카오톡 단체방 개설 (전체/팀별)<br>- 구글시트 기반 실시간 보고 시스템 설계<br>- 일일상황보고서 자동생성 템플릿 구축<br>- VOC 수집 양식 설계</td>
+<td style="" class="cell-wrap text-left">지원·데이터팀</td>
+</tr>
+<tr style="--row-bg:#FEF5E7">
+<td style="font-weight:700" class="cell-wrap">D-30 ~ D-14<br>(5월 중순~6월 초)</td>
+<td style="" class="cell-wrap">점검</td>
+<td style="" class="cell-wrap text-left">1차 전체 운영점검회의</td>
+<td style="" class="cell-wrap text-left">- 모든 기획안 실행 가능성 검토<br>- 파트별 리스크 점검<br>- 예산 재점검<br>- 통합운영 시뮬레이션 개시</td>
+<td style="" class="cell-wrap">총괄본부(전 팀장)</td>
+<td style="" class="cell-wrap">정기점검회의</td>
+</tr>
+<tr style="--row-bg:#FEF5E7">
+<td style="" class="cell-wrap">물품/물류</td>
+<td style="" class="cell-wrap">물품 최종 점검 및 패킹</td>
+<td style="" class="cell-wrap text-left">- 전체 물품 리스트 대조 점검<br>- 트럭 2톤 물류 계획 수립<br>- Mercurio Room(HQ)용 / 창고객실용 구분 패킹<br>- 물품 반입 타임라인 수립 (질의서 #2)</td>
+<td style="" class="cell-wrap text-left">지원·데이터팀</td>
+</tr>
+<tr style="--row-bg:#FEF5E7">
+<td style="" class="cell-wrap">인력</td>
+<td style="" class="cell-wrap">전 스태프 명단 확정 및 캐빈 배정</td>
+<td style="" class="cell-wrap text-left">- 운영 스태프 전원 여권 사본 수집<br>- 코스타폼 작성 및 제출<br>- 스태프 캐빈 배정 확정<br>- 얼리보딩 4명 명단 제출 (질의서 #3)</td>
+<td style="" class="cell-wrap text-left">지원·데이터팀</td>
+</tr>
+<tr style="--row-bg:#FEF5E7">
+<td style="" class="cell-wrap">공연/행사</td>
+<td style="" class="cell-wrap">초대가수 승하선 로지스틱 확정</td>
+<td style="" class="cell-wrap text-left">- 김태우: 부산항 승선 절차 → 공연 → 하코다테 하선 수배<br>  (하코다테→도쿄 항공편 or 현지 숙박)<br>- 김수찬/신성: 오타루 승선 수배 (항공편+항구 이동)<br>  → 선상공연 → 부산 하선<br>- 코스타 중간 승하선 절차 최종 확인 (질의서 #10)</td>
+<td style="" class="cell-wrap text-left">프로그램·행사팀/총괄</td>
+<td style="" class="cell-wrap">항공/숙박 수배</td>
+</tr>
+<tr style="--row-bg:#FEF5E7">
+<td style="" class="cell-wrap">VIP 의전</td>
+<td style="" class="cell-wrap">VIP 웰컴키트 제작</td>
+<td style="" class="cell-wrap text-left">- VIP 전용 목걸이, 파우치 별도 제작<br>- 웰컴레터 작성<br>- 객실 과일바구니/와인 사전 주문<br>- VIP 일정표 별도 제작</td>
+<td style="" class="cell-wrap text-left">총괄본부/선내운영팀</td>
+</tr>
+<tr style="--row-bg:#FEF5E7">
+<td style="" class="cell-wrap">콘텐츠/제작</td>
+<td style="" class="cell-wrap">사이니지 콘텐츠 최종 납품</td>
+<td style="" class="cell-wrap text-left">- 일자별 사이니지 콘텐츠 USB 제작<br>- 9층 LED Wall 영상 최종본 완성<br>- 테스트 파일 코스타 사전 전달</td>
+<td style="" class="cell-wrap text-left">지원·데이터팀</td>
+</tr>
+<tr style="--row-bg:#EBF5FB">
+<td style="font-weight:700" class="cell-wrap">D-14 ~ D-7<br>(6/5~6/12)</td>
+<td style="" class="cell-wrap">교육</td>
+<td style="" class="cell-wrap text-left">아르바이트 온라인 사전교육</td>
+<td style="" class="cell-wrap text-left">- 크루즈 개요 및 선내 구조 교육<br>- 고객응대 매뉴얼 숙지<br>- 비상 대응 절차 교육<br>- 팀별 업무 브리핑</td>
+<td style="" class="cell-wrap">선내운영팀장</td>
+<td style="" class="cell-wrap">온라인 진행</td>
+</tr>
+<tr style="--row-bg:#EBF5FB">
+<td style="" class="cell-wrap">점검</td>
+<td style="" class="cell-wrap">교차검증(Co-Validation)</td>
+<td style="" class="cell-wrap text-left">- 모두투어, CI, 환경재단, 웅진, 타이요 간 상호 운영항목 교차검증<br>- 체크리스트 상호 공유 및 검토<br>- 미비사항 보완</td>
+<td style="" class="cell-wrap text-left">총괄본부(전체)</td>
+</tr>
+<tr style="--row-bg:#EBF5FB">
+<td style="" class="cell-wrap">인력</td>
+<td style="" class="cell-wrap">초대가수/공연자 최종 인폼</td>
+<td style="" class="cell-wrap text-left">- 공연 일정, 리허설 시간, 동선 최종 안내<br>- 숙소(캐빈) 배정 안내<br>- 승하선 절차 상세 안내<br>- 음향/조명 테크니컬 라이더 최종 확인</td>
+<td style="" class="cell-wrap text-left">프로그램·행사팀</td>
+</tr>
+<tr style="--row-bg:#FDEDEC">
+<td style="font-weight:700" class="cell-wrap">D-7 ~ D-1<br>(6/12~6/18)</td>
+<td style="" class="cell-wrap">점검</td>
+<td style="" class="cell-wrap text-left">최종 점검 및 운영 시뮬레이션 (6/12~13)</td>
+<td style="" class="cell-wrap text-left">- 실제 오퍼레이션 시뮬레이션 실시<br>- 커뮤니케이션/보고/결정 프로세스 점검<br>- 비상상황 시나리오별 대응 훈련<br>- 전체 이슈 재검토 및 최종 보완</td>
+<td style="" class="cell-wrap">총괄본부(전체)</td>
+<td style="" class="cell-wrap">6/12~13 집중</td>
+</tr>
+<tr style="--row-bg:#FDEDEC">
+<td style="" class="cell-wrap">물류</td>
+<td style="" class="cell-wrap">부산 베이스캠프 세팅 (6/17~18)</td>
+<td style="" class="cell-wrap text-left">- 컨벤션홀 1일 임차 및 세팅<br>- 물품 집결 및 최종 점검<br>- 트럭 물류 최종 확인<br>- 스태프 집결 및 숙박</td>
+<td style="" class="cell-wrap text-left">지원·데이터팀</td>
+<td style="" class="cell-wrap">부산 이동</td>
+</tr>
+<tr style="--row-bg:#FDEDEC">
+<td style="" class="cell-wrap">교육</td>
+<td style="" class="cell-wrap">아르바이트 현장교육 (6/17 부산)</td>
+<td style="" class="cell-wrap text-left">- 대면 최종 교육 및 팀 배정<br>- 유니폼/명찰/무전기 배부<br>- 실전 시뮬레이션<br>- 비상대응 실습</td>
+<td style="" class="cell-wrap text-left">선내운영팀장</td>
+<td style="" class="cell-wrap">부산 현장</td>
+</tr>
+<tr style="--row-bg:#FDEDEC">
+<td style="" class="cell-wrap">물류</td>
+<td style="" class="cell-wrap">물품 선적 (6/18 또는 6/19 오전)</td>
+<td style="" class="cell-wrap text-left">- 트럭 2톤 부산항 도착<br>- 코스타 크루 3~4명 지원 요청 (질의서 #2)<br>- Mercurio Room용/창고객실용 구분 운반<br>- 물품 인수인계 확인</td>
+<td style="" class="cell-wrap text-left">지원·데이터팀</td>
+<td style="" class="cell-wrap">코스타 협조</td>
+</tr>
+<tr style="--row-bg:#FDEDEC">
+<td style="" class="cell-wrap">VIP 의전</td>
+<td style="" class="cell-wrap">VIP 최종 브리핑</td>
+<td style="" class="cell-wrap text-left">- VIP 동선 최종 확인<br>- 의전 담당자 배정 확인<br>- 웰컴키트 최종 점검<br>- 승선 당일 VIP 영접 시나리오 리허설</td>
+<td style="" class="cell-wrap text-left">총괄본부</td>
+</tr>
+</tbody>
+</table>
+</div>
+    </div>
+  </div>
   <div class="page" id="page-team-support">
     <div class="breadcrumb"><a href="#" onclick="showPage('home')">홈</a> / 팀별 워크스페이스 / 운영지원팀</div>
-    <div class="team-header" style="border-left:5px solid #2980B9">
+    <div id="team-support-overview" class="team-header" style="border-left:5px solid #2980B9">
       <h1>🏢 운영지원팀</h1>
       <div class="team-members">황지애(CI, 지원) · 양은희(모두투어) · 조아라(웅진) · 김지은(환경재단)</div>
       <div class="team-mission">고객응대 + 방송안내 + 정산관리 — 팀 과업, 유동배치</div>
     </div>
+    <div id="team-support-tasks">
     <h3 class="section-heading">📑 업무분장서</h3>
 <div class="table-wrap">
 <div class="section-title" style="background:#4527A0">▣ 팀 개요</div>
@@ -2255,14 +3111,20 @@ body.dark .badge-status-todo{background:#78350F;color:#FDE68A}
 </tbody>
 </table>
 </div>
+    </div>
+    <div id="team-support-sop">
+    </div>
+    <div id="team-support-manual">
+    </div>
   </div>
   <div class="page" id="page-team-event">
     <div class="breadcrumb"><a href="#" onclick="showPage('home')">홈</a> / 팀별 워크스페이스 / 공연/행사팀</div>
-    <div class="team-header" style="border-left:5px solid #E67E22">
+    <div id="team-event-overview" class="team-header" style="border-left:5px solid #E67E22">
       <h1>🎭 공연/행사팀</h1>
       <div class="team-members">이상민 매니저(팀장) ★사전탑승 + 팀원4 + 환경재단15명</div>
       <div class="team-mission">공연·이벤트·환경재단행사 통합운영</div>
     </div>
+    <div id="team-event-tasks">
     <h3 class="section-heading">📑 업무분장서</h3>
 <div class="table-wrap">
 <div class="section-title" style="background:#4527A0">▣ 팀 개요</div>
@@ -2702,6 +3564,132 @@ body.dark .badge-status-todo{background:#78350F;color:#FDE68A}
 </tbody>
 </table>
 </div>
+    </div>
+    <div id="team-event-sop">
+    <h3 class="section-heading">🎭 SOP·시나리오</h3>
+<div class="table-wrap">
+<table class="ops-table">
+<tbody>
+<tr><td colspan="8" class="cell-wrap merged-desc">※ 프로그램·행사팀은 하루 최대 15건 이상의 프로그램을 8개 장소에서 동시 다발적으로 운영합니다.<br>※ 음향·조명 장비 의존도가 높고, 아티스트·관객·선사 테크니션 3자간 조율이 핵심이므로 아래 시나리오에 대한 사전 대비가 필수적입니다.<br>※ 대응 레벨: 🟢 현장 즉시 처리 / 🟡 팀장 판단 / 🔴 본부장 최종 결정</td></tr>
+</tbody>
+<thead>
+<tr>
+<th style="color:#FFFFFF;font-weight:700">No</th>
+<th style="color:#FFFFFF;font-weight:700">발생 시점</th>
+<th style="color:#FFFFFF;font-weight:700">시나리오</th>
+<th style="color:#FFFFFF;font-weight:700">상세 상황</th>
+<th style="color:#FFFFFF;font-weight:700">대응 절차 (SOP)</th>
+<th style="color:#FFFFFF;font-weight:700">레벨</th>
+<th style="color:#FFFFFF;font-weight:700">1차 담당</th>
+<th style="color:#FFFFFF;font-weight:700">에스컬레이션</th>
+</tr>
+</thead>
+<tbody>
+<tr style="--row-bg:#FDEDEC">
+<td style="font-weight:700" class="cell-wrap">S-01</td>
+<td style="" class="cell-wrap">공연 중</td>
+<td style="font-weight:700" class="cell-wrap">음향 시스템 장애<br>(PA 시스템 다운)</td>
+<td style="" class="cell-wrap">메인 공연(김태우/조수찬 등) 도중<br>PA 시스템이 갑자기 다운되어<br>음향이 완전히 끊김</td>
+<td style="" class="cell-wrap">① 즉시 MC가 관객에게 "잠시 기술 점검" 안내 (마이크 불가 시 육성)<br>② 테크니션에게 즉시 원인 파악 요청 (10분 이내)<br>③ 백업 음향 투입 시도 (이동식 PA or 노트북+외부스피커)<br>④ 5분 내 복구 불가 시 → 공연 일시 중단, MC 관객 안내<br>⑤ 아티스트에게 상황 설명 및 MR(반주) 전환 가능 여부 확인<br>⑥ 15분 내 미복구 → 공연 30분 딜레이 또는 시간대 변경<br>⑦ 완전 불가 → 대체 장소(솔레/지오베) 긴급 전환 검토<br>⑧ HQ/본부장 즉시 보고</td>
+<td style="" class="cell-wrap">🟡→🔴</td>
+<td style="" class="cell-wrap">팀원A+테크</td>
+<td style="" class="cell-wrap">팀장→본부장</td>
+</tr>
+<tr style="--row-bg:#FDEDEC">
+<td style="font-weight:700" class="cell-wrap">S-02</td>
+<td style="" class="cell-wrap">공연 전</td>
+<td style="font-weight:700" class="cell-wrap">아티스트 지각·불참<br>(no-show)</td>
+<td style="" class="cell-wrap">리허설 시간에 아티스트가 나타나지 않음.<br>캐빈에서 컨디션 불량으로<br>공연 불참 의사 전달</td>
+<td style="" class="cell-wrap">① 캐빈으로 즉시 확인 연락 (전화+방문)<br>② 컨디션 불량 시 → 의무실 연계, 회복 가능 여부 판단<br>③ 30분 딜레이 가능 여부 검토<br>④ 불참 확정 시 → 대체 프로그램 즉시 편성:<br>   a) 다른 아티스트 추가 공연 (사전 양해 얻어둔 경우)<br>   b) 선상노래자랑 확대 or MC쇼 확대<br>   c) 영화 상영 긴급 전환<br>⑤ 관객 안내 방송 (안내파트 연동)<br>⑥ 사이니지 프로그램 변경 업데이트</td>
+<td style="" class="cell-wrap">🔴</td>
+<td style="" class="cell-wrap">팀원A→팀장</td>
+<td style="" class="cell-wrap">본부장</td>
+</tr>
+<tr style="--row-bg:#FDEDEC">
+<td style="font-weight:700" class="cell-wrap">S-03</td>
+<td style="" class="cell-wrap">공연 중</td>
+<td style="font-weight:700" class="cell-wrap">관객 과밀·안전사고</td>
+<td style="" class="cell-wrap">그랜드바(수용 300~400명) 공연에<br>500명 이상 몰려 입구·통로 막힘.<br>밀림 사고 또는 쓰러짐 발생</td>
+<td style="" class="cell-wrap">① 즉시 입장 제한 (알바+기항지팀 입구 통제)<br>② 스탠딩 구역 개방 및 안전 통로 확보<br>③ 방송으로 다른 장소(솔레 등) 중계/동시 관람 안내<br>④ 쓰러짐 발생 시 → 의무실(내선99) 즉시 연락<br>⑤ 코스타 보안팀에 지원 요청<br>⑥ 심각 시 공연 일시 중단 → 관객 분산 후 재개<br>⑦ 사고 보고서 작성 (부상자 정보, 상황 기록)</td>
+<td style="" class="cell-wrap">🟡→🔴</td>
+<td style="" class="cell-wrap">알바/팀원</td>
+<td style="" class="cell-wrap">팀장→본부장</td>
+</tr>
+<tr style="--row-bg:#FDEDEC">
+<td style="font-weight:700" class="cell-wrap">S-04</td>
+<td style="" class="cell-wrap">전환 시</td>
+<td style="font-weight:700" class="cell-wrap">장소 전환 시간 초과<br>(Turn-around 지연)</td>
+<td style="" class="cell-wrap">이전 프로그램(단체대여) 종료가<br>늦어져 다음 공연(조수찬 1부)<br>세팅 시간 부족. 리허설 불가 위기</td>
+<td style="" class="cell-wrap">① 이전 프로그램 담당자에게 정시 종료 강력 요청<br>② 전환 인력 사전 대기 (알바 3~4명 세팅 준비)<br>③ 음향·조명은 프리셋으로 즉시 전환 (사전 저장 필수)<br>④ 리허설 축소 (사운드체크만 5분)<br>⑤ 아티스트에게 상황 설명 및 양해<br>⑥ 최악의 경우 공연 15분 딜레이<br>⑦ 재발 방지: 전환 버퍼 타임 30분 확보 원칙</td>
+<td style="" class="cell-wrap">🟡</td>
+<td style="" class="cell-wrap">팀원A/B</td>
+<td style="" class="cell-wrap">팀장</td>
+</tr>
+<tr style="--row-bg:#FEF5E7">
+<td style="font-weight:700" class="cell-wrap">S-05</td>
+<td style="" class="cell-wrap">운영 중</td>
+<td style="font-weight:700" class="cell-wrap">테크니션 미배치<br>(코스타 인력 불참)</td>
+<td style="" class="cell-wrap">요청한 시간에 코스타 테크니션이<br>나타나지 않아 음향·조명 운영 불가</td>
+<td style="" class="cell-wrap">① GRM에 즉시 연락 → 테크니션 출동 요청<br>② 대기 중 자체 음향 운영 시도 (프리셋 기반)<br>③ 간단 프로그램(강연 등)은 자체 운영으로 전환<br>④ 10분 내 미도착 → Cruise Director에게 에스컬레이션<br>⑤ 공연의 경우 → 15분 딜레이 안내<br>⑥ 재발 방지: 매일 아침 테크니션 배치표 GRM과 사전 확인</td>
+<td style="" class="cell-wrap">🟡</td>
+<td style="" class="cell-wrap">팀장</td>
+<td style="" class="cell-wrap">GRM→CD</td>
+</tr>
+<tr style="--row-bg:#FEF5E7">
+<td style="font-weight:700" class="cell-wrap">S-06</td>
+<td style="" class="cell-wrap">동시진행</td>
+<td style="font-weight:700" class="cell-wrap">동시 공연 긴급 이슈<br>(두 장소 동시 문제)</td>
+<td style="" class="cell-wrap">21:00 임병수(그랜드바) + 박재홍(솔레)<br>동시 진행 중 양쪽 모두 이슈 발생<br>(한쪽 음향 문제 + 한쪽 관객 과밀)</td>
+<td style="" class="cell-wrap">① 팀장이 더 심각한 쪽 우선 대응 (우선순위 판단)<br>② 나머지 장소는 해당 담당 팀원이 자율 대응<br>③ 알바/기항지팀 추가 투입 요청 (HQ)<br>④ 무전기로 양쪽 상황 실시간 교신<br>⑤ 심각한 쪽 해결 후 나머지 쪽 순회<br>⑥ 재발 방지: 동시 진행 시 장소당 최소 2명 배치 원칙</td>
+<td style="" class="cell-wrap">🟡</td>
+<td style="" class="cell-wrap">팀장+팀원C</td>
+<td style="" class="cell-wrap">HQ팀장</td>
+</tr>
+<tr style="--row-bg:#FEF5E7">
+<td style="font-weight:700" class="cell-wrap">S-07</td>
+<td style="" class="cell-wrap">기항일</td>
+<td style="font-weight:700" class="cell-wrap">기항지 귀선 지연으로<br>저녁 공연 준비 불가</td>
+<td style="" class="cell-wrap">하코다테/오타루 귀선이 지연되어<br>저녁 공연(임병수/박재홍) 세팅 인력 부족.<br>기항지팀 합류 불가 상태</td>
+<td style="" class="cell-wrap">① 귀선 현황 기항지팀에 실시간 확인<br>② 선내 잔류 인력(팀장+팀원C+알바)으로 최소 세팅 시작<br>③ 세팅 간소화: 풀세팅 → 미니멀 세팅 전환<br>④ 공연 시작 30분 딜레이 안내 (방송파트 연동)<br>⑤ 귀선 완료 즉시 기항지팀 합류 → 잔여 세팅<br>⑥ 최악의 경우 소규모 공연으로 축소 운영</td>
+<td style="" class="cell-wrap">🟡</td>
+<td style="" class="cell-wrap">팀장</td>
+<td style="" class="cell-wrap">HQ팀장</td>
+</tr>
+<tr style="--row-bg:#F7F9FC">
+<td style="font-weight:700" class="cell-wrap">S-08</td>
+<td style="" class="cell-wrap">행사 중</td>
+<td style="font-weight:700" class="cell-wrap">선상노래자랑 진행 장애<br>(참가자 문제)</td>
+<td style="" class="cell-wrap">노래자랑 결선(6/24) 시 참가자 미출석,<br>음향 피드백 지속 발생,<br>심사 결과 이의제기 등 복합 문제</td>
+<td style="" class="cell-wrap">① 참가자 미출석 → 예비 참가자 즉시 투입 (사전 대기 필수)<br>② 음향 피드백 → 테크니션 즉시 조정, 마이크 교체<br>③ MC가 자연스럽게 진행 연결 (대화/관객 참여)<br>④ 심사 이의 → MC가 유머로 전환, 공정성 재확인 안내<br>⑤ 시상품 문제 → 대체 상품 준비 (사전 예비 확보)<br>⑥ 시간 초과 → 엔딩 축소 (마지막 곡+시상으로 정리)</td>
+<td style="" class="cell-wrap">🟢→🟡</td>
+<td style="" class="cell-wrap">팀원B</td>
+<td style="" class="cell-wrap">팀장</td>
+</tr>
+<tr style="--row-bg:#F7F9FC">
+<td style="font-weight:700" class="cell-wrap">S-09</td>
+<td style="" class="cell-wrap">환경재단</td>
+<td style="font-weight:700" class="cell-wrap">다중 강연 장소 전환 혼선</td>
+<td style="" class="cell-wrap">6/20·24 같은 날 6개 이상 강연이<br>여러 장소에서 동시·연속 진행되면서<br>강연자·관객·장비 혼선 발생</td>
+<td style="" class="cell-wrap">① 일일 강연 배치표를 전 장소 입구에 게시<br>② 강연자에게 전일 22:00 최종 시간·장소 안내 (카톡)<br>③ 장소별 안내 POP 배치 (알바 1명씩 입구 배치)<br>④ 연속 강연 시 전환 시간 최소 10분 확보<br>⑤ 혼선 발생 시 → 팀원D가 현장 조정, 관객 안내<br>⑥ 재단 8명과 역할 분담: 재단측이 강연자 관리, 팀원D가 인프라 관리</td>
+<td style="" class="cell-wrap">🟢</td>
+<td style="" class="cell-wrap">팀원D</td>
+<td style="" class="cell-wrap">팀장</td>
+</tr>
+<tr style="--row-bg:#F7F9FC">
+<td style="font-weight:700" class="cell-wrap">S-10</td>
+<td style="" class="cell-wrap">날씨/선박</td>
+<td style="font-weight:700" class="cell-wrap">야외 행사 취소<br>(리도/갑판 프로그램)</td>
+<td style="" class="cell-wrap">리도(야외)에서 예정된 네트워킹/대안공간이<br>우천 또는 강풍으로 진행 불가</td>
+<td style="" class="cell-wrap">① 날씨 확인 (출항 후 매일 오전 기상 체크)<br>② 우천 시 → 대체 장소 즉시 확보 (판디스코/큐피도)<br>③ 해당 시간대 빈 장소 확인 (타임테이블 대조)<br>④ 방송으로 장소 변경 안내<br>⑤ 사이니지 긴급 업데이트<br>⑥ 야외 장비 철수 (비 피해 방지)<br>⑦ 재발 방지: 야외 행사는 항상 실내 대체 장소 사전 지정</td>
+<td style="" class="cell-wrap">🟢</td>
+<td style="" class="cell-wrap">팀원D→팀장</td>
+<td style="" class="cell-wrap">HQ(방송)</td>
+</tr>
+</tbody>
+</table>
+</div>
+    </div>
+    <div id="team-event-manual">
     <h3 class="section-heading">🎭 프로그램·행사팀 (초안) 매뉴얼</h3>
 <div class="table-wrap">
 <div class="section-title" style="background:#C05621">▣ 프로그램 3대 카테고리 및 담당 구분</div>
@@ -4018,14 +5006,16 @@ body.dark .badge-status-todo{background:#78350F;color:#FDE68A}
 </tbody>
 </table>
 </div>
+    </div>
   </div>
   <div class="page" id="page-team-port">
     <div class="breadcrumb"><a href="#" onclick="showPage('home')">홈</a> / 팀별 워크스페이스 / 기항지운영팀</div>
-    <div class="team-header" style="border-left:5px solid #27AE60">
+    <div id="team-port-overview" class="team-header" style="border-left:5px solid #27AE60">
       <h1>⚓ 기항지운영팀</h1>
       <div class="team-members">이수일 팀장 ★듀얼 + 팀원1 + 타이요(6+가이드70)</div>
       <div class="team-mission">하코다테·오타루 기항지 투어 운영 + 승하선 겸임</div>
     </div>
+    <div id="team-port-tasks">
     <h3 class="section-heading">📑 업무분장서</h3>
 <div class="table-wrap">
 <div class="section-title" style="background:#4527A0">▣ 팀 개요</div>
@@ -4345,6 +5335,390 @@ body.dark .badge-status-todo{background:#78350F;color:#FDE68A}
 </tbody>
 </table>
 </div>
+    </div>
+    <div id="team-port-sop">
+    <h3 class="section-heading">⚓ SOP·시나리오</h3>
+<div class="table-wrap">
+<div class="section-title" style="background:#276749">SOP-01. 하선 관리 매뉴얼</div>
+<table class="ops-table">
+<thead>
+<tr>
+<th style="color:#FFFFFF;font-weight:700">단계</th>
+<th style="color:#FFFFFF;font-weight:700">프로세스</th>
+<th style="color:#FFFFFF;font-weight:700">상세 내용</th>
+<th style="color:#FFFFFF;font-weight:700">체크리스트</th>
+<th style="color:#FFFFFF;font-weight:700">담당</th>
+<th style="color:#FFFFFF;font-weight:700">시점</th>
+</tr>
+</thead>
+<tbody>
+<tr style="--row-bg:#FFFFFF">
+<td style="font-weight:700" class="cell-wrap">1</td>
+<td style="font-weight:700" class="cell-wrap">하선 준비<br>(기항 전일 22:00)</td>
+<td style="" class="cell-wrap text-left">- 투어별 하선 순서 확정<br>- 자유여행자 명단 확정<br>- PLP 인쇄·확인<br>- CIQ 명단 코스타 제출 확인<br>- 인솔자 브리핑 자료 준비</td>
+<td style="" class="cell-wrap text-left">□ 하선 순서표 확정<br>□ PLP 준비 완료<br>□ CIQ 제출 확인<br>□ 인솔자 자료 준비</td>
+<td style="" class="cell-wrap">팀장</td>
+<td style="" class="cell-wrap">전일 22:00</td>
+</tr>
+<tr style="--row-bg:#FFFFFF">
+<td style="font-weight:700" class="cell-wrap">2</td>
+<td style="font-weight:700" class="cell-wrap">인솔자 브리핑<br>(기항 당일 09:00)</td>
+<td style="" class="cell-wrap text-left">- 인솔자 70명 하선 브리핑<br>- 투어별 집합장소·시간·차량 안내<br>- 자유여행 귀선 시간 반복 강조<br>- 비상연락번호 배포<br>- 승하선 주의사항 (PLP/여권/시간)</td>
+<td style="" class="cell-wrap text-left">□ 브리핑 장소 확보<br>□ 전 인솔자 참석<br>□ 비상연락번호 배포<br>□ 귀선 시간 3회 이상 안내</td>
+<td style="" class="cell-wrap">팀장</td>
+<td style="" class="cell-wrap">당일 09:00</td>
+</tr>
+<tr style="--row-bg:#FFFFFF">
+<td style="font-weight:700" class="cell-wrap">3</td>
+<td style="font-weight:700" class="cell-wrap">하선 실행<br>(입항 후)</td>
+<td style="" class="cell-wrap text-left">- 갱웨이 앞 대기열 관리<br>- 조별 순차 하선 (투어 → 자유여행 순)<br>- PLP 소지 확인<br>- 하선 인원 실시간 집계 (클립보드/체크리스트)<br>- 하선 완료 → 코스타에 보고</td>
+<td style="" class="cell-wrap text-left">□ 갱웨이 스태프 배치<br>□ 조별 하선 개시<br>□ 인원 집계 시작<br>□ 하선 완료 보고</td>
+<td style="" class="cell-wrap">팀장+팀원</td>
+<td style="" class="cell-wrap">입항 후</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrap">
+<div class="section-title" style="background:#276749">SOP-02. 귀선(재승선) 관리 매뉴얼</div>
+<table class="ops-table">
+<thead>
+<tr>
+<th style="color:#FFFFFF;font-weight:700">단계</th>
+<th style="color:#FFFFFF;font-weight:700">프로세스</th>
+<th style="color:#FFFFFF;font-weight:700">상세 내용</th>
+<th style="color:#FFFFFF;font-weight:700">체크리스트</th>
+<th style="color:#FFFFFF;font-weight:700">담당</th>
+<th style="color:#FFFFFF;font-weight:700">시점</th>
+</tr>
+</thead>
+<tbody>
+<tr style="--row-bg:#FFFFFF">
+<td style="font-weight:700" class="cell-wrap">1</td>
+<td style="font-weight:700" class="cell-wrap">귀선 준비<br>(All Aboard 1시간 전)</td>
+<td style="" class="cell-wrap text-left">- 갱웨이 귀선 체크 포인트 세팅<br>- 체크리스트(투어별 명단) 준비<br>- 무전기 교신 확인<br>- 코스타 갱웨이 크루와 사전 조율</td>
+<td style="" class="cell-wrap text-left">□ 체크 포인트 세팅<br>□ 명단 준비<br>□ 무전기 OK<br>□ 코스타 조율</td>
+<td style="" class="cell-wrap">팀원</td>
+<td style="" class="cell-wrap">AB -1h</td>
+</tr>
+<tr style="--row-bg:#FFFFFF">
+<td style="font-weight:700" class="cell-wrap">2</td>
+<td style="font-weight:700" class="cell-wrap">귀선 체크<br>(All Aboard 30분 전~)</td>
+<td style="" class="cell-wrap text-left">- 귀선자 성명·캐빈 번호 체크<br>- 투어별 귀선 인원 실시간 집계<br>- 카톡으로 HQ에 귀선 현황 보고 (15분 간격)<br>- 미귀선 투어 그룹 인솔자에게 확인</td>
+<td style="" class="cell-wrap text-left">□ 체크 시작<br>□ 15분 간격 보고<br>□ 미귀선 그룹 확인</td>
+<td style="" class="cell-wrap">팀장+팀원</td>
+<td style="" class="cell-wrap">AB -30min</td>
+</tr>
+<tr style="--row-bg:#FFFFFF">
+<td style="font-weight:700" class="cell-wrap">3</td>
+<td style="font-weight:700" class="cell-wrap">미귀선 대응<br>(All Aboard 15분 전~)</td>
+<td style="" class="cell-wrap text-left">- 미귀선자 명단 추출<br>- 개별 전화 연락 (3회 이상)<br>- 현지 가이드에게 위치 확인<br>- HQ+본부장 즉시 보고<br>- 코스타에 미귀선 현황 통보<br>- All Aboard 시간 도달 시 최종 판단:<br>  → 연락 닿은 경우: 코스타에 대기 요청 (최대 15분)<br>  → 연락 불가: 출항 결정은 코스타 선장 권한</td>
+<td style="" class="cell-wrap text-left">□ 미귀선자 명단<br>□ 3회 연락<br>□ 가이드 확인<br>□ 본부장 보고<br>□ 코스타 통보</td>
+<td style="" class="cell-wrap">팀장</td>
+<td style="" class="cell-wrap">AB -15min</td>
+<td style="" class="cell-wrap">★최긴급</td>
+</tr>
+<tr style="--row-bg:#FFFFFF">
+<td style="font-weight:700" class="cell-wrap">4</td>
+<td style="font-weight:700" class="cell-wrap">최종 확인<br>(출항 직전)</td>
+<td style="" class="cell-wrap text-left">- 전원 귀선 확인 or 미귀선 확정<br>- 코스타에 최종 인원 보고<br>- 갱웨이 폐쇄 확인<br>- 미귀선자 → 현지 체류 대응:<br>  · 여행자보험 안내<br>  · 현지 숙박 수배<br>  · 귀국 항공편 수배<br>  · 가족/긴급 연락처 안내</td>
+<td style="" class="cell-wrap text-left">□ 최종 인원 확인<br>□ 갱웨이 폐쇄<br>□ 미귀선자 대응 시작</td>
+<td style="" class="cell-wrap">팀장</td>
+<td style="" class="cell-wrap">출항 직전</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrap">
+<div class="section-title" style="background:#276749">SOP-03. 중간 하선 매뉴얼 (김태우 / 하코다테)</div>
+<table class="ops-table">
+<thead>
+<tr>
+<th style="color:#FFFFFF;font-weight:700">단계</th>
+<th style="color:#FFFFFF;font-weight:700">프로세스</th>
+<th style="color:#FFFFFF;font-weight:700">상세 내용</th>
+<th style="color:#FFFFFF;font-weight:700">체크리스트</th>
+<th style="color:#FFFFFF;font-weight:700">담당</th>
+<th style="color:#FFFFFF;font-weight:700">시점</th>
+</tr>
+</thead>
+<tbody>
+<tr style="--row-bg:#FFFFFF">
+<td style="font-weight:700" class="cell-wrap">1</td>
+<td style="font-weight:700" class="cell-wrap">서류 준비<br>(D-7~전일)</td>
+<td style="" class="cell-wrap text-left">- 코스타 GRM에 중간 하선 공식 통보<br>- 코스타 양식 하선 신청서 작성·제출<br>- 김태우 여권 정보 확인<br>- 하코다테 현지 이동 수배 확인<br>- 동행 스태프 1명 배정 확정</td>
+<td style="" class="cell-wrap text-left">□ GRM 통보<br>□ 신청서 제출<br>□ 여권 확인<br>□ 이동 수배<br>□ 동행 스태프</td>
+<td style="" class="cell-wrap">팀장</td>
+<td style="" class="cell-wrap">D-7~전일</td>
+<td style="" class="cell-wrap">프로그램팀 협업</td>
+</tr>
+<tr style="--row-bg:#FFFFFF">
+<td style="font-weight:700" class="cell-wrap">2</td>
+<td style="font-weight:700" class="cell-wrap">정산 완료<br>(전일)</td>
+<td style="" class="cell-wrap text-left">- 김태우 선내 비용 정산 사전 완료<br>  (미니바·유료서비스 등 결제 완료)<br>- 정산 미완료 시 하선 지연 가능성<br>→ HQ 고객응대파트에 정산 완료 확인 요청</td>
+<td style="" class="cell-wrap text-left">□ 선내 정산 완료<br>□ HQ 확인</td>
+<td style="" class="cell-wrap">팀장→HQ</td>
+<td style="" class="cell-wrap">전일</td>
+<td style="" class="cell-wrap">★정산 필수</td>
+</tr>
+<tr style="--row-bg:#FFFFFF">
+<td style="font-weight:700" class="cell-wrap">3</td>
+<td style="font-weight:700" class="cell-wrap">하선 실행<br>(당일 13:00~)</td>
+<td style="" class="cell-wrap text-left">- 김태우 짐 패킹 확인<br>- 갱웨이까지 동행 에스코트<br>- 코스타 승선카드 반납<br>- 짐 운반 지원<br>- 항구에서 현지 이동 수단 인계<br>- 하선 완료 → HQ+본부장 보고</td>
+<td style="" class="cell-wrap text-left">□ 짐 확인<br>□ 에스코트<br>□ 카드 반납<br>□ 이동 인계<br>□ 완료 보고</td>
+<td style="" class="cell-wrap">팀장+동행</td>
+<td style="" class="cell-wrap">당일</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrap">
+<div class="section-title" style="background:#276749">SOP-04. 중간 승선 매뉴얼 (조수찬·신성 / 오타루)</div>
+<table class="ops-table">
+<thead>
+<tr>
+<th style="color:#FFFFFF;font-weight:700">단계</th>
+<th style="color:#FFFFFF;font-weight:700">프로세스</th>
+<th style="color:#FFFFFF;font-weight:700">상세 내용</th>
+<th style="color:#FFFFFF;font-weight:700">체크리스트</th>
+<th style="color:#FFFFFF;font-weight:700">담당</th>
+<th style="color:#FFFFFF;font-weight:700">시점</th>
+</tr>
+</thead>
+<tbody>
+<tr style="--row-bg:#FFFFFF">
+<td style="font-weight:700" class="cell-wrap">1</td>
+<td style="font-weight:700" class="cell-wrap">사전 수배<br>(D-30~D-7)</td>
+<td style="" class="cell-wrap text-left">- 서울→삿포로 항공편 예약·확정<br>- 삿포로→오타루 이동 수배<br>- 오타루 현지 숙박 (필요 시)<br>- 코스타 GRM에 중간 승선 공식 통보<br>- 코스타 양식 승선 신청서 작성·제출<br>- 코스타폼 사전 작성 (아티스트 정보)<br>- 승선카드 사전 발급 요청</td>
+<td style="" class="cell-wrap text-left">□ 항공편 확정<br>□ 이동 수배<br>□ GRM 통보<br>□ 신청서 제출<br>□ 코스타폼<br>□ 승선카드 요청</td>
+<td style="" class="cell-wrap">팀장+총괄</td>
+<td style="" class="cell-wrap">D-30~D-7</td>
+</tr>
+<tr style="--row-bg:#FFFFFF">
+<td style="font-weight:700" class="cell-wrap">2</td>
+<td style="font-weight:700" class="cell-wrap">현지 확인<br>(전일~당일 오전)</td>
+<td style="" class="cell-wrap text-left">- 아티스트 항공편 출발 확인<br>- 삿포로 도착 확인 (전화)<br>- 오타루 항구 이동 출발 확인<br>- 항구 도착 예상 시간 확인</td>
+<td style="" class="cell-wrap text-left">□ 출발 확인<br>□ 도착 확인<br>□ 이동 확인<br>□ 도착 예상</td>
+<td style="" class="cell-wrap">팀장</td>
+<td style="" class="cell-wrap">전일~당일</td>
+</tr>
+<tr style="--row-bg:#FFFFFF">
+<td style="font-weight:700" class="cell-wrap">3</td>
+<td style="font-weight:700" class="cell-wrap">항구 영접<br>(당일 14:00~)</td>
+<td style="" class="cell-wrap text-left">- 동행 스태프 1명 항구 사전 대기<br>- 아티스트 항구 도착 → 영접<br>- 갱웨이로 안내<br>- 코스타 체크인 (동행 스태프 대행)<br>- 승선카드 수령<br>- 보안 검색 통과<br>- 캐빈까지 에스코트<br>- 짐 운반 지원<br>- 리허설 시간·장소 안내<br>- 승선 완료 → HQ+본부장 보고</td>
+<td style="" class="cell-wrap text-left">□ 항구 영접<br>□ 체크인 완료<br>□ 승선카드 수령<br>□ 캐빈 안내<br>□ 리허설 안내<br>□ 완료 보고</td>
+<td style="" class="cell-wrap">팀장+동행</td>
+<td style="" class="cell-wrap">당일 14:00~</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrap">
+<div class="section-title" style="background:#276749">SOP-05. 자유여행자 관리 매뉴얼</div>
+<table class="ops-table">
+<thead>
+<tr>
+<th style="color:#FFFFFF;font-weight:700">단계</th>
+<th style="color:#FFFFFF;font-weight:700">프로세스</th>
+<th style="color:#FFFFFF;font-weight:700">상세 내용</th>
+<th style="color:#FFFFFF;font-weight:700">체크리스트</th>
+<th style="color:#FFFFFF;font-weight:700">담당</th>
+<th style="color:#FFFFFF;font-weight:700">시점</th>
+</tr>
+</thead>
+<tbody>
+<tr style="--row-bg:#FFFFFF">
+<td style="font-weight:700" class="cell-wrap">1</td>
+<td style="font-weight:700" class="cell-wrap">사전 등록</td>
+<td style="" class="cell-wrap text-left">- 자유여행 신청 접수 (승선 전 or 선내)<br>- 자유일정 확인서 수령 (서명 필수)<br>- 비상연락번호 기록<br>- 귀선 시간 서면 확인</td>
+<td style="" class="cell-wrap text-left">□ 확인서 수령<br>□ 연락번호 기록<br>□ 귀선 시간 확인</td>
+<td style="" class="cell-wrap">팀원</td>
+<td style="" class="cell-wrap">기항 전일</td>
+</tr>
+<tr style="--row-bg:#FFFFFF">
+<td style="font-weight:700" class="cell-wrap">2</td>
+<td style="font-weight:700" class="cell-wrap">하선 시 안내</td>
+<td style="" class="cell-wrap text-left">- 자유여행자 별도 하선 안내<br>- 귀선 시간 반복 강조 (구두+서면+문자)<br>- 비상연락 카드 배포<br>- 현지 지도·주요 정보 안내</td>
+<td style="" class="cell-wrap text-left">□ 귀선 시간 3회 안내<br>□ 비상 카드 배포<br>□ 지도 배포</td>
+<td style="" class="cell-wrap">팀원</td>
+<td style="" class="cell-wrap">하선 시</td>
+</tr>
+<tr style="--row-bg:#FFFFFF">
+<td style="font-weight:700" class="cell-wrap">3</td>
+<td style="font-weight:700" class="cell-wrap">귀선 관리</td>
+<td style="" class="cell-wrap text-left">- 귀선 체크 시 자유여행자 별도 체크<br>- All Aboard 1시간 전 문자 발송<br>- 30분 전 전화 확인 (미귀선 시)<br>- 미귀선 → SOP-02 미귀선 대응 프로세스 돌입</td>
+<td style="" class="cell-wrap text-left">□ 문자 발송<br>□ 전화 확인<br>□ 미귀선 시 SOP-02</td>
+<td style="" class="cell-wrap">팀원→팀장</td>
+<td style="" class="cell-wrap">All Aboard 전</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrap">
+<div class="section-title" style="background:#276749">SOP-06. 오타루 오버나잇 특수 운영</div>
+<table class="ops-table">
+<thead>
+<tr>
+<th style="color:#FFFFFF;font-weight:700">단계</th>
+<th style="color:#FFFFFF;font-weight:700">프로세스</th>
+<th style="color:#FFFFFF;font-weight:700">상세 내용</th>
+<th style="color:#FFFFFF;font-weight:700">체크리스트</th>
+<th style="color:#FFFFFF;font-weight:700">담당</th>
+<th style="color:#FFFFFF;font-weight:700">시점</th>
+</tr>
+</thead>
+<tbody>
+<tr style="--row-bg:#FFFFFF">
+<td style="font-weight:700" class="cell-wrap">1</td>
+<td style="font-weight:700" class="cell-wrap">야간 운영 준비<br>(22:00)</td>
+<td style="" class="cell-wrap text-left">- 갱웨이 24시간 오픈 확인 (코스타)<br>- 야간 승하선 절차 확인<br>- 야간 당직 배정 (팀원 교대)<br>- 야간 하선 시 귀선 시간 안내 (6/23 16:00 All Aboard)</td>
+<td style="" class="cell-wrap text-left">□ 갱웨이 24h 확인<br>□ 당직 배정<br>□ 귀선 안내</td>
+<td style="" class="cell-wrap">팀장</td>
+<td style="" class="cell-wrap">22:00</td>
+</tr>
+<tr style="--row-bg:#FFFFFF">
+<td style="font-weight:700" class="cell-wrap">2</td>
+<td style="font-weight:700" class="cell-wrap">야간 운영<br>(22:00~07:00)</td>
+<td style="" class="cell-wrap text-left">- 야간 하선자 체크 (성명·캐빈·예상 귀선 시간)<br>- 야간 귀선자 체크<br>- 야간 음주/사고 주의 안내<br>- 비상연락 체계 유지<br>- 이상 상황 즉시 HQ 보고</td>
+<td style="" class="cell-wrap text-left">□ 하선자 체크<br>□ 귀선자 체크<br>□ 비상 대기</td>
+<td style="" class="cell-wrap">팀원(당직)</td>
+<td style="" class="cell-wrap">야간</td>
+<td style="" class="cell-wrap">교대 운영</td>
+</tr>
+<tr style="--row-bg:#FFFFFF">
+<td style="font-weight:700" class="cell-wrap">3</td>
+<td style="font-weight:700" class="cell-wrap">익일 오전 전환<br>(6/23 07:00~)</td>
+<td style="" class="cell-wrap text-left">- 야간 하선/귀선 현황 인수인계<br>- 미귀선 야간 하선자 확인<br>- 오전 자유 관광 하선 관리 시작<br>- 최종 All Aboard(16:00) 카운트다운 시작</td>
+<td style="" class="cell-wrap text-left">□ 야간 현황 인계<br>□ 미귀선 확인<br>□ 오전 하선 관리</td>
+<td style="" class="cell-wrap">팀장</td>
+<td style="" class="cell-wrap">07:00</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrap">
+<table class="ops-table">
+<tbody>
+<tr><td colspan="8" class="cell-wrap merged-desc">※ 기항지운영팀의 최대 리스크는 "미귀선"과 "중간 승하선 실패"입니다. 2,400명을 정해진 시간 안에 내보내고 받는 것이 핵심 미션입니다.<br>※ 대응 레벨: 🟢 현장 즉시 / 🟡 팀장 판단 / 🔴 본부장 최종 결정</td></tr>
+</tbody>
+<thead>
+<tr>
+<th style="color:#FFFFFF;font-weight:700">No</th>
+<th style="color:#FFFFFF;font-weight:700">발생 시점</th>
+<th style="color:#FFFFFF;font-weight:700">시나리오</th>
+<th style="color:#FFFFFF;font-weight:700">상세 상황</th>
+<th style="color:#FFFFFF;font-weight:700">대응 절차 (SOP)</th>
+<th style="color:#FFFFFF;font-weight:700">레벨</th>
+<th style="color:#FFFFFF;font-weight:700">1차 담당</th>
+<th style="color:#FFFFFF;font-weight:700">에스컬레이션</th>
+</tr>
+</thead>
+<tbody>
+<tr style="--row-bg:#FDEDEC">
+<td style="font-weight:700" class="cell-wrap">P-01</td>
+<td style="" class="cell-wrap">귀선 시간<br>(AB 직전)</td>
+<td style="font-weight:700" class="cell-wrap">★★ 미귀선 — 연락 닿는 경우</td>
+<td style="" class="cell-wrap">All Aboard 시간 경과 후에도<br>승객 2~3명이 미귀선.<br>전화 연락은 닿는 상태.</td>
+<td style="" class="cell-wrap">① 현재 위치·도착 예상 시간 즉시 확인<br>② 코스타 갱웨이 크루에게 "지연 승선 요청" (최대 15분)<br>③ HQ+본부장 즉시 보고<br>④ 현지 가이드에게 택시 수배 또는 동행 요청<br>⑤ 도착 시 갱웨이에서 신속 재승선<br>⑥ 코스타 출항 딜레이 한계 확인 (선장 판단)<br>⑦ 도착 불가 판단 시 → 현지 체류 대응(P-02)</td>
+<td style="" class="cell-wrap">🔴</td>
+<td style="" class="cell-wrap">팀장</td>
+<td style="" class="cell-wrap">본부장→선장</td>
+</tr>
+<tr style="--row-bg:#FDEDEC">
+<td style="font-weight:700" class="cell-wrap">P-02</td>
+<td style="" class="cell-wrap">귀선 시간<br>(AB 경과)</td>
+<td style="font-weight:700" class="cell-wrap">★★★ 미귀선 — 연락 불가<br>/ 현지 체류 확정</td>
+<td style="" class="cell-wrap">All Aboard 시간 경과.<br>전화 연락 불가 또는<br>물리적으로 귀선 불가능 확정.</td>
+<td style="" class="cell-wrap">① 코스타에 미귀선 확정 통보 → 출항 허가 요청<br>② 미귀선자 정보 기록 (성명·캐빈·여권정보·비상연락처)<br>③ 미귀선자 동행 가족/일행 확인 → 선내 안내<br>④ 현지 대사관/영사관 연락처 안내 (일행에게)<br>⑤ 현지 체류 수배:<br>   a) 숙박: 현지 호텔 예약 (가이드 지원)<br>   b) 귀국: 항공편 수배 (또는 다음 기항지 합류 가능성)<br>   c) 여행자보험 안내<br>⑥ 객실 내 잔류 짐 보관 조치<br>⑦ 사고보고서 작성 (법적 대비)<br>⑧ 귀항 후 D+1 내 후속 연락</td>
+<td style="" class="cell-wrap">🔴</td>
+<td style="" class="cell-wrap">팀장</td>
+<td style="" class="cell-wrap">본부장→<br>코스타 선장→<br>대사관</td>
+</tr>
+<tr style="--row-bg:#FEF5E7">
+<td style="font-weight:700" class="cell-wrap">P-03</td>
+<td style="" class="cell-wrap">하선 시</td>
+<td style="font-weight:700" class="cell-wrap">CIQ(입국 심사) 지연<br>대규모 체류</td>
+<td style="" class="cell-wrap">일본 입국 심사가 예상보다<br>오래 걸려 하선이 1시간 이상 지연.<br>투어 차량·가이드 대기 중.</td>
+<td style="" class="cell-wrap">① 코스타 CIQ 담당에게 예상 소요 시간 확인<br>② 투어 차량·가이드에게 지연 안내 (타이요)<br>③ 대기 승객에게 방송 안내 (안내파트 요청)<br>④ 하선 순서 조정: 투어 참가자 우선 심사 요청<br>⑤ 자유여행자 → 투어 참가자 이후 하선<br>⑥ 투어 일정 조정: 단축 코스 대비안 가동<br>⑦ 코스타에 출항 시간 영향 여부 확인</td>
+<td style="" class="cell-wrap">🟡</td>
+<td style="" class="cell-wrap">팀장</td>
+<td style="" class="cell-wrap">코스타 CIQ</td>
+</tr>
+<tr style="--row-bg:#FEF5E7">
+<td style="font-weight:700" class="cell-wrap">P-04</td>
+<td style="" class="cell-wrap">기항일 중</td>
+<td style="font-weight:700" class="cell-wrap">투어 차량 고장/지연</td>
+<td style="" class="cell-wrap">투어 중 버스 고장 또는<br>교통 체증으로 대규모 지연.<br>귀선 시간 위협.</td>
+<td style="" class="cell-wrap">① 타이요 팀장에게 즉시 상황 확인<br>② 대체 차량 수배 (타이요→현지 업체)<br>③ 귀선 가능 시간 재계산<br>④ HQ에 상황 보고<br>⑤ All Aboard 시간 전 귀선 불가 시 → 코스타에 사전 통보<br>⑥ 해당 투어 고객에게 직접 안내 (인솔자 통해)<br>⑦ 사후: 투어 리포트에 기록, 업체 클레임</td>
+<td style="" class="cell-wrap">🟡→🔴</td>
+<td style="" class="cell-wrap">타이요팀장→팀장</td>
+<td style="" class="cell-wrap">본부장</td>
+</tr>
+<tr style="--row-bg:#FEF5E7">
+<td style="font-weight:700" class="cell-wrap">P-05</td>
+<td style="" class="cell-wrap">기항일 중</td>
+<td style="font-weight:700" class="cell-wrap">투어 고객 부상/급병</td>
+<td style="" class="cell-wrap">투어 중 고객 부상, 급병 발생.<br>현지 의료 지원 필요.</td>
+<td style="" class="cell-wrap">① 인솔자 → 119(일본: 119) 즉시 호출<br>② 타이요 팀장에게 즉시 보고<br>③ 현지 병원 이송 시 인솔자 1명 동행<br>④ HQ+본부장 즉시 보고<br>⑤ 동행 가족/일행에게 상황 안내<br>⑥ 여행자보험 안내<br>⑦ 병원 치료 후 귀선 가능 여부 판단<br>⑧ 귀선 불가 → 현지 체류 대응(P-02 연계)<br>⑨ 사고보고서 작성</td>
+<td style="" class="cell-wrap">🔴</td>
+<td style="" class="cell-wrap">인솔자→타이요→팀장</td>
+<td style="" class="cell-wrap">본부장</td>
+</tr>
+<tr style="--row-bg:#FEF9E7">
+<td style="font-weight:700" class="cell-wrap">P-06</td>
+<td style="" class="cell-wrap">오타루<br>(6/22)</td>
+<td style="font-weight:700" class="cell-wrap">★★ 조수찬/신성 항공편 지연<br>→ 승선 시간 위협</td>
+<td style="" class="cell-wrap">서울→삿포로 항공편 지연으로<br>아티스트가 오타루 입항(14:00)<br>시간에 맞춰 도착 불가능.</td>
+<td style="" class="cell-wrap">① 항공사에 도착 예상 시간 확인<br>② 삿포로→오타루 이동 시간 재계산<br>③ 14:00 입항 후에도 승선 가능한 시간 한계 확인 (오버나잇이므로)<br>④ 오타루 오버나잇 → 6/22 야간 or 6/23 오전 승선도 가능<br>⑤ 프로그램팀에 리허설·공연 일정 조정 통보<br>⑥ 본부장 보고<br>⑦ 최악: 6/23 17:00 출항 전까지는 승선 가능 → 일정 대폭 조정</td>
+<td style="" class="cell-wrap">🔴</td>
+<td style="" class="cell-wrap">팀장</td>
+<td style="" class="cell-wrap">본부장→<br>프로그램팀장</td>
+</tr>
+<tr style="--row-bg:#FEF9E7">
+<td style="font-weight:700" class="cell-wrap">P-07</td>
+<td style="" class="cell-wrap">하코다테<br>(6/21)</td>
+<td style="font-weight:700" class="cell-wrap">★★ 김태우 하선 시<br>코스타 거부/절차 지연</td>
+<td style="" class="cell-wrap">코스타 측이 중간 하선 서류 미비<br>또는 절차 미확인을 이유로<br>하선을 거부 또는 지연.</td>
+<td style="" class="cell-wrap">① 사전 제출한 하선 신청서 원본 제시<br>② GRM에 즉시 연락 → 승인 확인 요청<br>③ 서류 미비 → 현장에서 즉시 보완 작성<br>④ 코스타 측 지연 → 본부장이 Hotel Director에게 직접 교섭<br>⑤ 하코다테 출항(22:00) 전까지 하선 완료 필수<br>⑥ 최악: 김태우 하선 불가 → 오타루에서 하선 대안 검토<br>⑦ 예방: D-7에 GRM과 서면 확인 (이메일 증거 보관)</td>
+<td style="" class="cell-wrap">🔴</td>
+<td style="" class="cell-wrap">팀장</td>
+<td style="" class="cell-wrap">본부장→HD</td>
+</tr>
+<tr style="--row-bg:#F7F9FC">
+<td style="font-weight:700" class="cell-wrap">P-08</td>
+<td style="" class="cell-wrap">기항일</td>
+<td style="font-weight:700" class="cell-wrap">자유여행자 다수 미귀선<br>(5명 이상)</td>
+<td style="" class="cell-wrap">자유여행자 5명 이상이<br>All Aboard 시간에 미귀선.<br>개별 연락으로는 수습 불가 규모.</td>
+<td style="" class="cell-wrap">① 미귀선자 전원 동시 전화 (스태프 총동원)<br>② 현지 가이드 분산 투입 → 주요 관광지 탐색<br>③ 코스타에 대량 미귀선 통보<br>④ 본부장 → 코스타 선장에게 출항 15~30분 딜레이 교섭<br>⑤ 연락 닿는 순서대로 택시 수배 → 항구 집결<br>⑥ 최종 딜레이 한계 도달 → 미귀선 확정 → P-02 대응<br>⑦ 예방: 자유여행 확인서에 "미귀선 시 본인 책임" 서명 필수</td>
+<td style="" class="cell-wrap">🔴</td>
+<td style="" class="cell-wrap">팀장</td>
+<td style="" class="cell-wrap">본부장→선장</td>
+</tr>
+<tr style="--row-bg:#F7F9FC">
+<td style="font-weight:700" class="cell-wrap">P-09</td>
+<td style="" class="cell-wrap">기항일</td>
+<td style="font-weight:700" class="cell-wrap">악천후로 기항지<br>투어 전면 취소</td>
+<td style="" class="cell-wrap">폭우·태풍 등으로<br>하코다테 or 오타루 투어<br>전면 취소 불가피.</td>
+<td style="" class="cell-wrap">① 기상 확인 → 취소 결정 (타이요+팀장+본부장)<br>② 전 인솔자에게 취소 통보<br>③ 방송으로 승객 안내 (안내파트)<br>④ 대안 프로그램 편성 (프로그램팀 연계):<br>   a) 선내 특별 프로그램 긴급 편성<br>   b) 항구 인근 도보 관광 가능 시 안내<br>⑤ 자유하선은 개인 판단 (우천 시 주의 안내)<br>⑥ 투어 환불/대체 안내</td>
+<td style="" class="cell-wrap">🟡→🔴</td>
+<td style="" class="cell-wrap">팀장</td>
+<td style="" class="cell-wrap">본부장</td>
+</tr>
+<tr style="--row-bg:#F7F9FC">
+<td style="font-weight:700" class="cell-wrap">P-10</td>
+<td style="" class="cell-wrap">기항일</td>
+<td style="font-weight:700" class="cell-wrap">PLP/입국 서류 오류로<br>하선 거부</td>
+<td style="" class="cell-wrap">CIQ 서류 오류(이름 오기, 생년월일 불일치 등)로<br>일부 승객이 하선 거부됨.</td>
+<td style="" class="cell-wrap">① 해당 승객 여권 원본과 서류 즉시 대조<br>② 오류 발견 → 현장에서 수정본 작성<br>③ 코스타 CIQ 담당에게 수정본 제출<br>④ 재심사 요청<br>⑤ 재심사 통과 → 하선 허가<br>⑥ 통과 불가 → 선내 체류 안내 (자유시간)<br>⑦ 예방: 기항 전일 전 승객 서류 교차 검수 (이름/생년월일/여권번호)</td>
+<td style="" class="cell-wrap">🟡</td>
+<td style="" class="cell-wrap">팀장</td>
+<td style="" class="cell-wrap">코스타 CIQ</td>
+</tr>
+</tbody>
+</table>
+</div>
+    </div>
+    <div id="team-port-manual">
     <h3 class="section-heading">⚓ 기항지운영팀 (초안) 매뉴얼</h3>
 <div class="table-wrap">
 <table class="ops-table">
@@ -5280,14 +6654,16 @@ body.dark .badge-status-todo{background:#78350F;color:#FDE68A}
 </tbody>
 </table>
 </div>
+    </div>
   </div>
   <div class="page" id="page-team-embark">
     <div class="breadcrumb"><a href="#" onclick="showPage('home')">홈</a> / 팀별 워크스페이스 / 승하선팀</div>
-    <div class="team-header" style="border-left:5px solid #6C5CE7">
+    <div id="team-embark-overview" class="team-header" style="border-left:5px solid #6C5CE7">
       <h1>🚢 승하선팀</h1>
       <div class="team-members">김남민 매니저(미탑승/터미널전담) + 이수일★듀얼 + 알바3~4</div>
       <div class="team-mission">2,400명 승선·하선 터미널 총괄</div>
     </div>
+    <div id="team-embark-tasks">
     <h3 class="section-heading">📑 업무분장서</h3>
 <div class="table-wrap">
 <div class="section-title" style="background:#4527A0">▣ 팀 개요</div>
@@ -5610,6 +6986,227 @@ body.dark .badge-status-todo{background:#78350F;color:#FDE68A}
 </tbody>
 </table>
 </div>
+    </div>
+    <div id="team-embark-sop">
+    <h3 class="section-heading">🚢 SOP·시나리오</h3>
+<div class="table-wrap">
+<table class="ops-table">
+<tbody>
+<tr style="--row-bg:#FDEDEC">
+<td style="" class="cell-wrap">※ 승선일은 2,400명이 한 번에 몰리는 가장 혼잡하고 위험한 날입니다. 아래 시나리오를 사전에 숙지하고 예행연습(롯데JTB 모델링+리허설)을 통해 실전 감각을 확보하십시오.<br>※ 듀플리케이트(Duplicate) 이슈가 가장 민감하며, 문형식 매니저가 전담합니다. 탑승 거절까지 이어지는 최악의 케이스에 대비하십시오.<br>※ 대응 레벨: 🟢 현장 즉시 / 🟡 HQ팀장 판단 / 🔴 본부장 최종 결정</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrap">
+<div class="section-title" style="background:#4C51BF">A. 객실·듀플리케이트 이슈 (최우선 대응)</div>
+<table class="ops-table">
+<thead>
+<tr>
+<th style="color:#FFFFFF;font-weight:700">No</th>
+<th style="color:#FFFFFF;font-weight:700">발생 시점</th>
+<th style="color:#FFFFFF;font-weight:700">시나리오</th>
+<th style="color:#FFFFFF;font-weight:700">상세 상황</th>
+<th style="color:#FFFFFF;font-weight:700">대응 절차 (SOP)</th>
+<th style="color:#FFFFFF;font-weight:700">레벨</th>
+<th style="color:#FFFFFF;font-weight:700">전담</th>
+<th style="color:#FFFFFF;font-weight:700">에스컬레이션</th>
+</tr>
+</thead>
+<tbody>
+<tr style="--row-bg:#FDEDEC">
+<td style="font-weight:700" class="cell-wrap">C-01</td>
+<td style="" class="cell-wrap">승선 게이트<br>(16:30~)</td>
+<td style="font-weight:700" class="cell-wrap">★★ 듀플리케이트로<br>탑승 자체 거절</td>
+<td style="" class="cell-wrap">코스타 자체판매 고객과 차터사 고객의<br>객실이 중복 배정되어,<br>코스타 측이 차터사 고객의<br>탑승 자체를 거절하는 최악의 케이스</td>
+<td style="" class="cell-wrap">① 문형식 매니저 즉시 출동 (전담)<br>② 코스타 승선 게이트 담당자에게 상황 확인<br>③ 예약 확인서·계약서 제시 → 차터사 정당성 주장<br>④ 코스타 리셉션(선내)과 즉시 교신 → 대체 객실 확보 교섭<br>⑤ 고객에게 사과 + 별도 대기 공간 안내 (터미널 회의실)<br>⑥ 대체 객실 확보 시 → 즉시 승선 안내<br>⑦ 교섭 난항 시 → 본부장 직접 개입 → 코스타 HD와 교섭<br>⑧ 최악: 동급 이상 객실 확보 불가 → 상위 등급 무상 업그레이드 + 온보드 크레딧 보상<br>⑨ 완전 불가: 고객에게 상세 경위 설명 + 대체 숙박 + 항공편 + 전액 환불 + 위로금<br>⑩ 전 과정 기록 (법적 대비)</td>
+<td style="" class="cell-wrap">🔴</td>
+<td style="" class="cell-wrap">문형식 매니저</td>
+<td style="" class="cell-wrap">본부장→<br>코스타 HD→<br>법무 검토</td>
+</tr>
+<tr style="--row-bg:#FEF5E7">
+<td style="font-weight:700" class="cell-wrap">C-02</td>
+<td style="" class="cell-wrap">승선 직후<br>(객실 입실)</td>
+<td style="font-weight:700" class="cell-wrap">듀플리케이트 발견<br>(선내)</td>
+<td style="" class="cell-wrap">두 고객이 동시에 같은 객실에 도착.<br>이미 승선 완료 상태에서 발견</td>
+<td style="" class="cell-wrap">① 양측 고객 분리 (1조는 대기 라운지 안내)<br>② 문형식 매니저 + 황지애 대리 공동 대응<br>③ 예약 히스토리 대조 (누가 정당한 배정인지 판단)<br>④ 코스타 리셉션에 즉시 대체 객실 요청<br>⑤ 30분 내 대체 객실 확보 → 이동 안내<br>⑥ 대기 고객에게 음료 쿠폰 + 사과<br>⑦ 짐 이동 지원<br>⑧ 사후: 전체 객실 크로스체크 추가 실시</td>
+<td style="" class="cell-wrap">🟡→🔴</td>
+<td style="" class="cell-wrap">문형식+황지애</td>
+<td style="" class="cell-wrap">HQ팀장→<br>본부장</td>
+</tr>
+<tr style="--row-bg:#FEF5E7">
+<td style="font-weight:700" class="cell-wrap">C-03</td>
+<td style="" class="cell-wrap">승선 직후</td>
+<td style="font-weight:700" class="cell-wrap">객실 하자 발견<br>(설비 고장)</td>
+<td style="" class="cell-wrap">에어컨·샤워·변기·도어락 등<br>설비 고장으로 객실 사용 불가</td>
+<td style="" class="cell-wrap">① 고객 사과 + 상황 접수<br>② 코스타 메인터넌스에 수리 요청 (내선)<br>③ 수리 예상 시간 확인 → 고객 안내<br>④ 수리 불가 → 대체 객실 요청<br>⑤ 대기 중 라운지 이용 안내<br>⑥ 짐 이동 지원</td>
+<td style="" class="cell-wrap">🟢→🟡</td>
+<td style="" class="cell-wrap">양은희/정은혜</td>
+<td style="" class="cell-wrap">HQ팀장</td>
+</tr>
+<tr style="--row-bg:#FEF5E7">
+<td style="font-weight:700" class="cell-wrap">C-04</td>
+<td style="" class="cell-wrap">승선 직후</td>
+<td style="font-weight:700" class="cell-wrap">객실 요청사항 미반영</td>
+<td style="" class="cell-wrap">침대 배치·유아침대·인접객실 등<br>예약 시 요청이 반영 안 됨</td>
+<td style="" class="cell-wrap">① 예약 히스토리 확인 (황지애)<br>② 코스타 리셉션에 변경 요청<br>③ 하우스키핑 침대 변경 (1시간 내)<br>④ 즉시 불가 → 대안 제시 + 사과</td>
+<td style="" class="cell-wrap">🟢</td>
+<td style="" class="cell-wrap">정은혜</td>
+<td style="" class="cell-wrap">HQ팀장</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrap">
+<div class="section-title" style="background:#4C51BF">B. 승선 프로세스 이슈</div>
+<table class="ops-table">
+<thead>
+<tr>
+<th style="color:#FFFFFF;font-weight:700">No</th>
+<th style="color:#FFFFFF;font-weight:700">발생 시점</th>
+<th style="color:#FFFFFF;font-weight:700">시나리오</th>
+<th style="color:#FFFFFF;font-weight:700">상세 상황</th>
+<th style="color:#FFFFFF;font-weight:700">대응 절차 (SOP)</th>
+<th style="color:#FFFFFF;font-weight:700">레벨</th>
+<th style="color:#FFFFFF;font-weight:700">전담</th>
+<th style="color:#FFFFFF;font-weight:700">에스컬레이션</th>
+</tr>
+</thead>
+<tbody>
+<tr style="--row-bg:#FEF5E7">
+<td style="font-weight:700" class="cell-wrap">C-05</td>
+<td style="" class="cell-wrap">터미널<br>(16:00~)</td>
+<td style="font-weight:700" class="cell-wrap">여권 미소지 고객</td>
+<td style="" class="cell-wrap">승선 게이트에서 여권을 안 가져온<br>고객 발견. 탑승 불가 위기</td>
+<td style="" class="cell-wrap">① 고객 안정 → 별도 대기 안내<br>② 여권 소재 확인 (자택? 호텔? 차량?)<br>③ 부산 시내 → 택시 왕복 가능 시간 계산<br>④ 동행자가 가져올 수 있는지 확인<br>⑤ 승선 마감(20:00) 전 도착 가능 → 대기 후 승선<br>⑥ 도착 불가 → 탑승 불가 안내 + 환불 절차 안내<br>⑦ 코스타에 지연 승선 가능 시간 확인</td>
+<td style="" class="cell-wrap">🟡</td>
+<td style="" class="cell-wrap">터미널조(김남민)</td>
+<td style="" class="cell-wrap">이수일팀장</td>
+</tr>
+<tr style="--row-bg:#FEF5E7">
+<td style="font-weight:700" class="cell-wrap">C-06</td>
+<td style="" class="cell-wrap">터미널</td>
+<td style="font-weight:700" class="cell-wrap">구여권/훼손여권<br>고객</td>
+<td style="" class="cell-wrap">여권 유효기간 만료 또는<br>여권 훼손으로<br>출국 심사 통과 불가</td>
+<td style="" class="cell-wrap">① 여권 상태 즉시 확인<br>② 유효기간 만료 → 탑승 불가 (법적 사유)<br>③ 훼손 → 출입국관리사무소 판단 필요 (현장 심사관)<br>④ 탑승 불가 확정 → 환불 절차 안내<br>⑤ 동행 가족 처리 (동반 취소 or 단독 승선 선택)<br>⑥ 긴급 여권 발급 안내 (부산 여권사무소 → 하코다테 합류 가능성)</td>
+<td style="" class="cell-wrap">🟡→🔴</td>
+<td style="" class="cell-wrap">터미널조(김남민)</td>
+<td style="" class="cell-wrap">이수일→본부장</td>
+</tr>
+<tr style="--row-bg:#FEF5E7">
+<td style="font-weight:700" class="cell-wrap">C-07</td>
+<td style="" class="cell-wrap">터미널<br>(18:00~)</td>
+<td style="font-weight:700" class="cell-wrap">승선 시간 대폭 지연<br>(늦게 오는 고객)</td>
+<td style="" class="cell-wrap">KTX 지연·교통체증 등으로<br>다수 고객이 예정 시간보다<br>1~2시간 늦게 도착</td>
+<td style="" class="cell-wrap">① 지연 고객 연락 (인솔자 → 고객 전화)<br>② 도착 예상 시간 확인<br>③ 승선 마감 시간(20:00) 안내<br>④ 20:00 전 도착 → 신속 체크인 후 승선<br>⑤ 조별 미팅 생략 → 직행 승선 안내<br>⑥ 대량 지연 → 코스타에 승선 마감 연장 요청 검토<br>⑦ 출항 시간(21:00) 변경 불가 → 최종 마감 엄수</td>
+<td style="" class="cell-wrap">🟢→🟡</td>
+<td style="" class="cell-wrap">터미널조</td>
+<td style="" class="cell-wrap">이수일</td>
+</tr>
+<tr style="--row-bg:#FEF5E7">
+<td style="font-weight:700" class="cell-wrap">C-08</td>
+<td style="" class="cell-wrap">터미널→선내</td>
+<td style="font-weight:700" class="cell-wrap">수화물 미도착/분실<br>(승선 직후)</td>
+<td style="" class="cell-wrap">승선 후 객실에 짐이 안 옴.<br>짐 태그 분실로 추적 불가.<br>다른 객실로 잘못 배달</td>
+<td style="" class="cell-wrap">① 짐 태그 번호 확인<br>② 코스타 벨보이팀에 추적 요청<br>③ 잘못 배달 → 해당 객실 확인 후 회수<br>④ 항구 잔류 확인 (터미널조 → 김남민 현장 확인)<br>⑤ 지연 시 필수 세면도구 안내<br>⑥ 24시간 미발견 → 분실 접수<br>⑦ 2시간마다 고객 업데이트</td>
+<td style="" class="cell-wrap">🟢→🟡</td>
+<td style="" class="cell-wrap">양은희</td>
+<td style="" class="cell-wrap">HQ팀장</td>
+</tr>
+<tr style="--row-bg:#FEF5E7">
+<td style="font-weight:700" class="cell-wrap">C-09</td>
+<td style="" class="cell-wrap">승선 중</td>
+<td style="font-weight:700" class="cell-wrap">VIP 영접 지연/혼선</td>
+<td style="" class="cell-wrap">VIP 도착 시 영접 담당자 부재,<br>또는 VIP 동선과 일반 승선 동선<br>혼선으로 VIP 불만</td>
+<td style="" class="cell-wrap">① VIP 도착 예상 시간 사전 확인 (전화)<br>② 영접 담당(본부장) 30분 전 대기<br>③ VIP 전용 동선 확보 (일반 동선과 분리)<br>④ 혼선 발생 → 즉시 본부장 호출<br>⑤ VIP 객실까지 에스코트<br>⑥ 웰컴키트 배치 재확인</td>
+<td style="" class="cell-wrap">🟡</td>
+<td style="" class="cell-wrap">총괄본부</td>
+<td style="" class="cell-wrap">본부장</td>
+</tr>
+<tr style="--row-bg:#FEF5E7">
+<td style="font-weight:700" class="cell-wrap">C-10</td>
+<td style="" class="cell-wrap">승선 중</td>
+<td style="font-weight:700" class="cell-wrap">고객 건강 이상<br>(터미널/갱웨이)</td>
+<td style="" class="cell-wrap">고령 승객의 갱웨이 보행 중<br>쓰러짐, 어지럼증 등<br>건강 이상 발생</td>
+<td style="" class="cell-wrap">① 즉시 안전 확보 (주변 승객 정리)<br>② 터미널 의무실 or 119 호출<br>③ 선내 의무실(내선99) 사전 알림<br>④ 동행 가족 연락<br>⑤ 휠체어 즉시 요청<br>⑥ 승선 후 선내 의무실 직행<br>⑦ 사고보고서 작성</td>
+<td style="" class="cell-wrap">🔴</td>
+<td style="" class="cell-wrap">최근접 스태프</td>
+<td style="" class="cell-wrap">본부장+의무실</td>
+</tr>
+<tr style="--row-bg:#FEF5E7">
+<td style="font-weight:700" class="cell-wrap">C-11</td>
+<td style="" class="cell-wrap">승선 후<br>(19:00~)</td>
+<td style="font-weight:700" class="cell-wrap">석식 혼잡 대란</td>
+<td style="" class="cell-wrap">2,400명 동시 식사 몰림.<br>뷔페 대기 40분 이상.<br>좌석 확보 불가 대규모 컴플레인</td>
+<td style="" class="cell-wrap">① F&amp;B 담당 + 알바 식당 입구 배치<br>② 방송으로 시간대 분산 안내 (인솔자 조별 시차 유도)<br>③ 정찬 레스토랑 동시 안내<br>④ VIP/고령자 우선 입장<br>⑤ 코스타 F&amp;B에 운영시간 연장 요청<br>⑥ 2025.1월 항차 시 동일 이슈 발생 경험 → 공지 시간과 실제 오픈 시간 일치 필수</td>
+<td style="" class="cell-wrap">🟡</td>
+<td style="" class="cell-wrap">F&amp;B담당+HQ</td>
+<td style="" class="cell-wrap">HQ팀장</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrap">
+<div class="section-title" style="background:#4C51BF">C. 비상·출항 관련</div>
+<table class="ops-table">
+<thead>
+<tr>
+<th style="color:#FFFFFF;font-weight:700">No</th>
+<th style="color:#FFFFFF;font-weight:700">발생 시점</th>
+<th style="color:#FFFFFF;font-weight:700">시나리오</th>
+<th style="color:#FFFFFF;font-weight:700">상세 상황</th>
+<th style="color:#FFFFFF;font-weight:700">대응 절차 (SOP)</th>
+<th style="color:#FFFFFF;font-weight:700">레벨</th>
+<th style="color:#FFFFFF;font-weight:700">전담</th>
+<th style="color:#FFFFFF;font-weight:700">에스컬레이션</th>
+</tr>
+</thead>
+<tbody>
+<tr style="--row-bg:#F7F9FC">
+<td style="font-weight:700" class="cell-wrap">C-12</td>
+<td style="" class="cell-wrap">20:00~21:00</td>
+<td style="font-weight:700" class="cell-wrap">비상훈련 대량 불참</td>
+<td style="" class="cell-wrap">피곤·불만 등으로<br>다수 승객이 비상훈련 불참.<br>코스타 측 출항 지연 경고</td>
+<td style="" class="cell-wrap">① 인솔자 조별 참여 독려 (객실 방문)<br>② 방송으로 법적 의무사항 안내<br>③ 거동불편자 → 면제레터 즉시 발급<br>④ 대량 불참 → 코스타와 협의 (출항 조건)<br>⑤ 최악: 출항 지연 → 본부장-선장 직접 협의</td>
+<td style="" class="cell-wrap">🟡→🔴</td>
+<td style="" class="cell-wrap">전 팀</td>
+<td style="" class="cell-wrap">본부장→선장</td>
+</tr>
+<tr style="--row-bg:#F7F9FC">
+<td style="font-weight:700" class="cell-wrap">C-13</td>
+<td style="" class="cell-wrap">승선 중</td>
+<td style="font-weight:700" class="cell-wrap">코스타 시스템 장애<br>(체크인 불가)</td>
+<td style="" class="cell-wrap">코스타 승선 체크인 시스템 다운.<br>전자 승선카드 발급 불가.<br>대기열 폭증</td>
+<td style="" class="cell-wrap">① 코스타 IT팀에 즉시 신고<br>② 수기 체크인 전환 가능 여부 확인<br>③ 대기 고객에게 상황 안내 + 예상 시간 고지<br>④ 대기 구역에 음료 제공<br>⑤ 복구 후 신속 체크인 (여러 게이트 동시 오픈)</td>
+<td style="" class="cell-wrap">🟡→🔴</td>
+<td style="" class="cell-wrap">터미널조+HQ</td>
+<td style="" class="cell-wrap">본부장→코스타</td>
+</tr>
+<tr style="--row-bg:#F7F9FC">
+<td style="font-weight:700" class="cell-wrap">C-14</td>
+<td style="" class="cell-wrap">승선 직전</td>
+<td style="font-weight:700" class="cell-wrap">트럭/물품 선적<br>지연·차질</td>
+<td style="" class="cell-wrap">항만 보안 지연·트럭 고장 등으로<br>물품 선적이 승선 시작 전<br>완료되지 않음</td>
+<td style="" class="cell-wrap">① 우선순위 선적: 무전기→전화기→노트북→인쇄물→기타<br>② 핵심 장비만 스태프 직접 운반 (택시)<br>③ 잔여 물품 → 승선 후 순차 반입<br>④ 선내 프린터로 인쇄물 긴급 대응<br>⑤ 코스타에 선적 시간 연장 요청</td>
+<td style="" class="cell-wrap">🟡</td>
+<td style="" class="cell-wrap">지원팀→팀장</td>
+<td style="" class="cell-wrap">본부장</td>
+</tr>
+<tr style="--row-bg:#F7F9FC">
+<td style="font-weight:700" class="cell-wrap">C-15</td>
+<td style="" class="cell-wrap">승선 중</td>
+<td style="font-weight:700" class="cell-wrap">인솔자 컨디션<br>대량 이탈</td>
+<td style="" class="cell-wrap">5월부터 연속 승선한 인솔자들이<br>체력 소모로 다수 컨디션 불량.<br>조별 운영 인력 부족</td>
+<td style="" class="cell-wrap">① 컨디션 불량 인솔자 파악 → 경증은 교대 배치<br>② 중증 → 의무실 이송 + 해당 조 다른 인솔자 투입<br>③ 알바/기항지팀 인력으로 긴급 보충<br>④ 인솔자 컨디션 관리: 승선 전 휴식 보장<br>⑤ 인솔자 대기실 설정 (교대 휴식)</td>
+<td style="" class="cell-wrap">🟡</td>
+<td style="" class="cell-wrap">타이요팀장+HQ</td>
+<td style="" class="cell-wrap">본부장</td>
+</tr>
+</tbody>
+</table>
+</div>
+    </div>
+    <div id="team-embark-manual">
     <h3 class="section-heading">🚢 승하선 매뉴얼 (초안) 매뉴얼</h3>
 <div class="table-wrap">
 <table class="ops-table">
@@ -6621,14 +8218,16 @@ body.dark .badge-status-todo{background:#78350F;color:#FDE68A}
 </tbody>
 </table>
 </div>
+    </div>
   </div>
   <div class="page" id="page-team-fb">
     <div class="breadcrumb"><a href="#" onclick="showPage('home')">홈</a> / 팀별 워크스페이스 / 식음료파트</div>
-    <div class="team-header" style="border-left:5px solid #E74C3C">
+    <div id="team-fb-overview" class="team-header" style="border-left:5px solid #E74C3C">
       <h1>🍽️ 식음료파트</h1>
       <div class="team-members">문형식 매니저 ★사전탑승</div>
       <div class="team-mission">전체 밀스케줄 관리 + 한식 품질 모니터링</div>
     </div>
+    <div id="team-fb-tasks">
     <h3 class="section-heading">📑 업무분장서</h3>
 <div class="table-wrap">
 <div class="section-title" style="background:#4527A0">▣ 팀 개요</div>
@@ -6819,14 +8418,20 @@ body.dark .badge-status-todo{background:#78350F;color:#FDE68A}
 </tbody>
 </table>
 </div>
+    </div>
+    <div id="team-fb-sop">
+    </div>
+    <div id="team-fb-manual">
+    </div>
   </div>
   <div class="page" id="page-team-it">
     <div class="breadcrumb"><a href="#" onclick="showPage('home')">홈</a> / 팀별 워크스페이스 / IT홍보팀</div>
-    <div class="team-header" style="border-left:5px solid #1ABC9C">
+    <div id="team-it-overview" class="team-header" style="border-left:5px solid #1ABC9C">
       <h1>💻 IT홍보팀</h1>
       <div class="team-members">최구철 매니저(팀장)</div>
       <div class="team-mission">IT·통신 인프라 + 홍보·콘텐츠 + 총무 지원</div>
     </div>
+    <div id="team-it-tasks">
     <h3 class="section-heading">📑 업무분장서</h3>
 <div class="table-wrap">
 <div class="section-title" style="background:#4527A0">▣ 팀 개요</div>
@@ -7277,6 +8882,425 @@ body.dark .badge-status-todo{background:#78350F;color:#FDE68A}
 </tbody>
 </table>
 </div>
+    </div>
+    <div id="team-it-sop">
+    <h3 class="section-heading">💻 SOP·시나리오</h3>
+<div class="table-wrap">
+<div class="section-title" style="background:#2F855A">SOP-01. 무전기 운영 매뉴얼</div>
+<table class="ops-table">
+<thead>
+<tr>
+<th style="color:#FFFFFF;font-weight:700">단계</th>
+<th style="color:#FFFFFF;font-weight:700">프로세스</th>
+<th style="color:#FFFFFF;font-weight:700">상세 내용</th>
+<th style="color:#FFFFFF;font-weight:700">체크리스트</th>
+<th style="color:#FFFFFF;font-weight:700">담당</th>
+<th style="color:#FFFFFF;font-weight:700">시점</th>
+</tr>
+</thead>
+<tbody>
+<tr style="--row-bg:#FFFFFF">
+<td style="font-weight:700" class="cell-wrap">1</td>
+<td style="font-weight:700" class="cell-wrap">채널 플랜 설정<br>(D-7)</td>
+<td style="" class="cell-wrap text-left">- CH1: 전체 공용 (긴급 호출 전용)<br>- CH2: HQ(선내운영팀) 전용<br>- CH3: 기항지운영팀 전용<br>- CH4: 프로그램·행사팀 전용<br>- CH5: 지원·데이터팀 전용<br>- CH6: 본부장·부서장 직통<br>- CH7~10: 예비/기항지 현장용</td>
+<td style="" class="cell-wrap text-left">□ 채널표 인쇄 (전 무전기 부착)<br>□ 채널 프로그래밍 완료<br>□ 전 채널 교신 테스트</td>
+<td style="" class="cell-wrap">팀장</td>
+<td style="" class="cell-wrap">D-7</td>
+</tr>
+<tr style="--row-bg:#FFFFFF">
+<td style="font-weight:700" class="cell-wrap">2</td>
+<td style="font-weight:700" class="cell-wrap">일일 운영<br>(매일)</td>
+<td style="" class="cell-wrap text-left">- 07:00 무전기 배부 (충전 완료분)<br>- 배부 시 성명·번호 기록<br>- 교신 에티켓 교육 (호출→응답→내용→끝)<br>- 22:00 회수 (충전 스테이션 투입)<br>- 분실/고장 즉시 예비기 교체</td>
+<td style="" class="cell-wrap text-left">□ 배부 대장 기록<br>□ 전수 배부 확인<br>□ 22:00 회수 수량 확인<br>□ 충전 시작</td>
+<td style="" class="cell-wrap">팀장</td>
+<td style="" class="cell-wrap">매일</td>
+</tr>
+<tr style="--row-bg:#FFFFFF">
+<td style="font-weight:700" class="cell-wrap">3</td>
+<td style="font-weight:700" class="cell-wrap">장애 대응</td>
+<td style="" class="cell-wrap text-left">- 교신 불량: 채널 리셋 → 배터리 교체 → 예비기 교체<br>- 분실: 즉시 해당 채널 모니터링 (보안)<br>- 대량 장애: 카카오톡 백업 채널 가동</td>
+<td style="" class="cell-wrap text-left">□ 예비기 10대 상시 보유<br>□ 배터리 30개 충전 대기<br>□ 카톡 백업 채널 사전 설정</td>
+<td style="" class="cell-wrap">팀장</td>
+<td style="" class="cell-wrap">상시</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrap">
+<div class="section-title" style="background:#2F855A">SOP-02. 구글시트 보고체계 운영</div>
+<table class="ops-table">
+<thead>
+<tr>
+<th style="color:#FFFFFF;font-weight:700">단계</th>
+<th style="color:#FFFFFF;font-weight:700">프로세스</th>
+<th style="color:#FFFFFF;font-weight:700">상세 내용</th>
+<th style="color:#FFFFFF;font-weight:700">체크리스트</th>
+<th style="color:#FFFFFF;font-weight:700">담당</th>
+<th style="color:#FFFFFF;font-weight:700">시점</th>
+</tr>
+</thead>
+<tbody>
+<tr style="--row-bg:#FFFFFF">
+<td style="font-weight:700" class="cell-wrap">1</td>
+<td style="font-weight:700" class="cell-wrap">시스템 구축<br>(D-14)</td>
+<td style="" class="cell-wrap text-left">- 마스터 시트: 일일상황보고서, VOC, 명단, 비용, 인력배치<br>- 시트별 접근 권한 설정 (편집/열람)<br>- 자동 타임스탬프 수식 설정<br>- 오프라인 캐시 설정 (선내 Wi-Fi 불안정 대비)<br>- 모바일 접속 테스트</td>
+<td style="" class="cell-wrap text-left">□ 10개 시트 생성 완료<br>□ 권한 설정 완료<br>□ 오프라인 캐시 ON<br>□ 모바일 접속 OK</td>
+<td style="" class="cell-wrap">팀장</td>
+<td style="" class="cell-wrap">D-14</td>
+</tr>
+<tr style="--row-bg:#FFFFFF">
+<td style="font-weight:700" class="cell-wrap">2</td>
+<td style="font-weight:700" class="cell-wrap">일일 운영</td>
+<td style="" class="cell-wrap text-left">- 각 팀 → 카카오톡 보고 → 팀장이 구글시트 입력<br>- VOC: 접수 즉시 입력 (HQ에서 전달)<br>- 명단: 변경 사항 즉시 반영<br>- 비용: 집행 건별 입력<br>- 22:00 일일보고서 자동생성 (피벗+요약)</td>
+<td style="" class="cell-wrap text-left">□ 카톡 보고 → 시트 입력<br>□ VOC 실시간 입력<br>□ 22:00 보고서 생성<br>□ 본부장 공유</td>
+<td style="" class="cell-wrap">팀장</td>
+<td style="" class="cell-wrap">매일</td>
+</tr>
+<tr style="--row-bg:#FFFFFF">
+<td style="font-weight:700" class="cell-wrap">3</td>
+<td style="font-weight:700" class="cell-wrap">장애 대응</td>
+<td style="" class="cell-wrap text-left">- Wi-Fi 끊김: 오프라인 캐시로 작업 → 복구 시 동기화<br>- 시트 오류: 버전 히스토리로 복원<br>- 접속 불가: Teams 백업 또는 노트북 로컬 엑셀</td>
+<td style="" class="cell-wrap text-left">□ 오프라인 캐시 확인<br>□ 로컬 백업 1일 1회<br>□ Teams 백업 시트 준비</td>
+<td style="" class="cell-wrap">팀장</td>
+<td style="" class="cell-wrap">상시</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrap">
+<div class="section-title" style="background:#2F855A">SOP-03. 일일 프로그램표 배포 매뉴얼</div>
+<table class="ops-table">
+<thead>
+<tr>
+<th style="color:#FFFFFF;font-weight:700">단계</th>
+<th style="color:#FFFFFF;font-weight:700">프로세스</th>
+<th style="color:#FFFFFF;font-weight:700">상세 내용</th>
+<th style="color:#FFFFFF;font-weight:700">체크리스트</th>
+<th style="color:#FFFFFF;font-weight:700">담당</th>
+<th style="color:#FFFFFF;font-weight:700">시점</th>
+</tr>
+</thead>
+<tbody>
+<tr style="--row-bg:#FFFFFF">
+<td style="font-weight:700" class="cell-wrap">1</td>
+<td style="font-weight:700" class="cell-wrap">사전 인쇄<br>(D-14)</td>
+<td style="" class="cell-wrap text-left">- 6일분 일일 프로그램표 사전 인쇄 (일 3,000부)<br>- 일자별 분류·봉인<br>- 선적 시 접근 용이한 위치 배치</td>
+<td style="" class="cell-wrap text-left">□ 6일분 인쇄 완료<br>□ 일자별 분류<br>□ 접근 용이 위치</td>
+<td style="" class="cell-wrap">팀원</td>
+<td style="" class="cell-wrap">D-14</td>
+</tr>
+<tr style="--row-bg:#FFFFFF">
+<td style="font-weight:700" class="cell-wrap">2</td>
+<td style="font-weight:700" class="cell-wrap">일일 배포<br>(매일 06:30)</td>
+<td style="" class="cell-wrap text-left">배포 위치 및 수량:<br>- 각 객실 층 복도 (층당 200부 × 12층 = 2,400부)<br>- 안내데스크 (200부)<br>- 레스토랑 입구 (200부)<br>- Mercurio Room (100부)<br>- 예비 (100부)</td>
+<td style="" class="cell-wrap text-left">□ 알바 2명 06:30 배포 시작<br>□ 07:00까지 배포 완료<br>□ 잔여분 확인<br>□ 전일분 회수</td>
+<td style="" class="cell-wrap">팀원+알바</td>
+<td style="" class="cell-wrap">매일 06:30</td>
+</tr>
+<tr style="--row-bg:#FFFFFF">
+<td style="font-weight:700" class="cell-wrap">3</td>
+<td style="font-weight:700" class="cell-wrap">긴급 변경</td>
+<td style="" class="cell-wrap text-left">- 프로그램 변경 시 → 수정본 선내 프린터 긴급 인쇄<br>- 소량(100~200부) 주요 포인트만 교체<br>- 사이니지 동시 업데이트<br>- 방송 안내 요청 (안내파트)</td>
+<td style="" class="cell-wrap text-left">□ 수정본 인쇄<br>□ 주요 포인트 교체<br>□ 사이니지 업데이트<br>□ 방송 요청</td>
+<td style="" class="cell-wrap">팀원</td>
+<td style="" class="cell-wrap">상시</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrap">
+<div class="section-title" style="background:#2F855A">SOP-04. 홍보·촬영 운영 매뉴얼 (최구철 매니저)</div>
+<table class="ops-table">
+<thead>
+<tr>
+<th style="color:#FFFFFF;font-weight:700">단계</th>
+<th style="color:#FFFFFF;font-weight:700">프로세스</th>
+<th style="color:#FFFFFF;font-weight:700">상세 내용</th>
+<th style="color:#FFFFFF;font-weight:700">체크리스트</th>
+<th style="color:#FFFFFF;font-weight:700">담당</th>
+<th style="color:#FFFFFF;font-weight:700">시점</th>
+</tr>
+</thead>
+<tbody>
+<tr style="--row-bg:#FFFFFF">
+<td style="font-weight:700" class="cell-wrap">1</td>
+<td style="font-weight:700" class="cell-wrap">촬영 계획<br>(전일 22:00)</td>
+<td style="" class="cell-wrap text-left">- 익일 촬영 스케줄 확정 (프로그램표 기반)<br>- 필수 촬영 건 마킹 (★메인공연/기항지/VIP)<br>- 장비 충전·메모리 확인<br>- 드론 사용 가능 여부 확인 (기항지별)</td>
+<td style="" class="cell-wrap text-left">□ 촬영 스케줄 확정<br>□ 장비 충전 완료<br>□ 메모리 잔량 확인<br>□ 드론 가능 여부</td>
+<td style="" class="cell-wrap">최구철</td>
+<td style="" class="cell-wrap">전일 22:00</td>
+</tr>
+<tr style="--row-bg:#FFFFFF">
+<td style="font-weight:700" class="cell-wrap">2</td>
+<td style="font-weight:700" class="cell-wrap">현장 촬영</td>
+<td style="" class="cell-wrap text-left">- 공연: 시작 30분 전 포지셔닝 → 전 과정 촬영<br>- 기항지: 입항/투어/출항 핵심 장면<br>- VIP: 포토타임은 본부장 지시에 따라<br>- 일상: 선내 분위기, 식사, 시설 등 B-roll<br>- 촬영 금지 구역 절대 준수</td>
+<td style="" class="cell-wrap text-left">□ 공연 30분 전 위치<br>□ VIP 포토타임 확인<br>□ 촬영 금지 구역 확인<br>□ 배터리/SD 여분 소지</td>
+<td style="" class="cell-wrap">최구철</td>
+<td style="" class="cell-wrap">현장</td>
+</tr>
+<tr style="--row-bg:#FFFFFF">
+<td style="font-weight:700" class="cell-wrap">3</td>
+<td style="font-weight:700" class="cell-wrap">콘텐츠 생성<br>+ 보도자료</td>
+<td style="" class="cell-wrap text-left">- SNS용 숏폼 콘텐츠 당일 업로드<br>- 보도자료 작성 (출항식/주요행사)<br>- 기자단 취재 지원 (동선 안내, 인터뷰 주선)<br>- 기자간담회 세팅 지원</td>
+<td style="" class="cell-wrap text-left">□ SNS 1일 2건 이상<br>□ 보도자료 주요행사 당일<br>□ 기자 취재 지원</td>
+<td style="" class="cell-wrap">최구철</td>
+<td style="" class="cell-wrap">매일</td>
+</tr>
+<tr style="--row-bg:#FFFFFF">
+<td style="font-weight:700" class="cell-wrap">4</td>
+<td style="font-weight:700" class="cell-wrap">아카이빙<br>(매일 22:00~)</td>
+<td style="" class="cell-wrap text-left">- 당일 사진/영상 외장하드 백업<br>- 폴더 구조: 날짜/행사명/파일<br>- 클라우드(OneDrive) 이중 백업<br>- SD카드 포맷 후 익일 준비</td>
+<td style="" class="cell-wrap text-left">□ 외장하드 백업 완료<br>□ 클라우드 업로드<br>□ SD카드 포맷<br>□ 배터리 충전</td>
+<td style="" class="cell-wrap">최구철</td>
+<td style="" class="cell-wrap">매일 22:00</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrap">
+<div class="section-title" style="background:#2F855A">SOP-05. 물품 대장 및 재고 관리</div>
+<table class="ops-table">
+<thead>
+<tr>
+<th style="color:#FFFFFF;font-weight:700">단계</th>
+<th style="color:#FFFFFF;font-weight:700">프로세스</th>
+<th style="color:#FFFFFF;font-weight:700">상세 내용</th>
+<th style="color:#FFFFFF;font-weight:700">체크리스트</th>
+<th style="color:#FFFFFF;font-weight:700">담당</th>
+<th style="color:#FFFFFF;font-weight:700">시점</th>
+</tr>
+</thead>
+<tbody>
+<tr style="--row-bg:#FFFFFF">
+<td style="font-weight:700" class="cell-wrap">1</td>
+<td style="font-weight:700" class="cell-wrap">물품 대장 관리</td>
+<td style="" class="cell-wrap text-left">- 구글시트 기반 물품 대장 운영<br>- 품목/수량/위치/상태/배부일/회수일 기록<br>- 입고 시 즉시 기록 / 출고 시 즉시 차감<br>- 일일 재고 확인 (22:00)</td>
+<td style="" class="cell-wrap text-left">□ 물품 대장 최신화<br>□ 입출고 즉시 반영<br>□ 일일 재고 확인</td>
+<td style="" class="cell-wrap">팀원</td>
+<td style="" class="cell-wrap">매일</td>
+</tr>
+<tr style="--row-bg:#FFFFFF">
+<td style="font-weight:700" class="cell-wrap">2</td>
+<td style="font-weight:700" class="cell-wrap">배포 관리</td>
+<td style="" class="cell-wrap text-left">- 기념품: 행사팀 요청 시 배포<br>- 인쇄물: 일일 배포 루틴<br>- 소모품: 각 팀 요청 시 보충<br>- VIP용품: 본부장 승인 후 배포</td>
+<td style="" class="cell-wrap text-left">□ 요청 접수 → 배포 → 기록<br>□ VIP → 본부장 승인</td>
+<td style="" class="cell-wrap">팀원</td>
+<td style="" class="cell-wrap">상시</td>
+</tr>
+<tr style="--row-bg:#FFFFFF">
+<td style="font-weight:700" class="cell-wrap">3</td>
+<td style="font-weight:700" class="cell-wrap">하선일 회수</td>
+<td style="" class="cell-wrap text-left">- 전 물품 회수 체크리스트<br>- 무전기 전수 확인 (100대)<br>- 장비 파손/분실 기록<br>- 잔여 인쇄물/기념품 수량 기록<br>- 트럭 적재 및 반출</td>
+<td style="" class="cell-wrap text-left">□ 회수 체크리스트 완료<br>□ 무전기 100대 확인<br>□ 분실분 정산<br>□ 트럭 적재</td>
+<td style="" class="cell-wrap">팀원+알바</td>
+<td style="" class="cell-wrap">6/25</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrap">
+<div class="section-title" style="background:#2F855A">SOP-06. 비용 정산 매뉴얼</div>
+<table class="ops-table">
+<thead>
+<tr>
+<th style="color:#FFFFFF;font-weight:700">단계</th>
+<th style="color:#FFFFFF;font-weight:700">프로세스</th>
+<th style="color:#FFFFFF;font-weight:700">상세 내용</th>
+<th style="color:#FFFFFF;font-weight:700">체크리스트</th>
+<th style="color:#FFFFFF;font-weight:700">담당</th>
+<th style="color:#FFFFFF;font-weight:700">시점</th>
+</tr>
+</thead>
+<tbody>
+<tr style="--row-bg:#FFFFFF">
+<td style="font-weight:700" class="cell-wrap">1</td>
+<td style="font-weight:700" class="cell-wrap">비용 집행 기록</td>
+<td style="" class="cell-wrap text-left">- 건별 비용 기록 (구글시트)<br>- 영수증/인보이스 즉시 보관 (바인더)<br>- 캐빈변경/과일바구니/유료서비스 등 코스타 청구 건 별도 관리<br>- 집행 한도 초과 시 본부장 승인</td>
+<td style="" class="cell-wrap text-left">□ 건별 기록<br>□ 영수증 보관<br>□ 한도 초과 → 승인</td>
+<td style="" class="cell-wrap">팀원</td>
+<td style="" class="cell-wrap">매일</td>
+</tr>
+<tr style="--row-bg:#FFFFFF">
+<td style="font-weight:700" class="cell-wrap">2</td>
+<td style="font-weight:700" class="cell-wrap">일일 집계</td>
+<td style="" class="cell-wrap text-left">- 22:00 일일 비용 집계<br>- 카테고리별 합산<br>- 예산 대비 소진율 확인<br>- 이상 지출 건 본부장 보고</td>
+<td style="" class="cell-wrap text-left">□ 일일 집계 완료<br>□ 소진율 확인<br>□ 이상 건 보고</td>
+<td style="" class="cell-wrap">팀원</td>
+<td style="" class="cell-wrap">매일 22:00</td>
+</tr>
+<tr style="--row-bg:#FFFFFF">
+<td style="font-weight:700" class="cell-wrap">3</td>
+<td style="font-weight:700" class="cell-wrap">최종 정산<br>(D+3)</td>
+<td style="" class="cell-wrap text-left">- 하선 후 3일 내 정산 초안 완성<br>- 코스타 청구 건 크로스체크<br>- 영수증 원본 정리<br>- 정산 보고서 본부장 제출</td>
+<td style="" class="cell-wrap text-left">□ 정산 초안 D+1<br>□ 크로스체크 D+2<br>□ 최종 보고서 D+3</td>
+<td style="" class="cell-wrap">팀원→팀장</td>
+<td style="" class="cell-wrap">D+3</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrap">
+<div class="section-title" style="background:#2F855A">SOP-07. 카카오톡 소통 프로토콜</div>
+<table class="ops-table">
+<thead>
+<tr>
+<th style="color:#FFFFFF;font-weight:700">단계</th>
+<th style="color:#FFFFFF;font-weight:700">프로세스</th>
+<th style="color:#FFFFFF;font-weight:700">상세 내용</th>
+<th style="color:#FFFFFF;font-weight:700">체크리스트</th>
+<th style="color:#FFFFFF;font-weight:700">담당</th>
+<th style="color:#FFFFFF;font-weight:700">시점</th>
+</tr>
+</thead>
+<tbody>
+<tr style="--row-bg:#FFFFFF">
+<td style="font-weight:700" class="cell-wrap">1</td>
+<td style="font-weight:700" class="cell-wrap">채널 구조</td>
+<td style="" class="cell-wrap text-left">- [전체] 코스타세레나 전체방: 전 스태프 134명<br>- [HQ] 선내운영팀: HQ 팀원+본부<br>- [기항] 기항지운영팀: 기항지팀+타이요<br>- [행사] 프로그램행사팀: 행사팀+아티스트 매니저<br>- [지원] 지원데이터팀: 지원팀+홍보<br>- [긴급] 긴급상황방: 본부장+부서장+팀장급</td>
+<td style="" class="cell-wrap text-left">□ 6개 방 개설<br>□ 방장 권한 설정<br>□ 전원 초대 확인</td>
+<td style="" class="cell-wrap">팀장</td>
+<td style="" class="cell-wrap">D-7</td>
+</tr>
+<tr style="--row-bg:#FFFFFF">
+<td style="font-weight:700" class="cell-wrap">2</td>
+<td style="font-weight:700" class="cell-wrap">보고 프로토콜</td>
+<td style="" class="cell-wrap text-left">보고 형식 통일:<br>[시간] [팀명] [보고유형]<br>내용<br>예) [14:30] [HQ] [VOC]<br>3층 안내데스크 객실 컴플레인 접수 - 1205호 에어컨 고장<br><br>보고 유형: [상황] [VOC] [긴급] [완료] [요청]</td>
+<td style="" class="cell-wrap text-left">□ 보고 형식 전 스태프 교육<br>□ 예시 카드 배포<br>□ 첫날 실습</td>
+<td style="" class="cell-wrap">팀장</td>
+<td style="" class="cell-wrap">D-2</td>
+</tr>
+<tr style="--row-bg:#FFFFFF">
+<td style="font-weight:700" class="cell-wrap">3</td>
+<td style="font-weight:700" class="cell-wrap">금지 사항</td>
+<td style="" class="cell-wrap text-left">- 개인적 대화 금지 (업무 전용)<br>- 사진/영상 무분별 공유 금지<br>- 고객 개인정보 게시 금지<br>- 미확인 정보 공유 금지</td>
+<td style="" class="cell-wrap text-left">□ 금지사항 사전 공지<br>□ 위반 시 경고</td>
+<td style="" class="cell-wrap">팀장</td>
+<td style="" class="cell-wrap">상시</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrap">
+<table class="ops-table">
+<tbody>
+<tr><td colspan="8" class="cell-wrap merged-desc">※ 지원·데이터팀은 IT 인프라, 물류, 홍보를 총괄하므로 기술적 장애부터 물품 사고까지 광범위한 시나리오에 대비해야 합니다.<br>※ 대응 레벨: 🟢 현장 즉시 처리 / 🟡 팀장 판단 / 🔴 본부장 최종 결정</td></tr>
+</tbody>
+<thead>
+<tr>
+<th style="color:#FFFFFF;font-weight:700">No</th>
+<th style="color:#FFFFFF;font-weight:700">발생 시점</th>
+<th style="color:#FFFFFF;font-weight:700">시나리오</th>
+<th style="color:#FFFFFF;font-weight:700">상세 상황</th>
+<th style="color:#FFFFFF;font-weight:700">대응 절차 (SOP)</th>
+<th style="color:#FFFFFF;font-weight:700">레벨</th>
+<th style="color:#FFFFFF;font-weight:700">1차 담당</th>
+<th style="color:#FFFFFF;font-weight:700">에스컬레이션</th>
+</tr>
+</thead>
+<tbody>
+<tr style="--row-bg:#EAF2F8">
+<td style="font-weight:700" class="cell-wrap">S-01</td>
+<td style="" class="cell-wrap">운항 중<br>(전 일정)</td>
+<td style="font-weight:700" class="cell-wrap">무전기 대량 장애<br>(10대 이상 동시 교신 불가)</td>
+<td style="" class="cell-wrap">특정 채널 또는 전체 채널에서<br>10대 이상 무전기가 동시에<br>교신 불가 상태 발생.<br>현장 커뮤니케이션 마비 위험</td>
+<td style="" class="cell-wrap">① 즉시 장애 채널 확인 (간섭/주파수 충돌 여부)<br>② 채널 변경 테스트 (예비 채널 CH7~10 전환)<br>③ 전 팀장에게 카카오톡으로 채널 변경 공지<br>④ 물리적 고장 → 예비 무전기 10대 즉시 교체 배부<br>⑤ 대량 고장 → 카카오톡을 1차 통신수단으로 전환 선언<br>⑥ 코스타 측 무선 간섭 여부 확인 (선내 무선 환경)<br>⑦ 15분 내 미복구 → 본부장 보고, 비상통신 체제 가동<br>⑧ 복구 완료 후 전 채널 교신 테스트 재실시</td>
+<td style="" class="cell-wrap">🟡→🔴</td>
+<td style="" class="cell-wrap">팀장</td>
+<td style="" class="cell-wrap">본부장</td>
+</tr>
+<tr style="--row-bg:#EAF2F8">
+<td style="font-weight:700" class="cell-wrap">S-02</td>
+<td style="" class="cell-wrap">운항 중</td>
+<td style="font-weight:700" class="cell-wrap">Wi-Fi 전면 장애<br>(선내 인터넷 다운)</td>
+<td style="" class="cell-wrap">코스타 선내 Wi-Fi 시스템 전체 다운.<br>구글시트·카카오톡·SNS 모두 사용 불가.<br>보고체계 마비</td>
+<td style="" class="cell-wrap">① 코스타 IT팀에 즉시 장애 신고 (내선 or 직접 방문)<br>② 전 팀에 "Wi-Fi 장애 — 무전기 + 대면 보고로 전환" 공지<br>③ 구글시트 → 오프라인 캐시 모드로 작업 전환<br>④ 카카오톡 → 무전기 CH1(전체)로 보고 전환<br>⑤ SNS 업로드 → 기항지 도착 시 현지 Wi-Fi로 일괄 업로드<br>⑥ 일일보고서 → 노트북 로컬 엑셀로 수기 작성<br>⑦ 복구 후 오프라인 데이터 동기화 확인<br>⑧ 장기화 시 코스타에 스태프 전용 유선랜 제공 요청</td>
+<td style="" class="cell-wrap">🟡</td>
+<td style="" class="cell-wrap">팀장</td>
+<td style="" class="cell-wrap">코스타 IT</td>
+</tr>
+<tr style="--row-bg:#EAF2F8">
+<td style="font-weight:700" class="cell-wrap">S-03</td>
+<td style="" class="cell-wrap">승선일<br>(6/19)</td>
+<td style="font-weight:700" class="cell-wrap">물품 선적 차질<br>(트럭 지연·반입 불가)</td>
+<td style="" class="cell-wrap">부산항에서 트럭 지연 또는<br>항만 보안 문제로 물품 반입이<br>승선 시작 전까지 완료되지 않음</td>
+<td style="" class="cell-wrap">① 트럭 위치 실시간 확인 (운송업체 연락)<br>② 항만 보안 통과 절차 사전 확인 (항만공사 연락)<br>③ 코스타에 크루 운반 지원 긴급 요청 (3~4명)<br>④ 우선순위 반입: ①무전기/전화기 ②노트북/프린터 ③인쇄물 ④기타<br>⑤ 반입 지연 시 → 핵심 물품만 스태프 직접 운반 (택시)<br>⑥ 비핵심 물품 → 출항 전까지 순차 반입<br>⑦ 최악: 일부 물품 미반입 → 선내 프린터로 긴급 인쇄</td>
+<td style="" class="cell-wrap">🟡→🔴</td>
+<td style="" class="cell-wrap">팀원→팀장</td>
+<td style="" class="cell-wrap">본부장</td>
+</tr>
+<tr style="--row-bg:#FEF5E7">
+<td style="font-weight:700" class="cell-wrap">S-04</td>
+<td style="" class="cell-wrap">운항 중</td>
+<td style="font-weight:700" class="cell-wrap">프린터 고장<br>(긴급 인쇄 불가)</td>
+<td style="" class="cell-wrap">유일한 프린터가 고장(용지 잼/토너 소진/<br>드라이버 오류)으로 긴급 인쇄 불가.<br>프로그램 변경 안내물 인쇄 필요한 상황</td>
+<td style="" class="cell-wrap">① 1차 진단: 용지 잼 → 제거, 토너 소진 → 교체, 드라이버 → 재설치<br>② 2차: 자체 수리 불가 → 코스타 비즈니스센터 프린터 사용 요청<br>③ 3차: Mercurio Room 내 공용시설 프린터 사용 (질의서#35)<br>④ 소량 인쇄 → 노트북에서 사이니지로 디지털 전환<br>⑤ 예방: 토너 3세트 + 용지 10박스 사전 확보<br>⑥ 완전 불가 → 안내·방송파트에 방송 안내 요청으로 대체</td>
+<td style="" class="cell-wrap">🟢</td>
+<td style="" class="cell-wrap">팀장</td>
+<td style="" class="cell-wrap">코스타 비즈니스센터</td>
+</tr>
+<tr style="--row-bg:#FEF5E7">
+<td style="font-weight:700" class="cell-wrap">S-05</td>
+<td style="" class="cell-wrap">운항 중</td>
+<td style="font-weight:700" class="cell-wrap">구글시트 데이터 유실<br>(실수로 삭제/덮어쓰기)</td>
+<td style="" class="cell-wrap">스태프가 실수로 구글시트<br>핵심 데이터(명단/VOC 등)를<br>삭제하거나 잘못 덮어씌움</td>
+<td style="" class="cell-wrap">① 즉시 구글시트 "버전 기록" 확인 (파일 → 버전기록)<br>② 유실 전 버전으로 복원<br>③ 복원 불가 시 → 로컬 백업(일일 1회)에서 데이터 복구<br>④ Teams 백업 시트에서 교차 확인<br>⑤ 복구 후 접근 권한 재확인 (편집 권한 최소화)<br>⑥ 예방: 핵심 시트는 "보호된 시트" 설정<br>⑦ 예방: 매일 22:00 로컬 백업 의무화</td>
+<td style="" class="cell-wrap">🟢</td>
+<td style="" class="cell-wrap">팀장</td>
+</tr>
+<tr style="--row-bg:#FEF5E7">
+<td style="font-weight:700" class="cell-wrap">S-06</td>
+<td style="" class="cell-wrap">기항일</td>
+<td style="font-weight:700" class="cell-wrap">기항지 촬영 장비 고장<br>(카메라/드론 고장)</td>
+<td style="" class="cell-wrap">하코다테/오타루 기항지에서<br>카메라 고장 또는 드론 비행 불가.<br>핵심 촬영 기회 놓칠 위기</td>
+<td style="" class="cell-wrap">① 카메라 고장 → 예비 카메라(있는 경우) 또는 스마트폰 전환<br>② 스마트폰 촬영: 프로모드+삼각대로 최대 품질 확보<br>③ 드론 불가 → 선내 높은 층(데크)에서 대체 촬영<br>④ 동행 기자단 중 촬영 협조 요청 (긴급)<br>⑤ 기항지 도착 시 현지 카메라 렌탈 가능 여부 확인<br>⑥ 예방: 배터리·SD카드 예비 항상 소지<br>⑦ 예방: 장비 2세트 원칙 (메인+백업)</td>
+<td style="" class="cell-wrap">🟢→🟡</td>
+<td style="" class="cell-wrap">최구철</td>
+<td style="" class="cell-wrap">팀장</td>
+</tr>
+<tr style="--row-bg:#FDEDEC">
+<td style="font-weight:700" class="cell-wrap">S-07</td>
+<td style="" class="cell-wrap">운항 중</td>
+<td style="font-weight:700" class="cell-wrap">기자단 관리 이슈<br>(취재 갈등/허가 위반)</td>
+<td style="" class="cell-wrap">동행 기자가 촬영 금지 구역에서 촬영,<br>또는 아티스트/VIP 무단 촬영.<br>코스타 보안팀과 갈등 발생</td>
+<td style="" class="cell-wrap">① 즉시 현장 개입 → 기자에게 정중히 중단 요청<br>② 코스타 보안팀에 사과 및 상황 설명<br>③ 촬영 허가서 범위 재확인 후 기자에게 재안내<br>④ 아티스트/VIP 촬영 → 사전 동의 필수 원칙 재공지<br>⑤ 반복 위반 → 본부장 보고 후 취재 제한 조치<br>⑥ 예방: 승선 시 기자 브리핑 (촬영 가능/불가 구역, 규칙)<br>⑦ 예방: 촬영 허가 범위 기자용 안내서 배포</td>
+<td style="" class="cell-wrap">🟡</td>
+<td style="" class="cell-wrap">최구철</td>
+<td style="" class="cell-wrap">팀장→본부장</td>
+</tr>
+<tr style="--row-bg:#FDEDEC">
+<td style="font-weight:700" class="cell-wrap">S-08</td>
+<td style="" class="cell-wrap">승선일</td>
+<td style="font-weight:700" class="cell-wrap">목걸이(ID카드)/무전기<br>대량 분실</td>
+<td style="" class="cell-wrap">승선 첫날 혼잡 속에서<br>ID카드 또는 무전기 다수 분실 보고.<br>스태프 식별/통신 지장</td>
+<td style="" class="cell-wrap">① 분실 수량 즉시 파악 (배부 대장 대조)<br>② ID카드 → Mercurio Room에서 프린터로 임시 ID 즉시 발급<br>③ 무전기 → 예비기(10대) 우선 배부<br>④ 분실자 확인 및 기록 (정산 반영)<br>⑤ 대량 분실(10개 이상) → 배부 절차 개선 (서명 필수 등)<br>⑥ 무전기 추가 부족 → 카카오톡 보조 통신 강화</td>
+<td style="" class="cell-wrap">🟢→🟡</td>
+<td style="" class="cell-wrap">팀원→팀장</td>
+</tr>
+<tr style="--row-bg:#F7F9FC">
+<td style="font-weight:700" class="cell-wrap">S-09</td>
+<td style="" class="cell-wrap">운항 중</td>
+<td style="font-weight:700" class="cell-wrap">보도자료/SNS<br>사실 오류 배포</td>
+<td style="" class="cell-wrap">배포된 보도자료나 SNS에<br>일정·인명·장소 등 사실 오류 발견.<br>기자단이 이미 기사 송고</td>
+<td style="" class="cell-wrap">① 오류 확인 즉시 → 정정본 작성<br>② 기자단 전원에게 정정 안내 (카톡/이메일 즉시)<br>③ SNS → 오류 게시물 수정 또는 삭제+재게시<br>④ 본부장에게 오류 내용 및 정정 조치 보고<br>⑤ 기사 송고된 경우 → 정정 보도 요청<br>⑥ 예방: 보도자료 배포 전 팀장 + 본부장 더블체크 의무화</td>
+<td style="" class="cell-wrap">🟡</td>
+<td style="" class="cell-wrap">최구철</td>
+<td style="" class="cell-wrap">팀장→본부장</td>
+</tr>
+<tr style="--row-bg:#F7F9FC">
+<td style="font-weight:700" class="cell-wrap">S-10</td>
+<td style="" class="cell-wrap">하선일<br>(6/25)</td>
+<td style="font-weight:700" class="cell-wrap">물품 하역 혼선<br>(물품 분실/파손/누락)</td>
+<td style="" class="cell-wrap">하선 시 물품 하역 과정에서<br>물품 분실, 파손, 또는<br>선내 잔류 물품 발견</td>
+<td style="" class="cell-wrap">① 하역 전 물품 대장 최종 확인 (전수 체크)<br>② 하역 시 품목별 체크리스트 사용 (팀원+알바 교차 확인)<br>③ 분실 발견 → 코스타에 선내 잔류 물품 수색 요청<br>④ 파손 발견 → 현장 사진 촬영 + 파손 기록서 작성<br>⑤ 귀중 장비(노트북/카메라) → 스태프 직접 운반 원칙<br>⑥ 트럭 적재 완료 후 최종 수량 크로스체크<br>⑦ 선내 잔류 확인 → 코스타에 택배 반송 요청</td>
+<td style="" class="cell-wrap">🟢→🟡</td>
+<td style="" class="cell-wrap">팀원→팀장</td>
+<td style="" class="cell-wrap">코스타</td>
+</tr>
+</tbody>
+</table>
+</div>
+    </div>
+    <div id="team-it-manual">
     <h3 class="section-heading">💻 IT홍보팀 (초안) 매뉴얼</h3>
 <div class="table-wrap">
 <table class="ops-table">
@@ -8527,6 +10551,7 @@ body.dark .badge-status-todo{background:#78350F;color:#FDE68A}
 </tbody>
 </table>
 </div>
+    </div>
   </div>
   <div class="page" id="page-master-1">
     <div class="breadcrumb"><a href="#" onclick="showPage('home')">홈</a> / 총괄 마스터플랜 / 사전준비 마스터플랜</div>
@@ -21364,17 +23389,45 @@ window.addEventListener('DOMContentLoaded',function(){var d=document.body.classL
 function showPage(id){
   document.querySelectorAll('.page').forEach(function(p){p.classList.remove('active')});
   document.querySelectorAll('.nav-item').forEach(function(n){n.classList.remove('active')});
+  // 모든 펼침 메뉴 닫기
+  document.querySelectorAll('.nav-group.open').forEach(function(g){g.classList.remove('open')});
+
   var page=document.getElementById('page-'+id);
   if(page)page.classList.add('active');
   else document.getElementById('page-home').classList.add('active');
+
+  // 해당 메뉴 active 표시 + 부모 그룹 펼침
   document.querySelectorAll('.nav-item').forEach(function(n){
-    if(n.getAttribute('onclick')&&n.getAttribute('onclick').indexOf("'"+id+"'")!==-1)n.classList.add('active');
+    var oc=n.getAttribute('onclick')||'';
+    if(oc.indexOf("'"+id+"'")!==-1||oc.indexOf("'"+id+"',")!==-1){
+      n.classList.add('active');
+      var g=n.closest('.nav-group');
+      while(g){g.classList.add('open');g=g.parentElement.closest('.nav-group')}
+    }
   });
+
   document.getElementById('sidebar').classList.remove('open');
   document.getElementById('overlay').classList.remove('open');
   window.scrollTo(0,0);
 }
-function toggleGroup(el){el.parentElement.classList.toggle('open')}
+
+function showPageSection(pageId, anchor){
+  showPage(pageId);
+  setTimeout(function(){
+    var el=document.getElementById(pageId+'-'+anchor);
+    if(el)el.scrollIntoView({behavior:'smooth',block:'start'});
+  },50);
+}
+
+function toggleGroup(el){
+  var grp=el.parentElement;
+  var wasOpen=grp.classList.contains('open');
+  // 같은 레벨의 다른 그룹 닫기
+  var parent=grp.parentElement;
+  if(parent){parent.querySelectorAll(':scope > .nav-group.open').forEach(function(g){g.classList.remove('open')})}
+  if(!wasOpen)grp.classList.add('open');
+}
+
 function toggleSidebar(){document.getElementById('sidebar').classList.toggle('open');document.getElementById('overlay').classList.toggle('open')}
 function openGroup(pid){showPage(pid);document.querySelectorAll('.nav-group').forEach(function(g){g.querySelectorAll('.nav-item').forEach(function(i){if(i.getAttribute('onclick')&&i.getAttribute('onclick').indexOf(pid)!==-1)g.classList.add('open')})})}
 

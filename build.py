@@ -49,6 +49,23 @@ MODULE_META = {
 # 팀 워크스페이스 정의
 TEAM_WORKSPACE = [
     {
+        'id': 'team-hq',
+        'name': 'HQ 운영본부',
+        'icon': '🏛️',
+        'color': '#0D1B2A',
+        'members': '모두투어 + CI 공동부서장',
+        'mission': '전 팀 조율·관리 총괄 | VIP 의전 | 코스타 선사 최종 대응',
+        'teamdocs_sheet': None,
+        'matrix_teams': ['HQ', 'HQ(재무)', 'HQ→각 팀장', '전원'],
+        'manual_keys': [],
+        'sub_items': [
+            ('조직도', 'org-chart'),
+            ('업무 진행현황', 'progress'),
+            ('기안·협조공문', 'docs'),
+            ('핵심 일정', 'timeline'),
+        ],
+    },
+    {
         'id': 'team-support',
         'name': '운영지원팀',
         'icon': '🏢',
@@ -58,6 +75,11 @@ TEAM_WORKSPACE = [
         'teamdocs_sheet': '운영지원팀',
         'matrix_teams': ['운영지원팀', '운영지원팀+안내'],
         'manual_keys': [],
+        'sub_items': [
+            ('팀 개요·미션', 'overview'),
+            ('업무 리스트', 'tasks'),
+            ('SOP·시나리오', 'sop'),
+        ],
     },
     {
         'id': 'team-event',
@@ -69,6 +91,12 @@ TEAM_WORKSPACE = [
         'teamdocs_sheet': '공연행사팀',
         'matrix_teams': ['공연/행사팀', '기항지+공연', '승하선팀+공연팀'],
         'manual_keys': ['prog'],
+        'sub_items': [
+            ('팀 개요·미션', 'overview'),
+            ('업무 리스트', 'tasks'),
+            ('SOP·시나리오', 'sop'),
+            ('매뉴얼 (초안)', 'manual'),
+        ],
     },
     {
         'id': 'team-port',
@@ -80,6 +108,12 @@ TEAM_WORKSPACE = [
         'teamdocs_sheet': '기항지운영팀',
         'matrix_teams': ['기항지팀', '기항지+공연'],
         'manual_keys': ['port'],
+        'sub_items': [
+            ('팀 개요·미션', 'overview'),
+            ('업무 리스트', 'tasks'),
+            ('SOP·시나리오', 'sop'),
+            ('매뉴얼 (초안)', 'manual'),
+        ],
         'sub_team': {
             'id': 'team-embark',
             'name': '승하선팀',
@@ -90,6 +124,11 @@ TEAM_WORKSPACE = [
             'teamdocs_sheet': '승하선팀',
             'matrix_teams': ['승하선팀', 'IT홍보팀+승하선팀', '승하선팀+공연팀'],
             'manual_keys': ['emb'],
+            'sub_items': [
+                ('팀 개요', 'overview'),
+                ('업무 리스트', 'tasks'),
+                ('SOP·케이스스터디', 'sop'),
+            ],
         },
     },
     {
@@ -102,6 +141,10 @@ TEAM_WORKSPACE = [
         'teamdocs_sheet': '식음료파트',
         'matrix_teams': ['식음료'],
         'manual_keys': [],
+        'sub_items': [
+            ('팀 개요', 'overview'),
+            ('업무 리스트', 'tasks'),
+        ],
     },
     {
         'id': 'team-it',
@@ -113,6 +156,12 @@ TEAM_WORKSPACE = [
         'teamdocs_sheet': 'IT홍보팀',
         'matrix_teams': ['IT홍보팀', 'IT홍보팀+승하선팀', '승하선팀+IT홍보팀'],
         'manual_keys': ['sup'],
+        'sub_items': [
+            ('팀 개요·미션', 'overview'),
+            ('업무 리스트', 'tasks'),
+            ('SOP·시나리오', 'sop'),
+            ('매뉴얼 (초안)', 'manual'),
+        ],
     },
 ]
 
@@ -285,19 +334,22 @@ def build_nav(manifest):
     # 팀별 워크스페이스
     L.append('  <div class="nav-section">')
     L.append('    <div class="nav-section-title">팀별 워크스페이스</div>')
-    for tm in TEAM_WORKSPACE:
+
+    def _nav_team(tm, indent='    '):
+        L.append(f'{indent}<div class="nav-group">')
+        L.append(f'{indent}  <div class="nav-group-header" onclick="toggleGroup(this)"><span class="icon">{tm["icon"]}</span>{esc(tm["name"])}<span class="arrow">▶</span></div>')
+        L.append(f'{indent}  <div class="nav-sub">')
+        for label, anchor in tm.get('sub_items', []):
+            L.append(f'{indent}    <div class="nav-item" onclick="showPageSection(\'{tm["id"]}\',\'{anchor}\')">{esc(label)}</div>')
         if 'sub_team' in tm:
-            L.append(f'    <div class="nav-group">')
-            L.append(f'      <div class="nav-group-header" onclick="toggleGroup(this)"><span class="icon">{tm["icon"]}</span>{esc(tm["name"])}<span class="arrow">▶</span></div>')
-            L.append(f'      <div class="nav-sub">')
-            L.append(f'        <div class="nav-item" onclick="showPage(\'{tm["id"]}\')">{esc(tm["name"])} 업무분장</div>')
             sub = tm['sub_team']
-            L.append(f'        <div class="nav-item" onclick="showPage(\'{sub["id"]}\')">{sub["icon"]} {esc(sub["name"])}</div>')
-            L.append(f'      </div>')
-            L.append(f'    </div>')
-        else:
-            L.append(f'    <div class="nav-item" onclick="showPage(\'{tm["id"]}\')">'
-                     f'<span class="icon">{tm["icon"]}</span>{esc(tm["name"])}</div>')
+            _nav_team(sub, indent + '    ')
+        L.append(f'{indent}  </div>')
+        L.append(f'{indent}</div>')
+
+    for tm in TEAM_WORKSPACE:
+        _nav_team(tm)
+
     L.append('  </div>')
 
     # 참고자료실
@@ -445,8 +497,10 @@ def build_dashboard(manifest, modules):
 def build_team_pages(manifest, modules):
     pages = []
 
-    def _build_one(tm):
+    def _build_hq(tm):
+        """HQ 운영본부 전용 페이지."""
         tid = tm['id']
+        total, done, progress, todo = matrix_stats(modules)
         out = []
         out.append(f'  <div class="page" id="page-{tid}">')
         out.append(f'    <div class="breadcrumb"><a href="#" onclick="showPage(\'home\')">홈</a> / 팀별 워크스페이스 / {esc(tm["name"])}</div>')
@@ -456,8 +510,75 @@ def build_team_pages(manifest, modules):
         out.append(f'      <div class="team-mission">{esc(tm["mission"])}</div>')
         out.append(f'    </div>')
 
-        # teamdocs 시트 렌더링
-        if 'teamdocs' in modules:
+        # ① 조직도
+        out.append(f'    <div id="{tid}-org-chart">')
+        out.append(build_org_chart())
+        out.append(f'    </div>')
+
+        # ② 업무 진행현황
+        out.append(f'    <div id="{tid}-progress">')
+        out.append(f'    <h3 class="section-heading">📊 업무 진행현황</h3>')
+        out.append(f'    <div class="stat-row">')
+        out.append(f'      <div class="stat-card"><div class="stat-num">{total}</div><div class="stat-label">전체 업무</div></div>')
+        out.append(f'      <div class="stat-card stat-done"><div class="stat-num">{done}</div><div class="stat-label">완료</div></div>')
+        out.append(f'      <div class="stat-card stat-prog"><div class="stat-num">{progress}</div><div class="stat-label">진행중</div></div>')
+        out.append(f'      <div class="stat-card stat-todo"><div class="stat-num">{todo}</div><div class="stat-label">미착수</div></div>')
+        out.append(f'    </div>')
+        # master "업무분장표" 시트 (index 2)
+        if 'master' in modules:
+            msheets = modules['master'].get('sheets',[])
+            if len(msheets) > 2:
+                _, html = render_sheet(msheets[2], 'master')
+                out.append(html)
+        out.append(f'    </div>')
+
+        # ③ 기안·협조공문
+        out.append(f'    <div id="{tid}-docs">')
+        out.append(f'    <h3 class="section-heading">📝 기안·협조공문</h3>')
+        if 'orgv3' in modules:
+            osheets = modules['orgv3'].get('sheets',[])
+            # 협조요청 공문 (index 1), 기안 목록 (index 2)
+            for si in [1, 2]:
+                if si < len(osheets):
+                    _, html = render_sheet(osheets[si], 'orgv3')
+                    out.append(html)
+        out.append(f'    </div>')
+
+        # ④ 핵심 일정
+        out.append(f'    <div id="{tid}-timeline">')
+        out.append(f'    <h3 class="section-heading">🗓️ 핵심 일정 타임라인</h3>')
+        # master "사전준비 마스터플랜" 시트 (index 0)
+        if 'master' in modules:
+            msheets = modules['master'].get('sheets',[])
+            if len(msheets) > 0:
+                _, html = render_sheet(msheets[0], 'master')
+                out.append(html)
+        out.append(f'    </div>')
+
+        out.append('  </div>')
+        pages.append('\n'.join(out))
+
+    def _build_one(tm):
+        """일반 팀 페이지 — 섹션별 앵커 ID 포함."""
+        if tm['id'] == 'team-hq':
+            _build_hq(tm)
+            return
+
+        tid = tm['id']
+        out = []
+        out.append(f'  <div class="page" id="page-{tid}">')
+        out.append(f'    <div class="breadcrumb"><a href="#" onclick="showPage(\'home\')">홈</a> / 팀별 워크스페이스 / {esc(tm["name"])}</div>')
+
+        # 팀 개요 (overview 앵커)
+        out.append(f'    <div id="{tid}-overview" class="team-header" style="border-left:5px solid {tm["color"]}">')
+        out.append(f'      <h1>{tm["icon"]} {esc(tm["name"])}</h1>')
+        out.append(f'      <div class="team-members">{esc(tm["members"])}</div>')
+        out.append(f'      <div class="team-mission">{esc(tm["mission"])}</div>')
+        out.append(f'    </div>')
+
+        # 업무 리스트 (tasks 앵커) — teamdocs 시트
+        out.append(f'    <div id="{tid}-tasks">')
+        if 'teamdocs' in modules and tm.get('teamdocs_sheet'):
             tdsheets = modules['teamdocs'].get('sheets',[])
             td_names = manifest.get('teamdocs',{}).get('sheets',[])
             for si, sname in enumerate(td_names):
@@ -465,8 +586,29 @@ def build_team_pages(manifest, modules):
                     _, html = render_sheet(tdsheets[si], 'teamdocs')
                     out.append(f'    <h3 class="section-heading">📑 업무분장서</h3>')
                     out.append(html)
+        out.append(f'    </div>')
 
-        # 관련 매뉴얼 시트
+        # SOP·시나리오 (sop 앵커) — 매뉴얼 SOP 시트만
+        out.append(f'    <div id="{tid}-sop">')
+        # 관련 매뉴얼의 SOP/시나리오 시트만 추출
+        for mk in tm.get('manual_keys',[]):
+            if mk not in modules or mk not in manifest: continue
+            mi = manifest[mk]
+            msheets = modules[mk].get('sheets',[])
+            micon = MODULE_META.get(mk,{}).get('icon','📄')
+            sop_found = False
+            for si, sheet in enumerate(msheets):
+                sname = mi['sheets'][si] if si < len(mi['sheets']) else ''
+                if any(kw in sname for kw in ['SOP','시나리오','케이스스터디','상황대응']):
+                    if not sop_found:
+                        out.append(f'    <h3 class="section-heading">{micon} SOP·시나리오</h3>')
+                        sop_found = True
+                    _, html = render_sheet(sheet, mk)
+                    out.append(html)
+        out.append(f'    </div>')
+
+        # 매뉴얼 전체 (manual 앵커)
+        out.append(f'    <div id="{tid}-manual">')
         for mk in tm.get('manual_keys',[]):
             if mk not in modules or mk not in manifest: continue
             mi = manifest[mk]
@@ -475,10 +617,11 @@ def build_team_pages(manifest, modules):
             mlabel = 'IT홍보팀' if mk == 'sup' else mi['label']
             out.append(f'    <h3 class="section-heading">{micon} {esc(mlabel)} (초안) 매뉴얼</h3>')
             for si, sheet in enumerate(msheets):
-                sname = mi['sheets'][si] if si < len(mi['sheets']) else sheet.get('name','')
+                sname = mi['sheets'][si] if si < len(mi['sheets']) else ''
                 if mk == 'master' and sname in MASTER_EXCLUDE_SHEETS: continue
                 _, html = render_sheet(sheet, mk)
                 out.append(html)
+        out.append(f'    </div>')
 
         out.append('  </div>')
         pages.append('\n'.join(out))
@@ -774,17 +917,45 @@ window.addEventListener('DOMContentLoaded',function(){var d=document.body.classL
 function showPage(id){
   document.querySelectorAll('.page').forEach(function(p){p.classList.remove('active')});
   document.querySelectorAll('.nav-item').forEach(function(n){n.classList.remove('active')});
+  // 모든 펼침 메뉴 닫기
+  document.querySelectorAll('.nav-group.open').forEach(function(g){g.classList.remove('open')});
+
   var page=document.getElementById('page-'+id);
   if(page)page.classList.add('active');
   else document.getElementById('page-home').classList.add('active');
+
+  // 해당 메뉴 active 표시 + 부모 그룹 펼침
   document.querySelectorAll('.nav-item').forEach(function(n){
-    if(n.getAttribute('onclick')&&n.getAttribute('onclick').indexOf("'"+id+"'")!==-1)n.classList.add('active');
+    var oc=n.getAttribute('onclick')||'';
+    if(oc.indexOf("'"+id+"'")!==-1||oc.indexOf("'"+id+"',")!==-1){
+      n.classList.add('active');
+      var g=n.closest('.nav-group');
+      while(g){g.classList.add('open');g=g.parentElement.closest('.nav-group')}
+    }
   });
+
   document.getElementById('sidebar').classList.remove('open');
   document.getElementById('overlay').classList.remove('open');
   window.scrollTo(0,0);
 }
-function toggleGroup(el){el.parentElement.classList.toggle('open')}
+
+function showPageSection(pageId, anchor){
+  showPage(pageId);
+  setTimeout(function(){
+    var el=document.getElementById(pageId+'-'+anchor);
+    if(el)el.scrollIntoView({behavior:'smooth',block:'start'});
+  },50);
+}
+
+function toggleGroup(el){
+  var grp=el.parentElement;
+  var wasOpen=grp.classList.contains('open');
+  // 같은 레벨의 다른 그룹 닫기
+  var parent=grp.parentElement;
+  if(parent){parent.querySelectorAll(':scope > .nav-group.open').forEach(function(g){g.classList.remove('open')})}
+  if(!wasOpen)grp.classList.add('open');
+}
+
 function toggleSidebar(){document.getElementById('sidebar').classList.toggle('open');document.getElementById('overlay').classList.toggle('open')}
 function openGroup(pid){showPage(pid);document.querySelectorAll('.nav-group').forEach(function(g){g.querySelectorAll('.nav-item').forEach(function(i){if(i.getAttribute('onclick')&&i.getAttribute('onclick').indexOf(pid)!==-1)g.classList.add('open')})})}
 
