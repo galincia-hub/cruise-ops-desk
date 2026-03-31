@@ -279,7 +279,7 @@
      {
       "col": 3,
       "row": 9,
-      "value": "★ 타사",
+      "value": "★ 롯데JTB",
       "bold": false,
       "bg": "#FDEDEC",
       "fc": "#2C3E50"
@@ -853,7 +853,7 @@
      {
       "col": 4,
       "row": 21,
-      "value": "팬스타 입항\n+ 타사 출항",
+      "value": "팬스타 입항\n+ 롯데JTB 출항",
       "bold": false,
       "bg": "#FEF9E7",
       "fc": "#2C3E50"
@@ -4498,7 +4498,7 @@
      {
       "col": 5,
       "row": 49,
-      "value": "★★ 핵심 참관 ④ 타사 (5/27)",
+      "value": "★★ 핵심 참관 ④ 롯데JTB (5/27)",
       "bold": true,
       "bg": "#F4ECF7",
       "fc": ""

@@ -1,17 +1,17 @@
 {
  "key": "qa",
- "label": "자문 질문 리스트",
+ "label": "질의·자문 요청사항",
  "sheets": [
   {
-   "name": "자문 질문 리스트",
+   "name": "질의·자문 요청사항",
    "rows": 90,
-   "cols": 7,
+   "cols": 9,
    "data": [
     [
      {
       "col": 2,
       "row": 2,
-      "value": "타사 자문 질문 리스트 — 코스타 세레나 전세선 총괄운영 사전 자문",
+      "value": "자체 질의사항 및 자문요청사항 — 코스타 세레나 전세선 운영 준비",
       "bold": true,
       "bg": "#0D1B2A",
       "fc": "#FFFFFF"
@@ -21,7 +21,7 @@
      {
       "col": 2,
       "row": 4,
-      "value": "발신: 모두투어 크루즈사업부 (2026년 6월 19일~25일 코스타 세레나 전세선 총괄운영)\n수신: 타사 경험자 (코스타 세레나 전세선 운영 경험자)\n\n안녕하십니까, 모두투어 크루즈사업부입니다.\n당사는 2026년 6월 코스타 세레나 한일전세선(6박 7일, 부산-하코다테-오타루-부산)을 처음 운영하게 되었습니다.\n귀사의 2026년 5월 항차(5/27~6/1) 운영 경험을 바탕으로, 아래 항목에 대해 실무적 자문을 구하고자 합니다.\n특히 \"이론적으로는 준비했으나 현장에서만 알 수 있는 것들\"에 대한 조언을 부탁드립니다.",
+      "value": "코스타 세레나 한일전세선 운영 준비 과정에서 확인이 필요한 사항을 정리한 목록입니다.\n자체적으로 해결 가능한 사항과 외부(코스타/타사 경험자/협력사 등)에 확인해야 할 사항을 구분하여 관리합니다.\n각 항목의 자문처를 확인하여 담당자가 해당 기관에 문의·해결하시기 바랍니다.",
       "bold": false,
       "bg": "#EAF2F8",
       "fc": ""
@@ -47,7 +47,7 @@
      {
       "col": 4,
       "row": 6,
-      "value": "질문 항목 (제목 수준)",
+      "value": "질의/자문 항목",
       "bold": true,
       "bg": "#1B2A4A",
       "fc": "#FFFFFF"
@@ -55,7 +55,7 @@
      {
       "col": 5,
       "row": 6,
-      "value": "질문 의도/배경",
+      "value": "질의 의도/배경",
       "bold": true,
       "bg": "#1B2A4A",
       "fc": "#FFFFFF"
@@ -71,9 +71,25 @@
      {
       "col": 7,
       "row": 6,
-      "value": "회신 희망",
+      "value": "회신 시기",
       "bold": true,
       "bg": "#1B2A4A",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 8,
+      "row": 6,
+      "value": "처리현황",
+      "bold": true,
+      "bg": "#2C3E50",
+      "fc": "#FFFFFF"
+     },
+     {
+      "col": 9,
+      "row": 6,
+      "value": "자문처/문의처",
+      "bold": true,
+      "bg": "#2C3E50",
       "fc": "#FFFFFF"
      }
     ],
@@ -135,6 +151,22 @@
       "bold": false,
       "bg": "#EAF2F8",
       "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 8,
+      "value": "미처리",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": ""
+     },
+     {
+      "col": 9,
+      "row": 8,
+      "value": "타사 경험자 / 동방선적",
+      "bold": false,
+      "bg": "",
+      "fc": ""
      }
     ],
     [
@@ -185,6 +217,22 @@
       "bold": false,
       "bg": "#EAF2F8",
       "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 9,
+      "value": "미처리",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": ""
+     },
+     {
+      "col": 9,
+      "row": 9,
+      "value": "타사 경험자 / 동방선적",
+      "bold": false,
+      "bg": "",
+      "fc": ""
      }
     ],
     [
@@ -235,6 +283,22 @@
       "bold": false,
       "bg": "#EAF2F8",
       "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 10,
+      "value": "미처리",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": ""
+     },
+     {
+      "col": 9,
+      "row": 10,
+      "value": "동방선적 / 타사 경험자",
+      "bold": false,
+      "bg": "",
+      "fc": ""
      }
     ],
     [
@@ -285,6 +349,22 @@
       "bold": false,
       "bg": "#EAF2F8",
       "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 11,
+      "value": "미처리",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": ""
+     },
+     {
+      "col": 9,
+      "row": 11,
+      "value": "동방선적 / 타사 경험자",
+      "bold": false,
+      "bg": "",
+      "fc": ""
      }
     ],
     [
@@ -335,6 +415,22 @@
       "bold": false,
       "bg": "#EAF2F8",
       "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 12,
+      "value": "미처리",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": ""
+     },
+     {
+      "col": 9,
+      "row": 12,
+      "value": "동방선적 / 타사 경험자",
+      "bold": false,
+      "bg": "",
+      "fc": ""
      }
     ],
     [
@@ -385,6 +481,22 @@
       "bold": false,
       "bg": "#EAF2F8",
       "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 13,
+      "value": "미처리",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": ""
+     },
+     {
+      "col": 9,
+      "row": 13,
+      "value": "타사 경험자 / 코스타",
+      "bold": false,
+      "bg": "",
+      "fc": ""
      }
     ],
     [
@@ -435,6 +547,22 @@
       "bold": false,
       "bg": "#EAF2F8",
       "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 14,
+      "value": "미처리",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": ""
+     },
+     {
+      "col": 9,
+      "row": 14,
+      "value": "타사 경험자 / 코스타",
+      "bold": false,
+      "bg": "",
+      "fc": ""
      }
     ],
     [
@@ -485,6 +613,22 @@
       "bold": false,
       "bg": "#EAF2F8",
       "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 15,
+      "value": "미처리",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": ""
+     },
+     {
+      "col": 9,
+      "row": 15,
+      "value": "타사 경험자 / 코스타",
+      "bold": false,
+      "bg": "",
+      "fc": ""
      }
     ],
     [
@@ -535,6 +679,22 @@
       "bold": false,
       "bg": "#EAF2F8",
       "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 16,
+      "value": "미처리",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": ""
+     },
+     {
+      "col": 9,
+      "row": 16,
+      "value": "타사 경험자 / 코스타",
+      "bold": false,
+      "bg": "",
+      "fc": ""
      }
     ],
     [
@@ -585,6 +745,22 @@
       "bold": false,
       "bg": "#EAF2F8",
       "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 17,
+      "value": "미처리",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": ""
+     },
+     {
+      "col": 9,
+      "row": 17,
+      "value": "타사 경험자 / 코스타",
+      "bold": false,
+      "bg": "",
+      "fc": ""
      }
     ],
     [
@@ -645,6 +821,22 @@
       "bold": false,
       "bg": "#FDEDEC",
       "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 20,
+      "value": "미처리",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": ""
+     },
+     {
+      "col": 9,
+      "row": 20,
+      "value": "코스타 (리셉션) / 자체확인",
+      "bold": false,
+      "bg": "",
+      "fc": ""
      }
     ],
     [
@@ -695,6 +887,22 @@
       "bold": false,
       "bg": "#FDEDEC",
       "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 21,
+      "value": "미처리",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": ""
+     },
+     {
+      "col": 9,
+      "row": 21,
+      "value": "코스타 (리셉션) / 자체확인",
+      "bold": false,
+      "bg": "",
+      "fc": ""
      }
     ],
     [
@@ -745,6 +953,22 @@
       "bold": false,
       "bg": "#FDEDEC",
       "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 22,
+      "value": "미처리",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": ""
+     },
+     {
+      "col": 9,
+      "row": 22,
+      "value": "코스타 (리셉션) / 자체확인",
+      "bold": false,
+      "bg": "",
+      "fc": ""
      }
     ],
     [
@@ -795,6 +1019,22 @@
       "bold": false,
       "bg": "#FDEDEC",
       "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 23,
+      "value": "미처리",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": ""
+     },
+     {
+      "col": 9,
+      "row": 23,
+      "value": "코스타 (리셉션) / 자체확인",
+      "bold": false,
+      "bg": "",
+      "fc": ""
      }
     ],
     [
@@ -845,6 +1085,22 @@
       "bold": false,
       "bg": "#FDEDEC",
       "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 24,
+      "value": "미처리",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": ""
+     },
+     {
+      "col": 9,
+      "row": 24,
+      "value": "코스타 (HD)",
+      "bold": false,
+      "bg": "",
+      "fc": ""
      }
     ],
     [
@@ -895,6 +1151,22 @@
       "bold": false,
       "bg": "#FDEDEC",
       "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 25,
+      "value": "미처리",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": ""
+     },
+     {
+      "col": 9,
+      "row": 25,
+      "value": "코스타 (HD)",
+      "bold": false,
+      "bg": "",
+      "fc": ""
      }
     ],
     [
@@ -945,6 +1217,22 @@
       "bold": false,
       "bg": "#FDEDEC",
       "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 26,
+      "value": "미처리",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": ""
+     },
+     {
+      "col": 9,
+      "row": 26,
+      "value": "확인 필요",
+      "bold": false,
+      "bg": "",
+      "fc": ""
      }
     ],
     [
@@ -995,6 +1283,22 @@
       "bold": false,
       "bg": "#FDEDEC",
       "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 27,
+      "value": "미처리",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": ""
+     },
+     {
+      "col": 9,
+      "row": 27,
+      "value": "확인 필요",
+      "bold": false,
+      "bg": "",
+      "fc": ""
      }
     ],
     [
@@ -1055,6 +1359,22 @@
       "bold": false,
       "bg": "#E8F8F5",
       "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 30,
+      "value": "미처리",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": ""
+     },
+     {
+      "col": 9,
+      "row": 30,
+      "value": "확인 필요",
+      "bold": false,
+      "bg": "",
+      "fc": ""
      }
     ],
     [
@@ -1105,6 +1425,22 @@
       "bold": false,
       "bg": "#E8F8F5",
       "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 31,
+      "value": "미처리",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": ""
+     },
+     {
+      "col": 9,
+      "row": 31,
+      "value": "확인 필요",
+      "bold": false,
+      "bg": "",
+      "fc": ""
      }
     ],
     [
@@ -1155,6 +1491,22 @@
       "bold": false,
       "bg": "#E8F8F5",
       "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 32,
+      "value": "미처리",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": ""
+     },
+     {
+      "col": 9,
+      "row": 32,
+      "value": "확인 필요",
+      "bold": false,
+      "bg": "",
+      "fc": ""
      }
     ],
     [
@@ -1205,6 +1557,22 @@
       "bold": false,
       "bg": "#E8F8F5",
       "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 33,
+      "value": "미처리",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": ""
+     },
+     {
+      "col": 9,
+      "row": 33,
+      "value": "확인 필요",
+      "bold": false,
+      "bg": "",
+      "fc": ""
      }
     ],
     [
@@ -1255,6 +1623,22 @@
       "bold": false,
       "bg": "#E8F8F5",
       "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 34,
+      "value": "미처리",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": ""
+     },
+     {
+      "col": 9,
+      "row": 34,
+      "value": "확인 필요",
+      "bold": false,
+      "bg": "",
+      "fc": ""
      }
     ],
     [
@@ -1305,6 +1689,22 @@
       "bold": false,
       "bg": "#E8F8F5",
       "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 35,
+      "value": "미처리",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": ""
+     },
+     {
+      "col": 9,
+      "row": 35,
+      "value": "확인 필요",
+      "bold": false,
+      "bg": "",
+      "fc": ""
      }
     ],
     [
@@ -1355,6 +1755,22 @@
       "bold": false,
       "bg": "#E8F8F5",
       "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 36,
+      "value": "미처리",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": ""
+     },
+     {
+      "col": 9,
+      "row": 36,
+      "value": "확인 필요",
+      "bold": false,
+      "bg": "",
+      "fc": ""
      }
     ],
     [
@@ -1405,6 +1821,22 @@
       "bold": false,
       "bg": "#E8F8F5",
       "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 37,
+      "value": "미처리",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": ""
+     },
+     {
+      "col": 9,
+      "row": 37,
+      "value": "확인 필요",
+      "bold": false,
+      "bg": "",
+      "fc": ""
      }
     ],
     [
@@ -1465,6 +1897,22 @@
       "bold": false,
       "bg": "#FEF5E7",
       "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 40,
+      "value": "미처리",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": ""
+     },
+     {
+      "col": 9,
+      "row": 40,
+      "value": "확인 필요",
+      "bold": false,
+      "bg": "",
+      "fc": ""
      }
     ],
     [
@@ -1515,6 +1963,22 @@
       "bold": false,
       "bg": "#FEF5E7",
       "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 41,
+      "value": "미처리",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": ""
+     },
+     {
+      "col": 9,
+      "row": 41,
+      "value": "확인 필요",
+      "bold": false,
+      "bg": "",
+      "fc": ""
      }
     ],
     [
@@ -1565,6 +2029,22 @@
       "bold": false,
       "bg": "#FEF5E7",
       "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 42,
+      "value": "미처리",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": ""
+     },
+     {
+      "col": 9,
+      "row": 42,
+      "value": "확인 필요",
+      "bold": false,
+      "bg": "",
+      "fc": ""
      }
     ],
     [
@@ -1615,6 +2095,22 @@
       "bold": false,
       "bg": "#FEF5E7",
       "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 43,
+      "value": "미처리",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": ""
+     },
+     {
+      "col": 9,
+      "row": 43,
+      "value": "확인 필요",
+      "bold": false,
+      "bg": "",
+      "fc": ""
      }
     ],
     [
@@ -1665,6 +2161,22 @@
       "bold": false,
       "bg": "#FEF5E7",
       "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 44,
+      "value": "미처리",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": ""
+     },
+     {
+      "col": 9,
+      "row": 44,
+      "value": "확인 필요",
+      "bold": false,
+      "bg": "",
+      "fc": ""
      }
     ],
     [
@@ -1725,6 +2237,22 @@
       "bold": false,
       "bg": "#F4ECF7",
       "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 47,
+      "value": "미처리",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": ""
+     },
+     {
+      "col": 9,
+      "row": 47,
+      "value": "확인 필요",
+      "bold": false,
+      "bg": "",
+      "fc": ""
      }
     ],
     [
@@ -1775,6 +2303,22 @@
       "bold": false,
       "bg": "#F4ECF7",
       "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 48,
+      "value": "미처리",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": ""
+     },
+     {
+      "col": 9,
+      "row": 48,
+      "value": "확인 필요",
+      "bold": false,
+      "bg": "",
+      "fc": ""
      }
     ],
     [
@@ -1825,6 +2369,22 @@
       "bold": false,
       "bg": "#F4ECF7",
       "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 49,
+      "value": "미처리",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": ""
+     },
+     {
+      "col": 9,
+      "row": 49,
+      "value": "확인 필요",
+      "bold": false,
+      "bg": "",
+      "fc": ""
      }
     ],
     [
@@ -1875,6 +2435,22 @@
       "bold": false,
       "bg": "#F4ECF7",
       "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 50,
+      "value": "미처리",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": ""
+     },
+     {
+      "col": 9,
+      "row": 50,
+      "value": "확인 필요",
+      "bold": false,
+      "bg": "",
+      "fc": ""
      }
     ],
     [
@@ -1925,6 +2501,22 @@
       "bold": false,
       "bg": "#F4ECF7",
       "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 51,
+      "value": "미처리",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": ""
+     },
+     {
+      "col": 9,
+      "row": 51,
+      "value": "확인 필요",
+      "bold": false,
+      "bg": "",
+      "fc": ""
      }
     ],
     [
@@ -1975,6 +2567,22 @@
       "bold": false,
       "bg": "#F4ECF7",
       "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 52,
+      "value": "미처리",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": ""
+     },
+     {
+      "col": 9,
+      "row": 52,
+      "value": "확인 필요",
+      "bold": false,
+      "bg": "",
+      "fc": ""
      }
     ],
     [
@@ -2035,6 +2643,22 @@
       "bold": false,
       "bg": "#E8F8F5",
       "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 55,
+      "value": "미처리",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": ""
+     },
+     {
+      "col": 9,
+      "row": 55,
+      "value": "확인 필요",
+      "bold": false,
+      "bg": "",
+      "fc": ""
      }
     ],
     [
@@ -2085,6 +2709,22 @@
       "bold": false,
       "bg": "#E8F8F5",
       "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 56,
+      "value": "미처리",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": ""
+     },
+     {
+      "col": 9,
+      "row": 56,
+      "value": "확인 필요",
+      "bold": false,
+      "bg": "",
+      "fc": ""
      }
     ],
     [
@@ -2135,6 +2775,22 @@
       "bold": false,
       "bg": "#E8F8F5",
       "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 57,
+      "value": "미처리",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": ""
+     },
+     {
+      "col": 9,
+      "row": 57,
+      "value": "코스타 / 타이요플랜",
+      "bold": false,
+      "bg": "",
+      "fc": ""
      }
     ],
     [
@@ -2185,6 +2841,22 @@
       "bold": false,
       "bg": "#E8F8F5",
       "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 58,
+      "value": "미처리",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": ""
+     },
+     {
+      "col": 9,
+      "row": 58,
+      "value": "확인 필요",
+      "bold": false,
+      "bg": "",
+      "fc": ""
      }
     ],
     [
@@ -2235,6 +2907,22 @@
       "bold": false,
       "bg": "#E8F8F5",
       "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 59,
+      "value": "미처리",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": ""
+     },
+     {
+      "col": 9,
+      "row": 59,
+      "value": "타이요플랜",
+      "bold": false,
+      "bg": "",
+      "fc": ""
      }
     ],
     [
@@ -2295,6 +2983,22 @@
       "bold": false,
       "bg": "#F4ECF7",
       "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 62,
+      "value": "미처리",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": ""
+     },
+     {
+      "col": 9,
+      "row": 62,
+      "value": "확인 필요",
+      "bold": false,
+      "bg": "",
+      "fc": ""
      }
     ],
     [
@@ -2345,6 +3049,22 @@
       "bold": false,
       "bg": "#F4ECF7",
       "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 63,
+      "value": "미처리",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": ""
+     },
+     {
+      "col": 9,
+      "row": 63,
+      "value": "확인 필요",
+      "bold": false,
+      "bg": "",
+      "fc": ""
      }
     ],
     [
@@ -2395,6 +3115,22 @@
       "bold": false,
       "bg": "#F4ECF7",
       "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 64,
+      "value": "미처리",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": ""
+     },
+     {
+      "col": 9,
+      "row": 64,
+      "value": "코스타 (리셉션) / 자체확인",
+      "bold": false,
+      "bg": "",
+      "fc": ""
      }
     ],
     [
@@ -2445,6 +3181,22 @@
       "bold": false,
       "bg": "#F4ECF7",
       "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 65,
+      "value": "미처리",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": ""
+     },
+     {
+      "col": 9,
+      "row": 65,
+      "value": "코스타 (리셉션) / 자체확인",
+      "bold": false,
+      "bg": "",
+      "fc": ""
      }
     ],
     [
@@ -2495,6 +3247,22 @@
       "bold": false,
       "bg": "#F4ECF7",
       "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 66,
+      "value": "미처리",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": ""
+     },
+     {
+      "col": 9,
+      "row": 66,
+      "value": "코스타 (리셉션) / 자체확인",
+      "bold": false,
+      "bg": "",
+      "fc": ""
      }
     ],
     [
@@ -2545,6 +3313,22 @@
       "bold": false,
       "bg": "#F4ECF7",
       "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 67,
+      "value": "미처리",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": ""
+     },
+     {
+      "col": 9,
+      "row": 67,
+      "value": "타사 경험자 / 코스타",
+      "bold": false,
+      "bg": "",
+      "fc": ""
      }
     ],
     [
@@ -2595,6 +3379,22 @@
       "bold": false,
       "bg": "#F4ECF7",
       "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 68,
+      "value": "미처리",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": ""
+     },
+     {
+      "col": 9,
+      "row": 68,
+      "value": "코스타 (리셉션) / 자체확인",
+      "bold": false,
+      "bg": "",
+      "fc": ""
      }
     ],
     [
@@ -2645,6 +3445,22 @@
       "bold": false,
       "bg": "#F4ECF7",
       "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 69,
+      "value": "미처리",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": ""
+     },
+     {
+      "col": 9,
+      "row": 69,
+      "value": "코스타 (리셉션) / 자체확인",
+      "bold": false,
+      "bg": "",
+      "fc": ""
      }
     ],
     [
@@ -2705,6 +3521,22 @@
       "bold": false,
       "bg": "#F7F9FC",
       "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 72,
+      "value": "미처리",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": ""
+     },
+     {
+      "col": 9,
+      "row": 72,
+      "value": "확인 필요",
+      "bold": false,
+      "bg": "",
+      "fc": ""
      }
     ],
     [
@@ -2755,6 +3587,22 @@
       "bold": false,
       "bg": "#F7F9FC",
       "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 73,
+      "value": "미처리",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": ""
+     },
+     {
+      "col": 9,
+      "row": 73,
+      "value": "확인 필요",
+      "bold": false,
+      "bg": "",
+      "fc": ""
      }
     ],
     [
@@ -2805,6 +3653,22 @@
       "bold": false,
       "bg": "#F7F9FC",
       "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 74,
+      "value": "미처리",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": ""
+     },
+     {
+      "col": 9,
+      "row": 74,
+      "value": "확인 필요",
+      "bold": false,
+      "bg": "",
+      "fc": ""
      }
     ],
     [
@@ -2855,6 +3719,22 @@
       "bold": false,
       "bg": "#F7F9FC",
       "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 75,
+      "value": "미처리",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": ""
+     },
+     {
+      "col": 9,
+      "row": 75,
+      "value": "확인 필요",
+      "bold": false,
+      "bg": "",
+      "fc": ""
      }
     ],
     [
@@ -2905,6 +3785,22 @@
       "bold": false,
       "bg": "#F7F9FC",
       "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 76,
+      "value": "미처리",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": ""
+     },
+     {
+      "col": 9,
+      "row": 76,
+      "value": "확인 필요",
+      "bold": false,
+      "bg": "",
+      "fc": ""
      }
     ],
     [
@@ -2965,6 +3861,22 @@
       "bold": false,
       "bg": "#FEF9E7",
       "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 79,
+      "value": "미처리",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": ""
+     },
+     {
+      "col": 9,
+      "row": 79,
+      "value": "확인 필요",
+      "bold": false,
+      "bg": "",
+      "fc": ""
      }
     ],
     [
@@ -3015,6 +3927,22 @@
       "bold": false,
       "bg": "#FEF9E7",
       "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 80,
+      "value": "미처리",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": ""
+     },
+     {
+      "col": 9,
+      "row": 80,
+      "value": "확인 필요",
+      "bold": false,
+      "bg": "",
+      "fc": ""
      }
     ],
     [
@@ -3065,6 +3993,22 @@
       "bold": false,
       "bg": "#FEF9E7",
       "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 81,
+      "value": "미처리",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": ""
+     },
+     {
+      "col": 9,
+      "row": 81,
+      "value": "타사 경험자 / 자체확인",
+      "bold": false,
+      "bg": "",
+      "fc": ""
      }
     ],
     [
@@ -3125,6 +4069,22 @@
       "bold": false,
       "bg": "#EAF2F8",
       "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 84,
+      "value": "미처리",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": ""
+     },
+     {
+      "col": 9,
+      "row": 84,
+      "value": "확인 필요",
+      "bold": false,
+      "bg": "",
+      "fc": ""
      }
     ],
     [
@@ -3175,6 +4135,22 @@
       "bold": false,
       "bg": "#EAF2F8",
       "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 85,
+      "value": "미처리",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": ""
+     },
+     {
+      "col": 9,
+      "row": 85,
+      "value": "확인 필요",
+      "bold": false,
+      "bg": "",
+      "fc": ""
      }
     ],
     [
@@ -3225,6 +4201,22 @@
       "bold": false,
       "bg": "#EAF2F8",
       "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 86,
+      "value": "미처리",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": ""
+     },
+     {
+      "col": 9,
+      "row": 86,
+      "value": "확인 필요",
+      "bold": false,
+      "bg": "",
+      "fc": ""
      }
     ],
     [
@@ -3275,6 +4267,22 @@
       "bold": false,
       "bg": "#EAF2F8",
       "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 87,
+      "value": "미처리",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": ""
+     },
+     {
+      "col": 9,
+      "row": 87,
+      "value": "확인 필요",
+      "bold": false,
+      "bg": "",
+      "fc": ""
      }
     ],
     [
@@ -3325,6 +4333,22 @@
       "bold": false,
       "bg": "#EAF2F8",
       "fc": "#2C3E50"
+     },
+     {
+      "col": 8,
+      "row": 88,
+      "value": "미처리",
+      "bold": false,
+      "bg": "#FEF9E7",
+      "fc": ""
+     },
+     {
+      "col": 9,
+      "row": 88,
+      "value": "확인 필요",
+      "bold": false,
+      "bg": "",
+      "fc": ""
      }
     ],
     [
