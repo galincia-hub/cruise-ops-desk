@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-build.py — 모두의 크루즈 운영 데스크 HTML 빌더 v3.0 (대안A 계층형)
+build.py — 모두의 크루즈 운영 데스크 HTML 빌더 v3.1 (대안A 계층형)
 Usage: python build.py
   data/*.json → index.html
 """
@@ -167,6 +167,20 @@ TEAM_WORKSPACE = [
 
 MASTER_EXCLUDE_SHEETS = ['인력운영안(원본)']
 
+# 팀 ID → meeting_insights.json 키 매핑
+TEAM_INSIGHT_MAP = {
+    'team-hq': 'hq',
+    'team-support': 'support',
+    'team-event': 'program',
+    'team-port': 'port',
+    'team-embark': 'port',      # 승하선팀은 기항지 인사이트 공유
+    'team-it': 'it',
+}
+
+# v3.1 업데이트로 변경된 팀 ID (NEW 뱃지 대상)
+UPDATE_DATE = '2026-04-10'
+UPDATED_TEAMS = {'team-hq', 'team-support', 'team-event', 'team-port', 'team-embark', 'team-it'}
+
 # ── 유틸리티 ─────────────────────────────────────────────────────────
 def esc(v):
     if v is None: return ''
@@ -305,6 +319,57 @@ def load_all():
             print(f'  [WARN] {key}.json not found', file=sys.stderr)
     return manifest, modules
 
+# ── 미팅 인사이트 로드 ────────────────────────────────────────────────
+def load_insights():
+    path = os.path.join(DATA, 'meeting_insights.json')
+    if not os.path.exists(path):
+        return None
+    with open(path, encoding='utf-8') as f:
+        return json.load(f)
+
+def build_insights_section(tid, insights):
+    """팀 워크스페이스 하단에 타사 미팅 인사이트 섹션을 렌더링한다."""
+    if not insights:
+        return ''
+    key = TEAM_INSIGHT_MAP.get(tid)
+    if not key or key not in insights:
+        return ''
+    section = insights[key]
+    items = section.get('items', [])
+    if not items:
+        return ''
+
+    priority_cls = {'높음': 'high', '중간': 'mid', '낮음': 'low'}
+    meta = insights.get('meta', {})
+    source = esc(meta.get('source', ''))
+    updated = esc(meta.get('updated', ''))
+
+    o = []
+    o.append(f'    <div id="{tid}-insights" class="insights-wrap insights-new">')
+    o.append(f'      <div class="insights-toggle" onclick="this.parentElement.classList.toggle(\'open\')">')
+    o.append(f'        <h3 class="section-heading" style="margin:0;border:none;cursor:pointer">')
+    o.append(f'          📋 타사 미팅 인사이트 <span class="nav-new-badge" title="{UPDATE_DATE} 신규 추가">NEW</span> <span class="insights-arrow">▶</span></h3>')
+    o.append(f'        <span class="insights-meta">{source} · 갱신 {updated}</span>')
+    o.append(f'      </div>')
+    o.append(f'      <div class="insights-body">')
+    o.append(f'        <table class="ops-table insights-table"><thead><tr>')
+    o.append(f'          <th style="width:70px">ID</th><th>과업명</th><th>내용</th>')
+    o.append(f'          <th style="width:80px">시점</th><th style="width:70px">우선순위</th>')
+    o.append(f'        </tr></thead><tbody>')
+    for it in items:
+        pcls = priority_cls.get(it.get('priority',''), '')
+        o.append(f'        <tr>')
+        o.append(f'          <td><code>{esc(it["id"])}</code></td>')
+        o.append(f'          <td><strong>{esc(it["title"])}</strong></td>')
+        o.append(f'          <td>{esc(it["content"])}</td>')
+        o.append(f'          <td>{esc(it.get("phase",""))}</td>')
+        o.append(f'          <td><span class="priority-badge {pcls}">{esc(it.get("priority",""))}</span></td>')
+        o.append(f'        </tr>')
+    o.append(f'        </tbody></table>')
+    o.append(f'      </div>')
+    o.append(f'    </div>')
+    return '\n'.join(o)
+
 # ── 매트릭스 통계 (진행현황 카운터) ──────────────────────────────────
 def matrix_stats(modules):
     if 'matrix' not in modules: return 0,0,0,0
@@ -336,8 +401,11 @@ def build_nav(manifest):
     L.append('    <div class="nav-section-title">팀별 워크스페이스</div>')
 
     def _nav_team(tm, indent='    '):
+        new_badge = ''
+        if tm['id'] in UPDATED_TEAMS:
+            new_badge = f'<span class="nav-new-badge" title="{UPDATE_DATE} 업데이트">NEW</span>'
         L.append(f'{indent}<div class="nav-group">')
-        L.append(f'{indent}  <div class="nav-group-header" onclick="toggleGroup(this)"><span class="icon">{tm["icon"]}</span>{esc(tm["name"])}<span class="arrow">▶</span></div>')
+        L.append(f'{indent}  <div class="nav-group-header" onclick="toggleGroup(this)"><span class="icon">{tm["icon"]}</span>{esc(tm["name"])}{new_badge}<span class="arrow">▶</span></div>')
         L.append(f'{indent}  <div class="nav-sub">')
         for label, anchor in tm.get('sub_items', []):
             L.append(f'{indent}    <div class="nav-item" onclick="showPageSection(\'{tm["id"]}\',\'{anchor}\')">{esc(label)}</div>')
@@ -494,7 +562,7 @@ def build_dashboard(manifest, modules):
     return counters + '\n' + milestones
 
 # ── 팀 워크스페이스 페이지 ───────────────────────────────────────────
-def build_team_pages(manifest, modules):
+def build_team_pages(manifest, modules, insights=None):
     pages = []
 
     def _build_hq(tm):
@@ -554,6 +622,11 @@ def build_team_pages(manifest, modules):
                 _, html = render_sheet(msheets[0], 'master')
                 out.append(html)
         out.append(f'    </div>')
+
+        # ⑤ 타사 미팅 인사이트
+        ins_html = build_insights_section(tid, insights)
+        if ins_html:
+            out.append(ins_html)
 
         out.append('  </div>')
         pages.append('\n'.join(out))
@@ -622,6 +695,11 @@ def build_team_pages(manifest, modules):
                 _, html = render_sheet(sheet, mk)
                 out.append(html)
         out.append(f'    </div>')
+
+        # 타사 미팅 인사이트
+        ins_html = build_insights_section(tid, insights)
+        if ins_html:
+            out.append(ins_html)
 
         out.append('  </div>')
         pages.append('\n'.join(out))
@@ -872,12 +950,19 @@ body.dark .tag-off{background:#374151;color:#D1D5DB}
 .col-filter-wrap{position:relative;display:inline-block}
 .col-filter-btn{background:none;border:none;cursor:pointer;font-size:11px;color:var(--text-secondary);padding:0 2px;vertical-align:middle}
 .col-filter-btn.active{color:var(--accent-blue)}
-.col-filter-drop{display:none;position:absolute;top:100%;left:0;z-index:200;background:var(--bg-card);border:1px solid var(--border-main);border-radius:8px;box-shadow:var(--shadow-lg);padding:8px;min-width:180px;max-height:260px;overflow-y:auto}
+.col-filter-drop{display:none;position:absolute;top:100%;left:0;z-index:200;background:var(--bg-card);border:1px solid var(--border-main);border-radius:8px;box-shadow:var(--shadow-lg);padding:8px;min-width:220px;max-height:420px;overflow-y:auto}
 .col-filter-drop.open{display:block}
-.col-filter-drop label{display:block;font-size:12px;padding:4px 6px;cursor:pointer;color:var(--text-primary);border-radius:4px}
+.col-filter-drop label{display:flex;align-items:center;font-size:13px;padding:8px 12px;min-height:36px;line-height:36px;cursor:pointer;color:var(--text-primary);border-radius:6px;white-space:nowrap}
+.col-filter-drop label input[type=checkbox]{margin-right:10px;width:16px;height:16px;cursor:pointer;flex-shrink:0}
 .col-filter-drop label:hover{background:var(--nav-hover-bg)}
-.col-filter-actions{display:flex;gap:6px;margin-bottom:6px;border-bottom:1px solid var(--border-main);padding-bottom:6px}
-.col-filter-actions button{font-size:11px;padding:2px 8px;border:1px solid var(--border-main);border-radius:4px;background:var(--bg-main);color:var(--text-primary);cursor:pointer}
+.col-filter-actions{display:flex;gap:6px;margin-bottom:8px;border-bottom:1px solid var(--border-main);padding-bottom:8px}
+.col-filter-actions button{font-size:12px;padding:6px 12px;min-height:32px;border:1px solid var(--border-main);border-radius:6px;background:var(--bg-main);color:var(--text-primary);cursor:pointer}
+.col-filter-actions button:hover{background:var(--nav-hover-bg)}
+@media(max-width:768px){
+  .col-filter-drop{min-width:240px;max-height:60vh}
+  .col-filter-drop label{font-size:14px;min-height:44px;line-height:44px;padding:10px 14px}
+  .col-filter-drop label input[type=checkbox]{width:18px;height:18px;margin-right:12px}
+}
 .badge-cat{display:inline-block;font-size:10px;padding:2px 8px;border-radius:10px;font-weight:600;white-space:nowrap}
 .badge-status{display:inline-block;font-size:10px;padding:2px 8px;border-radius:10px;font-weight:700;white-space:nowrap}
 .badge-status-done{background:#D1FAE5;color:#065F46}
@@ -908,7 +993,30 @@ body.dark .badge-status-todo{background:#78350F;color:#FDE68A}
   :root{--sidebar-w:240px}
   .dashboard{grid-template-columns:repeat(2,1fr)}
   .stat-row{grid-template-columns:repeat(4,1fr)}
-}"""
+}
+
+/* ── NEW 뱃지 ── */
+.nav-new-badge{display:inline-block;margin-left:6px;padding:1px 6px;font-size:9px;font-weight:800;line-height:1.5;background:#EF4444;color:#FFF;border-radius:8px;letter-spacing:.5px;vertical-align:middle;cursor:help;animation:newPulse 2s ease-in-out infinite}
+@keyframes newPulse{0%,100%{box-shadow:0 0 0 0 rgba(239,68,68,.5)}50%{box-shadow:0 0 0 4px rgba(239,68,68,0)}}
+
+/* ── 타사 미팅 인사이트 ── */
+.insights-wrap{margin-top:28px;background:var(--bg-card);border:1px solid var(--border-main);border-radius:var(--radius-sm);overflow:hidden;box-shadow:var(--shadow-card)}
+.insights-wrap.insights-new{border-left:5px solid #EF4444}
+.insights-toggle{display:flex;align-items:center;justify-content:space-between;padding:14px 18px;cursor:pointer;user-select:none;background:var(--bg-thead)}
+.insights-toggle:hover{background:var(--nav-hover-bg)}
+.insights-arrow{font-size:11px;color:var(--text-secondary);transition:transform .2s;margin-left:8px}
+.insights-wrap.open .insights-arrow{transform:rotate(90deg)}
+.insights-meta{font-size:11px;color:var(--text-secondary);white-space:nowrap}
+.insights-body{display:none;padding:0}
+.insights-wrap.open .insights-body{display:block}
+.insights-table td{vertical-align:top}
+.priority-badge{display:inline-block;padding:2px 10px;border-radius:12px;font-size:11px;font-weight:700;line-height:1.6}
+.priority-badge.high{background:#FEE2E2;color:#DC2626}
+.priority-badge.mid{background:#FEF3C7;color:#D97706}
+.priority-badge.low{background:#D1FAE5;color:#059669}
+body.dark .priority-badge.high{background:#7F1D1D;color:#FCA5A5}
+body.dark .priority-badge.mid{background:#78350F;color:#FCD34D}
+body.dark .priority-badge.low{background:#064E3B;color:#6EE7B7}"""
 
 JS = r"""(function(){if(localStorage.getItem('dark')==='1')document.body.classList.add('dark')})();
 function toggleDark(){var d=document.body.classList.toggle('dark');localStorage.setItem('dark',d?'1':'0');document.getElementById('dark-btn').textContent=d?'☀️':'🌙'}
@@ -985,7 +1093,7 @@ function matrixInit(){
     var sa=document.createElement('button');sa.textContent='전체';sa.onclick=function(e){e.stopPropagation();toggleAllChecks(drop,true,ci)};
     var sn=document.createElement('button');sn.textContent='해제';sn.onclick=function(e){e.stopPropagation();toggleAllChecks(drop,false,ci)};
     actions.appendChild(sa);actions.appendChild(sn);drop.appendChild(actions);
-    Array.from(vals).sort().forEach(function(v){var lbl=document.createElement('label');var cb=document.createElement('input');cb.type='checkbox';cb.checked=true;cb.value=v;cb.setAttribute('data-col',ci);cb.onchange=function(e){e.stopPropagation();onFilterChange(ci)};lbl.appendChild(cb);lbl.appendChild(document.createTextNode(' '+v));drop.appendChild(lbl)});
+    Array.from(vals).sort().forEach(function(v){var lbl=document.createElement('label');var cb=document.createElement('input');cb.type='checkbox';cb.checked=true;cb.value=v;cb.setAttribute('data-col',ci);cb.onchange=function(e){e.stopPropagation();onFilterChange(ci)};lbl.appendChild(cb);var sp=document.createElement('span');sp.textContent=v;lbl.appendChild(sp);drop.appendChild(lbl)});
     wrap.appendChild(btn);wrap.appendChild(drop);th.appendChild(wrap);
   });
   applyBadges();updateCounter();
@@ -1002,13 +1110,19 @@ function onFilterChange(ci){
 }
 function matrixFilter(){
   if(!_mxTable)return;
-  var q=(document.getElementById('matrix-search').value||'').toLowerCase();
+  var qEl=document.getElementById('matrix-search');
+  var q=(qEl&&qEl.value||'').toLowerCase().trim();
   _mxTable.querySelectorAll('tbody tr').forEach(function(tr){
     var tds=tr.querySelectorAll('td');
     if(tr.querySelector('.merged-desc')){tr.style.display='';return}
     var show=true;
     for(var ci in _mxFilters){ci=parseInt(ci);if(ci>=tds.length)continue;var ct=tds[ci].textContent.trim();if(!_mxFilters[ci].has(ct)){show=false;break}}
-    if(show&&q){var st='';[3,4,6].forEach(function(i){if(i<tds.length)st+=' '+tds[i].textContent});if(st.toLowerCase().indexOf(q)===-1)show=false}
+    // 검색: 업무명(3)·내용(4)·담당팀(5)·담당자(6)·비고(8) 대상
+    if(show&&q){
+      var st='';
+      [3,4,5,6,8].forEach(function(i){if(i<tds.length)st+=' '+tds[i].textContent});
+      if(st.toLowerCase().indexOf(q)===-1)show=false;
+    }
     tr.style.display=show?'':'none';
   });
   updateCounter();
@@ -1047,7 +1161,8 @@ def build_html(manifest, modules):
     nav = build_nav(manifest)
     org_chart = build_org_chart()
     dashboard = build_dashboard(manifest, modules)
-    team_pages = build_team_pages(manifest, modules)
+    insights = load_insights()
+    team_pages = build_team_pages(manifest, modules, insights)
     timeline = build_master_timeline(manifest, modules)
     ref_pages = build_ref_pages(manifest, modules)
 
@@ -1069,7 +1184,7 @@ def build_html(manifest, modules):
   <div class="header-logo">모두의 <span>크루즈</span> 운영 데스크</div>
   <div class="header-sub">2026 코스타 세레나 한일전세선 (6.19~6.25)</div>
   <div class="header-right">
-    <span class="badge-ver">v3.0</span>
+    <span class="badge-ver" title="{UPDATE_DATE} 업데이트 — 타사 미팅 인사이트 추가">v3.1</span>
     <button class="dark-toggle" id="dark-btn" onclick="toggleDark()" title="다크모드 전환">🌙</button>
   </div>
 </header>
@@ -1102,7 +1217,7 @@ def build_html(manifest, modules):
 # ── 메인 ─────────────────────────────────────────────────────────────
 def main():
     test_key = sys.argv[1] if len(sys.argv) > 1 else None
-    print('=== 크루즈 운영 데스크 빌더 v3.0 (대안A) ===')
+    print('=== 크루즈 운영 데스크 빌더 v3.1 (대안A) ===')
     manifest, modules = load_all()
     if test_key:
         print(f'  [TEST MODE] {test_key}만 렌더링')
