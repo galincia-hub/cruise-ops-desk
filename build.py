@@ -950,18 +950,18 @@ body.dark .tag-off{background:#374151;color:#D1D5DB}
 .col-filter-wrap{position:relative;display:inline-block}
 .col-filter-btn{background:none;border:none;cursor:pointer;font-size:11px;color:var(--text-secondary);padding:0 2px;vertical-align:middle}
 .col-filter-btn.active{color:var(--accent-blue)}
-.col-filter-drop{display:none;position:absolute;top:100%;left:0;z-index:200;background:var(--bg-card);border:1px solid var(--border-main);border-radius:8px;box-shadow:var(--shadow-lg);padding:8px;min-width:220px;max-height:420px;overflow-y:auto}
+.col-filter-drop{display:none;position:fixed;z-index:9999;background:var(--bg-card);border:1px solid var(--border-main);border-radius:8px;box-shadow:var(--shadow-lg);padding:8px;min-width:240px;max-height:400px;overflow-y:auto}
 .col-filter-drop.open{display:block}
-.col-filter-drop label{display:flex;align-items:center;font-size:13px;padding:8px 12px;min-height:36px;line-height:36px;cursor:pointer;color:var(--text-primary);border-radius:6px;white-space:nowrap}
-.col-filter-drop label input[type=checkbox]{margin-right:10px;width:16px;height:16px;cursor:pointer;flex-shrink:0}
+.col-filter-drop label{display:flex;align-items:center;gap:8px;font-size:14px;padding:10px 14px;min-height:40px;line-height:1.4;cursor:pointer;color:var(--text-primary);border-radius:6px;white-space:nowrap}
+.col-filter-drop label input[type=checkbox]{width:16px;height:16px;cursor:pointer;flex-shrink:0}
 .col-filter-drop label:hover{background:var(--nav-hover-bg)}
 .col-filter-actions{display:flex;gap:6px;margin-bottom:8px;border-bottom:1px solid var(--border-main);padding-bottom:8px}
 .col-filter-actions button{font-size:12px;padding:6px 12px;min-height:32px;border:1px solid var(--border-main);border-radius:6px;background:var(--bg-main);color:var(--text-primary);cursor:pointer}
 .col-filter-actions button:hover{background:var(--nav-hover-bg)}
 @media(max-width:768px){
-  .col-filter-drop{min-width:240px;max-height:60vh}
-  .col-filter-drop label{font-size:14px;min-height:44px;line-height:44px;padding:10px 14px}
-  .col-filter-drop label input[type=checkbox]{width:18px;height:18px;margin-right:12px}
+  .col-filter-drop{min-width:260px;max-height:60vh}
+  .col-filter-drop label{font-size:14px;min-height:44px;padding:12px 16px}
+  .col-filter-drop label input[type=checkbox]{width:18px;height:18px}
 }
 .badge-cat{display:inline-block;font-size:10px;padding:2px 8px;border-radius:10px;font-weight:600;white-space:nowrap}
 .badge-status{display:inline-block;font-size:10px;padding:2px 8px;border-radius:10px;font-weight:700;white-space:nowrap}
@@ -1072,10 +1072,21 @@ var _mxTable=null,_mxFilters={},_mxFilterCols={},_mxFilterable=[1,2,5,7];
 var CAT_COLORS={'계약·행정':'#EBF5FB','인력·조직':'#E8F8F5','VIP·의전':'#FDEDEC','물품·물류':'#FEF9E7','통신·IT':'#EBF5FB','프로그램·공연':'#FDF2E9','식음료':'#E8F8F5','기항지·CIQ':'#EAFAF1','승하선':'#F4ECF7','콘텐츠·인쇄':'#FDEBD0','운영지원팀':'#D6EAF8','정산·사후':'#FADBD8','★공연매니지먼트':'#FAE5D3','★교육·훈련':'#F5EEF8','★채용(알바)':'#FEF9E7','★채용(통역)':'#FEF9E7'};
 var CAT_COLORS_DARK={'계약·행정':'#1B4F72','인력·조직':'#0E6655','VIP·의전':'#78281F','물품·물류':'#7D6608','통신·IT':'#1A5276','프로그램·공연':'#784212','식음료':'#0B5345','기항지·CIQ':'#145A32','승하선':'#4A235A','콘텐츠·인쇄':'#784212','운영지원팀':'#1B4F72','정산·사후':'#78281F','★공연매니지먼트':'#6E2C00','★교육·훈련':'#4A235A','★채용(알바)':'#7D6608','★채용(통역)':'#7D6608'};
 
+/* page-matrix-2 안의 데이터 테이블(인덱스 1~N) tbody tr을 순회하는 헬퍼.
+   인덱스 0은 thead 전용 빈 테이블이므로 건너뜀. */
+function _mxDataRows(cb){
+  var page=document.getElementById('page-matrix-2');
+  if(!page)return;
+  page.querySelectorAll('.ops-table').forEach(function(tbl,ti){
+    if(ti===0)return;
+    tbl.querySelectorAll('tbody tr').forEach(cb);
+  });
+}
+
 function matrixInit(){
   var page=document.getElementById('page-matrix-2');
   if(!page)return;
-  _mxTable=page.querySelector('.ops-table');
+  _mxTable=page.querySelector('.ops-table');  /* thead 버튼 삽입 전용 */
   if(!_mxTable)return;
   var ths=_mxTable.querySelectorAll('thead th');
   _mxFilterable.forEach(function(ci){
@@ -1083,12 +1094,27 @@ function matrixInit(){
     var th=ths[ci];
     _mxFilterCols[ci]=th.textContent.trim();
     var vals=new Set();
-    _mxTable.querySelectorAll('tbody tr').forEach(function(tr){var td=tr.querySelectorAll('td')[ci];if(td){var t=td.textContent.trim();if(t)vals.add(t)}});
+    _mxDataRows(function(tr){
+      if(tr.querySelector('.merged-desc'))return;
+      var td=tr.querySelectorAll('td')[ci];if(td){var t=td.textContent.trim();if(t)vals.add(t)}
+    });
     _mxFilters[ci]=new Set(vals);
     var wrap=document.createElement('span');wrap.className='col-filter-wrap';
     var btn=document.createElement('button');btn.className='col-filter-btn';btn.textContent=' ▼';btn.setAttribute('data-col',ci);
-    btn.onclick=function(e){e.stopPropagation();var drop=wrap.querySelector('.col-filter-drop');document.querySelectorAll('.col-filter-drop.open').forEach(function(d){if(d!==drop)d.classList.remove('open')});drop.classList.toggle('open')};
     var drop=document.createElement('div');drop.className='col-filter-drop';
+    btn.onclick=function(e){
+      e.stopPropagation();
+      document.querySelectorAll('.col-filter-drop.open').forEach(function(d){if(d!==drop)d.classList.remove('open')});
+      if(!drop.classList.contains('open')){
+        /* position:fixed 좌표를 버튼 위치 기준으로 계산 → overflow:auto 컨테이너 탈출 */
+        var r=btn.getBoundingClientRect();
+        drop.style.top=(r.bottom+4)+'px';
+        var left=r.left;
+        if(left+260>window.innerWidth)left=window.innerWidth-268;
+        drop.style.left=Math.max(4,left)+'px';
+      }
+      drop.classList.toggle('open');
+    };
     var actions=document.createElement('div');actions.className='col-filter-actions';
     var sa=document.createElement('button');sa.textContent='전체';sa.onclick=function(e){e.stopPropagation();toggleAllChecks(drop,true,ci)};
     var sn=document.createElement('button');sn.textContent='해제';sn.onclick=function(e){e.stopPropagation();toggleAllChecks(drop,false,ci)};
@@ -1112,24 +1138,20 @@ function matrixFilter(){
   if(!_mxTable)return;
   var qEl=document.getElementById('matrix-search');
   var q=(qEl&&qEl.value||'').toLowerCase().trim();
-  _mxTable.querySelectorAll('tbody tr').forEach(function(tr){
+  _mxDataRows(function(tr){
     var tds=tr.querySelectorAll('td');
     if(tr.querySelector('.merged-desc')){tr.style.display='';return}
     var show=true;
     for(var ci in _mxFilters){ci=parseInt(ci);if(ci>=tds.length)continue;var ct=tds[ci].textContent.trim();if(!_mxFilters[ci].has(ct)){show=false;break}}
-    // 검색: 업무명(3)·내용(4)·담당팀(5)·담당자(6)·비고(8) 대상
-    if(show&&q){
-      var st='';
-      [3,4,5,6,8].forEach(function(i){if(i<tds.length)st+=' '+tds[i].textContent});
-      if(st.toLowerCase().indexOf(q)===-1)show=false;
-    }
+    /* 검색: 전 컬럼 텍스트 대상 (컬럼 수 불일치 대응) */
+    if(show&&q){var st='';tds.forEach(function(td){st+=' '+td.textContent});if(st.toLowerCase().indexOf(q)===-1)show=false}
     tr.style.display=show?'':'none';
   });
   updateCounter();
 }
 function updateCounter(){
   if(!_mxTable)return;var t=0,v=0;
-  _mxTable.querySelectorAll('tbody tr').forEach(function(tr){if(tr.querySelector('.merged-desc'))return;t++;if(tr.style.display!=='none')v++});
+  _mxDataRows(function(tr){if(tr.querySelector('.merged-desc'))return;t++;if(tr.style.display!=='none')v++});
   var el=document.getElementById('matrix-counter');if(el)el.textContent=v+' / '+t+'건';
 }
 function matrixResetAll(){
@@ -1140,8 +1162,8 @@ function matrixResetAll(){
   matrixFilter();
 }
 function applyBadges(){
-  if(!_mxTable)return;var isDark=document.body.classList.contains('dark');
-  _mxTable.querySelectorAll('tbody tr').forEach(function(tr){
+  var isDark=document.body.classList.contains('dark');
+  _mxDataRows(function(tr){
     var tds=tr.querySelectorAll('td');
     if(tds.length>2){var cat=tds[2].textContent.trim();var bg=isDark?(CAT_COLORS_DARK[cat]||'#2C3E50'):(CAT_COLORS[cat]||'#F2F3F4');var tc=isDark?'#E0E0E0':'#1A1A1A';if(cat)tds[2].innerHTML='<span class="badge-cat" style="background:'+bg+';color:'+tc+'">'+cat+'</span>'}
     if(tds.length>7){var st=tds[7].textContent.trim();var cls='';if(st==='완료')cls='badge-status-done';else if(st==='진행중')cls='badge-status-progress';else if(st==='미착수')cls='badge-status-todo';if(cls)tds[7].innerHTML='<span class="badge-status '+cls+'">'+st+'</span>'}
@@ -1149,7 +1171,7 @@ function applyBadges(){
 }
 function getVisibleRows(){
   if(!_mxTable)return[];var h=[];_mxTable.querySelectorAll('thead th').forEach(function(th){h.push(th.childNodes[0].textContent.trim())});var d=[h];
-  _mxTable.querySelectorAll('tbody tr').forEach(function(tr){if(tr.style.display==='none'||tr.querySelector('.merged-desc'))return;var r=[];tr.querySelectorAll('td').forEach(function(td){r.push(td.textContent.trim())});d.push(r)});return d;
+  _mxDataRows(function(tr){if(tr.style.display==='none'||tr.querySelector('.merged-desc'))return;var r=[];tr.querySelectorAll('td').forEach(function(td){r.push(td.textContent.trim())});d.push(r)});return d;
 }
 function matrixDownloadCSV(){var d=getVisibleRows();var csv=d.map(function(r){return r.map(function(c){return '"'+c.replace(/"/g,'""')+'"'}).join(',')}).join('\n');var blob=new Blob(['\uFEFF'+csv],{type:'text/csv;charset=utf-8'});var a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='업무매트릭스_'+new Date().toISOString().slice(0,10)+'.csv';a.click()}
 function matrixDownloadXlsx(){if(typeof XLSX==='undefined'){var s=document.createElement('script');s.src='https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js';s.onload=function(){doXlsxDownload()};document.head.appendChild(s)}else{doXlsxDownload()}}
