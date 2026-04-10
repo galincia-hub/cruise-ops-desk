@@ -1072,14 +1072,15 @@ function showPage(id){
   if(page)page.classList.add('active');
   else document.getElementById('page-home').classList.add('active');
 
-  // 해당 메뉴 active 표시 + 부모 그룹 펼침
+  // 부모 그룹 펼침 + active 표시
+  // active는 showPage('id') 직접 호출 항목만 — showPageSection 항목은 제외
   document.querySelectorAll('.nav-item').forEach(function(n){
     var oc=n.getAttribute('onclick')||'';
-    if(oc.indexOf("'"+id+"'")!==-1||oc.indexOf("'"+id+"',")!==-1){
-      n.classList.add('active');
-      var g=n.closest('.nav-group');
-      while(g){g.classList.add('open');g=g.parentElement.closest('.nav-group')}
-    }
+    var hasId=(oc.indexOf("'"+id+"'")!==-1||oc.indexOf("'"+id+"',")!==-1);
+    if(!hasId)return;
+    var g=n.closest('.nav-group');
+    while(g){g.classList.add('open');g=g.parentElement.closest('.nav-group')}
+    if(oc.indexOf('showPageSection')===-1)n.classList.add('active');
   });
 
   document.getElementById('sidebar').classList.remove('open');
@@ -1091,6 +1092,15 @@ function showPage(id){
 function showPageSection(pageId, anchor){
   showPage(pageId);
   renderTabBar(pageId,anchor);
+  // showPage가 active를 초기화했으므로 해당 앵커 서브아이템 하나만 active
+  document.querySelectorAll('.nav-item').forEach(function(n){
+    var oc=n.getAttribute('onclick')||'';
+    if(oc.indexOf('showPageSection')!==-1&&
+       oc.indexOf("'"+pageId+"'")!==-1&&
+       oc.indexOf("'"+anchor+"'")!==-1){
+      n.classList.add('active');
+    }
+  });
   setTimeout(function(){
     var el=document.getElementById(pageId+'-'+anchor);
     if(el)el.scrollIntoView({behavior:'smooth',block:'start'});
