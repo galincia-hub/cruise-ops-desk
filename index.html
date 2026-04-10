@@ -23777,6 +23777,7 @@ function matrixInit(){
     var wrap=document.createElement('span');wrap.className='col-filter-wrap';
     var btn=document.createElement('button');btn.className='col-filter-btn';btn.textContent=' ▼';btn.setAttribute('data-col',ci);
     var drop=document.createElement('div');drop.className='col-filter-drop';
+    drop.addEventListener('click',function(e){e.stopPropagation()});
     btn.onclick=function(e){
       e.stopPropagation();
       document.querySelectorAll('.col-filter-drop.open').forEach(function(d){if(d!==drop)d.classList.remove('open')});
