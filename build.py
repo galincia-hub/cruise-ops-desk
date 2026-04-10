@@ -181,6 +181,15 @@ TEAM_INSIGHT_MAP = {
 UPDATE_DATE = '2026-04-10'
 UPDATED_TEAMS = {'team-hq', 'team-support', 'team-event', 'team-port', 'team-embark', 'team-it'}
 
+# 마스터 업무 매트릭스 담당팀 명칭 통일 매핑 (원본 matrix.json 수정 없이 렌더링 시 적용)
+TEAM_NORM = {
+    'HQ(재무)':   'HQ',
+    'HQ→각 팀장': 'HQ',
+    '각 팀장':    'HQ',
+    '기항지팀':   '기항지운영팀',
+    '식음료':     '식음료파트',
+}
+
 # ── 유틸리티 ─────────────────────────────────────────────────────────
 def esc(v):
     if v is None: return ''
@@ -296,7 +305,11 @@ def render_sheet(sheet, module_key):
                         out.append(f'<tr{rs}>')
                         for idx,c in enumerate(cells):
                             cls = "cell-wrap text-left" if idx in left_cols else "cell-wrap"
-                            out.append(f'<td style="{cell_style(c,include_bg=False,include_color=False)}" class="{cls}">{esc(c.get("value",""))}</td>')
+                            val = c.get('value','')
+                            # 매트릭스: 담당팀(col5) 명칭 통일
+                            if module_key == 'matrix' and idx == 5:
+                                val = TEAM_NORM.get(str(val).strip(), val)
+                            out.append(f'<td style="{cell_style(c,include_bg=False,include_color=False)}" class="{cls}">{esc(val)}</td>')
                         out.append('</tr>')
             if in_head: out.append('</thead>')
             if in_body: out.append('</tbody>')
@@ -1068,9 +1081,23 @@ function toggleSidebar(){document.getElementById('sidebar').classList.toggle('op
 function openGroup(pid){showPage(pid);document.querySelectorAll('.nav-group').forEach(function(g){g.querySelectorAll('.nav-item').forEach(function(i){if(i.getAttribute('onclick')&&i.getAttribute('onclick').indexOf(pid)!==-1)g.classList.add('open')})})}
 
 /* ══ 매트릭스 필터 ══ */
-var _mxTable=null,_mxFilters={},_mxFilterCols={},_mxFilterable=[1,2,5,7];
+/* 필터 컬럼: 카테고리(2), 담당팀(5), 담당자(6) — 시기(1)·상태(7) 제거 */
+var _mxTable=null,_mxFilters={},_mxFilterCols={},_mxFilterable=[2,5,6];
+var STATUS_SET=new Set(['완료','진행중','미착수']);
 var CAT_COLORS={'계약·행정':'#EBF5FB','인력·조직':'#E8F8F5','VIP·의전':'#FDEDEC','물품·물류':'#FEF9E7','통신·IT':'#EBF5FB','프로그램·공연':'#FDF2E9','식음료':'#E8F8F5','기항지·CIQ':'#EAFAF1','승하선':'#F4ECF7','콘텐츠·인쇄':'#FDEBD0','운영지원팀':'#D6EAF8','정산·사후':'#FADBD8','★공연매니지먼트':'#FAE5D3','★교육·훈련':'#F5EEF8','★채용(알바)':'#FEF9E7','★채용(통역)':'#FEF9E7'};
 var CAT_COLORS_DARK={'계약·행정':'#1B4F72','인력·조직':'#0E6655','VIP·의전':'#78281F','물품·물류':'#7D6608','통신·IT':'#1A5276','프로그램·공연':'#784212','식음료':'#0B5345','기항지·CIQ':'#145A32','승하선':'#4A235A','콘텐츠·인쇄':'#784212','운영지원팀':'#1B4F72','정산·사후':'#78281F','★공연매니지먼트':'#6E2C00','★교육·훈련':'#4A235A','★채용(알바)':'#7D6608','★채용(통역)':'#7D6608'};
+
+/* 컬럼 인덱스 ci에 대한 필터 비교값 반환.
+   담당자(col6): 8+cols 이고 STATUS 아닌 경우만 실제 담당자, 나머지는 '(없음)'.
+   기타: col이 없으면 null(해당 필터 skip). */
+function _getFilterVal(ci,tds){
+  if(ci===6){
+    if(tds.length>=8&&!STATUS_SET.has(tds[6].textContent.trim()))return tds[6].textContent.trim();
+    return '(없음)';
+  }
+  if(ci>=tds.length)return null;
+  return tds[ci].textContent.trim();
+}
 
 /* page-matrix-2 안의 데이터 테이블(인덱스 1~N) tbody tr을 순회하는 헬퍼.
    인덱스 0은 thead 전용 빈 테이블이므로 건너뜀. */
@@ -1096,7 +1123,7 @@ function matrixInit(){
     var vals=new Set();
     _mxDataRows(function(tr){
       if(tr.querySelector('.merged-desc'))return;
-      var td=tr.querySelectorAll('td')[ci];if(td){var t=td.textContent.trim();if(t)vals.add(t)}
+      var tds2=tr.querySelectorAll('td');var v=_getFilterVal(ci,tds2);if(v)vals.add(v);
     });
     _mxFilters[ci]=new Set(vals);
     var wrap=document.createElement('span');wrap.className='col-filter-wrap';
@@ -1143,7 +1170,7 @@ function matrixFilter(){
     var tds=tr.querySelectorAll('td');
     if(tr.querySelector('.merged-desc')){tr.style.display='';return}
     var show=true;
-    for(var ci in _mxFilters){ci=parseInt(ci);if(ci>=tds.length)continue;var ct=tds[ci].textContent.trim();if(!_mxFilters[ci].has(ct)){show=false;break}}
+    for(var ci in _mxFilters){ci=parseInt(ci);var ct=_getFilterVal(ci,tds);if(ct===null)continue;if(!_mxFilters[ci].has(ct)){show=false;break}}
     /* 검색: 전 컬럼 텍스트 대상 (컬럼 수 불일치 대응) */
     if(show&&q){var st='';tds.forEach(function(td){st+=' '+td.textContent});if(st.toLowerCase().indexOf(q)===-1)show=false}
     tr.style.display=show?'':'none';
