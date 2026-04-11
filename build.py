@@ -53,15 +53,15 @@ TEAM_WORKSPACE = [
         'name': 'HQ 운영본부',
         'icon': '🏛️',
         'color': '#0D1B2A',
-        'members': '모두투어 + CI 공동부서장',
-        'mission': '전 팀 조율·관리 총괄 | VIP 의전 | 코스타 선사 최종 대응',
+        'members': 'HQ (모두투어 + CI) 공동운영',
+        'mission': '전 팀 조율·관리 총괄 | VIP 의전 | 코스타 선사 최종 대응 | 예산·일정·계약 통합관리',
         'teamdocs_sheet': None,
         'matrix_teams': ['HQ', 'HQ(재무)', 'HQ→각 팀장', '전원'],
         'manual_keys': [],
         'sub_items': [
-            ('조직도', 'org-chart'),
-            ('업무 진행현황', 'progress'),
-            ('핵심 일정', 'timeline'),
+            ('미션·역할', 'mission'),
+            ('의사결정체계', 'decision'),
+            ('미팅인사이트', 'insights'),
         ],
     },
     {
@@ -78,6 +78,7 @@ TEAM_WORKSPACE = [
             ('팀 개요·미션', 'overview'),
             ('업무 리스트', 'tasks'),
             ('SOP·시나리오', 'sop'),
+            ('미팅인사이트', 'insights'),
         ],
     },
     {
@@ -94,16 +95,16 @@ TEAM_WORKSPACE = [
             ('팀 개요·미션', 'overview'),
             ('업무 리스트', 'tasks'),
             ('SOP·시나리오', 'sop'),
-            ('매뉴얼 (초안)', 'manual'),
+            ('미팅인사이트', 'insights'),
         ],
     },
     {
         'id': 'team-port',
-        'name': '기항지운영팀',
+        'name': '기항지운영팀 (VIP대응팀 겸임)',
         'icon': '⚓',
         'color': '#27AE60',
         'members': '이수일 팀장 ★듀얼 + 팀원1 + 타이요(6+가이드70)',
-        'mission': '하코다테·오타루 기항지 투어 운영 + 승하선 겸임',
+        'mission': '하코다테·오타루 기항지 투어 운영 + VIP 의전 대응 + 승하선 겸임',
         'teamdocs_sheet': '기항지운영팀',
         'matrix_teams': ['기항지팀', '기항지+공연'],
         'manual_keys': ['port'],
@@ -111,7 +112,8 @@ TEAM_WORKSPACE = [
             ('팀 개요·미션', 'overview'),
             ('업무 리스트', 'tasks'),
             ('SOP·시나리오', 'sop'),
-            ('매뉴얼 (초안)', 'manual'),
+            ('VIP·가수로지스틱', 'vip-logistics'),
+            ('미팅인사이트', 'insights'),
         ],
         'sub_team': {
             'id': 'team-embark',
@@ -159,7 +161,7 @@ TEAM_WORKSPACE = [
             ('팀 개요·미션', 'overview'),
             ('업무 리스트', 'tasks'),
             ('SOP·시나리오', 'sop'),
-            ('매뉴얼 (초안)', 'manual'),
+            ('미팅인사이트', 'insights'),
         ],
     },
 ]
@@ -437,7 +439,6 @@ def build_nav(manifest):
     L.append('  <div class="nav-section">')
     L.append('    <div class="nav-section-title">참고자료실</div>')
     ref_items = [
-        ('orgv3-2', '📝', '기안·협조공문'),
         ('orgv3-4', '📋', '온보드미팅 준비'),
         ('ref-supplement', '📎', '보강자료'),
         ('qa-1', '❓', '질의·자문 요청사항'),
@@ -770,49 +771,125 @@ def build_team_pages(manifest, modules, insights=None):
     pages = []
 
     def _build_hq(tm):
-        """HQ 운영본부 전용 페이지."""
+        """HQ 운영본부 전용 페이지 — 미션·역할 / 의사결정체계 / 미팅인사이트."""
         tid = tm['id']
-        total, done, progress, todo = matrix_stats(modules)
         out = []
         out.append(f'  <div class="page" id="page-{tid}">')
-        out.append(f'    <div class="breadcrumb"><a href="#" onclick="showPage(\'home\')">홈</a> / 팀별 워크스페이스 / {esc(tm["name"])}</div>')
+        out.append(f'    <div class="breadcrumb"><a href="#" onclick="showPage(\'home\')">홈</a> / 팀별 워크스페이스 / HQ 운영본부</div>')
         out.append(f'    <div class="team-header" style="border-left:5px solid {tm["color"]}">')
-        out.append(f'      <h1>{tm["icon"]} {esc(tm["name"])}</h1>')
+        out.append(f'      <h1>{tm["icon"]} HQ 운영본부</h1>')
         out.append(f'      <div class="team-members">{esc(tm["members"])}</div>')
         out.append(f'      <div class="team-mission">{esc(tm["mission"])}</div>')
         out.append(f'    </div>')
 
-        # ① 조직도
-        out.append(f'    <div id="{tid}-org-chart">')
-        out.append(build_org_chart())
+        # ① 미션·역할
+        out.append(f'    <div id="{tid}-mission">')
+        out.append(f'    <h3 class="section-heading">🎯 미션·역할</h3>')
+        out.append(f'''    <div class="table-wrap">
+    <table class="ops-table">
+    <thead><tr>
+      <th style="color:#FFFFFF;font-weight:700">역할</th>
+      <th style="color:#FFFFFF;font-weight:700">구성</th>
+      <th style="color:#FFFFFF;font-weight:700">핵심 책임</th>
+      <th style="color:#FFFFFF;font-weight:700">세부 업무</th>
+    </tr></thead>
+    <tbody>
+    <tr style="--row-bg:#FFFFFF">
+      <td style="font-weight:700" class="cell-wrap">운영부서장</td>
+      <td class="cell-wrap">모두투어 + CI (공동운영)</td>
+      <td class="cell-wrap">선내 전체 운영 총괄 및 공동 지휘</td>
+      <td class="cell-wrap text-left">- 전세선 전체 운영 및 최종 의사결정<br>- 선사·협력사 실무 조율<br>- 예산/일정/계약/보고 통합관리<br>- VIP 의전 총괄<br>- 코스타 Hotel Director·Cruise Director와 직접 소통</td>
+    </tr>
+    <tr style="--row-bg:#FFFFFF">
+      <td style="font-weight:700" class="cell-wrap">운영지원팀 겸임</td>
+      <td class="cell-wrap">부서장 직접 겸임</td>
+      <td class="cell-wrap">안내데스크·고객응대 총괄 허브</td>
+      <td class="cell-wrap text-left">- 안내데스크 운영 총괄 (08~21시)<br>- 방송·공지 송출 최종 검수<br>- VOC 수집 및 개선 지시<br>- 3사 캐빈 취합 → 선사 전달</td>
+    </tr>
+    <tr style="--row-bg:#FFFFFF">
+      <td style="font-weight:700" class="cell-wrap">VIP 의전</td>
+      <td class="cell-wrap">부서장 직속 관리</td>
+      <td class="cell-wrap">3사 VIP 일정 및 의전 프로토콜 관리</td>
+      <td class="cell-wrap text-left">- 3사별 VIP 명단 관리<br>- 기항지 VIP 의전 조율 (기항지운영팀과 협업)<br>- VIP 객실 특별 세팅<br>- VIP 전용 일정표 배포</td>
+    </tr>
+    <tr style="--row-bg:#FFFFFF">
+      <td style="font-weight:700" class="cell-wrap">코스타 선사 대응</td>
+      <td class="cell-wrap">HQ 단독 창구</td>
+      <td class="cell-wrap">선사와의 공식 커뮤니케이션 유일 창구</td>
+      <td class="cell-wrap text-left">- 코스타 Hotel Director 일일 브리핑 참석<br>- 운영 이슈 선사 보고 및 조율<br>- Emergency 채널 대응<br>- 운항 일정 변경 시 전 팀 즉시 전파</td>
+    </tr>
+    <tr style="--row-bg:#FFFFFF">
+      <td style="font-weight:700" class="cell-wrap">예산·계약 관리</td>
+      <td class="cell-wrap">HQ 통합</td>
+      <td class="cell-wrap">3사 공동 예산 및 계약 사항 통합 관리</td>
+      <td class="cell-wrap text-left">- 현장 집행 예산 승인<br>- 협력사 지급 조율<br>- 계약 변경 사항 검토<br>- 정산 준비 (D+1~D+7)</td>
+    </tr>
+    </tbody>
+    </table>
+    </div>''')
         out.append(f'    </div>')
 
-        # ② 업무 진행현황
-        out.append(f'    <div id="{tid}-progress">')
-        out.append(f'    <h3 class="section-heading">📊 업무 진행현황</h3>')
-        out.append(f'    <div class="stat-row">')
-        out.append(f'      <div class="stat-card"><div class="stat-num">{total}</div><div class="stat-label">전체 업무</div></div>')
-        out.append(f'      <div class="stat-card stat-done"><div class="stat-num">{done}</div><div class="stat-label">완료</div></div>')
-        out.append(f'      <div class="stat-card stat-prog"><div class="stat-num">{progress}</div><div class="stat-label">진행중</div></div>')
-        out.append(f'      <div class="stat-card stat-todo"><div class="stat-num">{todo}</div><div class="stat-label">미착수</div></div>')
-        out.append(f'    </div>')
+        # ② 의사결정체계
+        out.append(f'    <div id="{tid}-decision">')
+        out.append(f'    <h3 class="section-heading">⚡ 의사결정체계</h3>')
+        out.append(f'''    <div class="table-wrap">
+    <table class="ops-table">
+    <thead><tr>
+      <th style="color:#FFFFFF;font-weight:700">상황</th>
+      <th style="color:#FFFFFF;font-weight:700">결정권자</th>
+      <th style="color:#FFFFFF;font-weight:700">프로세스</th>
+      <th style="color:#FFFFFF;font-weight:700">수단</th>
+      <th style="color:#FFFFFF;font-weight:700">비고</th>
+    </tr></thead>
+    <tbody>
+    <tr style="--row-bg:#FFFFFF">
+      <td style="font-weight:700" class="cell-wrap">일반 현장운영</td>
+      <td class="cell-wrap">해당 팀장</td>
+      <td class="cell-wrap text-left">팀장 판단 → 즉시 실행 → HQ 보고</td>
+      <td class="cell-wrap">무전기·카카오톡</td>
+      <td class="cell-wrap">팀장 자율 처리</td>
+    </tr>
+    <tr style="--row-bg:#FFFFFF">
+      <td style="font-weight:700" class="cell-wrap">팀 간 조율 이슈</td>
+      <td class="cell-wrap">HQ 운영부서장</td>
+      <td class="cell-wrap text-left">팀장 보고 → HQ 검토 → 조율 결정 → 전파</td>
+      <td class="cell-wrap">무전기·전체 카톡방</td>
+      <td class="cell-wrap">30분 내 결정 원칙</td>
+    </tr>
+    <tr style="--row-bg:#FFFFFF">
+      <td style="font-weight:700" class="cell-wrap">예산 집행</td>
+      <td class="cell-wrap">HQ 공동 합의</td>
+      <td class="cell-wrap text-left">팀장 요청 → HQ 검토 → 공동 승인</td>
+      <td class="cell-wrap">카카오톡·문서</td>
+      <td class="cell-wrap">50만원 이상 사전 승인 필수</td>
+    </tr>
+    <tr style="--row-bg:#FFFFFF">
+      <td style="font-weight:700" class="cell-wrap">긴급 비상상황</td>
+      <td class="cell-wrap">HQ 운영부서장</td>
+      <td class="cell-wrap text-left">즉시 결정 → 팀장 전파 → 코스타 동시 보고</td>
+      <td class="cell-wrap">무전기 비상채널</td>
+      <td class="cell-wrap">코스타 Emergency 병행</td>
+    </tr>
+    <tr style="--row-bg:#FFFFFF">
+      <td style="font-weight:700" class="cell-wrap">선사 공식 소통</td>
+      <td class="cell-wrap">HQ 운영부서장</td>
+      <td class="cell-wrap text-left">HQ 단독 창구로 코스타에 직접 소통</td>
+      <td class="cell-wrap">코스타 내선·영어</td>
+      <td class="cell-wrap">팀장 직접 선사 소통 금지</td>
+    </tr>
+    <tr style="--row-bg:#FFFFFF">
+      <td style="font-weight:700" class="cell-wrap">VIP 이슈</td>
+      <td class="cell-wrap">HQ 운영부서장</td>
+      <td class="cell-wrap text-left">현장팀 보고 → HQ → 해당사 담당자 즉시 연락</td>
+      <td class="cell-wrap">별도 VIP 채널</td>
+      <td class="cell-wrap">3사 담당자 사전 배정</td>
+    </tr>
+    </tbody>
+    </table>
+    </div>''')
         out.append(f'    </div>')
 
-        # ③ 기안·협조공문 → 공통 추가업무로 이동
-        # (내용은 공통 추가업무 페이지(common-extra)에서 확인)
-
-        # ④ 핵심 일정
-        out.append(f'    <div id="{tid}-timeline">')
-        out.append(f'    <h3 class="section-heading">🗓️ 핵심 일정 타임라인</h3>')
-        # master "사전준비 마스터플랜" 시트 (index 0)
-        if 'master' in modules:
-            msheets = modules['master'].get('sheets',[])
-            if len(msheets) > 0:
-                _, html = render_sheet(msheets[0], 'master')
-                out.append(html)
-        out.append(f'    </div>')
-
-        # ⑤ 타사 미팅 인사이트
+        # ③ 타사 미팅 인사이트
         ins_html = build_insights_section(tid, insights)
         if ins_html:
             out.append(ins_html)
@@ -869,23 +946,19 @@ def build_team_pages(manifest, modules, insights=None):
                     out.append(html)
         out.append(f'    </div>')
 
-        # 매뉴얼 전체 (manual 앵커)
-        out.append(f'    <div id="{tid}-manual">')
-        for mk in tm.get('manual_keys',[]):
-            if mk not in modules or mk not in manifest: continue
-            mi = manifest[mk]
-            msheets = modules[mk].get('sheets',[])
-            micon = MODULE_META.get(mk,{}).get('icon','📄')
-            mlabel = 'IT홍보팀' if mk == 'sup' else mi['label']
-            out.append(f'    <h3 class="section-heading">{micon} {esc(mlabel)} (초안) 매뉴얼</h3>')
-            for si, sheet in enumerate(msheets):
-                sname = mi['sheets'][si] if si < len(mi['sheets']) else ''
-                if mk == 'master' and sname in MASTER_EXCLUDE_SHEETS: continue
-                _, html = render_sheet(sheet, mk)
-                out.append(html)
-        out.append(f'    </div>')
+        # VIP·가수로지스틱 (vip-logistics 앵커) — team-port 전용
+        if tid == 'team-port':
+            out.append(f'    <div id="{tid}-vip-logistics">')
+            out.append(f'    <h3 class="section-heading">🌟 VIP·가수로지스틱 (초대가수 승하선 + VIP 의전)</h3>')
+            # master sheet 4 (특수업무·VIP의전) — 마스터타임라인에서 이동
+            if 'master' in modules:
+                msheets = modules['master'].get('sheets', [])
+                if len(msheets) > 4:
+                    _, html = render_sheet(msheets[4], 'master')
+                    out.append(html)
+            out.append(f'    </div>')
 
-        # 타사 미팅 인사이트
+        # 타사 미팅 인사이트 (insights 앵커)
         ins_html = build_insights_section(tid, insights)
         if ins_html:
             out.append(ins_html)
@@ -901,7 +974,7 @@ def build_team_pages(manifest, modules, insights=None):
     return '\n'.join(pages)
 
 # 마스터 타임라인에서 대시보드·공통 추가업무로 이동한 시트 목록
-MASTER_TIMELINE_EXCLUDE_SHEETS = {'업무분장표'}
+MASTER_TIMELINE_EXCLUDE_SHEETS = {'업무분장표', '선상운영 타임스케줄', '준비물 체크리스트', '특수업무·VIP의전'}
 
 # ── 마스터 타임라인 페이지 ───────────────────────────────────────────
 def build_master_timeline(manifest, modules):
@@ -980,12 +1053,16 @@ def build_ref_pages(manifest, modules):
 
             display_title = pt.strip() or sname
             extra = MATRIX_FILTER_HTML if pid == 'matrix-2' else ''
+            # 준비물 체크리스트 페이지에 물품 목록 제목 추가 [9]
+            extra_heading = ''
+            if key == 'master' and sname == '준비물 체크리스트':
+                extra_heading = '    <h3 class="section-heading">📦 물품 목록</h3>\n'
 
             pages.append(f'''  <div class="page" id="page-{pid}">
     <div class="breadcrumb"><a href="#" onclick="showPage('home')">홈</a> / {esc(label)} / {esc(sname)}</div>
     <div class="page-header"><h1>{icon} {esc(display_title)}</h1></div>
 {extra}
-{html}
+{extra_heading}{html}
   </div>''')
 
     return '\n'.join(pages)
@@ -1459,26 +1536,29 @@ function doXlsxDownload(){var d=getVisibleRows();var ws=XLSX.utils.aoa_to_sheet(
 /* ══ 탭 바 ══ */
 var TAB_CONFIG={
   'team-hq':[
-    {key:'org-chart',label:'조직도'},
-    {key:'progress',label:'업무 진행현황'},
-    {key:'timeline',label:'핵심 일정'}
+    {key:'mission',label:'미션·역할'},
+    {key:'decision',label:'의사결정체계'},
+    {key:'insights',label:'미팅인사이트'}
   ],
   'team-support':[
     {key:'overview',label:'팀 개요·미션'},
     {key:'tasks',label:'업무 리스트'},
-    {key:'sop',label:'SOP·시나리오'}
+    {key:'sop',label:'SOP·시나리오'},
+    {key:'insights',label:'미팅인사이트'}
   ],
   'team-event':[
     {key:'overview',label:'팀 개요·미션'},
     {key:'tasks',label:'업무 리스트'},
     {key:'sop',label:'SOP·시나리오'},
-    {key:'manual',label:'매뉴얼 (초안)'}
+    {key:'insights',label:'미팅인사이트'}
   ],
   'team-port':[
     {key:'overview',label:'팀 개요·미션'},
     {key:'tasks',label:'업무 리스트'},
     {key:'sop',label:'SOP·시나리오'},
-    {key:'manual',label:'매뉴얼 (초안)'}
+    {key:'sub-embark',label:'↳ 승하선팀',goto:'team-embark'},
+    {key:'vip-logistics',label:'VIP·가수로지스틱'},
+    {key:'insights',label:'미팅인사이트'}
   ],
   'team-embark':[
     {key:'overview',label:'팀 개요'},
@@ -1493,7 +1573,7 @@ var TAB_CONFIG={
     {key:'overview',label:'팀 개요·미션'},
     {key:'tasks',label:'업무 리스트'},
     {key:'sop',label:'SOP·시나리오'},
-    {key:'manual',label:'매뉴얼 (초안)'}
+    {key:'insights',label:'미팅인사이트'}
   ]
 };
 function renderTabBar(pageId,activeAnchor){
@@ -1504,6 +1584,9 @@ function renderTabBar(pageId,activeAnchor){
   document.body.classList.add('tabs-visible');
   wrap.innerHTML=tabs.map(function(t){
     var cls='tab-item'+(t.key===activeAnchor?' active':'');
+    if(t.goto){
+      return '<button class="'+cls+'" onclick="showPage(\''+t.goto+'\')">'+t.label+'</button>';
+    }
     return '<button class="'+cls+'" onclick="showPageSection(\''+pageId+'\',\''+t.key+'\')">'+t.label+'</button>';
   }).join('');
 }
@@ -1576,8 +1659,9 @@ def build_html(manifest, modules):
 
 # ── 메인 ─────────────────────────────────────────────────────────────
 def main():
+    import shutil
     test_key = sys.argv[1] if len(sys.argv) > 1 else None
-    print('=== 크루즈 운영 데스크 빌더 v4.0 ===')
+    print('=== 크루즈 운영 데스크 빌더 v4.1 ===')
     manifest, modules = load_all()
     if test_key:
         print(f'  [TEST MODE] {test_key}만 렌더링')
@@ -1588,6 +1672,11 @@ def main():
         f.write(html)
     size_kb = os.path.getsize(OUT) // 1024
     print(f'  → {OUT} ({size_kb} KB) 생성 완료')
+    # archive 저장
+    if not test_key:
+        archive_path = os.path.join(ARCHIVE_DIR, 'v4.1_2026-04-12.html')
+        shutil.copy2(OUT, archive_path)
+        print(f'  → archive/{os.path.basename(archive_path)} 저장 완료')
 
 if __name__ == '__main__':
     main()
