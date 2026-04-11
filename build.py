@@ -806,7 +806,7 @@ CSS = r"""/* ── 디자인 시스템 v4.0 ── */
 :root{
   --sidebar-w:240px;--header-h:56px;--tab-bar-h:52px;
   --radius:12px;--radius-sm:8px;--transition:0.2s ease;
-  --bg-primary:#FAF8F5;--bg-secondary:#F2EFEB;--bg-sidebar:#FFFFFF;
+  --bg-primary:#FAF8F5;--bg-secondary:#F2EFEB;--bg-sidebar:#FAF8F5;
   --bg-hover:#EDE9E3;--bg-active:#E8F5E9;
   --text-primary:#1A1A1A;--text-secondary:#6B6B6B;--text-muted:#9B9B9B;
   --accent:#2D6A4F;--accent-light:#52B788;--accent-bg:#D8F3DC;--accent-blue:#2563EB;
@@ -816,7 +816,7 @@ CSS = r"""/* ── 디자인 시스템 v4.0 ── */
   --shadow-lg:0 8px 24px rgba(0,0,0,.08)
 }
 [data-theme="dark"]{
-  --bg-primary:#1A1F1E;--bg-secondary:#242928;--bg-sidebar:#1E2322;
+  --bg-primary:#1A1F1E;--bg-secondary:#242928;--bg-sidebar:#1A1F1E;
   --bg-hover:#2D3330;--bg-active:#1E3028;
   --text-primary:#E8E6E3;--text-secondary:#9BA8A3;--text-muted:#6B7875;
   --accent:#52B788;--accent-light:#74C69D;--accent-bg:#1B3A2D;--accent-blue:#60A5FA;
