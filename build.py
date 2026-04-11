@@ -61,7 +61,6 @@ TEAM_WORKSPACE = [
         'sub_items': [
             ('조직도', 'org-chart'),
             ('업무 진행현황', 'progress'),
-            ('기안·협조공문', 'docs'),
             ('핵심 일정', 'timeline'),
         ],
     },
@@ -178,7 +177,7 @@ TEAM_INSIGHT_MAP = {
 }
 
 # v3.1 업데이트로 변경된 팀 ID (NEW 뱃지 대상)
-UPDATE_DATE = '2026-04-10'
+UPDATE_DATE = '2026-04-12'
 UPDATED_TEAMS = {'team-hq', 'team-support', 'team-event', 'team-port', 'team-embark', 'team-it'}
 
 # 마스터 업무 매트릭스 담당팀 명칭 통일 매핑 (원본 matrix.json 수정 없이 렌더링 시 적용)
@@ -407,6 +406,7 @@ def build_nav(manifest):
     L.append('    <div class="nav-item active" onclick="showPage(\'home\')"><span class="icon">🏠</span>운영 대시보드</div>')
     L.append(f'    <div class="nav-item" onclick="showPage(\'master-timeline\')"><span class="icon">📋</span>마스터 타임라인</div>')
     L.append(f'    <div class="nav-item" onclick="showPage(\'matrix-2\')"><span class="icon">📐</span>마스터 매트릭스</div>')
+    L.append(f'    <div class="nav-item" onclick="showPage(\'common-extra\')"><span class="icon">📌</span>공통 추가업무</div>')
     L.append('  </div>')
 
     # 팀별 워크스페이스
@@ -488,47 +488,56 @@ def build_nav(manifest):
 def build_org_chart():
     return """
     <div class="org-chart-section">
-      <h2 style="font-size:18px;font-weight:800;margin-bottom:16px;color:var(--text-primary)">📊 선내운영 조직도 v4</h2>
+      <h2 style="font-size:18px;font-weight:800;margin-bottom:4px;color:var(--text-primary)">📊 선내운영 조직도 v4</h2>
+      <p style="font-size:12px;color:var(--text-muted);margin-bottom:16px">각 팀 카드를 클릭하면 주요 업무를 확인할 수 있습니다.</p>
       <div class="org-chart">
-        <div class="org-node org-hq" onclick="showPage('home')" style="cursor:pointer">
+        <div class="org-node org-hq" onclick="toggleOrgDrop(event,'hq')" style="cursor:pointer">
           <div class="org-node-title">HQ 운영본부 (모두투어 + CI)</div>
           <div class="org-node-role">공연/기항지/승하선/고객응대/정산/식음료/방송 등 전체 운영 과업을 공동 수행</div>
           <div class="org-node-note">VIP: 부서장 직속 관리</div>
+          <div class="org-drop" id="org-drop-hq">전 팀 조율·관리 / VIP 의전 / 코스타 선사 최종 대응 / 예산·일정·계약 통합관리</div>
         </div>
         <div class="org-branches">
           <div class="org-branch">
-            <div class="org-node org-support" onclick="showPage('team-support')" style="cursor:pointer">
+            <div class="org-node org-support" onclick="toggleOrgDrop(event,'support')" style="cursor:pointer">
               <div class="org-node-title">운영지원팀</div>
               <div class="org-node-members">황지애(CI, 지원) · 양은희(모두투어) · 조아라(웅진) · 김지은(환경재단)</div>
               <div class="org-node-role">팀 과업, 유동배치</div>
+              <div class="org-drop" id="org-drop-support">안내데스크 13시간 운영(08~21시) / 고객응대·방송·정산 / 3사 캐빈 취합·선사 전달</div>
             </div>
-            <div class="org-node org-event" onclick="showPage('team-event')" style="cursor:pointer">
+            <div class="org-node org-event" onclick="toggleOrgDrop(event,'event')" style="cursor:pointer">
               <div class="org-node-title">공연/행사팀 <span class="org-tag tag-pre">★사전탑승</span></div>
               <div class="org-node-members">이상민 매니저(팀장) + 팀원4 + 환경재단15명 협업</div>
+              <div class="org-drop" id="org-drop-event">자체공연 운영 / 환경재단 선상학교 지원 / 출항식·폐막행사 / 음향·장비 관리</div>
             </div>
-            <div class="org-node org-port" onclick="showPage('team-port')" style="cursor:pointer">
-              <div class="org-node-title">기항지운영팀 <span class="org-tag tag-dual">★듀얼</span></div>
+            <div class="org-node org-port" onclick="toggleOrgDrop(event,'port')" style="cursor:pointer">
+              <div class="org-node-title">기항지운영팀 <span class="org-tag tag-dual">★듀얼</span> <span class="org-tag" style="background:#8E44AD;color:#fff">VIP대응팀 겸임</span></div>
               <div class="org-node-members">이수일 팀장 + 팀원1 + 타이요(6+가이드70)</div>
+              <div class="org-drop" id="org-drop-port">하코다테·오타루 투어 운영 / 타이요 76명 관리 / 갱웨이 관리 / 중간하선·승선 CIQ / 각사별 VIP 의전 프로토콜 관리</div>
               <div class="org-sub-node">
-                <div class="org-node org-embark" onclick="showPage('team-embark');event.stopPropagation()" style="cursor:pointer">
+                <div class="org-node org-embark" onclick="toggleOrgDrop(event,'embark')" style="cursor:pointer">
                   <div class="org-node-title">승하선팀 (기항지팀 산하)</div>
                   <div class="org-node-members">김남민 매니저 <span class="org-tag tag-off">미탑승/터미널</span> + 이수일<span class="org-tag tag-dual">★듀얼</span> + 알바3~4</div>
+                  <div class="org-drop" id="org-drop-embark">터미널 운영 / 수화물 프로세스 / 승선·하선 동선 관리</div>
                 </div>
               </div>
             </div>
           </div>
           <div class="org-branch">
-            <div class="org-node org-fb" onclick="showPage('team-fb')" style="cursor:pointer">
+            <div class="org-node org-fb" onclick="toggleOrgDrop(event,'fb')" style="cursor:pointer">
               <div class="org-node-title">식음료파트 <span class="org-tag tag-pre">★사전탑승</span></div>
               <div class="org-node-members">문형식 매니저</div>
+              <div class="org-drop" id="org-drop-fb">코스타 F&amp;B팀 조율 / 밀스케줄 관리 / 특별식·에코정책 반영</div>
             </div>
-            <div class="org-node org-it" onclick="showPage('team-it')" style="cursor:pointer">
+            <div class="org-node org-it" onclick="toggleOrgDrop(event,'it')" style="cursor:pointer">
               <div class="org-node-title">IT홍보팀</div>
               <div class="org-node-members">최구철 매니저(팀장)</div>
+              <div class="org-drop" id="org-drop-it">무전기·Wi-Fi 통신장비 / 촬영·홍보 / 프로그램표·인쇄물 제작</div>
             </div>
-            <div class="org-node org-alba">
+            <div class="org-node org-alba" onclick="toggleOrgDrop(event,'alba')" style="cursor:pointer">
               <div class="org-node-title">알바 12명</div>
               <div class="org-node-role">탄력 배치</div>
+              <div class="org-drop" id="org-drop-alba">탄력배치 / 각 팀 유동 지원</div>
             </div>
             <div class="org-node org-temp">
               <div class="org-node-title">[임시] 부산지점 사전준비팀</div>
@@ -548,31 +557,213 @@ def build_org_chart():
 
 # ── 대시보드 홈 ──────────────────────────────────────────────────────
 def build_dashboard(manifest, modules):
-    total, done, progress, todo = matrix_stats(modules)
-    other = total - done - progress - todo
+    org_chart = build_org_chart()
 
-    counters = f"""
-    <div class="stat-row">
-      <div class="stat-card"><div class="stat-num">{total}</div><div class="stat-label">전체 업무</div></div>
-      <div class="stat-card stat-done"><div class="stat-num">{done}</div><div class="stat-label">완료</div></div>
-      <div class="stat-card stat-prog"><div class="stat-num">{progress}</div><div class="stat-label">진행중</div></div>
-      <div class="stat-card stat-todo"><div class="stat-num">{todo}</div><div class="stat-label">미착수</div></div>
+    org_summary = """
+    <h3 class="dash-section-title">🏛️ 조직 체계 요약</h3>
+    <div class="table-wrap">
+    <table class="ops-table">
+    <thead><tr>
+      <th style="color:#FFFFFF;font-weight:700">구분</th>
+      <th style="color:#FFFFFF;font-weight:700">직책/구성</th>
+      <th style="color:#FFFFFF;font-weight:700">인원</th>
+      <th style="color:#FFFFFF;font-weight:700">주요 역할</th>
+      <th style="color:#FFFFFF;font-weight:700">세부 담당 업무</th>
+      <th style="color:#FFFFFF;font-weight:700">비고</th>
+    </tr></thead>
+    <tbody>
+    <tr style="--row-bg:#FFFFFF">
+      <td style="font-weight:700" class="cell-wrap">운영부서장</td>
+      <td class="cell-wrap">운영부서장 2명</td>
+      <td class="cell-wrap">2</td>
+      <td class="cell-wrap">선내 전체 운영 총괄 및 공동 지휘</td>
+      <td class="cell-wrap text-left">- 전세선 전체 운영 및 최종 의사결정<br>- 선사·협력사 실무 조율<br>- 예산/일정/계약/보고 통합관리<br>- VIP 의전 총괄<br>- 코스타 Hotel Director·Cruise Director와 직접 소통</td>
+      <td class="cell-wrap">HQ (모두투어 + CI)<br>공동운영</td>
+    </tr>
+    <tr style="--row-bg:#FFFFFF">
+      <td style="font-weight:700" class="cell-wrap">운영지원팀</td>
+      <td class="cell-wrap">운영부서장 겸임 + 팀원3</td>
+      <td class="cell-wrap">5</td>
+      <td class="cell-wrap">안내데스크·고객응대·현장 컨트롤타워</td>
+      <td class="cell-wrap text-left">- 안내데스크 운영 08~21시(13시간)<br>- 방송·공지 송출 관리<br>- VOC 수집 및 피드백<br>- 카카오톡 실시간 상황판 관리<br>- 3사 캐빈 취합 및 선사 전달<br>- 정산 관리</td>
+      <td class="cell-wrap">운영부서장 겸임</td>
+    </tr>
+    <tr style="--row-bg:#FFFFFF">
+      <td style="font-weight:700" class="cell-wrap">기항지운영팀<br><small>(VIP대응팀 겸임)</small></td>
+      <td class="cell-wrap">이수일 팀장 + 팀원1 + 타이요76</td>
+      <td class="cell-wrap">78</td>
+      <td class="cell-wrap">기항지투어 관리, 입출국 지원, VIP 의전</td>
+      <td class="cell-wrap text-left">- 하코다테·오타루 투어 운영 총괄<br>- 타이요 76명 관리<br>- 갱웨이 관리<br>- 중간하선/승선 CIQ<br>- 각사별 VIP 의전 프로토콜 관리<br>- 자유여행자 귀선 통제</td>
+      <td class="cell-wrap">타이요플랜 협력<br>VIP대응 겸임</td>
+    </tr>
+    <tr style="--row-bg:#FFFFFF">
+      <td style="font-weight:700" class="cell-wrap">공연/행사팀</td>
+      <td class="cell-wrap">이상민 팀장(★사전탑승) + 팀원4 + 환경재단15명</td>
+      <td class="cell-wrap">20</td>
+      <td class="cell-wrap">공연·이벤트·환경재단행사 통합운영</td>
+      <td class="cell-wrap text-left">- 자체공연 운영<br>- 환경재단 선상학교 지원<br>- 출항식·폐막행사 진행<br>- 음향·장비 관리<br>- GRM·코스타 테크니션 협업</td>
+      <td class="cell-wrap">환경재단 15명 배치</td>
+    </tr>
+    <tr style="--row-bg:#FFFFFF">
+      <td style="font-weight:700" class="cell-wrap">승하선팀</td>
+      <td class="cell-wrap">김남민 매니저(터미널전담) + 이수일★듀얼 + 알바3~4</td>
+      <td class="cell-wrap">6</td>
+      <td class="cell-wrap">터미널 운영, 수화물, 동선 관리</td>
+      <td class="cell-wrap text-left">- 2,400명 승선·하선 터미널 총괄<br>- 수화물 프로세스 관리<br>- 승선·하선 동선 관리<br>- 타사 참관·답사 조율</td>
+      <td class="cell-wrap">기항지팀 산하</td>
+    </tr>
+    <tr style="--row-bg:#FFFFFF">
+      <td style="font-weight:700" class="cell-wrap">식음료파트</td>
+      <td class="cell-wrap">문형식 매니저(★사전탑승)</td>
+      <td class="cell-wrap">1</td>
+      <td class="cell-wrap">전체 밀스케줄 관리 + 한식 품질 모니터링</td>
+      <td class="cell-wrap text-left">- 코스타 F&amp;B팀 조율<br>- 밀스케줄 관리<br>- 특별식·에코정책 반영</td>
+      <td class="cell-wrap">★사전탑승</td>
+    </tr>
+    <tr style="--row-bg:#FFFFFF">
+      <td style="font-weight:700" class="cell-wrap">IT홍보팀</td>
+      <td class="cell-wrap">최구철 매니저(팀장)</td>
+      <td class="cell-wrap">1</td>
+      <td class="cell-wrap">IT·통신 인프라 + 홍보·콘텐츠</td>
+      <td class="cell-wrap text-left">- 무전기·Wi-Fi 통신장비 관리<br>- 촬영·홍보<br>- 프로그램표·인쇄물 제작</td>
+      <td class="cell-wrap"></td>
+    </tr>
+    <tr style="--row-bg:#FFFFFF">
+      <td style="font-weight:700" class="cell-wrap">알바</td>
+      <td class="cell-wrap">탄력배치</td>
+      <td class="cell-wrap">12</td>
+      <td class="cell-wrap">각 팀 유동 지원</td>
+      <td class="cell-wrap text-left">- 탄력배치, 각 팀 유동 지원<br>- 안내데스크 보조<br>- 행사보조·물류지원</td>
+      <td class="cell-wrap">12명</td>
+    </tr>
+    <tr style="--row-bg:#FFFFFF">
+      <td style="font-weight:700" class="cell-wrap">통역</td>
+      <td class="cell-wrap">채용 후 코스타 인계</td>
+      <td class="cell-wrap">18</td>
+      <td class="cell-wrap">코스타에서 업무지시 및 배치</td>
+      <td class="cell-wrap text-left">- 채용 후 승선일 코스타에 인계<br>- 코스타에서 업무지시 및 배치</td>
+      <td class="cell-wrap">채용 후 승선일 코스타 인계</td>
+    </tr>
+    </tbody>
+    </table>
+    </div>
+"""
+
+    report_line = """
+    <h3 class="dash-section-title">📡 보고라인 및 커뮤니케이션 체계</h3>
+    <div class="table-wrap">
+    <table class="ops-table">
+    <thead><tr>
+      <th style="color:#FFFFFF;font-weight:700">단계</th>
+      <th style="color:#FFFFFF;font-weight:700">방식</th>
+      <th style="color:#FFFFFF;font-weight:700">주요 내용</th>
+      <th style="color:#FFFFFF;font-weight:700">시간</th>
+      <th style="color:#FFFFFF;font-weight:700">참석자</th>
+      <th style="color:#FFFFFF;font-weight:700">비고</th>
+    </tr></thead>
+    <tbody>
+    <tr style="--row-bg:#FFFFFF">
+      <td style="font-weight:700" class="cell-wrap">보고라인</td>
+      <td class="cell-wrap">단일체계</td>
+      <td class="cell-wrap text-left">운영부서장(HQ) → 팀장 → 팀원/보조</td>
+      <td class="cell-wrap">상시</td>
+      <td class="cell-wrap">전 인력</td>
+      <td class="cell-wrap"></td>
+    </tr>
+    <tr style="--row-bg:#FFFFFF">
+      <td style="font-weight:700" class="cell-wrap">1차 커뮤니케이션</td>
+      <td class="cell-wrap">무전기 실시간 교신</td>
+      <td class="cell-wrap text-left">현장 긴급 대응, 고객이슈, 이동통제</td>
+      <td class="cell-wrap">상시</td>
+      <td class="cell-wrap">팀장급 이상 + 키맨</td>
+      <td class="cell-wrap">100대</td>
+    </tr>
+    <tr style="--row-bg:#FFFFFF">
+      <td style="font-weight:700" class="cell-wrap">2차 커뮤니케이션</td>
+      <td class="cell-wrap">카카오톡 단체방</td>
+      <td class="cell-wrap text-left">실시간 보고, 사진/문서 공유, 결재라인</td>
+      <td class="cell-wrap">상시</td>
+      <td class="cell-wrap">전 스태프</td>
+      <td class="cell-wrap">팀별+전체방</td>
+    </tr>
+    <tr style="--row-bg:#FFFFFF">
+      <td style="font-weight:700" class="cell-wrap">3차 커뮤니케이션</td>
+      <td class="cell-wrap">전체미팅</td>
+      <td class="cell-wrap text-left">주요현안 브리핑, 개선사항 공유</td>
+      <td class="cell-wrap">매일 22:00</td>
+      <td class="cell-wrap">전 관계자 (필수근무자 제외)</td>
+      <td class="cell-wrap">모두투어/CI/재단/웅진/타이요</td>
+    </tr>
+    <tr style="--row-bg:#FFFFFF">
+      <td style="font-weight:700" class="cell-wrap">데이터 공유</td>
+      <td class="cell-wrap">Google Sheet</td>
+      <td class="cell-wrap text-left">문서 실시간 연동, 자동 기록, 일일보고</td>
+      <td class="cell-wrap">상시</td>
+      <td class="cell-wrap">팀장급 이상</td>
+      <td class="cell-wrap">자동화 시스템</td>
+    </tr>
+    </tbody>
+    </table>
     </div>
 """
 
     milestones = """
-    <h3 class="dash-section-title">🗓️ 핵심 일정 하이라이트</h3>
+    <h3 class="dash-section-title">🗓️ 주차별 핵심 일정</h3>
     <div class="milestone-row">
-      <div class="ms-card ms-urgent"><div class="ms-date">4월 초</div><div class="ms-title">★★★ TF 기안 상신</div><div class="ms-desc">운영 TF 공식 편성 기안</div></div>
-      <div class="ms-card"><div class="ms-date">D-60</div><div class="ms-title">공연 계약+대금</div><div class="ms-desc">아티스트 계약 완료 + 선급금</div></div>
-      <div class="ms-card"><div class="ms-date">5/27</div><div class="ms-title">온보드미팅</div><div class="ms-desc">전 팀 합동 사전 미팅</div></div>
-      <div class="ms-card"><div class="ms-date">6/13~19</div><div class="ms-title">사전탑승</div><div class="ms-desc">이상민·문형식 사전 승선</div></div>
-      <div class="ms-card"><div class="ms-date">6/18</div><div class="ms-title">베이스캠프</div><div class="ms-desc">부산 터미널 사전 세팅</div></div>
-      <div class="ms-card ms-dday"><div class="ms-date">6/19</div><div class="ms-title">D-Day 승선!</div><div class="ms-desc">2,400명 승선 개시</div></div>
+      <div class="ms-card ms-urgent">
+        <div class="ms-date">D-90~D-60 (3~4월)</div>
+        <div class="ms-title">사전 행정·계약</div>
+        <div class="ms-desc">TF 기안 상신 / 3사 계약 관리 / 알바·통역 채용 공고 / 조직도 확정</div>
+      </div>
+      <div class="ms-card">
+        <div class="ms-date">D-60~D-30 (4~5월)</div>
+        <div class="ms-title">계약·SOP·기항지</div>
+        <div class="ms-desc">공연 계약+대금 착수 / 팀별 SOP 초안 완성 / 타이요 미팅 / 기항지 인스펙션</div>
+      </div>
+      <div class="ms-card">
+        <div class="ms-date">D-30~D-14 (5월초~중)</div>
+        <div class="ms-title">온보드미팅·발주</div>
+        <div class="ms-desc">온보드미팅(5/27~6/1) / 물품 제작 발주 / 알바 교육 / 통역 OT</div>
+      </div>
+      <div class="ms-card">
+        <div class="ms-date">D-14~D-7 (6/5~12)</div>
+        <div class="ms-title">최종 시뮬레이션</div>
+        <div class="ms-desc">최종 시뮬레이션 / 비상대응 훈련 / 전체 2차 브리핑</div>
+      </div>
+      <div class="ms-card">
+        <div class="ms-date">D-7~D-1 (6/12~18)</div>
+        <div class="ms-title">사전탑승·베이스캠프</div>
+        <div class="ms-desc">사전탑승자 승선(6/13) / 베이스캠프 세팅(6/18) / 터미널 최종 점검</div>
+      </div>
+      <div class="ms-card ms-dday">
+        <div class="ms-date">승선일 (6/19)</div>
+        <div class="ms-title">D-Day 2,400명 승선</div>
+        <div class="ms-desc">2,400명 승선 개시 / 출항식(21:00)</div>
+      </div>
+      <div class="ms-card">
+        <div class="ms-date">항차 Day1~2 (6/20~21)</div>
+        <div class="ms-title">해상일·하코다테</div>
+        <div class="ms-desc">해상일 프로그램 / 하코다테 기항(13:00~22:00)</div>
+      </div>
+      <div class="ms-card">
+        <div class="ms-date">항차 Day3~4 (6/22~23)</div>
+        <div class="ms-title">오타루 오버나잇</div>
+        <div class="ms-desc">오타루 오버나잇 / 자유여행객 관리</div>
+      </div>
+      <div class="ms-card">
+        <div class="ms-date">항차 Day5+하선 (6/24~25)</div>
+        <div class="ms-title">폐막·입항·하선</div>
+        <div class="ms-desc">폐막행사 / 부산 입항(15:00) / 하선·수화물</div>
+      </div>
+      <div class="ms-card">
+        <div class="ms-date">사후 D+1~D+7 (6/26~7/2)</div>
+        <div class="ms-title">정산·결과보고</div>
+        <div class="ms-desc">3사 정산 / 결과보고서 / 사후 홍보</div>
+      </div>
     </div>
 """
 
-    return counters + '\n' + milestones
+    return org_chart + org_summary + report_line + milestones
 
 # ── 팀 워크스페이스 페이지 ───────────────────────────────────────────
 def build_team_pages(manifest, modules, insights=None):
@@ -605,25 +796,10 @@ def build_team_pages(manifest, modules, insights=None):
         out.append(f'      <div class="stat-card stat-prog"><div class="stat-num">{progress}</div><div class="stat-label">진행중</div></div>')
         out.append(f'      <div class="stat-card stat-todo"><div class="stat-num">{todo}</div><div class="stat-label">미착수</div></div>')
         out.append(f'    </div>')
-        # master "업무분장표" 시트 (index 2)
-        if 'master' in modules:
-            msheets = modules['master'].get('sheets',[])
-            if len(msheets) > 2:
-                _, html = render_sheet(msheets[2], 'master')
-                out.append(html)
         out.append(f'    </div>')
 
-        # ③ 기안·협조공문
-        out.append(f'    <div id="{tid}-docs">')
-        out.append(f'    <h3 class="section-heading">📝 기안·협조공문</h3>')
-        if 'orgv3' in modules:
-            osheets = modules['orgv3'].get('sheets',[])
-            # 협조요청 공문 (index 1), 기안 목록 (index 2)
-            for si in [1, 2]:
-                if si < len(osheets):
-                    _, html = render_sheet(osheets[si], 'orgv3')
-                    out.append(html)
-        out.append(f'    </div>')
+        # ③ 기안·협조공문 → 공통 추가업무로 이동
+        # (내용은 공통 추가업무 페이지(common-extra)에서 확인)
 
         # ④ 핵심 일정
         out.append(f'    <div id="{tid}-timeline">')
@@ -724,30 +900,55 @@ def build_team_pages(manifest, modules, insights=None):
 
     return '\n'.join(pages)
 
+# 마스터 타임라인에서 대시보드·공통 추가업무로 이동한 시트 목록
+MASTER_TIMELINE_EXCLUDE_SHEETS = {'업무분장표'}
+
 # ── 마스터 타임라인 페이지 ───────────────────────────────────────────
 def build_master_timeline(manifest, modules):
-    """master JSON + matrix "타사 스케줄" 시트를 타임라인 페이지로."""
+    """master JSON 시트를 타임라인 페이지로 (업무분장표·matrix 타사스케줄은 이동됨)."""
     parts = []
     parts.append('  <div class="page" id="page-master-timeline">')
     parts.append('    <div class="breadcrumb"><a href="#" onclick="showPage(\'home\')">홈</a> / 전체 조망 / 마스터 타임라인</div>')
     parts.append('    <div class="page-header"><h1>📋 마스터 타임라인</h1></div>')
 
-    # master JSON 시트들
+    # master JSON 시트들 (업무분장표 제외 — 대시보드로 이동)
     if 'master' in modules and 'master' in manifest:
         mi = manifest['master']
         for si, sheet in enumerate(modules['master'].get('sheets',[])):
             sname = mi['sheets'][si] if si < len(mi['sheets']) else sheet.get('name','')
             if sname in MASTER_EXCLUDE_SHEETS: continue
+            if sname in MASTER_TIMELINE_EXCLUDE_SHEETS: continue
             _, html = render_sheet(sheet, 'master')
             parts.append(html)
 
-    # matrix "타사 스케줄" 시트
+    parts.append('  </div>')
+    return '\n'.join(parts)
+
+# ── 공통 추가업무 페이지 ─────────────────────────────────────────────
+def build_common_extra_page(manifest, modules):
+    """타사 스케줄·참관 계획 / 기안·협조공문 / 외부협조 / 승인기안 등 통합."""
+    parts = []
+    parts.append('  <div class="page" id="page-common-extra">')
+    parts.append('    <div class="breadcrumb"><a href="#" onclick="showPage(\'home\')">홈</a> / 전체 조망 / 공통 추가업무</div>')
+    parts.append('    <div class="page-header"><h1>📌 공통 추가업무</h1></div>')
+
+    # ① 타사 스케줄·참관 계획 + 참관·답사·사전탑승 일정 + 사전탑승자 보고체계
+    #    (matrix sheet 0 — 이동: 마스터 타임라인 → 공통 추가업무)
     if 'matrix' in modules:
-        msheets = modules['matrix'].get('sheets',[])
+        msheets = modules['matrix'].get('sheets', [])
         if len(msheets) > 0:
+            parts.append('    <h3 class="section-heading">📐 타사 스케줄·참관 계획 / 사전탑승자 보고체계</h3>')
             _, html = render_sheet(msheets[0], 'matrix')
-            parts.append(f'    <h3 class="section-heading">📐 타사 스케줄·참관 계획</h3>')
             parts.append(html)
+
+    # ② 기안·협조공문 (orgv3 sheet 1, 2 — 이동: HQ 운영본부 → 공통 추가업무)
+    if 'orgv3' in modules:
+        osheets = modules['orgv3'].get('sheets', [])
+        parts.append('    <h3 class="section-heading">📝 기안·협조공문 / 외부 협조 요청 / 조직 승인 기안 / 별도 기안</h3>')
+        for si in [1, 2]:
+            if si < len(osheets):
+                _, html = render_sheet(osheets[si], 'orgv3')
+                parts.append(html)
 
     parts.append('  </div>')
     return '\n'.join(parts)
@@ -953,6 +1154,8 @@ body.tabs-visible .main{margin-top:calc(var(--header-h) + var(--tab-bar-h))}
 .org-node-members{font-size:12px;color:var(--text-primary);margin-top:6px;line-height:1.6}
 .org-node-role{font-size:11px;color:var(--text-secondary);margin-top:4px;font-style:italic}
 .org-node-note{font-size:11px;color:var(--accent);margin-top:4px;font-weight:600}
+.org-drop{display:none;margin-top:10px;padding:8px 12px;background:rgba(0,0,0,0.07);border-radius:8px;font-size:12px;line-height:1.7;color:var(--text-primary);text-align:left;border-left:3px solid var(--accent)}
+[data-theme="dark"] .org-drop{background:rgba(255,255,255,0.08)}
 .org-hq{border-color:#0D1B2A;background:linear-gradient(135deg,#0D1B2A,#1B2A4A)}
 .org-hq .org-node-title,.org-hq .org-node-sub,.org-hq .org-node-role,.org-hq .org-node-note{color:white}
 .org-branches{display:flex;gap:16px;flex-wrap:wrap;justify-content:center;width:100%}
@@ -1117,6 +1320,15 @@ function toggleGroup(el){
 }
 
 function toggleSidebar(){document.getElementById('sidebar').classList.toggle('open');document.getElementById('overlay').classList.toggle('open')}
+
+function toggleOrgDrop(e,id){
+  e.stopPropagation();
+  var drop=document.getElementById('org-drop-'+id);
+  if(!drop)return;
+  var wasOpen=drop.style.display==='block';
+  document.querySelectorAll('.org-drop').forEach(function(d){d.style.display='none'});
+  if(!wasOpen)drop.style.display='block';
+}
 function openGroup(pid){showPage(pid);document.querySelectorAll('.nav-group').forEach(function(g){g.querySelectorAll('.nav-item').forEach(function(i){if(i.getAttribute('onclick')&&i.getAttribute('onclick').indexOf(pid)!==-1)g.classList.add('open')})})}
 
 /* ══ 매트릭스 필터 ══ */
@@ -1249,7 +1461,6 @@ var TAB_CONFIG={
   'team-hq':[
     {key:'org-chart',label:'조직도'},
     {key:'progress',label:'업무 진행현황'},
-    {key:'docs',label:'기안·협조공문'},
     {key:'timeline',label:'핵심 일정'}
   ],
   'team-support':[
@@ -1301,11 +1512,11 @@ function renderTabBar(pageId,activeAnchor){
 # ── 최종 HTML 조립 ────────────────────────────────────────────────────
 def build_html(manifest, modules):
     nav = build_nav(manifest)
-    org_chart = build_org_chart()
     dashboard = build_dashboard(manifest, modules)
     insights = load_insights()
     team_pages = build_team_pages(manifest, modules, insights)
     timeline = build_master_timeline(manifest, modules)
+    common_extra = build_common_extra_page(manifest, modules)
     ref_pages = build_ref_pages(manifest, modules)
 
     return f"""<!DOCTYPE html>
@@ -1328,7 +1539,7 @@ def build_html(manifest, modules):
   <div class="header-logo">모두의 <span>크루즈</span> 운영 데스크</div>
   <div class="header-sub">2026 코스타 세레나 한일전세선 (6.19~6.25)</div>
   <div class="header-right">
-    <span class="badge-ver" title="{UPDATE_DATE} 업데이트">v4.0</span>
+    <span class="badge-ver" title="{UPDATE_DATE} 업데이트">v4.1</span>
     <div class="theme-toggle">
       <button id="btn-light" onclick="setTheme('light')">☀️ 라이트</button>
       <button id="btn-dark" onclick="setTheme('dark')">🌙 다크</button>
@@ -1349,10 +1560,10 @@ def build_html(manifest, modules):
       <p>2026 코스타 세레나 한일전세선 (6.19~6.25) — 총괄운영 대시보드</p>
     </div>
 {dashboard}
-{org_chart}
   </div>
 
 {timeline}
+{common_extra}
 {team_pages}
 {ref_pages}
 </main>
