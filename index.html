@@ -140,7 +140,9 @@ body.tabs-visible .main{margin-top:calc(var(--header-h) + var(--tab-bar-h))}
 .section-title{padding:11px 18px;font-size:13px;font-weight:700;color:#FFF;letter-spacing:.2px}
 .ops-table{width:100%;border-collapse:collapse;background:var(--bg-primary);font-size:13px;transition:background var(--transition)}
 .ops-table thead th{padding:12px 16px;font-size:13px;font-weight:600;text-align:center;letter-spacing:.03em;text-transform:uppercase;white-space:nowrap;background:var(--bg-secondary)!important;color:var(--text-secondary)!important;border-bottom:1px solid var(--border)}
-.ops-table tbody tr{background:color-mix(in srgb,var(--row-bg,transparent) 35%,var(--bg-primary));min-height:40px}
+.ops-table tbody tr{background:var(--bg-primary);min-height:40px}
+.ops-table tbody tr:nth-child(even){background:var(--bg-secondary)}
+.ops-table tbody tr[style*="--row-bg"]{background:color-mix(in srgb,var(--row-bg) 35%,var(--bg-primary))}
 .ops-table tbody td{padding:14px 16px;font-size:14px;line-height:1.6;vertical-align:top;border-bottom:1px solid var(--border-light);color:var(--text-primary);text-align:center}
 .ops-table tbody td.text-left{text-align:left}
 .ops-table tbody td:first-child{font-weight:600;white-space:nowrap}
