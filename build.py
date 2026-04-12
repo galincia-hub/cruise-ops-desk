@@ -61,7 +61,6 @@ TEAM_WORKSPACE = [
         'sub_items': [
             ('미션·역할', 'mission'),
             ('의사결정체계', 'decision'),
-            ('미팅인사이트', 'insights'),
         ],
     },
     {
@@ -78,7 +77,6 @@ TEAM_WORKSPACE = [
             ('팀 개요·미션', 'overview'),
             ('업무 리스트', 'tasks'),
             ('SOP·시나리오', 'sop'),
-            ('미팅인사이트', 'insights'),
         ],
     },
     {
@@ -95,7 +93,6 @@ TEAM_WORKSPACE = [
             ('팀 개요·미션', 'overview'),
             ('업무 리스트', 'tasks'),
             ('SOP·시나리오', 'sop'),
-            ('미팅인사이트', 'insights'),
         ],
     },
     {
@@ -113,7 +110,6 @@ TEAM_WORKSPACE = [
             ('업무 리스트', 'tasks'),
             ('SOP·시나리오', 'sop'),
             ('VIP·가수로지스틱', 'vip-logistics'),
-            ('미팅인사이트', 'insights'),
         ],
         'sub_team': {
             'id': 'team-embark',
@@ -161,7 +157,6 @@ TEAM_WORKSPACE = [
             ('팀 개요·미션', 'overview'),
             ('업무 리스트', 'tasks'),
             ('SOP·시나리오', 'sop'),
-            ('미팅인사이트', 'insights'),
         ],
     },
 ]
@@ -406,7 +401,7 @@ def build_nav(manifest):
     L.append('  <div class="nav-section">')
     L.append('    <div class="nav-section-title">전체 조망</div>')
     L.append('    <div class="nav-item active" onclick="showPage(\'home\')"><span class="icon">🏠</span>운영 대시보드</div>')
-    L.append(f'    <div class="nav-item" onclick="showPage(\'master-timeline\')"><span class="icon">📋</span>마스터 타임라인</div>')
+    L.append(f'    <div class="nav-item" onclick="showPage(\'master-timeline\')"><span class="icon">📋</span>핵심요약</div>')
     L.append(f'    <div class="nav-item" onclick="showPage(\'matrix-2\')"><span class="icon">📐</span>마스터 매트릭스</div>')
     L.append(f'    <div class="nav-item" onclick="showPage(\'common-extra\')"><span class="icon">📌</span>공통 추가업무</div>')
     L.append('  </div>')
@@ -764,14 +759,21 @@ def build_dashboard(manifest, modules):
     </div>
 """
 
-    return org_chart + org_summary + report_line + milestones
+    return org_chart + org_summary + report_line
 
 # ── 팀 워크스페이스 페이지 ───────────────────────────────────────────
 def build_team_pages(manifest, modules, insights=None):
     pages = []
+    insight_idx = build_all_insight_idx(insights)
+
+    def _insight_block(tid, anchor):
+        """해당 팀·앵커에 배분된 타사인사이트 블록 반환."""
+        dist = TEAM_INSIGHT_DISTRIBUTION.get(tid, {})
+        ids = dist.get(anchor, [])
+        return build_insight_rows_html(ids, insight_idx)
 
     def _build_hq(tm):
-        """HQ 운영본부 전용 페이지 — 미션·역할 / 의사결정체계 / 미팅인사이트."""
+        """HQ 운영본부 전용 페이지 — 미션·역할 / 의사결정체계."""
         tid = tm['id']
         out = []
         out.append(f'  <div class="page" id="page-{tid}">')
@@ -827,6 +829,9 @@ def build_team_pages(manifest, modules, insights=None):
     </tbody>
     </table>
     </div>''')
+        # 미션 인사이트 배분
+        ins_mission = _insight_block(tid, 'mission')
+        if ins_mission: out.append(ins_mission)
         out.append(f'    </div>')
 
         # ② 의사결정체계
@@ -887,12 +892,10 @@ def build_team_pages(manifest, modules, insights=None):
     </tbody>
     </table>
     </div>''')
+        # 의사결정 인사이트 배분
+        ins_decision = _insight_block(tid, 'decision')
+        if ins_decision: out.append(ins_decision)
         out.append(f'    </div>')
-
-        # ③ 타사 미팅 인사이트
-        ins_html = build_insights_section(tid, insights)
-        if ins_html:
-            out.append(ins_html)
 
         out.append('  </div>')
         pages.append('\n'.join(out))
@@ -925,11 +928,13 @@ def build_team_pages(manifest, modules, insights=None):
                     _, html = render_sheet(tdsheets[si], 'teamdocs')
                     out.append(f'    <h3 class="section-heading">📑 업무분장서</h3>')
                     out.append(html)
+        # 업무분장 인사이트 배분
+        ins_tasks = _insight_block(tid, 'tasks')
+        if ins_tasks: out.append(ins_tasks)
         out.append(f'    </div>')
 
         # SOP·시나리오 (sop 앵커) — 매뉴얼 SOP 시트만
         out.append(f'    <div id="{tid}-sop">')
-        # 관련 매뉴얼의 SOP/시나리오 시트만 추출
         for mk in tm.get('manual_keys',[]):
             if mk not in modules or mk not in manifest: continue
             mi = manifest[mk]
@@ -944,24 +949,24 @@ def build_team_pages(manifest, modules, insights=None):
                         sop_found = True
                     _, html = render_sheet(sheet, mk)
                     out.append(html)
+        # SOP 인사이트 배분
+        ins_sop = _insight_block(tid, 'sop')
+        if ins_sop: out.append(ins_sop)
         out.append(f'    </div>')
 
         # VIP·가수로지스틱 (vip-logistics 앵커) — team-port 전용
         if tid == 'team-port':
             out.append(f'    <div id="{tid}-vip-logistics">')
             out.append(f'    <h3 class="section-heading">🌟 VIP·가수로지스틱 (초대가수 승하선 + VIP 의전)</h3>')
-            # master sheet 4 (특수업무·VIP의전) — 마스터타임라인에서 이동
             if 'master' in modules:
                 msheets = modules['master'].get('sheets', [])
                 if len(msheets) > 4:
                     _, html = render_sheet(msheets[4], 'master')
                     out.append(html)
+            # VIP 인사이트 배분
+            ins_vip = _insight_block(tid, 'vip-logistics')
+            if ins_vip: out.append(ins_vip)
             out.append(f'    </div>')
-
-        # 타사 미팅 인사이트 (insights 앵커)
-        ins_html = build_insights_section(tid, insights)
-        if ins_html:
-            out.append(ins_html)
 
         out.append('  </div>')
         pages.append('\n'.join(out))
@@ -976,15 +981,121 @@ def build_team_pages(manifest, modules, insights=None):
 # 마스터 타임라인에서 대시보드·공통 추가업무로 이동한 시트 목록
 MASTER_TIMELINE_EXCLUDE_SHEETS = {'업무분장표', '선상운영 타임스케줄', '준비물 체크리스트', '특수업무·VIP의전'}
 
+# ── 핵심준비사항 및 일정 (리드보드) 데이터 ───────────────────────────
+MILESTONE_DATA = [
+    {'id': 'ms-0', 'period': 'D-90~D-60 (3~4월)',     'title': '사전 행정·계약',      'detail': 'TF 기안 상신 / 3사 계약 관리 / 알바·통역 채용 공고 / 조직도 확정'},
+    {'id': 'ms-1', 'period': 'D-60~D-30 (4~5월)',     'title': '계약·SOP·기항지',     'detail': '공연 계약+대금 착수 / 팀별 SOP 초안 완성 / 타이요 미팅 / 기항지 인스펙션'},
+    {'id': 'ms-2', 'period': 'D-30~D-14 (5월초~중)',  'title': '온보드미팅·발주',      'detail': '온보드미팅(5/27~6/1) / 물품 제작 발주 / 알바 교육 / 통역 OT'},
+    {'id': 'ms-3', 'period': 'D-14~D-7 (6/5~12)',     'title': '최종 시뮬레이션',      'detail': '최종 시뮬레이션 / 비상대응 훈련 / 전체 2차 브리핑'},
+    {'id': 'ms-4', 'period': 'D-7~D-1 (6/12~18)',     'title': '사전탑승·베이스캠프',  'detail': '사전탑승자 승선(6/13) / 베이스캠프 세팅(6/18) / 터미널 최종 점검'},
+    {'id': 'ms-5', 'period': '승선일 (6/19)',           'title': 'D-Day 2,400명 승선',  'detail': '2,400명 승선 개시 / 출항식(21:00)'},
+    {'id': 'ms-6', 'period': '항차 Day1~2 (6/20~21)', 'title': '해상일·하코다테',      'detail': '해상일 프로그램 / 하코다테 기항(13:00~22:00)'},
+    {'id': 'ms-7', 'period': '항차 Day3~4 (6/22~23)', 'title': '오타루 오버나잇',      'detail': '오타루 오버나잇 / 자유여행객 관리'},
+    {'id': 'ms-8', 'period': '항차 Day5+하선 (6/24~25)', 'title': '폐막·입항·하선',   'detail': '폐막행사 / 부산 입항(15:00) / 하선·수화물'},
+    {'id': 'ms-9', 'period': '사후 D+1~D+7 (6/26~7/2)', 'title': '정산·결과보고',    'detail': '3사 정산 / 결과보고서 / 사후 홍보'},
+]
+
+# 팀별 인사이트 배분 매핑: {tid: {section_anchor: [id_list]}}
+TEAM_INSIGHT_DISTRIBUTION = {
+    'team-hq':      {'mission': ['HQ-03'], 'decision': ['HQ-01', 'HQ-02']},
+    'team-support': {'tasks': ['SUP-04'], 'sop': ['SUP-01', 'SUP-02', 'SUP-03']},
+    'team-event':   {'tasks': ['PRG-02'], 'sop': ['PRG-01']},
+    'team-port':    {
+        'tasks':         ['HQ-05', 'PRT-05', 'PRT-06', 'PRT-07', 'PRT-08'],
+        'sop':           ['PRT-01', 'PRT-02', 'PRT-03', 'PRT-04'],
+        'vip-logistics': ['HQ-04'],
+    },
+    'team-it':      {'sop': ['IT-01']},
+}
+
+def build_all_insight_idx(insights):
+    """insights JSON → {id: item} 딕셔너리."""
+    idx = {}
+    if not insights:
+        return idx
+    for team_key, team_data in insights.items():
+        if team_key == 'meta':
+            continue
+        for item in team_data.get('items', []):
+            idx[item['id']] = item
+    return idx
+
+def build_insight_rows_html(ids, insight_idx):
+    """지정된 ID 목록 인사이트를 팀 업무에 통합된 행 테이블로 렌더링."""
+    items = [insight_idx[i] for i in ids if i in insight_idx]
+    if not items:
+        return ''
+    priority_cls = {'높음': 'high', '중간': 'mid', '낮음': 'low'}
+    o = ['<div class="table-wrap">']
+    o.append('<table class="ops-table"><thead><tr>')
+    o.append('<th style="width:70px">ID</th>')
+    o.append('<th>과업명 <span style="color:#DC3545;font-size:11px;font-weight:400">(타사인사이트)</span></th>')
+    o.append('<th>내용</th><th style="width:80px">시점</th><th style="width:70px">우선순위</th>')
+    o.append('</tr></thead><tbody>')
+    for it in items:
+        pcls = priority_cls.get(it.get('priority', ''), '')
+        o.append('<tr>')
+        o.append(f'<td><code style="color:#DC3545">{esc(it["id"])}</code></td>')
+        o.append(f'<td style="color:#DC3545;font-weight:700">{esc(it["title"])}</td>')
+        o.append(f'<td class="text-left">{esc(it["content"])}</td>')
+        o.append(f'<td>{esc(it.get("phase",""))}</td>')
+        o.append(f'<td><span class="priority-badge {pcls}">{esc(it.get("priority",""))}</span></td>')
+        o.append('</tr>')
+    o.append('</tbody></table></div>')
+    return '\n'.join(o)
+
+def build_milestone_table():
+    """핵심준비사항 및 일정 — 리드보드 테이블 (진척 상태 드롭다운 + 프로그레스 바)."""
+    o = []
+    o.append('    <div class="ms-lead-board">')
+    o.append('      <div class="ms-progress-wrap">')
+    o.append('        <div class="ms-progress-bar">')
+    o.append('          <div class="ms-bar-seg ms-bar-done" id="ms-bar-done"></div>')
+    o.append('          <div class="ms-bar-seg ms-bar-prog" id="ms-bar-prog"></div>')
+    o.append('          <div class="ms-bar-seg ms-bar-hold" id="ms-bar-hold"></div>')
+    o.append('        </div>')
+    o.append('        <div class="ms-progress-text" id="ms-progress-text">완료 0 / 진행중 0 / 진행전 10 / 보류 0</div>')
+    o.append('      </div>')
+    o.append('      <div class="table-wrap" style="margin-bottom:0;border-radius:0;border:none;box-shadow:none">')
+    o.append('        <table class="ops-table ms-lead-table"><thead><tr>')
+    o.append('          <th style="width:155px">시기</th>')
+    o.append('          <th style="width:150px">핵심 항목</th>')
+    o.append('          <th>세부 내용</th>')
+    o.append('          <th style="width:125px">상태</th>')
+    o.append('        </tr></thead><tbody>')
+    for ms in MILESTONE_DATA:
+        o.append(f'        <tr class="ms-row" data-ms-id="{ms["id"]}">')
+        o.append(f'          <td class="ms-period-cell">{esc(ms["period"])}</td>')
+        o.append(f'          <td style="font-weight:700">{esc(ms["title"])}</td>')
+        o.append(f'          <td class="text-left">{esc(ms["detail"])}</td>')
+        o.append(f'          <td>')
+        o.append(f'            <select class="ms-status-sel" data-ms-id="{ms["id"]}" onchange="msStatusChange(this)">')
+        o.append(f'              <option value="진행전">⚪ 진행전</option>')
+        o.append(f'              <option value="진행중">🟡 진행중</option>')
+        o.append(f'              <option value="완료">🟢 완료</option>')
+        o.append(f'              <option value="보류">🔴 보류/폐기</option>')
+        o.append(f'            </select>')
+        o.append(f'          </td>')
+        o.append(f'        </tr>')
+    o.append('        </tbody></table>')
+    o.append('      </div>')
+    o.append('    </div>')
+    return '\n'.join(o)
+
 # ── 마스터 타임라인 페이지 ───────────────────────────────────────────
 def build_master_timeline(manifest, modules):
-    """master JSON 시트를 타임라인 페이지로 (업무분장표·matrix 타사스케줄은 이동됨)."""
+    """핵심요약(리드보드) + master JSON 사전준비 마스터플랜 시트."""
     parts = []
     parts.append('  <div class="page" id="page-master-timeline">')
-    parts.append('    <div class="breadcrumb"><a href="#" onclick="showPage(\'home\')">홈</a> / 전체 조망 / 마스터 타임라인</div>')
-    parts.append('    <div class="page-header"><h1>📋 마스터 타임라인</h1></div>')
+    parts.append('    <div class="breadcrumb"><a href="#" onclick="showPage(\'home\')">홈</a> / 전체 조망 / 핵심요약</div>')
+    parts.append('    <div class="page-header"><h1>📋 핵심요약</h1><p style="font-size:13px;color:var(--text-secondary);margin-top:6px">전체 일정의 핵심준비사항을 누락 없이 확인하는 리드보드(Lead Board). 상태를 직접 관리하세요.</p></div>')
 
-    # master JSON 시트들 (업무분장표 제외 — 대시보드로 이동)
+    # ① 핵심준비사항 및 일정 — 리드보드 (대시보드에서 이동)
+    parts.append('    <h3 class="section-heading">🗓️ 핵심준비사항 및 일정</h3>')
+    parts.append(build_milestone_table())
+
+    # ② master JSON 시트들 (사전준비 마스터플랜만)
+    parts.append('    <h3 class="section-heading" style="margin-top:36px">📋 사전준비 마스터플랜</h3>')
     if 'master' in modules and 'master' in manifest:
         mi = manifest['master']
         for si, sheet in enumerate(modules['master'].get('sheets',[])):
@@ -1334,7 +1445,29 @@ body.tabs-visible .main{margin-top:calc(var(--header-h) + var(--tab-bar-h))}
 .priority-badge.low{background:#D1FAE5;color:#059669}
 [data-theme="dark"] .priority-badge.high{background:#7F1D1D;color:#FCA5A5}
 [data-theme="dark"] .priority-badge.mid{background:#78350F;color:#FCD34D}
-[data-theme="dark"] .priority-badge.low{background:#064E3B;color:#6EE7B7}"""
+[data-theme="dark"] .priority-badge.low{background:#064E3B;color:#6EE7B7}
+
+/* ── 핵심준비사항 리드보드 ── */
+.ms-lead-board{background:var(--bg-secondary);border:1px solid var(--border);border-radius:var(--radius-sm);margin-bottom:28px;overflow:hidden;box-shadow:var(--shadow-md)}
+.ms-progress-wrap{padding:14px 20px;border-bottom:1px solid var(--border);background:var(--bg-secondary)}
+.ms-progress-bar{height:10px;background:var(--bg-primary);border-radius:5px;overflow:hidden;display:flex;margin-bottom:6px}
+.ms-bar-seg{height:100%;transition:width .4s ease}
+.ms-bar-done{background:#27AE60}
+.ms-bar-prog{background:#F39C12}
+.ms-bar-hold{background:#E74C3C}
+.ms-progress-text{font-size:12px;font-weight:600;color:var(--text-secondary)}
+.ms-lead-table .ms-period-cell{white-space:nowrap;font-size:12px;color:var(--accent-blue);font-weight:600}
+.ms-status-sel{width:116px;padding:5px 8px;border:1px solid var(--border);border-radius:6px;background:var(--bg-primary);color:var(--text-primary);font-size:12px;cursor:pointer;outline:none}
+.ms-status-sel:focus{border-color:var(--accent)}
+.ms-row[data-ms-status="완료"]{background:rgba(39,174,96,0.10)!important}
+.ms-row[data-ms-status="진행중"]{background:rgba(243,156,18,0.10)!important}
+.ms-row[data-ms-status="보류"]{background:rgba(231,76,60,0.10)!important}
+
+/* ── 아코디언 ── */
+.section-title.acc-toggle{cursor:pointer;user-select:none;display:flex;align-items:center;justify-content:space-between}
+.section-title.acc-toggle::after{content:'▼';font-size:10px;opacity:.75;margin-left:8px}
+.table-wrap:not(.acc-open) .section-title.acc-toggle::after{content:'▶'}
+.table-wrap:not(.acc-open) .ops-table{display:none}"""
 
 JS = r"""(function(){var t=localStorage.getItem('theme')||localStorage.getItem('dark');if(t==='dark'||t==='1')document.documentElement.setAttribute('data-theme','dark')})();
 function _syncThemeButtons(){var isDark=document.documentElement.getAttribute('data-theme')==='dark';var bl=document.getElementById('btn-light');var bd=document.getElementById('btn-dark');if(bl)bl.classList.toggle('active',!isDark);if(bd)bd.classList.toggle('active',isDark)}
@@ -1342,18 +1475,16 @@ function setTheme(t){document.documentElement.setAttribute('data-theme',t);local
 function toggleDark(){setTheme(document.documentElement.getAttribute('data-theme')==='dark'?'light':'dark')}
 window.addEventListener('DOMContentLoaded',function(){_syncThemeButtons();if(document.getElementById('matrix-toolbar'))matrixInit()});
 
+var _accInitialized={};
 function showPage(id){
   document.querySelectorAll('.page').forEach(function(p){p.classList.remove('active')});
   document.querySelectorAll('.nav-item').forEach(function(n){n.classList.remove('active')});
-  // 모든 펼침 메뉴 닫기
   document.querySelectorAll('.nav-group.open').forEach(function(g){g.classList.remove('open')});
 
   var page=document.getElementById('page-'+id);
   if(page)page.classList.add('active');
   else document.getElementById('page-home').classList.add('active');
 
-  // 부모 그룹 펼침 + active 표시
-  // active는 showPage('id') 직접 호출 항목만 — showPageSection 항목은 제외
   document.querySelectorAll('.nav-item').forEach(function(n){
     var oc=n.getAttribute('onclick')||'';
     var hasId=(oc.indexOf("'"+id+"'")!==-1||oc.indexOf("'"+id+"',")!==-1);
@@ -1367,6 +1498,15 @@ function showPage(id){
   document.getElementById('overlay').classList.remove('open');
   window.scrollTo(0,0);
   renderTabBar(id,null);
+
+  // 아코디언 초기화 (페이지 첫 표시 시 1회)
+  if(!_accInitialized[id]){
+    _accInitialized[id]=true;
+    var target=document.getElementById('page-'+id);
+    if(target)initAccordions(target);
+    // 핵심요약 페이지 milestone 상태 복원
+    if(id==='master-timeline')msInit();
+  }
 }
 
 function showPageSection(pageId, anchor){
@@ -1537,28 +1677,24 @@ function doXlsxDownload(){var d=getVisibleRows();var ws=XLSX.utils.aoa_to_sheet(
 var TAB_CONFIG={
   'team-hq':[
     {key:'mission',label:'미션·역할'},
-    {key:'decision',label:'의사결정체계'},
-    {key:'insights',label:'미팅인사이트'}
+    {key:'decision',label:'의사결정체계'}
   ],
   'team-support':[
     {key:'overview',label:'팀 개요·미션'},
     {key:'tasks',label:'업무 리스트'},
-    {key:'sop',label:'SOP·시나리오'},
-    {key:'insights',label:'미팅인사이트'}
+    {key:'sop',label:'SOP·시나리오'}
   ],
   'team-event':[
     {key:'overview',label:'팀 개요·미션'},
     {key:'tasks',label:'업무 리스트'},
-    {key:'sop',label:'SOP·시나리오'},
-    {key:'insights',label:'미팅인사이트'}
+    {key:'sop',label:'SOP·시나리오'}
   ],
   'team-port':[
     {key:'overview',label:'팀 개요·미션'},
     {key:'tasks',label:'업무 리스트'},
     {key:'sop',label:'SOP·시나리오'},
     {key:'sub-embark',label:'↳ 승하선팀',goto:'team-embark'},
-    {key:'vip-logistics',label:'VIP·가수로지스틱'},
-    {key:'insights',label:'미팅인사이트'}
+    {key:'vip-logistics',label:'VIP·가수로지스틱'}
   ],
   'team-embark':[
     {key:'overview',label:'팀 개요'},
@@ -1572,8 +1708,7 @@ var TAB_CONFIG={
   'team-it':[
     {key:'overview',label:'팀 개요·미션'},
     {key:'tasks',label:'업무 리스트'},
-    {key:'sop',label:'SOP·시나리오'},
-    {key:'insights',label:'미팅인사이트'}
+    {key:'sop',label:'SOP·시나리오'}
   ]
 };
 function renderTabBar(pageId,activeAnchor){
@@ -1589,6 +1724,53 @@ function renderTabBar(pageId,activeAnchor){
     }
     return '<button class="'+cls+'" onclick="showPageSection(\''+pageId+'\',\''+t.key+'\')">'+t.label+'</button>';
   }).join('');
+}
+
+/* ══ 핵심준비사항 진척 관리 ══ */
+var MS_KEY='cruise-ms-status';
+function msLoad(){try{return JSON.parse(localStorage.getItem(MS_KEY)||'{}')}catch(e){return{}}}
+function msStatusChange(sel){
+  var id=sel.getAttribute('data-ms-id');
+  var data=msLoad();data[id]=sel.value;
+  localStorage.setItem(MS_KEY,JSON.stringify(data));
+  var row=sel.closest('tr');if(row)row.setAttribute('data-ms-status',sel.value);
+  msUpdateProgress();
+}
+function msInit(){
+  var data=msLoad();
+  document.querySelectorAll('.ms-status-sel').forEach(function(sel){
+    var id=sel.getAttribute('data-ms-id');
+    if(data[id]){sel.value=data[id];var row=sel.closest('tr');if(row)row.setAttribute('data-ms-status',data[id]);}
+  });
+  msUpdateProgress();
+}
+function msUpdateProgress(){
+  var done=0,prog=0,todo=0,hold=0,total=0;
+  document.querySelectorAll('.ms-status-sel').forEach(function(sel){
+    total++;var v=sel.value;
+    if(v==='완료')done++;else if(v==='진행중')prog++;else if(v==='진행전')todo++;else hold++;
+  });
+  var txt=document.getElementById('ms-progress-text');
+  if(txt)txt.textContent='완료 '+done+' / 진행중 '+prog+' / 진행전 '+todo+' / 보류 '+hold;
+  if(total>0){
+    var d=document.getElementById('ms-bar-done');var p=document.getElementById('ms-bar-prog');var h=document.getElementById('ms-bar-hold');
+    if(d)d.style.width=(done/total*100)+'%';
+    if(p)p.style.width=(prog/total*100)+'%';
+    if(h)h.style.width=(hold/total*100)+'%';
+  }
+}
+
+/* ══ 아코디언 — 섹션 펼침/접힘 ══ */
+function initAccordions(pageEl){
+  pageEl.querySelectorAll('.table-wrap').forEach(function(wrap){
+    if(wrap.hasAttribute('data-acc'))return;  /* 중복 방지 */
+    var st=wrap.querySelector('.section-title');
+    if(!st)return;
+    wrap.setAttribute('data-acc','1');
+    wrap.classList.add('acc-open');
+    st.classList.add('acc-toggle');
+    st.onclick=function(e){e.stopPropagation();wrap.classList.toggle('acc-open')};
+  });
 }
 """
 
@@ -1622,7 +1804,7 @@ def build_html(manifest, modules):
   <div class="header-logo">모두의 <span>크루즈</span> 운영 데스크</div>
   <div class="header-sub">2026 코스타 세레나 한일전세선 (6.19~6.25)</div>
   <div class="header-right">
-    <span class="badge-ver" title="{UPDATE_DATE} 업데이트">v4.1</span>
+    <span class="badge-ver" title="{UPDATE_DATE} 업데이트">v4.2</span>
     <div class="theme-toggle">
       <button id="btn-light" onclick="setTheme('light')">☀️ 라이트</button>
       <button id="btn-dark" onclick="setTheme('dark')">🌙 다크</button>
@@ -1661,7 +1843,7 @@ def build_html(manifest, modules):
 def main():
     import shutil
     test_key = sys.argv[1] if len(sys.argv) > 1 else None
-    print('=== 크루즈 운영 데스크 빌더 v4.1 ===')
+    print('=== 크루즈 운영 데스크 빌더 v4.2 ===')
     manifest, modules = load_all()
     if test_key:
         print(f'  [TEST MODE] {test_key}만 렌더링')
@@ -1674,7 +1856,7 @@ def main():
     print(f'  → {OUT} ({size_kb} KB) 생성 완료')
     # archive 저장
     if not test_key:
-        archive_path = os.path.join(ARCHIVE_DIR, 'v4.1_2026-04-12.html')
+        archive_path = os.path.join(ARCHIVE_DIR, 'v4.2_2026-04-12.html')
         shutil.copy2(OUT, archive_path)
         print(f'  → archive/{os.path.basename(archive_path)} 저장 완료')
 
