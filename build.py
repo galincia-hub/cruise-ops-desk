@@ -1463,16 +1463,7 @@ body.tabs-visible .main{margin-top:calc(var(--header-h) + var(--tab-bar-h))}
 .ms-row[data-ms-status="진행중"]{background:rgba(243,156,18,0.10)!important}
 .ms-row[data-ms-status="보류"]{background:rgba(231,76,60,0.10)!important}
 
-/* ── 아코디언 (table-wrap 단위) ── */
-.section-title.acc-toggle{cursor:pointer;user-select:none;display:flex;align-items:center;justify-content:space-between}
-.section-title.acc-toggle::after{content:'▼';font-size:10px;opacity:.75;margin-left:8px}
-.table-wrap:not(.acc-open) .section-title.acc-toggle::after{content:'▶'}
-.table-wrap:not(.acc-open) .ops-table{display:none}
-
-/* ── 헤딩 아코디언 (h3.section-heading 단위) ── */
-h3.section-heading.hacc-toggle{cursor:pointer;user-select:none;display:flex;align-items:center;justify-content:space-between}
-h3.section-heading.hacc-toggle::after{content:'▼';font-size:10px;opacity:.65;margin-left:8px;flex-shrink:0}
-h3.section-heading.hacc-toggle.hacc-closed::after{content:'▶'}
+/* 아코디언 CSS 제거됨 */
 
 /* ── 팀별 Excel 버튼 (탭 바) ── */
 .tab-spacer{flex:1 1 auto}
@@ -1513,7 +1504,7 @@ function showPage(id){
   if(!_accInitialized[id]){
     _accInitialized[id]=true;
     var target=document.getElementById('page-'+id);
-    if(target){initAccordions(target);initHeadingAccordions(target);}
+    /* 아코디언 제거 — 모든 섹션 항상 표시 */
     if(id==='master-timeline')msInit();
   }
 }
@@ -1780,35 +1771,7 @@ function msUpdateProgress(){
   }
 }
 
-/* ══ 아코디언 — 섹션 펼침/접힘 ══ */
-function initAccordions(pageEl){
-  pageEl.querySelectorAll('.table-wrap').forEach(function(wrap){
-    if(wrap.hasAttribute('data-acc'))return;
-    var st=wrap.querySelector('.section-title');
-    if(!st)return;
-    wrap.setAttribute('data-acc','1');
-    wrap.classList.add('acc-open');
-    st.classList.add('acc-toggle');
-    st.onclick=function(e){e.stopPropagation();wrap.classList.toggle('acc-open')};
-  });
-}
-/* ══ 헤딩 아코디언 — h3.section-heading 단위 펼침/접힘 ══ */
-function initHeadingAccordions(pageEl){
-  pageEl.querySelectorAll('h3.section-heading').forEach(function(h3){
-    if(h3.hasAttribute('data-hacc'))return;
-    /* 이 h3 다음에 오는 형제 요소들을 다음 h3까지 수집 */
-    var siblings=[];
-    var el=h3.nextElementSibling;
-    while(el&&!el.matches('h3.section-heading,div.page-header')){siblings.push(el);el=el.nextElementSibling;}
-    if(siblings.length===0)return;
-    h3.setAttribute('data-hacc','1');
-    h3.classList.add('hacc-toggle');
-    h3.onclick=function(){
-      var closed=h3.classList.toggle('hacc-closed');
-      siblings.forEach(function(s){s.style.display=closed?'none':'';});
-    };
-  });
-}
+/* 아코디언 제거됨 — 모든 섹션 항상 펼침 */
 
 /* ══ 팀별 Excel 다운로드 ══ */
 function teamDownloadXlsx(pageId,teamName){
