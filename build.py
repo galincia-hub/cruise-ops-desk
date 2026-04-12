@@ -27,8 +27,8 @@ DARK_BGS = {c.upper() for c in [
 
 MODULE_SECTION_COLORS = {
     'master':'#4A5568','org':'#2B6CB0','prog':'#C05621','sup':'#2F855A',
-    'emb':'#4C51BF','port':'#276749','qa':'#4A5568','orgv2':'#1565C0',
-    'orgv3':'#283593','supplement':'#00695C','teamdocs':'#4527A0','matrix':'#2D6A4F',
+    'emb':'#2D6A4F','port':'#276749','qa':'#4A5568','orgv2':'#1565C0',
+    'orgv3':'#283593','supplement':'#00695C','teamdocs':'#2D6A4F','matrix':'#2D6A4F',
 }
 
 MODULE_META = {
