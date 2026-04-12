@@ -20790,7 +20790,7 @@ function toggleDark(){setTheme(document.documentElement.getAttribute('data-theme
 window.addEventListener('DOMContentLoaded',function(){_syncThemeButtons();if(document.getElementById('matrix-toolbar'))matrixInit()});
 
 var _accInitialized={};
-function showPage(id){
+function showPage(id,skipScroll){
   document.querySelectorAll('.page').forEach(function(p){p.classList.remove('active')});
   document.querySelectorAll('.nav-item').forEach(function(n){n.classList.remove('active')});
   document.querySelectorAll('.nav-group.open').forEach(function(g){g.classList.remove('open')});
@@ -20810,7 +20810,7 @@ function showPage(id){
 
   document.getElementById('sidebar').classList.remove('open');
   document.getElementById('overlay').classList.remove('open');
-  window.scrollTo(0,0);
+  if(!skipScroll)window.scrollTo(0,0);
   renderTabBar(id,null);
 
   // 아코디언 초기화 (페이지 첫 표시 시 1회)
@@ -20823,7 +20823,7 @@ function showPage(id){
 }
 
 function showPageSection(pageId, anchor){
-  showPage(pageId);
+  showPage(pageId,true);
   renderTabBar(pageId,anchor);
   // showPage가 active를 초기화했으므로 해당 앵커 서브아이템 하나만 active
   document.querySelectorAll('.nav-item').forEach(function(n){
@@ -20990,7 +20990,13 @@ function doXlsxDownload(){var d=getVisibleRows();var ws=XLSX.utils.aoa_to_sheet(
 var TAB_CONFIG={
   'team-hq':[
     {key:'mission',label:'미션·역할'},
-    {key:'decision',label:'의사결정체계'}
+    {key:'decision',label:'의사결정체계'},
+    {key:'checklist',label:'준비물 체크리스트'},
+    {key:'org-chart',label:'선내운영 조직도'},
+    {key:'workflow',label:'업무플로우 상세'},
+    {key:'complaint',label:'컴플레인 시나리오 매뉴얼'},
+    {key:'sop-manual',label:'업무 매뉴얼 SOP'},
+    {key:'scenario10',label:'시나리오 상황대응 10선'}
   ],
   'team-support':[
     {key:'overview',label:'팀 개요·미션'},
@@ -21000,28 +21006,37 @@ var TAB_CONFIG={
   'team-event':[
     {key:'overview',label:'팀 개요·미션'},
     {key:'tasks',label:'업무 리스트'},
+    {key:'schedule',label:'일자별 타임스케줄'},
+    {key:'flex-staffing',label:'탄력적 인력운영'},
     {key:'sop',label:'SOP·시나리오'}
   ],
   'team-port':[
     {key:'overview',label:'팀 개요·미션'},
     {key:'tasks',label:'업무 리스트'},
     {key:'sop',label:'SOP·시나리오'},
+    {key:'vip-logistics',label:'VIP·가수로지스틱'},
     {key:'sub-embark',label:'↳ 승하선팀',goto:'team-embark'},
-    {key:'vip-logistics',label:'VIP·가수로지스틱'}
+    {key:'flex-staffing',label:'탄력적 인력운영'},
+    {key:'org-detail',label:'업무분장(상세)'},
+    {key:'schedule',label:'일자별 타임스케줄'},
+    {key:'sop-manual',label:'업무 매뉴얼 SOP'},
+    {key:'scenario10',label:'시나리오 상황대응 10선'}
   ],
   'team-embark':[
-    {key:'overview',label:'팀 개요'},
-    {key:'tasks',label:'업무 리스트'},
-    {key:'sop',label:'SOP·케이스스터디'}
+    {key:'boarding-org',label:'승선일 업무분장·조직'},
+    {key:'boarding-schedule',label:'승선일 타임스케줄'},
+    {key:'case-study',label:'케이스스터디 15선'},
+    {key:'disembark',label:'하선일 업무분장·타임스케줄'}
   ],
   'team-fb':[
     {key:'overview',label:'팀 개요'},
     {key:'tasks',label:'업무 리스트'}
   ],
   'team-it':[
-    {key:'overview',label:'팀 개요·미션'},
-    {key:'tasks',label:'업무 리스트'},
-    {key:'sop',label:'SOP·시나리오'}
+    {key:'org',label:'업무분장 및 조직'},
+    {key:'schedule',label:'일자별 타임스케줄'},
+    {key:'sop-manual',label:'업무 매뉴얼 SOP'},
+    {key:'scenario10',label:'시나리오 상황대응 10선'}
   ]
 };
 var TEAM_EXCEL_NAMES={
