@@ -297,6 +297,9 @@ def render_sheet(sheet, module_key):
                         out.append(f'<tr><td colspan="{col_count}" class="cell-wrap merged-desc">{val}</td></tr>')
                     else:
                         rb = cells[0].get('bg','')
+                        # 흰색 계열은 기본 배경(var(--bg-primary))으로 처리 — 다크모드 호환
+                        if rb and rb.upper() in {'#FFFFFF', '#FFF', '#FFFFFF'.lower(), '#FFF'.lower()}:
+                            rb = ''
                         rs = f' style="--row-bg:{rb}"' if rb else ''
                         out.append(f'<tr{rs}>')
                         for idx,c in enumerate(cells):
@@ -568,7 +571,7 @@ def build_dashboard(manifest, modules):
       <th style="color:#FFFFFF;font-weight:700">비고</th>
     </tr></thead>
     <tbody>
-    <tr style="--row-bg:#FFFFFF">
+    <tr>
       <td style="font-weight:700" class="cell-wrap">운영부서장</td>
       <td class="cell-wrap">운영부서장 2명</td>
       <td class="cell-wrap">2</td>
@@ -576,7 +579,7 @@ def build_dashboard(manifest, modules):
       <td class="cell-wrap text-left">- 전세선 전체 운영 및 최종 의사결정<br>- 선사·협력사 실무 조율<br>- 예산/일정/계약/보고 통합관리<br>- VIP 의전 총괄<br>- 코스타 Hotel Director·Cruise Director와 직접 소통</td>
       <td class="cell-wrap">HQ (모두투어 + CI)<br>공동운영</td>
     </tr>
-    <tr style="--row-bg:#FFFFFF">
+    <tr>
       <td style="font-weight:700" class="cell-wrap">운영지원팀</td>
       <td class="cell-wrap">운영부서장 겸임 + 팀원3</td>
       <td class="cell-wrap">5</td>
@@ -584,7 +587,7 @@ def build_dashboard(manifest, modules):
       <td class="cell-wrap text-left">- 안내데스크 운영 08~21시(13시간)<br>- 방송·공지 송출 관리<br>- VOC 수집 및 피드백<br>- 카카오톡 실시간 상황판 관리<br>- 3사 캐빈 취합 및 선사 전달<br>- 정산 관리</td>
       <td class="cell-wrap">운영부서장 겸임</td>
     </tr>
-    <tr style="--row-bg:#FFFFFF">
+    <tr>
       <td style="font-weight:700" class="cell-wrap">기항지운영팀<br><small>(VIP대응팀 겸임)</small></td>
       <td class="cell-wrap">이수일 팀장 + 팀원1 + 타이요76</td>
       <td class="cell-wrap">78</td>
@@ -592,7 +595,7 @@ def build_dashboard(manifest, modules):
       <td class="cell-wrap text-left">- 하코다테·오타루 투어 운영 총괄<br>- 타이요 76명 관리<br>- 갱웨이 관리<br>- 중간하선/승선 CIQ<br>- 각사별 VIP 의전 프로토콜 관리<br>- 자유여행자 귀선 통제</td>
       <td class="cell-wrap">타이요플랜 협력<br>VIP대응 겸임</td>
     </tr>
-    <tr style="--row-bg:#FFFFFF">
+    <tr>
       <td style="font-weight:700" class="cell-wrap">공연/행사팀</td>
       <td class="cell-wrap">이상민 팀장(★사전탑승) + 팀원4 + 환경재단15명</td>
       <td class="cell-wrap">20</td>
@@ -600,7 +603,7 @@ def build_dashboard(manifest, modules):
       <td class="cell-wrap text-left">- 자체공연 운영<br>- 환경재단 선상학교 지원<br>- 출항식·폐막행사 진행<br>- 음향·장비 관리<br>- GRM·코스타 테크니션 협업</td>
       <td class="cell-wrap">환경재단 15명 배치</td>
     </tr>
-    <tr style="--row-bg:#FFFFFF">
+    <tr>
       <td style="font-weight:700" class="cell-wrap">승하선팀</td>
       <td class="cell-wrap">김남민 매니저(터미널전담) + 이수일★듀얼 + 알바3~4</td>
       <td class="cell-wrap">6</td>
@@ -608,7 +611,7 @@ def build_dashboard(manifest, modules):
       <td class="cell-wrap text-left">- 2,400명 승선·하선 터미널 총괄<br>- 수화물 프로세스 관리<br>- 승선·하선 동선 관리<br>- 타사 참관·답사 조율</td>
       <td class="cell-wrap">기항지팀 산하</td>
     </tr>
-    <tr style="--row-bg:#FFFFFF">
+    <tr>
       <td style="font-weight:700" class="cell-wrap">식음료파트</td>
       <td class="cell-wrap">문형식 매니저(★사전탑승)</td>
       <td class="cell-wrap">1</td>
@@ -616,7 +619,7 @@ def build_dashboard(manifest, modules):
       <td class="cell-wrap text-left">- 코스타 F&amp;B팀 조율<br>- 밀스케줄 관리<br>- 특별식·에코정책 반영</td>
       <td class="cell-wrap">★사전탑승</td>
     </tr>
-    <tr style="--row-bg:#FFFFFF">
+    <tr>
       <td style="font-weight:700" class="cell-wrap">IT홍보팀</td>
       <td class="cell-wrap">최구철 매니저(팀장)</td>
       <td class="cell-wrap">1</td>
@@ -624,7 +627,7 @@ def build_dashboard(manifest, modules):
       <td class="cell-wrap text-left">- 무전기·Wi-Fi 통신장비 관리<br>- 촬영·홍보<br>- 프로그램표·인쇄물 제작</td>
       <td class="cell-wrap"></td>
     </tr>
-    <tr style="--row-bg:#FFFFFF">
+    <tr>
       <td style="font-weight:700" class="cell-wrap">알바</td>
       <td class="cell-wrap">탄력배치</td>
       <td class="cell-wrap">12</td>
@@ -632,7 +635,7 @@ def build_dashboard(manifest, modules):
       <td class="cell-wrap text-left">- 탄력배치, 각 팀 유동 지원<br>- 안내데스크 보조<br>- 행사보조·물류지원</td>
       <td class="cell-wrap">12명</td>
     </tr>
-    <tr style="--row-bg:#FFFFFF">
+    <tr>
       <td style="font-weight:700" class="cell-wrap">통역</td>
       <td class="cell-wrap">채용 후 코스타 인계</td>
       <td class="cell-wrap">18</td>
@@ -658,7 +661,7 @@ def build_dashboard(manifest, modules):
       <th style="color:#FFFFFF;font-weight:700">비고</th>
     </tr></thead>
     <tbody>
-    <tr style="--row-bg:#FFFFFF">
+    <tr>
       <td style="font-weight:700" class="cell-wrap">보고라인</td>
       <td class="cell-wrap">단일체계</td>
       <td class="cell-wrap text-left">운영부서장(HQ) → 팀장 → 팀원/보조</td>
@@ -666,7 +669,7 @@ def build_dashboard(manifest, modules):
       <td class="cell-wrap">전 인력</td>
       <td class="cell-wrap"></td>
     </tr>
-    <tr style="--row-bg:#FFFFFF">
+    <tr>
       <td style="font-weight:700" class="cell-wrap">1차 커뮤니케이션</td>
       <td class="cell-wrap">무전기 실시간 교신</td>
       <td class="cell-wrap text-left">현장 긴급 대응, 고객이슈, 이동통제</td>
@@ -674,7 +677,7 @@ def build_dashboard(manifest, modules):
       <td class="cell-wrap">팀장급 이상 + 키맨</td>
       <td class="cell-wrap">100대</td>
     </tr>
-    <tr style="--row-bg:#FFFFFF">
+    <tr>
       <td style="font-weight:700" class="cell-wrap">2차 커뮤니케이션</td>
       <td class="cell-wrap">카카오톡 단체방</td>
       <td class="cell-wrap text-left">실시간 보고, 사진/문서 공유, 결재라인</td>
@@ -682,7 +685,7 @@ def build_dashboard(manifest, modules):
       <td class="cell-wrap">전 스태프</td>
       <td class="cell-wrap">팀별+전체방</td>
     </tr>
-    <tr style="--row-bg:#FFFFFF">
+    <tr>
       <td style="font-weight:700" class="cell-wrap">3차 커뮤니케이션</td>
       <td class="cell-wrap">전체미팅</td>
       <td class="cell-wrap text-left">주요현안 브리핑, 개선사항 공유</td>
@@ -690,7 +693,7 @@ def build_dashboard(manifest, modules):
       <td class="cell-wrap">전 관계자 (필수근무자 제외)</td>
       <td class="cell-wrap">모두투어/CI/재단/웅진/타이요</td>
     </tr>
-    <tr style="--row-bg:#FFFFFF">
+    <tr>
       <td style="font-weight:700" class="cell-wrap">데이터 공유</td>
       <td class="cell-wrap">Google Sheet</td>
       <td class="cell-wrap text-left">문서 실시간 연동, 자동 기록, 일일보고</td>
@@ -796,31 +799,31 @@ def build_team_pages(manifest, modules, insights=None):
       <th style="color:#FFFFFF;font-weight:700">세부 업무</th>
     </tr></thead>
     <tbody>
-    <tr style="--row-bg:#FFFFFF">
+    <tr>
       <td style="font-weight:700" class="cell-wrap">운영부서장</td>
       <td class="cell-wrap">모두투어 + CI (공동운영)</td>
       <td class="cell-wrap">선내 전체 운영 총괄 및 공동 지휘</td>
       <td class="cell-wrap text-left">- 전세선 전체 운영 및 최종 의사결정<br>- 선사·협력사 실무 조율<br>- 예산/일정/계약/보고 통합관리<br>- VIP 의전 총괄<br>- 코스타 Hotel Director·Cruise Director와 직접 소통</td>
     </tr>
-    <tr style="--row-bg:#FFFFFF">
+    <tr>
       <td style="font-weight:700" class="cell-wrap">운영지원팀 겸임</td>
       <td class="cell-wrap">부서장 직접 겸임</td>
       <td class="cell-wrap">안내데스크·고객응대 총괄 허브</td>
       <td class="cell-wrap text-left">- 안내데스크 운영 총괄 (08~21시)<br>- 방송·공지 송출 최종 검수<br>- VOC 수집 및 개선 지시<br>- 3사 캐빈 취합 → 선사 전달</td>
     </tr>
-    <tr style="--row-bg:#FFFFFF">
+    <tr>
       <td style="font-weight:700" class="cell-wrap">VIP 의전</td>
       <td class="cell-wrap">부서장 직속 관리</td>
       <td class="cell-wrap">3사 VIP 일정 및 의전 프로토콜 관리</td>
       <td class="cell-wrap text-left">- 3사별 VIP 명단 관리<br>- 기항지 VIP 의전 조율 (기항지운영팀과 협업)<br>- VIP 객실 특별 세팅<br>- VIP 전용 일정표 배포</td>
     </tr>
-    <tr style="--row-bg:#FFFFFF">
+    <tr>
       <td style="font-weight:700" class="cell-wrap">코스타 선사 대응</td>
       <td class="cell-wrap">HQ 단독 창구</td>
       <td class="cell-wrap">선사와의 공식 커뮤니케이션 유일 창구</td>
       <td class="cell-wrap text-left">- 코스타 Hotel Director 일일 브리핑 참석<br>- 운영 이슈 선사 보고 및 조율<br>- Emergency 채널 대응<br>- 운항 일정 변경 시 전 팀 즉시 전파</td>
     </tr>
-    <tr style="--row-bg:#FFFFFF">
+    <tr>
       <td style="font-weight:700" class="cell-wrap">예산·계약 관리</td>
       <td class="cell-wrap">HQ 통합</td>
       <td class="cell-wrap">3사 공동 예산 및 계약 사항 통합 관리</td>
@@ -847,42 +850,42 @@ def build_team_pages(manifest, modules, insights=None):
       <th style="color:#FFFFFF;font-weight:700">비고</th>
     </tr></thead>
     <tbody>
-    <tr style="--row-bg:#FFFFFF">
+    <tr>
       <td style="font-weight:700" class="cell-wrap">일반 현장운영</td>
       <td class="cell-wrap">해당 팀장</td>
       <td class="cell-wrap text-left">팀장 판단 → 즉시 실행 → HQ 보고</td>
       <td class="cell-wrap">무전기·카카오톡</td>
       <td class="cell-wrap">팀장 자율 처리</td>
     </tr>
-    <tr style="--row-bg:#FFFFFF">
+    <tr>
       <td style="font-weight:700" class="cell-wrap">팀 간 조율 이슈</td>
       <td class="cell-wrap">HQ 운영부서장</td>
       <td class="cell-wrap text-left">팀장 보고 → HQ 검토 → 조율 결정 → 전파</td>
       <td class="cell-wrap">무전기·전체 카톡방</td>
       <td class="cell-wrap">30분 내 결정 원칙</td>
     </tr>
-    <tr style="--row-bg:#FFFFFF">
+    <tr>
       <td style="font-weight:700" class="cell-wrap">예산 집행</td>
       <td class="cell-wrap">HQ 공동 합의</td>
       <td class="cell-wrap text-left">팀장 요청 → HQ 검토 → 공동 승인</td>
       <td class="cell-wrap">카카오톡·문서</td>
       <td class="cell-wrap">50만원 이상 사전 승인 필수</td>
     </tr>
-    <tr style="--row-bg:#FFFFFF">
+    <tr>
       <td style="font-weight:700" class="cell-wrap">긴급 비상상황</td>
       <td class="cell-wrap">HQ 운영부서장</td>
       <td class="cell-wrap text-left">즉시 결정 → 팀장 전파 → 코스타 동시 보고</td>
       <td class="cell-wrap">무전기 비상채널</td>
       <td class="cell-wrap">코스타 Emergency 병행</td>
     </tr>
-    <tr style="--row-bg:#FFFFFF">
+    <tr>
       <td style="font-weight:700" class="cell-wrap">선사 공식 소통</td>
       <td class="cell-wrap">HQ 운영부서장</td>
       <td class="cell-wrap text-left">HQ 단독 창구로 코스타에 직접 소통</td>
       <td class="cell-wrap">코스타 내선·영어</td>
       <td class="cell-wrap">팀장 직접 선사 소통 금지</td>
     </tr>
-    <tr style="--row-bg:#FFFFFF">
+    <tr>
       <td style="font-weight:700" class="cell-wrap">VIP 이슈</td>
       <td class="cell-wrap">HQ 운영부서장</td>
       <td class="cell-wrap text-left">현장팀 보고 → HQ → 해당사 담당자 즉시 연락</td>
