@@ -281,11 +281,21 @@ body.tabs-visible .main{margin-top:calc(var(--header-h) + var(--tab-bar-h))}
 .ms-row[data-ms-status="진행중"]{background:rgba(243,156,18,0.10)!important}
 .ms-row[data-ms-status="보류"]{background:rgba(231,76,60,0.10)!important}
 
-/* ── 아코디언 ── */
+/* ── 아코디언 (table-wrap 단위) ── */
 .section-title.acc-toggle{cursor:pointer;user-select:none;display:flex;align-items:center;justify-content:space-between}
 .section-title.acc-toggle::after{content:'▼';font-size:10px;opacity:.75;margin-left:8px}
 .table-wrap:not(.acc-open) .section-title.acc-toggle::after{content:'▶'}
 .table-wrap:not(.acc-open) .ops-table{display:none}
+
+/* ── 헤딩 아코디언 (h3.section-heading 단위) ── */
+h3.section-heading.hacc-toggle{cursor:pointer;user-select:none;display:flex;align-items:center;justify-content:space-between}
+h3.section-heading.hacc-toggle::after{content:'▼';font-size:10px;opacity:.65;margin-left:8px;flex-shrink:0}
+h3.section-heading.hacc-toggle.hacc-closed::after{content:'▶'}
+
+/* ── 팀별 Excel 버튼 (탭 바) ── */
+.tab-spacer{flex:1 1 auto}
+.tab-excel-btn{flex-shrink:0;height:32px;padding:0 14px;margin:auto 0;border-radius:6px;font-size:13px;font-weight:600;background:var(--accent);color:#fff;border:none;cursor:pointer;white-space:nowrap;transition:opacity .15s}
+.tab-excel-btn:hover{opacity:.82}
 </style>
 </head>
 <body>
@@ -447,6 +457,7 @@ body.tabs-visible .main{margin-top:calc(var(--header-h) + var(--tab-bar-h))}
   </div>
   <div class="nav-section">
     <div class="nav-section-title">📁 아카이브</div>
+    <div class="nav-item" onclick="window.open('https://galincia-hub.github.io/cruise-ops-desk/archive/v4.2_2026-04-12.html','_blank')">v4.2 (2026-04-12)</div>
     <div class="nav-item" onclick="window.open('https://galincia-hub.github.io/cruise-ops-desk/archive/v4.1_2026-04-12.html','_blank')">v4.1 (2026-04-12)</div>
     <div class="nav-item" onclick="window.open('https://galincia-hub.github.io/cruise-ops-desk/archive/v4.0_2026-04-10.html','_blank')">v4.0 (2026-04-10)</div>
     <div class="nav-item" onclick="window.open('https://galincia-hub.github.io/cruise-ops-desk/archive/v3.1_2026-04-10.html','_blank')">v3.1 (2026-04-10)</div>
@@ -18138,8 +18149,7 @@ function showPage(id){
   if(!_accInitialized[id]){
     _accInitialized[id]=true;
     var target=document.getElementById('page-'+id);
-    if(target)initAccordions(target);
-    // 핵심요약 페이지 milestone 상태 복원
+    if(target){initAccordions(target);initHeadingAccordions(target);}
     if(id==='master-timeline')msInit();
   }
 }
@@ -18346,19 +18356,30 @@ var TAB_CONFIG={
     {key:'sop',label:'SOP·시나리오'}
   ]
 };
+var TEAM_EXCEL_NAMES={
+  'team-hq':'HQ운영본부',
+  'team-support':'운영지원팀',
+  'team-event':'공연행사팀',
+  'team-port':'기항지운영팀',
+  'team-embark':'승하선팀',
+  'team-fb':'식음료파트',
+  'team-it':'IT홍보팀'
+};
 function renderTabBar(pageId,activeAnchor){
   var wrap=document.getElementById('tab-bar');
   if(!wrap)return;
   var tabs=TAB_CONFIG[pageId];
   if(!tabs){wrap.innerHTML='';document.body.classList.remove('tabs-visible');return}
   document.body.classList.add('tabs-visible');
-  wrap.innerHTML=tabs.map(function(t){
+  var tabHtml=tabs.map(function(t){
     var cls='tab-item'+(t.key===activeAnchor?' active':'');
-    if(t.goto){
-      return '<button class="'+cls+'" onclick="showPage(\''+t.goto+'\')">'+t.label+'</button>';
-    }
+    if(t.goto)return '<button class="'+cls+'" onclick="showPage(\''+t.goto+'\')">'+t.label+'</button>';
     return '<button class="'+cls+'" onclick="showPageSection(\''+pageId+'\',\''+t.key+'\')">'+t.label+'</button>';
   }).join('');
+  if(TEAM_EXCEL_NAMES[pageId]){
+    tabHtml+='<span class="tab-spacer"></span><button class="tab-excel-btn" onclick="teamDownloadXlsx(\''+pageId+'\',\''+TEAM_EXCEL_NAMES[pageId]+'\')">📥 Excel</button>';
+  }
+  wrap.innerHTML=tabHtml;
 }
 
 /* ══ 핵심준비사항 진척 관리 ══ */
@@ -18398,7 +18419,7 @@ function msUpdateProgress(){
 /* ══ 아코디언 — 섹션 펼침/접힘 ══ */
 function initAccordions(pageEl){
   pageEl.querySelectorAll('.table-wrap').forEach(function(wrap){
-    if(wrap.hasAttribute('data-acc'))return;  /* 중복 방지 */
+    if(wrap.hasAttribute('data-acc'))return;
     var st=wrap.querySelector('.section-title');
     if(!st)return;
     wrap.setAttribute('data-acc','1');
@@ -18406,6 +18427,74 @@ function initAccordions(pageEl){
     st.classList.add('acc-toggle');
     st.onclick=function(e){e.stopPropagation();wrap.classList.toggle('acc-open')};
   });
+}
+/* ══ 헤딩 아코디언 — h3.section-heading 단위 펼침/접힘 ══ */
+function initHeadingAccordions(pageEl){
+  pageEl.querySelectorAll('h3.section-heading').forEach(function(h3){
+    if(h3.hasAttribute('data-hacc'))return;
+    /* 이 h3 다음에 오는 형제 요소들을 다음 h3까지 수집 */
+    var siblings=[];
+    var el=h3.nextElementSibling;
+    while(el&&!el.matches('h3.section-heading,div.page-header')){siblings.push(el);el=el.nextElementSibling;}
+    if(siblings.length===0)return;
+    h3.setAttribute('data-hacc','1');
+    h3.classList.add('hacc-toggle');
+    h3.onclick=function(){
+      var closed=h3.classList.toggle('hacc-closed');
+      siblings.forEach(function(s){s.style.display=closed?'none':'';});
+    };
+  });
+}
+
+/* ══ 팀별 Excel 다운로드 ══ */
+function teamDownloadXlsx(pageId,teamName){
+  if(typeof XLSX==='undefined'){
+    var s=document.createElement('script');
+    s.src='https://cdn.sheetjs.com/xlsx-0.20.0/package/dist/xlsx.full.min.js';
+    s.onload=function(){_doTeamXlsx(pageId,teamName);};
+    document.head.appendChild(s);
+  }else{_doTeamXlsx(pageId,teamName);}
+}
+function _doTeamXlsx(pageId,teamName){
+  var wb=XLSX.utils.book_new();
+  var page=document.getElementById('page-'+pageId);
+  if(!page)return;
+  /* 섹션 → 시트명 매핑 (없는 섹션은 자동 스킵) */
+  var secs=[
+    {id:pageId+'-mission',   label:'미션·역할'},
+    {id:pageId+'-decision',  label:'의사결정체계'},
+    {id:pageId+'-overview',  label:'팀 개요'},
+    {id:pageId+'-tasks',     label:'업무분장서'},
+    {id:pageId+'-sop',       label:'SOP·시나리오'},
+    {id:pageId+'-vip-logistics',label:'VIP·로지스틱'}
+  ];
+  secs.forEach(function(sec){
+    var el=document.getElementById(sec.id);
+    if(!el)return;
+    var tbls=el.querySelectorAll('table.ops-table');
+    if(tbls.length===0)return;
+    var rows=[];
+    tbls.forEach(function(tbl,ti){
+      if(ti>0)rows.push([]);  /* 테이블 간 빈 행 */
+      tbl.querySelectorAll('tr').forEach(function(tr){
+        var r=[];
+        tr.querySelectorAll('th,td').forEach(function(cell){
+          r.push(cell.textContent.replace(/\s+/g,' ').trim());
+        });
+        if(r.some(function(c){return c.length>0;}))rows.push(r);
+      });
+    });
+    if(rows.length===0)return;
+    var ws=XLSX.utils.aoa_to_sheet(rows);
+    /* 컬럼 너비 자동 조정 */
+    if(rows[0]){ws['!cols']=rows[0].map(function(v,ci){
+      var max=8;rows.forEach(function(r){if(r[ci]&&r[ci].length>max)max=Math.min(r[ci].length,60);});return{wch:max};
+    });}
+    XLSX.utils.book_append_sheet(wb,ws,sec.label);
+  });
+  if(wb.SheetNames.length===0){alert('내보낼 데이터가 없습니다.');return;}
+  var date=new Date().toISOString().slice(0,10);
+  XLSX.writeFile(wb,'코스타세레나_'+teamName+'_'+date+'.xlsx');
 }
 
 </script>
