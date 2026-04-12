@@ -264,6 +264,16 @@ def render_sheet(sheet, module_key):
                 sections.append(cur)
             cur['rows'].append(('h' if all_dark else 'd', row))
 
+    # 상태·비고 컬럼 인덱스를 전체 시트에서 한 번에 수집 (헤더가 별도 섹션에 있는 경우 대응)
+    SKIP_HEADERS = {'상태', '비고'}
+    global_skip_cols = set()
+    for sec in sections:
+        for t, cells in sec['rows']:
+            if t == 'h':
+                for ci, c in enumerate(cells):
+                    if c.get('value', '') in SKIP_HEADERS:
+                        global_skip_cols.add(ci)
+
     for sec in sections:
         out.append('<div class="table-wrap">')
         if sec['title']:
@@ -271,14 +281,7 @@ def render_sheet(sheet, module_key):
             out.append(f'<div class="section-title" style="background:{sc}">{esc(sec["title"].get("value",""))}</div>')
         rows = sec['rows']
         if rows:
-            # 상태·비고 컬럼 인덱스 수집 (헤더 기준)
-            SKIP_HEADERS = {'상태', '비고'}
-            skip_cols = set()
-            for t, cells in rows:
-                if t == 'h':
-                    for ci, c in enumerate(cells):
-                        if c.get('value', '') in SKIP_HEADERS:
-                            skip_cols.add(ci)
+            skip_cols = global_skip_cols
             raw_col_count = next((len(c) for t,c in rows if t=='h'), 0)
             col_count = raw_col_count - sum(1 for ci in range(raw_col_count) if ci in skip_cols)
             LEFT_KW = ['세부','내용','체크리스트','항목','업무']
