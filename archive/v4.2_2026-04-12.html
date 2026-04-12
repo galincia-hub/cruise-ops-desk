@@ -138,7 +138,9 @@ body.tabs-visible .main{margin-top:calc(var(--header-h) + var(--tab-bar-h))}
 
 .table-wrap{overflow-x:auto;margin-bottom:28px;border-radius:var(--radius-sm);border:1px solid var(--border);box-shadow:var(--shadow-md);transition:border-color var(--transition)}
 .section-title{padding:11px 18px;font-size:13px;font-weight:700;color:#FFF;letter-spacing:.2px}
-.ops-table{width:100%;border-collapse:collapse;background:var(--bg-primary);font-size:13px;transition:background var(--transition)}
+.ops-table{width:100%;border-collapse:collapse;background:var(--bg-primary);font-size:13px;transition:background var(--transition);empty-cells:show}
+.ops-table td,.ops-table th{background:inherit}
+.ops-table td:empty{background:inherit}
 .ops-table thead th{padding:12px 16px;font-size:13px;font-weight:600;text-align:center;letter-spacing:.03em;text-transform:uppercase;white-space:nowrap;background:var(--bg-secondary)!important;color:var(--text-secondary)!important;border-bottom:1px solid var(--border)}
 .ops-table tbody tr{background:var(--bg-primary);min-height:40px}
 .ops-table tbody tr:nth-child(even){background:var(--bg-secondary)}
