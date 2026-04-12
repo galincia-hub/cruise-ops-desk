@@ -271,13 +271,22 @@ def render_sheet(sheet, module_key):
             out.append(f'<div class="section-title" style="background:{sc}">{esc(sec["title"].get("value",""))}</div>')
         rows = sec['rows']
         if rows:
-            col_count = next((len(c) for t,c in rows if t=='h'), 0)
+            # 상태·비고 컬럼 인덱스 수집 (헤더 기준)
+            SKIP_HEADERS = {'상태', '비고'}
+            skip_cols = set()
+            for t, cells in rows:
+                if t == 'h':
+                    for ci, c in enumerate(cells):
+                        if c.get('value', '') in SKIP_HEADERS:
+                            skip_cols.add(ci)
+            raw_col_count = next((len(c) for t,c in rows if t=='h'), 0)
+            col_count = raw_col_count - sum(1 for ci in range(raw_col_count) if ci in skip_cols)
             LEFT_KW = ['세부','내용','체크리스트','항목','업무']
             left_cols = set()
             for t,cells in rows:
                 if t == 'h':
                     for ci,c in enumerate(cells):
-                        if any(k in str(c.get('value','')) for k in LEFT_KW): left_cols.add(ci)
+                        if ci not in skip_cols and any(k in str(c.get('value','')) for k in LEFT_KW): left_cols.add(ci)
             out.append('<table class="ops-table">')
             in_head = in_body = False
             for rtype, cells in rows:
@@ -285,15 +294,16 @@ def render_sheet(sheet, module_key):
                     if in_body: out.append('</tbody>'); in_body = False
                     if not in_head: out.append('<thead>'); in_head = True
                     out.append('<tr>')
-                    for c in cells:
+                    for ci, c in enumerate(cells):
+                        if ci in skip_cols: continue
                         out.append(f'<th style="{cell_style(c,include_bg=False)}">{esc(c.get("value",""))}</th>')
                     out.append('</tr>')
                 else:
                     if in_head: out.append('</thead>'); in_head = False
                     if not in_body: out.append('<tbody>'); in_body = True
                     n = len(cells)
-                    if col_count > 0 and n < col_count / 2:
-                        val = '<br>'.join(esc(c.get('value','')) for c in cells if c.get('value'))
+                    if col_count > 0 and n < raw_col_count / 2:
+                        val = '<br>'.join(esc(c.get('value','')) for ci,c in enumerate(cells) if ci not in skip_cols and c.get('value'))
                         out.append(f'<tr><td colspan="{col_count}" class="cell-wrap merged-desc">{val}</td></tr>')
                     else:
                         rb = cells[0].get('bg','')
@@ -303,6 +313,7 @@ def render_sheet(sheet, module_key):
                         rs = f' style="--row-bg:{rb}"' if rb else ''
                         out.append(f'<tr{rs}>')
                         for idx,c in enumerate(cells):
+                            if idx in skip_cols: continue
                             cls = "cell-wrap text-left" if idx in left_cols else "cell-wrap"
                             val = c.get('value','')
                             # 매트릭스: 담당팀(col5) 명칭 통일
